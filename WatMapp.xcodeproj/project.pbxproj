@@ -13,6 +13,12 @@
 		F88588481B4DB0380014280F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88588471B4DB0380014280F /* Images.xcassets */; };
 		F885884B1B4DB0380014280F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F88588491B4DB0380014280F /* LaunchScreen.xib */; };
 		F88588571B4DB0390014280F /* WatMappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588561B4DB0390014280F /* WatMappTests.swift */; };
+		F88588631B4DB0640014280F /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588601B4DB0640014280F /* Graph.swift */; };
+		F88588641B4DB0640014280F /* GraphGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588611B4DB0640014280F /* GraphGenerator.swift */; };
+		F88588651B4DB0640014280F /* uWaterloo.plist in Resources */ = {isa = PBXBuildFile; fileRef = F88588621B4DB0640014280F /* uWaterloo.plist */; };
+		F88588671B4DB07C0014280F /* DataGatherer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588661B4DB07C0014280F /* DataGatherer.swift */; };
+		F885886A1B4DB0A50014280F /* Map Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588681B4DB0A50014280F /* Map Initialization.swift */; };
+		F885886B1B4DB0A50014280F /* PolyLineGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588691B4DB0A50014280F /* PolyLineGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		F88588501B4DB0390014280F /* WatMappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatMappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88588551B4DB0390014280F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F88588561B4DB0390014280F /* WatMappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatMappTests.swift; sourceTree = "<group>"; };
+		F88588601B4DB0640014280F /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Graph.swift; path = ../Graph.swift; sourceTree = "<group>"; };
+		F88588611B4DB0640014280F /* GraphGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphGenerator.swift; path = ../GraphGenerator.swift; sourceTree = "<group>"; };
+		F88588621B4DB0640014280F /* uWaterloo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = uWaterloo.plist; path = ../uWaterloo.plist; sourceTree = "<group>"; };
+		F88588661B4DB07C0014280F /* DataGatherer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataGatherer.swift; path = ../DataGatherer.swift; sourceTree = "<group>"; };
+		F88588681B4DB0A50014280F /* Map Initialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Map Initialization.swift"; path = "../Map Initialization.swift"; sourceTree = "<group>"; };
+		F88588691B4DB0A50014280F /* PolyLineGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PolyLineGenerator.swift; path = ../PolyLineGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,11 @@
 			children = (
 				F88588401B4DB0380014280F /* AppDelegate.swift */,
 				F88588421B4DB0380014280F /* ViewController.swift */,
+				F88588681B4DB0A50014280F /* Map Initialization.swift */,
+				F88588691B4DB0A50014280F /* PolyLineGenerator.swift */,
+				F88588661B4DB07C0014280F /* DataGatherer.swift */,
+				F88588601B4DB0640014280F /* Graph.swift */,
+				F88588611B4DB0640014280F /* GraphGenerator.swift */,
 				F88588441B4DB0380014280F /* Main.storyboard */,
 				F88588471B4DB0380014280F /* Images.xcassets */,
 				F88588491B4DB0380014280F /* LaunchScreen.xib */,
@@ -91,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				F885883F1B4DB0380014280F /* Info.plist */,
+				F88588621B4DB0640014280F /* uWaterloo.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -195,6 +213,7 @@
 				F88588461B4DB0380014280F /* Main.storyboard in Resources */,
 				F885884B1B4DB0380014280F /* LaunchScreen.xib in Resources */,
 				F88588481B4DB0380014280F /* Images.xcassets in Resources */,
+				F88588651B4DB0640014280F /* uWaterloo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +231,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F885886B1B4DB0A50014280F /* PolyLineGenerator.swift in Sources */,
+				F88588641B4DB0640014280F /* GraphGenerator.swift in Sources */,
+				F88588671B4DB07C0014280F /* DataGatherer.swift in Sources */,
+				F88588631B4DB0640014280F /* Graph.swift in Sources */,
+				F885886A1B4DB0A50014280F /* Map Initialization.swift in Sources */,
 				F88588431B4DB0380014280F /* ViewController.swift in Sources */,
 				F88588411B4DB0380014280F /* AppDelegate.swift in Sources */,
 			);
