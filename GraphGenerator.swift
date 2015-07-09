@@ -45,7 +45,7 @@ class GraphGenerator {
     func getGraph() -> Graph{
         let filePath = NSBundle.mainBundle().pathForResource(self.fileName, ofType: "plist")
         let path = "/Users/Anish/Dropbox/iOS Applications/WatMapp/uWaterloo.plist"
-        let properties = NSDictionary(contentsOfFile: filePath!)
+        let properties = NSDictionary(contentsOfFile: path)
         
         let pathVertices = properties!["pathVertices"] as! NSArray
         let buildingVertices = properties!["buildingVertices"] as! NSArray
@@ -78,6 +78,13 @@ class GraphGenerator {
             let p2 = CLLocationCoordinate2D(latitude: location2[0].doubleValue!, longitude: location2[1].doubleValue!)
             var v1 = g.findVertex(p1)
             var v2 = g.findVertex(p2)
+            
+            if (v1 == nil) {
+                println(p1.latitude.description + "," + p1.longitude.description)
+            }
+            if (v2 == nil) {
+                println(p2.latitude.description + "," + p2.longitude.description)
+            }
             let typeString = info[2] as! String
             var type : EdgeType
             switch(typeString) {

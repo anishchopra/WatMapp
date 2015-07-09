@@ -1414,6 +1414,51 @@
 			<string>EV1</string>
 			<string>43.468555935017,-80.5423126054959</string>
 		</array>
+		<array>
+			<string>Environment 2</string>
+			<string>EV2</string>
+			<string>43.4680115891087,-80.5428671329895</string>
+		</array>
+		<array>
+			<string>Environment 2</string>
+			<string>EV2</string>
+			<string>43.4680126967257,-80.5428671329895</string>
+		</array>
+		<array>
+			<string>Environment 2</string>
+			<string>EV2</string>
+			<string>43.4680126967257,-80.5428671329895</string>
+		</array>
+		<array>
+			<string>Psychology, Anthropology, Sociology</string>
+			<string>PAS</string>
+			<string>43.4678031606593,-80.5427201184551</string>
+		</array>
+		<array>
+			<string>Environment 2</string>
+			<string>EV2</string>
+			<string>43.4677076405717,-80.5434118090366</string>
+		</array>
+		<array>
+			<string>Environment 2</string>
+			<string>EV2</string>
+			<string>43.4681109604568,-80.5429217364753</string>
+		</array>
+		<array>
+			<string>Environment 2</string>
+			<string>EV2</string>
+			<string>43.4680126967257,-80.5428671329895</string>
+		</array>
+		<array>
+			<string>Environment 2</string>
+			<string>EV2</string>
+			<string>43.4681109604568,-80.5429217364753</string>
+		</array>
+		<array>
+			<string>Environment 3</string>
+			<string>EV3</string>
+			<string>43.4681220965979,-80.54289354429</string>
+		</array>
 	</array>
 	<key>edges</key>
 	<array>
@@ -2390,11 +2435,6 @@
 		<array>
 			<string>43.4681036085538,-80.5436181821517</string>
 			<string>43.467911899415,-80.5435727813692</string>
-			<string>OutdoorWalkway</string>
-		</array>
-		<array>
-			<string>43.467911899415,-80.5435727813692</string>
-			<string>43.4676393119363,-80.5434922981637</string>
 			<string>OutdoorWalkway</string>
 		</array>
 		<array>
@@ -10347,6 +10387,41 @@
 			<string>43.4683905713182,-80.5421849127097</string>
 			<string>IndoorWalkway</string>
 		</array>
+		<array>
+			<string>43.4680126967257,-80.5428671329895</string>
+			<string>43.4678031606593,-80.5427201184551</string>
+			<string>OutdoorBridge</string>
+		</array>
+		<array>
+			<string>43.4677076405717,-80.5434118090366</string>
+			<string>43.4678217670759,-80.5431278417581</string>
+			<string>IndoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4678217670759,-80.5431278417581</string>
+			<string>43.4679458655544,-80.5432087571654</string>
+			<string>IndoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4681109604568,-80.5429217364753</string>
+			<string>43.4680045906385,-80.5432469248104</string>
+			<string>IndoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4680045906385,-80.5432469248104</string>
+			<string>43.4679458655544,-80.5432087571654</string>
+			<string>IndoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4680126967257,-80.5428671329895</string>
+			<string>43.4681109604568,-80.5429217364753</string>
+			<string>IndoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4681109604568,-80.5429217364753</string>
+			<string>43.4681220965979,-80.54289354429</string>
+			<string>IndoorWalkway</string>
+		</array>
 	</array>
 	<key>pathVertices</key>
 	<array>
@@ -12469,6 +12544,11 @@
 		<string>43.4682908846414,-80.5424518201992</string>
 		<string>43.4682908846414,-80.5424518201992</string>
 		<string>43.4683905713182,-80.5421849127097</string>
+		<string>43.4678217670759,-80.5431278417581</string>
+		<string>43.4679458655544,-80.5432087571654</string>
+		<string>43.4680045906385,-80.5432469248104</string>
+		<string>43.4679458655544,-80.5432087571654</string>
+		<string>43.4681109604568,-80.5429217364753</string>
 	</array>
 </dict>
 </plist>

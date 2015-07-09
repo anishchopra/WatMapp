@@ -11,7 +11,7 @@ import UIKit
 import MapKit
 
 func saveData(dataPoints : [CLLocationCoordinate2D], filePath :  String) {
-    let path = "/Users/Anish/GitHub/WATIsRain/WATIsRain/uWaterloo.plist"
+    let path = "/Users/Anish/Dropbox/iOS Applications/WatMapp/uWaterloo.plist"
 
     var properties = NSMutableDictionary(contentsOfFile: path)!
     
@@ -50,6 +50,8 @@ func saveData(dataPoints : [CLLocationCoordinate2D], filePath :  String) {
                 edgeType = "IndoorWalkway"
             case let x where x == EdgeType.Bridge:
                 edgeType = "Bridge"
+            case let x where x == EdgeType.OutdoorBridge:
+                edgeType = "OutdoorBridge"
             case let x where x == EdgeType.Tunnel:
                 edgeType = "Tunnel"
             default:

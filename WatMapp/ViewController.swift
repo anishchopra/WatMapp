@@ -23,13 +23,13 @@ let PLIST_FILE_NAME = "uWaterloo"
 var dataPoints : [CLLocationCoordinate2D] = []
 
 // These are needed for the data gathering tool
-let type = EdgeType.IndoorWalkway
+let type = EdgeType.OutdoorWalkway
 let startWithBuilding = true
-let endWithBuilding = true
-let startBuildingFullName = "Environment 1"
-let startBuildingShortName = "EV1"
-let endBuildingFullName = "Environment 2"
-let endBuildingShortName = "EV2"
+let endWithBuilding = false
+let startBuildingFullName = "Environment 2"
+let startBuildingShortName = "EV2"
+let endBuildingFullName = "Environment 3"
+let endBuildingShortName = "EV3"
 
 class ViewController: UIViewController, MKMapViewDelegate {
     
