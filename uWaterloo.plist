@@ -2086,9 +2086,9 @@
 		</array>
 	</array>
 	<key>centerLat</key>
-	<real>43.469394330087908</real>
+	<real>43.471954749007253</real>
 	<key>centerLong</key>
-	<real>-80.561011950316811</real>
+	<real>-80.550485230517694</real>
 	<key>edges</key>
 	<array>
 		<array>
@@ -6989,11 +6989,6 @@
 		<array>
 			<string>43.4722733385797,-80.5499871095619</string>
 			<string>43.4722423162053,-80.5500787119098</string>
-			<string>OutdoorWalkway</string>
-		</array>
-		<array>
-			<string>43.4721337377692,-80.5503871064811</string>
-			<string>43.4720417783289,-80.5506191657624</string>
 			<string>OutdoorWalkway</string>
 		</array>
 		<array>
@@ -13126,6 +13121,81 @@
 			<string>43.4695262807497,-80.5604682150498</string>
 			<string>OutdoorWalkway</string>
 		</array>
+		<array>
+			<string>43.4713376648539,-80.5554154443873</string>
+			<string>43.4712202851218,-80.5551474052727</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4712202851218,-80.5551474052727</string>
+			<string>43.4711559788177,-80.5550924057753</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4711559788177,-80.5550924057753</string>
+			<string>43.4709896690934,-80.5549976844188</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4709896690934,-80.5549976844188</string>
+			<string>43.4710362358623,-80.5548433802734</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4710362358623,-80.5548433802734</string>
+			<string>43.4712058716458,-80.5543361626867</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4712058716458,-80.5543361626867</string>
+			<string>43.4708878004221,-80.5541369664591</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4728843555676,-80.5511086073297</string>
+			<string>43.4728659514583,-80.5511046438145</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4728659514583,-80.5511046438145</string>
+			<string>43.4724441206827,-80.5508208731908</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4724441206827,-80.5508208731908</string>
+			<string>43.4724618354202,-80.5507659498443</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4724618354202,-80.5507659498443</string>
+			<string>43.4724795501525,-80.5507217060374</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4724795501525,-80.5507217060374</string>
+			<string>43.4729047021693,-80.5509978484185</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4729047021693,-80.5509978484185</string>
+			<string>43.4729164855424,-80.5510185316876</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4724618354202,-80.5507659498443</string>
+			<string>43.4720865033097,-80.5505172691365</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4720865033097,-80.5505172691365</string>
+			<string>43.4721337377692,-80.5503871064811</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4720865033097,-80.5505172691365</string>
+			<string>43.4720417783289,-80.5506191657624</string>
+			<string>OutdoorWalkway</string>
+		</array>
 	</array>
 	<key>pathVertices</key>
 	<array>
@@ -15747,10 +15817,30 @@
 		<string>43.4695053878446,-80.5612329888106</string>
 		<string>43.4693034644989,-80.5611062394645</string>
 		<string>43.4695262807497,-80.5604682150498</string>
+		<string>43.4713376648539,-80.5554154443873</string>
+		<string>43.4712202851218,-80.5551474052727</string>
+		<string>43.4711559788177,-80.5550924057753</string>
+		<string>43.4709896690934,-80.5549976844188</string>
+		<string>43.4710362358623,-80.5548433802734</string>
+		<string>43.4712058716458,-80.5543361626867</string>
+		<string>43.4708878004221,-80.5541369664591</string>
+		<string>43.4728843555676,-80.5511086073297</string>
+		<string>43.4728659514583,-80.5511046438145</string>
+		<string>43.4724441206827,-80.5508208731908</string>
+		<string>43.4724618354202,-80.5507659498443</string>
+		<string>43.4724618354202,-80.5507659498443</string>
+		<string>43.4724795501525,-80.5507217060374</string>
+		<string>43.4729047021693,-80.5509978484185</string>
+		<string>43.4729164855424,-80.5510185316876</string>
+		<string>43.4724618354202,-80.5507659498443</string>
+		<string>43.4720865033097,-80.5505172691365</string>
+		<string>43.4721337377692,-80.5503871064811</string>
+		<string>43.4720865033097,-80.5505172691365</string>
+		<string>43.4720417783289,-80.5506191657624</string>
 	</array>
 	<key>spanLat</key>
-	<real>0.0014516047385910724</real>
+	<real>0.0014326912034121619</real>
 	<key>spanLong</key>
-	<real>0.0011592927994001911</real>
+	<real>0.001144236385684394</real>
 </dict>
 </plist>
