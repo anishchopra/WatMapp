@@ -22,12 +22,15 @@ let PLIST_FILE_NAME = "uWaterloo"
 
 var dataPoints : [CLLocationCoordinate2D] = []
 
+
+var building : Building = Building(fullName: "", abbreviation: "", location: CLLocationCoordinate2D(latitude: 0, longitude: 0))
+
 // These are needed for the data gathering tool
-let type = EdgeType.OutdoorWalkway
-let startWithBuilding = false
+let type = EdgeType.IndoorWalkway
+let startWithBuilding = true
 let endWithBuilding = false
-let startBuildingFullName = "Univeristy of Waterloo Place"
-let startBuildingShortName = "UWP"
+let startBuildingFullName = "Renison University College"
+let startBuildingShortName = "REN"
 let endBuildingFullName = "Chemistry 2"
 let endBuildingShortName = "C2"
 
@@ -41,7 +44,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         self.campusMapView.delegate = self
         initializeMap(self.campusMapView)
-        
+
         var gg = GraphGenerator(fileName: PLIST_FILE_NAME)
         gg.drawFullGraph(campusMapView)
         //gg.drawLooseEnds(campusMapView)
@@ -55,11 +58,11 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         /* Only uncomment this if you are adding points to the map. PLEASE TALK TO ANISH BEFORE
         DOING THIS!!! There are lots of things that can go wrong if you don't use this tool
-        EXACTLY the way you're supposed to. I didn't exactly have time to make it user friendly.
+        EXACTLY the way you're supposed to. I didn't exactly have time to make it user friendly.*/
         
         let recognizer = UITapGestureRecognizer(target: self, action: Selector("handleTap:"))
         recognizer.numberOfTapsRequired = 1
-        self.campusMapView.addGestureRecognizer(recognizer) */
+        self.campusMapView.addGestureRecognizer(recognizer)
     }
     
     override func didReceiveMemoryWarning() {
@@ -108,6 +111,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     // This is the tap gesture recognizer that temporarily stores the point you just touched
     func handleTap(recognizer : UITapGestureRecognizer) {
+        /* This is for adding points
         let touchLocation = recognizer.locationInView(self.campusMapView)
         var locationCoordinate : CLLocationCoordinate2D = self.campusMapView.convertPoint(touchLocation, toCoordinateFromView: self.campusMapView)
         //println(locationCoordinate.latitude.description)
@@ -140,7 +144,26 @@ class ViewController: UIViewController, MKMapViewDelegate {
             campusMapView.addOverlay(overlay)
         }
         
-        dataPoints.append(locationCoordinate)
+        dataPoints.append(locationCoordinate) */
+        
+        // This is for add building centres
+        let touchLocation = recognizer.locationInView(self.campusMapView)
+        var locationCoordinate : CLLocationCoordinate2D = self.campusMapView.convertPoint(touchLocation, toCoordinateFromView: self.campusMapView)
+        let touchVertex = Vertex(location: locationCoordinate)
+        var minDist : Double = -1
+        var currentBuilding : Vertex = Vertex(location: CLLocationCoordinate2D(latitude: 0, longitude: 0))
+        for v in GraphGenerator(fileName: PLIST_FILE_NAME).graph.canvas {
+            if v is Building {
+                if minDist == -1 || touchVertex.distance(v) < minDist {
+                    minDist = touchVertex.distance(v)
+                    currentBuilding = v
+                    currentBuilding.location = locationCoordinate
+                }
+            }
+        }
+        building = currentBuilding as! Building
+        
+        println(building.fullName)
     }
     
     // This is needed to allow detection of shaking (for the data gathering tool)
@@ -150,6 +173,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     // Shaking stops creating the path you were just building and saves it to the plist
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent) {
+        /* This is for adding points
         var overlays : Array<AnyObject!> = Array<AnyObject!>()
         for o in self.campusMapView.overlays {
             if (o is MKPolyline) {
@@ -167,7 +191,12 @@ class ViewController: UIViewController, MKMapViewDelegate {
         var generator = GraphGenerator(fileName: "uWaterloo")
         generator.drawFullGraph(self.campusMapView)
         
-        saveMapRegion(self.campusMapView.region.center, self.campusMapView.region.span, filePath!)
+        saveMapRegion(self.campusMapView.region.center, self.campusMapView.region.span, filePath!) */
+        
+        // This is for adding building centres
+        saveBuildingCentre(building)
+        var generator = GraphGenerator(fileName: "uWaterloo")
+        generator.drawBuildingCentres(self.campusMapView) 
     }
     
     

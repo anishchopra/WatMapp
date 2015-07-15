@@ -77,3 +77,14 @@ func saveMapRegion(coord : CLLocationCoordinate2D, span : MKCoordinateSpan, file
     
     properties.writeToFile(path, atomically: false)
 }
+
+func saveBuildingCentre(b : Building) {
+    let path = "/Users/Anish/Dropbox/iOS Applications/WatMapp/uWaterloo.plist"
+    var properties = NSMutableDictionary(contentsOfFile: path)!
+    
+    var buildingInfo = [b.fullName, b.abbreviation, b.location.latitude.description + "," + b.location.longitude.description]
+    
+    properties["buildingCentres"]?.addObject(buildingInfo)
+    
+    properties.writeToFile(path, atomically: false)
+}

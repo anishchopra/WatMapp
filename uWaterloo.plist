@@ -2,6 +2,284 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>buildingCentres</key>
+	<array>
+		<array>
+			<string>Village 1</string>
+			<string>V1</string>
+			<string>43.4715810180631,-80.5499273309899</string>
+		</array>
+		<array>
+			<string>Ron Eydt Village</string>
+			<string>REV</string>
+			<string>43.4703079796914,-80.5541839970986</string>
+		</array>
+		<array>
+			<string>Mackenzie King Village</string>
+			<string>MKV</string>
+			<string>43.4711333164939,-80.5524432432835</string>
+		</array>
+		<array>
+			<string>Federation Hall</string>
+			<string>FH</string>
+			<string>43.4731615727334,-80.5485003956592</string>
+		</array>
+		<array>
+			<string>University Club</string>
+			<string>UC</string>
+			<string>43.4723090126644,-80.5473524100924</string>
+		</array>
+		<array>
+			<string>Physical Activities Complex</string>
+			<string>PAC</string>
+			<string>43.4722681361946,-80.5461695558051</string>
+		</array>
+		<array>
+			<string>Lyle S. Hallman Institute for Health Promotion</string>
+			<string>LHI</string>
+			<string>43.4732005021298,-80.5460166698768</string>
+		</array>
+		<array>
+			<string>B.C. Matthews Hall</string>
+			<string>BMH</string>
+			<string>43.4736326167456,-80.5454319482563</string>
+		</array>
+		<array>
+			<string>Student Life Centre</string>
+			<string>SLC</string>
+			<string>43.4716433067144,-80.5453219776763</string>
+		</array>
+		<array>
+			<string>Mike and Ophelia Lazaridis Quantum Nano Centre</string>
+			<string>QNC</string>
+			<string>43.4711858729369,-80.5440398816461</string>
+		</array>
+		<array>
+			<string>Biology 2</string>
+			<string>B2</string>
+			<string>43.470821869968,-80.5436911944412</string>
+		</array>
+		<array>
+			<string>Biology 1</string>
+			<string>B1</string>
+			<string>43.4707732063034,-80.5429911378222</string>
+		</array>
+		<array>
+			<string>Earth Sciences and Chemistry</string>
+			<string>ESC</string>
+			<string>43.4713474350495,-80.5427336457325</string>
+		</array>
+		<array>
+			<string>Mathematics and Computer Building</string>
+			<string>MC</string>
+			<string>43.4720890580009,-80.5438709024622</string>
+		</array>
+		<array>
+			<string>Chemisry 2</string>
+			<string>C2</string>
+			<string>43.4720851649908,-80.5429214003812</string>
+		</array>
+		<array>
+			<string>Davis Centre</string>
+			<string>DC</string>
+			<string>43.4726632742449,-80.5421060087637</string>
+		</array>
+		<array>
+			<string>General Services Complex</string>
+			<string>GSC</string>
+			<string>43.4735051597688,-80.5428565923026</string>
+		</array>
+		<array>
+			<string>Commisary</string>
+			<string>COM</string>
+			<string>43.474143595073,-80.5429048720694</string>
+		</array>
+		<array>
+			<string>Central Services Building</string>
+			<string>CSB</string>
+			<string>43.4737601454096,-80.543720263687</string>
+		</array>
+		<array>
+			<string>Mathematics 3</string>
+			<string>M3</string>
+			<string>43.4731995648735,-80.5440313999621</string>
+		</array>
+		<array>
+			<string>Energy Research Centre</string>
+			<string>ERC</string>
+			<string>43.4736297330407,-80.5443639939113</string>
+		</array>
+		<array>
+			<string>Centre for Environmental and Information Technology</string>
+			<string>EIT</string>
+			<string>43.4715469899092,-80.5420116963831</string>
+		</array>
+		<array>
+			<string>Physics</string>
+			<string>PHY</string>
+			<string>43.4708111999449,-80.5415503563889</string>
+		</array>
+		<array>
+			<string>Engineering 3</string>
+			<string>E3</string>
+			<string>43.4716053855545,-80.5407751979104</string>
+		</array>
+		<array>
+			<string>Engineering 2</string>
+			<string>E2</string>
+			<string>43.4709143668026,-80.5402441204753</string>
+		</array>
+		<array>
+			<string>J.R. Coutts Engineering Lecture Hall</string>
+			<string>RCH</string>
+			<string>43.4702953630149,-80.5406357230284</string>
+		</array>
+		<array>
+			<string>Douglas Wright Engineering Building</string>
+			<string>DWE</string>
+			<string>43.4700695613131,-80.5395199239728</string>
+		</array>
+		<array>
+			<string>Carl A. Pollock Hall</string>
+			<string>CPH</string>
+			<string>43.4709279926008,-80.5392731607202</string>
+		</array>
+		<array>
+			<string>South Campus Hall</string>
+			<string>SCH</string>
+			<string>43.4692422633877,-80.5402628959402</string>
+		</array>
+		<array>
+			<string>William M. Tatham Centre for Co-operative Education and Career Action</string>
+			<string>TC</string>
+			<string>43.4689577829465,-80.5412102988072</string>
+		</array>
+		<array>
+			<string>Arts Lecture Hall</string>
+			<string>AL</string>
+			<string>43.468872132229,-80.5418003848462</string>
+		</array>
+		<array>
+			<string>J.G. Hagey Hall of the Humanities</string>
+			<string>HH</string>
+			<string>43.4678929801742,-80.5414248755487</string>
+		</array>
+		<array>
+			<string>Psychology, Anthropology, Sociology</string>
+			<string>PAS</string>
+			<string>43.4672150971066,-80.5423404049846</string>
+		</array>
+		<array>
+			<string>Environment 2</string>
+			<string>EV2</string>
+			<string>43.4679042115128,-80.5431853009041</string>
+		</array>
+		<array>
+			<string>Environment 3</string>
+			<string>EV3</string>
+			<string>43.4681241814064,-80.5433328224138</string>
+		</array>
+		<array>
+			<string>Environment 1</string>
+			<string>EV1</string>
+			<string>43.4683207909877,-80.54250401975</string>
+		</array>
+		<array>
+			<string>Modern Languages</string>
+			<string>ML</string>
+			<string>43.4689417616044,-80.5429224443958</string>
+		</array>
+		<array>
+			<string>Ira G. Needles Hall</string>
+			<string>NH</string>
+			<string>43.4696386426617,-80.5434964371792</string>
+		</array>
+		<array>
+			<string>Dana Porter Library</string>
+			<string>LIB</string>
+			<string>43.4697145593865,-80.5422492098695</string>
+		</array>
+		<array>
+			<string>St. Jerome's University</string>
+			<string>STJ</string>
+			<string>43.4687704600025,-80.5457977727314</string>
+		</array>
+		<array>
+			<string>St. Paul's University College</string>
+			<string>STP</string>
+			<string>43.4676608810519,-80.546444185165</string>
+		</array>
+		<array>
+			<string>Health Services</string>
+			<string>HS</string>
+			<string>43.470417088447,-80.5461383287728</string>
+		</array>
+		<array>
+			<string>Graduate House</string>
+			<string>GH</string>
+			<string>43.4697339865677,-80.5409058300723</string>
+		</array>
+		<array>
+			<string>Engineering 5</string>
+			<string>E5</string>
+			<string>43.4727850411092,-80.5399898086102</string>
+		</array>
+		<array>
+			<string>Engineering 6</string>
+			<string>E6</string>
+			<string>43.4729413340165,-80.5386575297054</string>
+		</array>
+		<array>
+			<string>East Campus Hall</string>
+			<string>ECH</string>
+			<string>43.4736791764694,-80.5386575297054</string>
+		</array>
+		<array>
+			<string>East Campus 2</string>
+			<string>EC2</string>
+			<string>43.474551490901,-80.5413471303515</string>
+		</array>
+		<array>
+			<string>East Campus 3</string>
+			<string>EC3</string>
+			<string>43.4752820445489,-80.5416075758517</string>
+		</array>
+		<array>
+			<string>East Campus 1</string>
+			<string>EC1</string>
+			<string>43.4761797774839,-80.5403053483508</string>
+		</array>
+		<array>
+			<string>School of Optometry</string>
+			<string>OPT</string>
+			<string>43.4757851279582,-80.5454923238293</string>
+		</array>
+		<array>
+			<string>Columbia Icefield</string>
+			<string>CIF</string>
+			<string>43.475350426242,-80.5484391983372</string>
+		</array>
+		<array>
+			<string>Conrad Grebel University College</string>
+			<string>CGR</string>
+			<string>43.4663562634228,-80.5449432328369</string>
+		</array>
+		<array>
+			<string>Minota Hagey Residence</string>
+			<string>MHR</string>
+			<string>43.4657882574322,-80.5425567475797</string>
+		</array>
+		<array>
+			<string>Columbia Lake Village</string>
+			<string>CLV</string>
+			<string>43.4700656233798,-80.5616044225834</string>
+		</array>
+		<array>
+			<string>Renison University College</string>
+			<string>REN</string>
+			<string>43.4688638060786,-80.547600121381</string>
+		</array>
+	</array>
 	<key>buildingVertices</key>
 	<array>
 		<array>
@@ -2084,11 +2362,31 @@
 			<string>CLV</string>
 			<string>43.4700685260557,-80.5616070539538</string>
 		</array>
+		<array>
+			<string>Renison University College</string>
+			<string>REN</string>
+			<string>43.4685668599232,-80.5465747540701</string>
+		</array>
+		<array>
+			<string>Renison University College</string>
+			<string>REN</string>
+			<string>43.469163403846,-80.547276313771</string>
+		</array>
+		<array>
+			<string>Renison University College</string>
+			<string>REN</string>
+			<string>43.469163403846,-80.547276313771</string>
+		</array>
+		<array>
+			<string>Renison University College</string>
+			<string>REN</string>
+			<string>43.4685668599232,-80.5465747540701</string>
+		</array>
 	</array>
 	<key>centerLat</key>
-	<real>43.471954749007253</real>
+	<real>43.468764528944995</real>
 	<key>centerLong</key>
-	<real>-80.550485230517694</real>
+	<real>-80.547055632899543</real>
 	<key>edges</key>
 	<array>
 		<array>
@@ -7454,16 +7752,6 @@
 		<array>
 			<string>43.4702122704451,-80.5461481989075</string>
 			<string>43.4699474627776,-80.5470962832084</string>
-			<string>OutdoorWalkway</string>
-		</array>
-		<array>
-			<string>43.4699474627776,-80.5470962832084</string>
-			<string>43.469759105153,-80.547743606467</string>
-			<string>OutdoorWalkway</string>
-		</array>
-		<array>
-			<string>43.469759105153,-80.547743606467</string>
-			<string>43.4695951227432,-80.5483100143182</string>
 			<string>OutdoorWalkway</string>
 		</array>
 		<array>
@@ -13196,6 +13484,81 @@
 			<string>43.4720417783289,-80.5506191657624</string>
 			<string>OutdoorWalkway</string>
 		</array>
+		<array>
+			<string>43.4685668599232,-80.5465747540701</string>
+			<string>43.4685416866602,-80.5462941737323</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4695951227432,-80.5483100143182</string>
+			<string>43.4698092597429,-80.5475850866958</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4698092597429,-80.5475850866958</string>
+			<string>43.4697467552395,-80.5475470838899</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4698092597429,-80.5475850866958</string>
+			<string>43.4699474627776,-80.5470962832084</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4697467552395,-80.5475470838899</string>
+			<string>43.4694103670354,-80.5473162629761</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4694103670354,-80.5473162629761</string>
+			<string>43.4693528759279,-80.5473450964712</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4693528759279,-80.5473450964712</string>
+			<string>43.4693037064232,-80.5473438344287</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4693037064232,-80.5473438344287</string>
+			<string>43.4692666520171,-80.547310750852</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4692666520171,-80.547310750852</string>
+			<string>43.4692500376892,-80.5472616784263</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4692500376892,-80.5472616784263</string>
+			<string>43.469216116476,-80.5472646265098</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.469163403846,-80.547276313771</string>
+			<string>43.469216116476,-80.5472646265098</string>
+			<string>OutdoorWalkway</string>
+		</array>
+		<array>
+			<string>43.469163403846,-80.547276313771</string>
+			<string>43.469067643529,-80.5472927649307</string>
+			<string>IndoorWalkway</string>
+		</array>
+		<array>
+			<string>43.469067643529,-80.5472927649307</string>
+			<string>43.4690854084391,-80.5474824705557</string>
+			<string>IndoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4690854084391,-80.5474824705557</string>
+			<string>43.4686934688958,-80.5475635544115</string>
+			<string>IndoorWalkway</string>
+		</array>
+		<array>
+			<string>43.4685668599232,-80.5465747540701</string>
+			<string>43.4686934688958,-80.5475635544115</string>
+			<string>IndoorWalkway</string>
+		</array>
 	</array>
 	<key>pathVertices</key>
 	<array>
@@ -14520,7 +14883,6 @@
 		<string>43.4702986927801,-80.5456321723476</string>
 		<string>43.4702122704451,-80.5461481989075</string>
 		<string>43.4699474627776,-80.5470962832084</string>
-		<string>43.469759105153,-80.547743606467</string>
 		<string>43.4695951227432,-80.5483100143182</string>
 		<string>43.4694610557127,-80.5486626833577</string>
 		<string>43.469257184617,-80.5493222202626</string>
@@ -15837,10 +16199,28 @@
 		<string>43.4721337377692,-80.5503871064811</string>
 		<string>43.4720865033097,-80.5505172691365</string>
 		<string>43.4720417783289,-80.5506191657624</string>
+		<string>43.4685416866602,-80.5462941737323</string>
+		<string>43.4695951227432,-80.5483100143182</string>
+		<string>43.4698092597429,-80.5475850866958</string>
+		<string>43.4697467552395,-80.5475470838899</string>
+		<string>43.4698092597429,-80.5475850866958</string>
+		<string>43.4699474627776,-80.5470962832084</string>
+		<string>43.4697467552395,-80.5475470838899</string>
+		<string>43.4694103670354,-80.5473162629761</string>
+		<string>43.4693528759279,-80.5473450964712</string>
+		<string>43.4693037064232,-80.5473438344287</string>
+		<string>43.4692666520171,-80.547310750852</string>
+		<string>43.4692500376892,-80.5472616784263</string>
+		<string>43.469216116476,-80.5472646265098</string>
+		<string>43.469216116476,-80.5472646265098</string>
+		<string>43.469067643529,-80.5472927649307</string>
+		<string>43.4690854084391,-80.5474824705557</string>
+		<string>43.4686934688958,-80.5475635544115</string>
+		<string>43.4686934688958,-80.5475635544115</string>
 	</array>
 	<key>spanLat</key>
-	<real>0.0014326912034121619</real>
+	<real>0.0014367445243905763</real>
 	<key>spanLong</key>
-	<real>0.001144236385684394</real>
+	<real>0.0011474130540705119</real>
 </dict>
 </plist>

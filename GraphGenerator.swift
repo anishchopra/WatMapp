@@ -45,11 +45,12 @@ class GraphGenerator {
     func getGraph() -> Graph{
         let filePath = NSBundle.mainBundle().pathForResource(self.fileName, ofType: "plist")
         let path = "/Users/Anish/Dropbox/iOS Applications/WatMapp/uWaterloo.plist"
-        let properties = NSDictionary(contentsOfFile: filePath!)
+        let properties = NSDictionary(contentsOfFile: path)
         
         let pathVertices = properties!["pathVertices"] as! NSArray
         let buildingVertices = properties!["buildingVertices"] as! NSArray
         let edges = properties!["edges"] as! NSArray
+        let centres = properties!["buildingCentres"] as! NSArray
         var g = Graph()
         
         for pv in pathVertices {
@@ -105,6 +106,14 @@ class GraphGenerator {
             g.addEdge(v1!, target: v2!, type: type)
         }
         
+        for bc in centres {
+            let info = bc as! NSArray
+            let location = (info[2] as! NSString).componentsSeparatedByString(",")
+            let p = CLLocationCoordinate2D(latitude: location[0].doubleValue!, longitude: location[1].doubleValue!)
+            var b : Building = Building(fullName: info[0] as! String, abbreviation: info[1] as! String, location: p)
+            g.buildingCentres.insert(b)
+        }
+        
         return g
         
     }
@@ -142,6 +151,13 @@ class GraphGenerator {
                 let a = Annotation(coordinate: v.location, title: (v as! Building).abbreviation)
                 mapView.addAnnotation(a)
             }
+        }
+    }
+    
+    func drawBuildingCentres(mapView : MKMapView) {
+        for b in self.graph.buildingCentres {
+            let a = Annotation(coordinate: b.location, title: b.abbreviation)
+            mapView.addAnnotation(a)
         }
     }
 }

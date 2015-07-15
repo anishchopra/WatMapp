@@ -76,9 +76,11 @@ class Edge {
 
 class Graph {
     var canvas : Set<Vertex> // stores all vertices (which in turn, stores all edges)
+    var buildingCentres : Set<Building> // stores the centres of every building
     
     init() {
         self.canvas = Set()
+        self.buildingCentres = Set()
     }
     
     // Adds a vertex to the canvas
