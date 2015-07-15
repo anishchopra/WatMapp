@@ -9,7 +9,7 @@
 import Foundation
 import MapKit
 
-let INDOOR_PATH_WEIGHT_SCALE_FACTOR = 0.1
+let INDOOR_PATH_WEIGHT_SCALE_FACTOR = 0.5
 
 // This allows Vertex's to be comparable (needed for the Hashable protocol)
 func ==(lhs: Vertex, rhs : Vertex) -> Bool{

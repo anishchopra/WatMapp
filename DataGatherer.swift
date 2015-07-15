@@ -64,3 +64,16 @@ func saveData(dataPoints : [CLLocationCoordinate2D], filePath :  String) {
     
     properties.writeToFile(path, atomically: false)
 }
+
+func saveMapRegion(coord : CLLocationCoordinate2D, span : MKCoordinateSpan, filePath : String) {
+    let path = "/Users/Anish/Dropbox/iOS Applications/WatMapp/uWaterloo.plist"
+    
+    var properties = NSMutableDictionary(contentsOfFile: path)!
+    
+    properties["centerLat"] = coord.latitude
+    properties["centerLong"] = coord.longitude
+    properties["spanLat"] = span.latitudeDelta
+    properties["spanLong"] = span.longitudeDelta
+    
+    properties.writeToFile(path, atomically: false)
+}

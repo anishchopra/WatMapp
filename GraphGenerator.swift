@@ -45,7 +45,7 @@ class GraphGenerator {
     func getGraph() -> Graph{
         let filePath = NSBundle.mainBundle().pathForResource(self.fileName, ofType: "plist")
         let path = "/Users/Anish/Dropbox/iOS Applications/WatMapp/uWaterloo.plist"
-        let properties = NSDictionary(contentsOfFile: path)
+        let properties = NSDictionary(contentsOfFile: filePath!)
         
         let pathVertices = properties!["pathVertices"] as! NSArray
         let buildingVertices = properties!["buildingVertices"] as! NSArray
@@ -128,7 +128,7 @@ class GraphGenerator {
     // Draw every vertex that isn't connected to anything or is connected to only 1 vertex (aka dead end)
     func drawLooseEnds(mapView : MKMapView) {
         for v in self.graph.canvas {
-            if v.neighbours.count == 0 || v.neighbours.count == 1 {
+            if (v.neighbours.count == 0 || v.neighbours.count == 1) && !(v is Building) {
                 let a = Annotation(coordinate: v.location)
                 mapView.addAnnotation(a)
             }

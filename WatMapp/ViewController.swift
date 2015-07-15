@@ -24,12 +24,12 @@ var dataPoints : [CLLocationCoordinate2D] = []
 
 // These are needed for the data gathering tool
 let type = EdgeType.OutdoorWalkway
-let startWithBuilding = true
+let startWithBuilding = false
 let endWithBuilding = false
-let startBuildingFullName = "Environment 2"
-let startBuildingShortName = "EV2"
-let endBuildingFullName = "Environment 3"
-let endBuildingShortName = "EV3"
+let startBuildingFullName = "Univeristy of Waterloo Place"
+let startBuildingShortName = "UWP"
+let endBuildingFullName = "Chemistry 2"
+let endBuildingShortName = "C2"
 
 class ViewController: UIViewController, MKMapViewDelegate {
     
@@ -48,18 +48,18 @@ class ViewController: UIViewController, MKMapViewDelegate {
         //gg.drawBuildingEntrances(campusMapView)
         
         /* Sample route
-        var p = gg.graph.bestPath("AL", building2: "V1", isIndoors: true)
+        var p = gg.graph.bestPath("REV", building2: "REV", isIndoors: false)
         var lineGenerator = PolyLineGenerator(path: p!)
         var lineOverlay = lineGenerator.createPolyLineOverlay()
         self.campusMapView.addOverlay(lineOverlay) */
         
         /* Only uncomment this if you are adding points to the map. PLEASE TALK TO ANISH BEFORE
         DOING THIS!!! There are lots of things that can go wrong if you don't use this tool
-        EXACTLY the way you're supposed to. I didn't exactly have time to make it user friendly.*/
+        EXACTLY the way you're supposed to. I didn't exactly have time to make it user friendly.
         
         let recognizer = UITapGestureRecognizer(target: self, action: Selector("handleTap:"))
         recognizer.numberOfTapsRequired = 1
-        self.campusMapView.addGestureRecognizer(recognizer)
+        self.campusMapView.addGestureRecognizer(recognizer) */
     }
     
     override func didReceiveMemoryWarning() {
@@ -166,6 +166,8 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         var generator = GraphGenerator(fileName: "uWaterloo")
         generator.drawFullGraph(self.campusMapView)
+        
+        saveMapRegion(self.campusMapView.region.center, self.campusMapView.region.span, filePath!)
     }
     
     
