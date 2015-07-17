@@ -26,8 +26,8 @@ class OpenStreetTileOverlay : MKTileOverlay {
 
 func initializeMap(mapView : MKMapView) {
     // Set initial location to show entire campus
-    let path = "/Users/dulwin/Documents/WatMapp/uWaterloo.plist"
-    var properties = NSMutableDictionary(contentsOfFile: path)!
+    let path = NSBundle.mainBundle().pathForResource(PLIST_FILE_NAME, ofType: "plist")
+    var properties = NSMutableDictionary(contentsOfFile: path!)!
     
     let campusLocation = CLLocationCoordinate2D(latitude: CAMPUS_LATITUDE, longitude: CAMPUS_LONGITUDE)
     let span = MKCoordinateSpan(latitudeDelta: CAMPUS_LAT_DEL, longitudeDelta: CAMPUS_LONG_DEL)

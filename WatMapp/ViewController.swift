@@ -19,11 +19,16 @@ let CAMPUS_LONG_DEL = 0.025
 
 // This is the plist where all of the map data is stored
 let PLIST_FILE_NAME = "uWaterloo"
+let PLIST_FILE_PATH = NSBundle.mainBundle().pathForResource(PLIST_FILE_NAME, ofType: "plist")
 
 class ViewController: UIViewController, MKMapViewDelegate {
     
     // This is the map view that is shows on Main.storyboard
     @IBOutlet weak var campusMapView: MKMapView!
+    
+    // Location services manager, and variable to store user location
+    var locationManager : CLLocationManager!
+    var currentLocation : CLLocationCoordinate2D!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +36,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         self.campusMapView.delegate = self
         initializeMap(self.campusMapView)
 
-        var gg = GraphGenerator(fileName: PLIST_FILE_NAME)
+        var gg = GraphGenerator(filePath: PLIST_FILE_PATH!)
         gg.drawFullGraph(self.campusMapView);
         
         // Sample route
@@ -80,6 +85,79 @@ class ViewController: UIViewController, MKMapViewDelegate {
             return view
         }
         return nil
+    }
+    
+    @IBAction func findMeDown(sender: FindMeButton) {
+        // When button pressed reload map to user location
+        if self.currentLocation != nil {
+            if sender.onCampus(self.currentLocation) {
+                sender.goToUser(self.currentLocation, mapView : self.campusMapView)
+            }
+            else {
+                let alertController = UIAlertController(title: "",
+                    message: "It appears as though you are off campus.",
+                    preferredStyle: UIAlertControllerStyle.Alert)
+                
+                alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default,handler: nil))
+                
+                self.presentViewController(alertController, animated: true, completion: nil)
+            }
+        }
+        else {
+            let alertController = UIAlertController(title: "",
+                message: "We can't seem to find your location, please make sure location services is on!",
+                preferredStyle: UIAlertControllerStyle.Alert)
+            
+            alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default,handler: nil))
+            
+            self.presentViewController(alertController, animated: true, completion: nil)
+        }
+        // Button shadow animation
+        sender.touchDown()
+    }
+    
+    @IBAction func findMeUp(sender: FindMeButton) {
+        // Button shadow animation
+        sender.touchUp()
+    }
+    
+    func locationManager(manager:CLLocationManager, didUpdateLocations locations:[AnyObject]) {
+        // Get user locations
+        var locationArray = locations as NSArray
+        var locationObj = locationArray.lastObject as! CLLocation
+        currentLocation = locationObj.coordinate
+        
+        println("MV:\(campusMapView.userLocation)")
+        
+        // For debug purposes, remove later
+        println(" \(currentLocation.latitude), \(currentLocation.longitude)")
+    }
+    
+    @IBAction func toCampusDown(sender: FindCampusButton) {
+        // When button pressed reload map to user location
+        sender.goToCampus(self.campusMapView)
+        
+        // Button shadow animation
+        sender.touchDown()
+    }
+    
+    @IBAction func toCampusUp(sender: FindCampusButton) {
+        // Button shadow animation
+        sender.touchUp()
+    }
+    
+    @IBAction func optionsDown(sender: OptionsButton) {
+        // Button shadow animation
+        sender.touchDown()
+    }
+    
+    @IBAction func optionsUp(sender: OptionsButton) {
+        // Button shadow animation
+        sender.touchUp()
+    }
+    
+    @IBAction func textDown(sender: TextBox) {
+        performSegueWithIdentifier("search", sender: sender)
     }
 }
 
