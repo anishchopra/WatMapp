@@ -26,7 +26,7 @@ class OpenStreetTileOverlay : MKTileOverlay {
 
 func initializeMap(mapView : MKMapView) {
     // Set initial location to show entire campus
-    let path = "/Users/Anish/Dropbox/iOS Applications/WatMapp/uWaterloo.plist"
+    let path = "/Users/dulwin/Documents/WatMapp/uWaterloo.plist"
     var properties = NSMutableDictionary(contentsOfFile: path)!
     
     let campusLocation = CLLocationCoordinate2D(latitude: CAMPUS_LATITUDE, longitude: CAMPUS_LONGITUDE)
@@ -40,4 +40,14 @@ func initializeMap(mapView : MKMapView) {
     overlay.canReplaceMapContent = true // don't bother loading Apple Maps
     
     mapView.addOverlay(overlay)
+}
+
+
+// Reusable function that changes center location of map
+func adjustMap (location : CLLocationCoordinate2D, mapView : MKMapView,
+    latDel : Double = CAMPUS_LAT_DEL, longDel : Double = CAMPUS_LONG_DEL) {
+        // Adjust map center
+        let span = MKCoordinateSpan(latitudeDelta: latDel, longitudeDelta: longDel)
+        let region = MKCoordinateRegion(center: location, span: span)
+        mapView.region = region
 }

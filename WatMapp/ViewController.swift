@@ -32,6 +32,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         initializeMap(self.campusMapView)
 
         var gg = GraphGenerator(fileName: PLIST_FILE_NAME)
+        gg.drawFullGraph(self.campusMapView);
         
         // Sample route
         var p = gg.graph.bestPath("DWE", building2: "PAC", isIndoors: false)
