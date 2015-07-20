@@ -32,20 +32,19 @@ class Annotation : NSObject, MKAnnotation {
 }
 
 class GraphGenerator {
-    var fileName : String
+    var filePath : String
     var graph : Graph
     
-    init(fileName : String) {
-        self.fileName = fileName
+    init(filePath : String) {
+        self.filePath = filePath
         self.graph = Graph()
         self.graph = self.getGraph()
     }
     
     // Take the data from the plist and convert it to a Graph
     func getGraph() -> Graph{
-        let filePath = NSBundle.mainBundle().pathForResource(self.fileName, ofType: "plist")
-        let path = "/Users/Anish/Dropbox/iOS Applications/WatMapp/uWaterloo.plist"
-        let properties = NSDictionary(contentsOfFile: path)
+        //let path = "/Users/dulwin/Documents/WatMapp/uWaterloo.plist"
+        let properties = NSDictionary(contentsOfFile: self.filePath)
         
         let pathVertices = properties!["pathVertices"] as! NSArray
         let buildingVertices = properties!["buildingVertices"] as! NSArray
