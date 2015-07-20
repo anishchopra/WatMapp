@@ -125,7 +125,8 @@ class Graph {
     */
     func bestPath(source : Vertex, target : Vertex, indoors : Bool) -> Path?{
         var weight = [Vertex : Double]() // weight[v] is the total weight from source to v
-        var prev = [Vertex : Vertex?]() // prev[v] is the Vertex in the path before v
+        var prev = [Vertex : Vertex]() // prev[v] is the Vertex in the path before v
+        var prevEdgeType = [Vertex : EdgeType]() // prevEdgeType[v] is the edge type leading to v
         var unvisited = Set<Vertex>() // the set of all Vertex's not visited by the algorithm
         
         // Set the total weight for each node from the source to infinity (except for the source, which is 0)
@@ -162,9 +163,11 @@ class Graph {
                 var p = Path(dest: u)
                 var total = weight[u]!
                 while (prev[u] != nil) {
-                    u = (prev[u])!!
+                    var type = prevEdgeType[u]!
+                    u = (prev[u])!
                     var newP : Path = Path(dest: u)
                     newP.next = p
+                    newP.edgeToNextType = type
                     
                     p = newP
                 }
@@ -189,6 +192,7 @@ class Graph {
                     if (weight[e.neighbour] == -1 || alt < weight[e.neighbour]) {
                         weight[e.neighbour] = alt
                         prev[e.neighbour] = u
+                        prevEdgeType[e.neighbour] = e.type
                     }
                 }
             }
@@ -228,7 +232,8 @@ class Graph {
 class Path {
     var total : Double
     var destination : Vertex
-    var next : Path!
+    var next : Path?
+    var edgeToNextType : EdgeType?
     
     init(dest : Vertex) {
         self.total = 0
