@@ -26,7 +26,7 @@ class OpenStreetTileOverlay : MKTileOverlay {
 
 func initializeMap(mapView : MKMapView) {
     // Set initial location to show entire campus
-    let path = NSBundle.mainBundle().pathForResource(PLIST_FILE_NAME, ofType: "plist")
+    let path = NSBundle.mainBundle().pathForResource(CAMPUS_PLIST_FILE_NAME, ofType: "plist")
     var properties = NSMutableDictionary(contentsOfFile: path!)!
     
     let campusLocation = CLLocationCoordinate2D(latitude: CAMPUS_LATITUDE, longitude: CAMPUS_LONGITUDE)

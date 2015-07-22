@@ -9,7 +9,8 @@
 import Foundation
 import MapKit
 
-let INDOOR_PATH_WEIGHT_SCALE_FACTOR = 0.5
+let MODE1_SCALE_FACTOR = 0.5
+let MODE2_SCALE_FACTOR = 0.1
 
 // This allows Vertex's to be comparable (needed for the Hashable protocol)
 func ==(lhs: Vertex, rhs : Vertex) -> Bool{
@@ -123,7 +124,7 @@ class Graph {
     can be created between any 2 entrances of the buildings (the algorithm will find the best
     2 entrances to use)
     */
-    func bestPath(source : Vertex, target : Vertex, indoors : Bool) -> Path?{
+    func bestPath(source : Vertex, target : Vertex, mode : Int) -> Path?{
         var weight = [Vertex : Double]() // weight[v] is the total weight from source to v
         var prev = [Vertex : Vertex]() // prev[v] is the Vertex in the path before v
         var prevEdgeType = [Vertex : EdgeType]() // prevEdgeType[v] is the edge type leading to v
@@ -182,11 +183,14 @@ class Graph {
                 if (unvisited.contains(e.neighbour)) {
                     var alt : Double = Double()
                     alt = weight[u]!
-                    if !e.isIndoors || !indoors {
+                    if !e.isIndoors || mode == 0 {
                         alt += e.weight
                     }
+                    else if mode == 1{
+                        alt += e.weight * MODE1_SCALE_FACTOR
+                    }
                     else {
-                        alt += e.weight * INDOOR_PATH_WEIGHT_SCALE_FACTOR
+                        alt += e.weight * MODE2_SCALE_FACTOR
                     }
                     
                     if (weight[e.neighbour] == -1 || alt < weight[e.neighbour]) {
@@ -205,7 +209,7 @@ class Graph {
     
     // This takes in the abbreviation of 2 buildings and returns the best path by calling 
     // the other bestPath function
-    func bestPath(building1 : String, building2 : String, isIndoors : Bool) -> Path?{
+    func bestPath(building1 : String, building2 : String, mode : Int) -> Path?{
         var b1 : Vertex?
         var b2 : Vertex?
         
@@ -224,7 +228,7 @@ class Graph {
             return nil
         }
         
-        return self.bestPath(b1!, target: b2!, indoors: isIndoors)
+        return self.bestPath(b1!, target: b2!, mode: mode)
     }
 }
 

@@ -18,14 +18,32 @@ let CAMPUS_LAT_DEL = 0.025
 let CAMPUS_LONG_DEL = 0.025
 
 // This is the plist where all of the map data is stored
-let PLIST_FILE_NAME = "uWaterloo"
-let PLIST_FILE_PATH = NSBundle.mainBundle().pathForResource(PLIST_FILE_NAME, ofType: "plist")
+let CAMPUS_PLIST_FILE_NAME = "uWaterloo"
+let CAMPUS_PLIST_FILE_PATH = NSBundle.mainBundle().pathForResource(CAMPUS_PLIST_FILE_NAME, ofType: "plist")
+
+// This is the plist where the user's preferred mode is chosen
+let MODE_PLIST_FILE_NAME = "Mode"
+let MODE_PLIST_FILE_PATH = NSBundle.mainBundle().pathForResource(MODE_PLIST_FILE_NAME, ofType: "plist")
+
+var mode : Int {
+    get {
+        var modeDictionary = NSDictionary(contentsOfFile: MODE_PLIST_FILE_PATH!)
+        return (modeDictionary!["Mode"] as! String).toInt()!
+    }
+    set (value) {
+        var modeDictionary : NSDictionary = ["Mode" : value.description]
+        modeDictionary.writeToFile(MODE_PLIST_FILE_PATH!, atomically: false)
+    }
+}
 
 class ViewController: UIViewController, MKMapViewDelegate {
     
-    // This is the map view that is shows on Main.storyboard
+    // This is the map view that is shown on Main.storyboard
     @IBOutlet weak var campusMapView: MKMapView!
     
+    @IBOutlet weak var modeSelector: UIView!
+    
+    @IBOutlet weak var optionsButton: OptionsButton!
     // Location services manager, and variable to store user location
     var locationManager : CLLocationManager!
     var currentLocation : CLLocationCoordinate2D!
@@ -36,14 +54,15 @@ class ViewController: UIViewController, MKMapViewDelegate {
         self.campusMapView.delegate = self
         initializeMap(self.campusMapView)
 
-        var gg = GraphGenerator(filePath: PLIST_FILE_PATH!)
-        gg.drawFullGraph(self.campusMapView);
+
+
+        modeSelector.hidden = true
+        modeSelector.layer.shadowColor = UIColor(red:0, green:0,blue:0,alpha:1.0).CGColor;
+        modeSelector.layer.shadowOpacity = 0.5;
+        modeSelector.layer.shadowRadius = 2;
+        modeSelector.layer.shadowOffset = CGSizeMake(0, 1.5);
         
-        // Sample route
-        var p = gg.graph.bestPath("DWE", building2: "PAC", isIndoors: false)
-        var lineGenerator = PolyLineGenerator(path: p!)
-        var lineOverlay = lineGenerator.createPolyLineOverlay()
-        self.campusMapView.addOverlay(lineOverlay) 
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -147,17 +166,53 @@ class ViewController: UIViewController, MKMapViewDelegate {
     }
     
     @IBAction func optionsDown(sender: OptionsButton) {
-        // Button shadow animation
         sender.touchDown()
     }
     
     @IBAction func optionsUp(sender: OptionsButton) {
-        // Button shadow animation
-        sender.touchUp()
+        if !(sender is ClearButton) {
+            self.modeSelector.hidden = !self.modeSelector.hidden
+            sender.touchUp()
+        }
     }
     
-    @IBAction func textDown(sender: TextBox) {
-        performSegueWithIdentifier("search", sender: sender)
+    @IBAction func mode1Down(sender: UIButton) {
+    }
+    
+    @IBAction func mode1UpInside(sender: UIButton) {
+        self.modeSelector.hidden = true
+        mode = 0
+    }
+    
+    @IBAction func mode1UpOutside(sender: UIButton) {
+    }
+    
+    @IBAction func mode2Down(sender: UIButton) {
+    }
+    
+    @IBAction func mode2UpInside(sender: UIButton) {
+        self.modeSelector.hidden = true
+        mode = 1
+    }
+    
+    @IBAction func mode3Down(sender: UIButton) {
+    }
+    
+    @IBAction func mode3UpInside(sender: UIButton) {
+        self.modeSelector.hidden = true
+        mode = 2
+    }
+    
+    @IBAction func clearDown(sender: ClearButton) {
+        var gg = GraphGenerator(filePath: CAMPUS_PLIST_FILE_PATH!)
+        //gg.drawFullGraph(self.campusMapView)
+        
+        // Sample route
+        var p = gg.graph.bestPath("MHR", building2: "CLV", mode: 2)
+        var lineGenerator = PolyLineGenerator(path: p!)
+        var lineOverlay = lineGenerator.createPolyLineOverlay()
+        self.campusMapView.addOverlay(lineOverlay)
+        sender.touchDown()
     }
 }
 

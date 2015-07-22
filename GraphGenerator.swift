@@ -43,8 +43,13 @@ class GraphGenerator {
     
     // Take the data from the plist and convert it to a Graph
     func getGraph() -> Graph{
-        //let path = "/Users/dulwin/Documents/WatMapp/uWaterloo.plist"
+        let path = "/Users/Anish/Dropbox/iOS Applications/WatMapp/uWaterloo.plist"
         let properties = NSDictionary(contentsOfFile: self.filePath)
+        
+        var uniqueStrings : [String] = []
+        
+        
+        
         
         let pathVertices = properties!["pathVertices"] as! NSArray
         let buildingVertices = properties!["buildingVertices"] as! NSArray

@@ -1,154 +1,197 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
-<dependencies>
-<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-<capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
-<capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
-<capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-</dependencies>
-<scenes>
-<!--View Controller-->
-<scene sceneID="tne-QT-ifu">
-<objects>
-<viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WATIsRain" customModuleProvider="target" sceneMemberID="viewController">
-<layoutGuides>
-<viewControllerLayoutGuide type="top" id="1un-pq-R07"/>
-<viewControllerLayoutGuide type="bottom" id="Gih-pZ-TzJ"/>
-</layoutGuides>
-<view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-<rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<subviews>
-<mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottom" ambiguous="YES" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="JTz-YI-pZ9">
-<rect key="frame" x="0.0" y="80" width="375" height="587"/>
-</mapView>
-<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cQa-Du-aif" customClass="FindCampusButton" customModule="WATIsRain" customModuleProvider="target">
-<rect key="frame" x="16" y="539" width="50" height="50"/>
-<constraints>
-<constraint firstAttribute="height" constant="50" id="JpP-Vm-GqK"/>
-<constraint firstAttribute="width" constant="50" id="LRA-ww-lf2"/>
-</constraints>
-<userDefinedRuntimeAttributes>
-<userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
-<real key="value" value="3"/>
-</userDefinedRuntimeAttribute>
-<userDefinedRuntimeAttribute type="color" keyPath="iconColour">
-<color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
-</userDefinedRuntimeAttribute>
-<userDefinedRuntimeAttribute type="color" keyPath="circleColour">
-<color key="value" red="0.24705882352941178" green="0.31764705882352939" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-</userDefinedRuntimeAttribute>
-<userDefinedRuntimeAttribute type="string" keyPath="shape" value="home"/>
-</userDefinedRuntimeAttributes>
-<connections>
-<action selector="toCampusDown:" destination="dkx-z0-nzr" eventType="touchDown" id="cD5-Qj-oWW"/>
-<action selector="toCampusUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="c2s-Y2-uYc"/>
-</connections>
-</button>
-<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z1f-fj-tbY" customClass="FindMeButton" customModule="WATIsRain" customModuleProvider="target">
-<rect key="frame" x="16" y="597" width="50" height="50"/>
-<constraints>
-<constraint firstAttribute="height" constant="50" id="QQQ-Zh-zwC"/>
-</constraints>
-<userDefinedRuntimeAttributes>
-<userDefinedRuntimeAttribute type="color" keyPath="iconColour">
-<color key="value" red="0.2470588235" green="0.31764705879999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-</userDefinedRuntimeAttribute>
-<userDefinedRuntimeAttribute type="color" keyPath="circleColour">
-<color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
-</userDefinedRuntimeAttribute>
-<userDefinedRuntimeAttribute type="color" keyPath="inactiveColour">
-<color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-</userDefinedRuntimeAttribute>
-<userDefinedRuntimeAttribute type="string" keyPath="shape" value="findme"/>
-</userDefinedRuntimeAttributes>
-<connections>
-<action selector="findMeDown:" destination="dkx-z0-nzr" eventType="touchDown" id="m1f-tI-Dcu"/>
-<action selector="findMeUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="vqy-xK-1tc"/>
-</connections>
-</button>
-<button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqd-rv-MzL" customClass="OptionsButton" customModule="WATIsRain" customModuleProvider="target">
-<rect key="frame" x="313" y="20" width="46" height="46"/>
-<state key="normal" title="Button">
-<color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-</state>
-<userDefinedRuntimeAttributes>
-<userDefinedRuntimeAttribute type="color" keyPath="iconColour">
-<color key="value" red="0.2470588235" green="0.31764705879999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-</userDefinedRuntimeAttribute>
-<userDefinedRuntimeAttribute type="color" keyPath="circleColour">
-<color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
-</userDefinedRuntimeAttribute>
-<userDefinedRuntimeAttribute type="string" keyPath="shape" value="options"/>
-</userDefinedRuntimeAttributes>
-<connections>
-<action selector="optionsDown:" destination="dkx-z0-nzr" eventType="touchDown" id="DOI-Bw-QnC"/>
-<action selector="optionsUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="PBK-dK-BhL"/>
-</connections>
-</button>
-<button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ndt-Kq-Vmm" customClass="ClearButton" customModule="WATIsRain" customModuleProvider="target">
-<rect key="frame" x="259" y="20" width="46" height="46"/>
-<state key="normal" title="Button">
-<color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-</state>
-<userDefinedRuntimeAttributes>
-<userDefinedRuntimeAttribute type="color" keyPath="iconColour">
-<color key="value" red="0.2470588235" green="0.31764705879999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-</userDefinedRuntimeAttribute>
-<userDefinedRuntimeAttribute type="color" keyPath="circleColour">
-<color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
-</userDefinedRuntimeAttribute>
-<userDefinedRuntimeAttribute type="string" keyPath="shape" value="options"/>
-</userDefinedRuntimeAttributes>
-<connections>
-<action selector="optionsDown:" destination="dkx-z0-nzr" eventType="touchDown" id="FHd-3e-o2B"/>
-<action selector="optionsUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="vT0-O3-Vpk"/>
-</connections>
-</button>
-<textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TmL-rc-5RR" customClass="TextBox" customModule="WATIsRain" customModuleProvider="target">
-<rect key="frame" x="51" y="28" width="200" height="30"/>
-<fontDescription key="fontDescription" type="system" pointSize="14"/>
-<textInputTraits key="textInputTraits"/>
-<userDefinedRuntimeAttributes>
-<userDefinedRuntimeAttribute type="color" keyPath="backgroundColour">
-<color key="value" red="0.2470588235" green="0.31764705879999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-</userDefinedRuntimeAttribute>
-</userDefinedRuntimeAttributes>
-<connections>
-<action selector="textDown:" destination="dkx-z0-nzr" eventType="touchDown" id="Onq-UD-o7L"/>
-</connections>
-</textField>
-</subviews>
-<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-<color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-<constraints>
-<constraint firstItem="Yqd-rv-MzL" firstAttribute="leading" secondItem="Ndt-Kq-Vmm" secondAttribute="trailing" constant="8" symbolic="YES" id="2C8-yn-gaj"/>
-<constraint firstItem="Yqd-rv-MzL" firstAttribute="baseline" secondItem="Ndt-Kq-Vmm" secondAttribute="baseline" id="6Tk-DV-ogy"/>
-<constraint firstItem="Ndt-Kq-Vmm" firstAttribute="baseline" secondItem="Yqd-rv-MzL" secondAttribute="firstBaseline" id="8jw-Ap-iYm"/>
-<constraint firstItem="Ndt-Kq-Vmm" firstAttribute="top" secondItem="Yqd-rv-MzL" secondAttribute="top" id="CGO-DO-tTR"/>
-<constraint firstItem="Yqd-rv-MzL" firstAttribute="baseline" secondItem="Ndt-Kq-Vmm" secondAttribute="firstBaseline" id="Gei-yn-vN3"/>
-<constraint firstItem="JTz-YI-pZ9" firstAttribute="bottom" secondItem="Gih-pZ-TzJ" secondAttribute="top" id="Icq-TP-uPY"/>
-<constraint firstItem="z1f-fj-tbY" firstAttribute="top" secondItem="cQa-Du-aif" secondAttribute="bottom" constant="8" symbolic="YES" id="LUj-V9-5iq"/>
-<constraint firstAttribute="bottom" secondItem="z1f-fj-tbY" secondAttribute="bottom" constant="20" symbolic="YES" id="Zse-D4-xsP"/>
-<constraint firstItem="JTz-YI-pZ9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kwg-7w-hSr"/>
-<constraint firstItem="cQa-Du-aif" firstAttribute="trailing" secondItem="z1f-fj-tbY" secondAttribute="trailing" id="m9F-2x-QIO"/>
-<constraint firstItem="z1f-fj-tbY" firstAttribute="leading" secondItem="cQa-Du-aif" secondAttribute="leading" id="o8g-2z-VmS"/>
-<constraint firstItem="z1f-fj-tbY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="p7t-mB-vhv"/>
-<constraint firstAttribute="trailing" secondItem="JTz-YI-pZ9" secondAttribute="trailing" id="r8X-6a-hsL"/>
-<constraint firstItem="Yqd-rv-MzL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="xCw-km-KRn"/>
-</constraints>
-</view>
-<nil key="simulatedTopBarMetrics"/>
-<nil key="simulatedBottomBarMetrics"/>
-<simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-<simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-<connections>
-<outlet property="campusMapView" destination="JTz-YI-pZ9" id="wge-G7-dl3"/>
-</connections>
-</viewController>
-<placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-</objects>
-<point key="canvasLocation" x="148.5" y="501.5"/>
-</scene>
-</scenes>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WatMapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1un-pq-R07"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gih-pZ-TzJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottom" ambiguous="YES" misplaced="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JTz-YI-pZ9">
+                                <rect key="frame" x="0.0" y="80" width="375" height="587"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cQa-Du-aif" customClass="FindCampusButton" customModule="WatMapp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="539" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="JpP-Vm-GqK"/>
+                                    <constraint firstAttribute="width" constant="50" id="LRA-ww-lf2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="iconColour">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColour">
+                                        <color key="value" red="0.24705882352941178" green="0.31764705882352939" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="shape" value="home"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="toCampusDown:" destination="dkx-z0-nzr" eventType="touchDown" id="cD5-Qj-oWW"/>
+                                    <action selector="toCampusUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="c2s-Y2-uYc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z1f-fj-tbY" customClass="FindMeButton" customModule="WatMapp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="597" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="QQQ-Zh-zwC"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="iconColour">
+                                        <color key="value" red="0.2470588235" green="0.31764705879999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColour">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="inactiveColour">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="shape" value="findme"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="findMeDown:" destination="dkx-z0-nzr" eventType="touchDown" id="m1f-tI-Dcu"/>
+                                    <action selector="findMeUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="vqy-xK-1tc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqd-rv-MzL" customClass="OptionsButton" customModule="WatMapp" customModuleProvider="target">
+                                <rect key="frame" x="313" y="20" width="46" height="46"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="iconColour">
+                                        <color key="value" red="0.2470588235" green="0.31764705879999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColour">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="shape" value="options"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="optionsDown:" destination="dkx-z0-nzr" eventType="touchDown" id="DOI-Bw-QnC"/>
+                                    <action selector="optionsUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="PBK-dK-BhL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ndt-Kq-Vmm" customClass="ClearButton" customModule="WatMapp" customModuleProvider="target">
+                                <rect key="frame" x="259" y="20" width="46" height="46"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="iconColour">
+                                        <color key="value" red="0.2470588235" green="0.31764705879999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColour">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="shape" value="options"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clearDown:" destination="BYZ-38-t0r" eventType="touchDown" id="1NM-3P-Og6"/>
+                                    <action selector="optionsDown:" destination="dkx-z0-nzr" eventType="touchDown" id="FHd-3e-o2B"/>
+                                    <action selector="optionsUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="vT0-O3-Vpk"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TmL-rc-5RR" customClass="TextBox" customModule="WatMapp" customModuleProvider="target">
+                                <rect key="frame" x="51" y="28" width="200" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColour">
+                                        <color key="value" red="0.2470588235" green="0.31764705879999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="textDown:" destination="dkx-z0-nzr" eventType="touchDown" id="Onq-UD-o7L"/>
+                                </connections>
+                            </textField>
+                            <view hidden="YES" contentMode="top" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dLo-KZ-KWd">
+                                <rect key="frame" x="173" y="28" width="186" height="144"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUA-zs-MtK">
+                                        <rect key="frame" x="22" y="16" width="143" height="32"/>
+                                        <state key="normal" title="As Fast As Possible">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="mode1Down:" destination="BYZ-38-t0r" eventType="touchDown" id="n8Q-hB-KSq"/>
+                                            <action selector="mode1UpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d0X-fI-GQj"/>
+                                            <action selector="mode1UpOutside:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="fRJ-h4-Ncq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POS-gp-CIb">
+                                        <rect key="frame" x="22" y="56" width="143" height="30"/>
+                                        <state key="normal" title="Reasonably Indoors">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="mode2Down:" destination="BYZ-38-t0r" eventType="touchDown" id="FrO-G2-P7G"/>
+                                            <action selector="mode2UpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SNl-wU-zGc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RK4-fl-QeM">
+                                        <rect key="frame" x="22" y="94" width="143" height="30"/>
+                                        <state key="normal" title="Indoors At All Costs">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="mode3Down:" destination="BYZ-38-t0r" eventType="touchDown" id="x24-M0-3e9"/>
+                                            <action selector="mode3UpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7h2-k3-tAm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Yqd-rv-MzL" firstAttribute="leading" secondItem="Ndt-Kq-Vmm" secondAttribute="trailing" constant="8" symbolic="YES" id="2C8-yn-gaj"/>
+                            <constraint firstItem="Yqd-rv-MzL" firstAttribute="baseline" secondItem="Ndt-Kq-Vmm" secondAttribute="baseline" id="6Tk-DV-ogy"/>
+                            <constraint firstItem="Ndt-Kq-Vmm" firstAttribute="baseline" secondItem="Yqd-rv-MzL" secondAttribute="firstBaseline" id="8jw-Ap-iYm"/>
+                            <constraint firstItem="Ndt-Kq-Vmm" firstAttribute="top" secondItem="Yqd-rv-MzL" secondAttribute="top" id="CGO-DO-tTR"/>
+                            <constraint firstItem="Yqd-rv-MzL" firstAttribute="baseline" secondItem="Ndt-Kq-Vmm" secondAttribute="firstBaseline" id="Gei-yn-vN3"/>
+                            <constraint firstItem="JTz-YI-pZ9" firstAttribute="bottom" secondItem="Gih-pZ-TzJ" secondAttribute="top" id="Icq-TP-uPY"/>
+                            <constraint firstItem="z1f-fj-tbY" firstAttribute="top" secondItem="cQa-Du-aif" secondAttribute="bottom" constant="8" symbolic="YES" id="LUj-V9-5iq"/>
+                            <constraint firstAttribute="bottom" secondItem="z1f-fj-tbY" secondAttribute="bottom" constant="20" symbolic="YES" id="Zse-D4-xsP"/>
+                            <constraint firstItem="JTz-YI-pZ9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kwg-7w-hSr"/>
+                            <constraint firstItem="cQa-Du-aif" firstAttribute="trailing" secondItem="z1f-fj-tbY" secondAttribute="trailing" id="m9F-2x-QIO"/>
+                            <constraint firstItem="z1f-fj-tbY" firstAttribute="leading" secondItem="cQa-Du-aif" secondAttribute="leading" id="o8g-2z-VmS"/>
+                            <constraint firstItem="z1f-fj-tbY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="p7t-mB-vhv"/>
+                            <constraint firstAttribute="trailing" secondItem="JTz-YI-pZ9" secondAttribute="trailing" id="r8X-6a-hsL"/>
+                            <constraint firstItem="Yqd-rv-MzL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="xCw-km-KRn"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="campusMapView" destination="JTz-YI-pZ9" id="wge-G7-dl3"/>
+                        <outlet property="modeSelector" destination="dLo-KZ-KWd" id="Az9-lf-Tsa"/>
+                        <outlet property="optionsButton" destination="Yqd-rv-MzL" id="Nkj-Bk-aF6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148.5" y="501.5"/>
+        </scene>
+    </scenes>
 </document>
