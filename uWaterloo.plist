@@ -200,12 +200,12 @@
 			<string>43.4697145593865,-80.5422492098695</string>
 		</array>
 		<array>
-			<string>St. Jerome&apos;s University</string>
+			<string>St. Jerome's University</string>
 			<string>STJ</string>
 			<string>43.4687704600025,-80.5457977727314</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.4676608810519,-80.546444185165</string>
 		</array>
@@ -385,72 +385,12 @@
 		<array>
 			<string>Student Life Centre</string>
 			<string>SLC</string>
-			<string>43.4718853758525,-80.5454889716656</string>
-		</array>
-		<array>
-			<string>Student Life Centre</string>
-			<string>SLC</string>
-			<string>43.4716042662248,-80.5457029189338</string>
-		</array>
-		<array>
-			<string>Student Life Centre</string>
-			<string>SLC</string>
-			<string>43.4712978935619,-80.545314606484</string>
-		</array>
-		<array>
-			<string>Student Life Centre</string>
-			<string>SLC</string>
 			<string>43.4713163813121,-80.5450244150998</string>
 		</array>
 		<array>
 			<string>Student Life Centre</string>
 			<string>SLC</string>
-			<string>43.4717733485859,-80.5450198872913</string>
-		</array>
-		<array>
-			<string>Student Life Centre</string>
-			<string>SLC</string>
 			<string>43.4717736119577,-80.5449007261413</string>
-		</array>
-		<array>
-			<string>Student Life Centre</string>
-			<string>SLC</string>
-			<string>43.4720551514699,-80.5450875930518</string>
-		</array>
-		<array>
-			<string>Student Life Centre</string>
-			<string>SLC</string>
-			<string>43.4719525464694,-80.5451632641959</string>
-		</array>
-		<array>
-			<string>Mathematics and Computer Building</string>
-			<string>MC</string>
-			<string>43.4717265352964,-80.5439610181834</string>
-		</array>
-		<array>
-			<string>Mathematics and Computer Building</string>
-			<string>MC</string>
-			<string>43.471725143008,-80.5436233606732</string>
-		</array>
-		<array>
-			<string>Mathematics and Computer Building</string>
-			<string>MC</string>
-			<string>43.4717279275848,-80.5440435140523</string>
-		</array>
-		<array>
-			<string>Mathematics and Computer Building</string>
-			<string>MC</string>
-			<string>43.4722514257544,-80.5443946011226</string>
-		</array>
-		<array>
-			<string>Mathematics and Computer Building</string>
-			<string>MC</string>
-			<string>43.472516185394,-80.5437286517061</string>
-		</array>
-		<array>
-			<string>Mathematics and Computer Building</string>
-			<string>MC</string>
-			<string>43.471953477884,-80.5434199987636</string>
 		</array>
 		<array>
 			<string>Mathematics and Computer Building</string>
@@ -495,52 +435,12 @@
 		<array>
 			<string>Davis Centre</string>
 			<string>DC</string>
-			<string>43.4726369105116,-80.5424952064439</string>
-		</array>
-		<array>
-			<string>Davis Centre</string>
-			<string>DC</string>
 			<string>43.4728528540812,-80.5419218975233</string>
 		</array>
 		<array>
 			<string>Davis Centre</string>
 			<string>DC</string>
 			<string>43.4731954829616,-80.542275008208</string>
-		</array>
-		<array>
-			<string>Davis Centre</string>
-			<string>DC</string>
-			<string>43.4726369105116,-80.5424952064439</string>
-		</array>
-		<array>
-			<string>Davis Centre</string>
-			<string>DC</string>
-			<string>43.4728528540812,-80.5419218975233</string>
-		</array>
-		<array>
-			<string>Davis Centre</string>
-			<string>DC</string>
-			<string>43.4726867559684,-80.5433755478895</string>
-		</array>
-		<array>
-			<string>Davis Centre</string>
-			<string>DC</string>
-			<string>43.472706723223,-80.5432737902231</string>
-		</array>
-		<array>
-			<string>Davis Centre</string>
-			<string>DC</string>
-			<string>43.4727496601545,-80.5431636189201</string>
-		</array>
-		<array>
-			<string>Davis Centre</string>
-			<string>DC</string>
-			<string>43.4728296116008,-80.5429432763141</string>
-		</array>
-		<array>
-			<string>Davis Centre</string>
-			<string>DC</string>
-			<string>43.4729334728161,-80.5426638267147</string>
 		</array>
 		<array>
 			<string>Mike and Ophelia Lazaridis Quantum Nano Centre</string>
@@ -551,41 +451,6 @@
 			<string>Mathematics and Computer Building</string>
 			<string>MC</string>
 			<string>43.4717364416141,-80.5440189880235</string>
-		</array>
-		<array>
-			<string>Mathematics and Computer Building</string>
-			<string>MC</string>
-			<string>43.4717364416141,-80.5440189880235</string>
-		</array>
-		<array>
-			<string>Student Life Centre</string>
-			<string>SLC</string>
-			<string>43.4717736119577,-80.5449007261413</string>
-		</array>
-		<array>
-			<string>Student Life Centre</string>
-			<string>SLC</string>
-			<string>43.4713163813121,-80.5450244150998</string>
-		</array>
-		<array>
-			<string>Chemisry 2</string>
-			<string>C2</string>
-			<string>43.4723006257065,-80.5427644989034</string>
-		</array>
-		<array>
-			<string>Chemisry 2</string>
-			<string>C2</string>
-			<string>43.4723035844555,-80.5427348009169</string>
-		</array>
-		<array>
-			<string>Davis Centre</string>
-			<string>DC</string>
-			<string>43.4724149105807,-80.542445038147</string>
-		</array>
-		<array>
-			<string>Chemisry 2</string>
-			<string>C2</string>
-			<string>43.4723035844555,-80.5427348009169</string>
 		</array>
 		<array>
 			<string>Chemisry 2</string>
@@ -630,11 +495,6 @@
 		<array>
 			<string>Earth Sciences and Chemistry</string>
 			<string>ESC</string>
-			<string>43.4710675241268,-80.542725533273</string>
-		</array>
-		<array>
-			<string>Earth Sciences and Chemistry</string>
-			<string>ESC</string>
 			<string>43.4711255981567,-80.5425671309366</string>
 		</array>
 		<array>
@@ -655,37 +515,7 @@
 		<array>
 			<string>Centre for Environmental and Information Technology</string>
 			<string>EIT</string>
-			<string>43.4712557280401,-80.542219145567</string>
-		</array>
-		<array>
-			<string>Centre for Environmental and Information Technology</string>
-			<string>EIT</string>
-			<string>43.4712174268646,-80.5423056077661</string>
-		</array>
-		<array>
-			<string>Centre for Environmental and Information Technology</string>
-			<string>EIT</string>
 			<string>43.4716924390293,-80.5417601035584</string>
-		</array>
-		<array>
-			<string>Chemistry 2</string>
-			<string>C2</string>
-			<string>43.4721137129326,-80.5425291468656</string>
-		</array>
-		<array>
-			<string>Chemistry 2</string>
-			<string>C2</string>
-			<string>43.4718357449895,-80.5430635005087</string>
-		</array>
-		<array>
-			<string>Mackenzie King Village</string>
-			<string>MKV</string>
-			<string>43.4710729854631,-80.5530879707602</string>
-		</array>
-		<array>
-			<string>Mackenzie King Village</string>
-			<string>MKV</string>
-			<string>43.471182087187,-80.5517770024442</string>
 		</array>
 		<array>
 			<string>Mackenzie King Village</string>
@@ -725,42 +555,12 @@
 		<array>
 			<string>Village 1</string>
 			<string>V1</string>
-			<string>43.4713833073663,-80.5504333991906</string>
-		</array>
-		<array>
-			<string>Village 1</string>
-			<string>V1</string>
-			<string>43.4715784400579,-80.5496267511986</string>
-		</array>
-		<array>
-			<string>Village 1</string>
-			<string>V1</string>
-			<string>43.471452824674,-80.5504446122655</string>
-		</array>
-		<array>
-			<string>Village 1</string>
-			<string>V1</string>
-			<string>43.4718380043267,-80.5496454184278</string>
-		</array>
-		<array>
-			<string>Village 1</string>
-			<string>V1</string>
-			<string>43.471452824674,-80.5504446122655</string>
-		</array>
-		<array>
-			<string>Village 1</string>
-			<string>V1</string>
 			<string>43.471452824674,-80.5504446122655</string>
 		</array>
 		<array>
 			<string>University Club</string>
 			<string>UC</string>
 			<string>43.472196347242,-80.547352934099</string>
-		</array>
-		<array>
-			<string>Federation Hall</string>
-			<string>FH</string>
-			<string>43.47323021394,-80.5481766040564</string>
 		</array>
 		<array>
 			<string>Federation Hall</string>
@@ -780,11 +580,6 @@
 		<array>
 			<string>B.C. Matthews Hall</string>
 			<string>BMH</string>
-			<string>43.4731175386082,-80.5457064749229</string>
-		</array>
-		<array>
-			<string>B.C. Matthews Hall</string>
-			<string>BMH</string>
 			<string>43.4738360733147,-80.5455393056426</string>
 		</array>
 		<array>
@@ -806,41 +601,6 @@
 			<string>B.C. Matthews Hall</string>
 			<string>BMH</string>
 			<string>43.4736831545926,-80.5460996248276</string>
-		</array>
-		<array>
-			<string>B.C. Matthews Hall</string>
-			<string>BMH</string>
-			<string>43.4737197158034,-80.5461164185914</string>
-		</array>
-		<array>
-			<string>B.C. Matthews Hall</string>
-			<string>BMH</string>
-			<string>43.4736831545926,-80.5460996248276</string>
-		</array>
-		<array>
-			<string>B.C. Matthews Hall</string>
-			<string>BMH</string>
-			<string>43.4738360733147,-80.5455393056426</string>
-		</array>
-		<array>
-			<string>B.C. Matthews Hall</string>
-			<string>BMH</string>
-			<string>43.4738814977311,-80.5455164050557</string>
-		</array>
-		<array>
-			<string>B.C. Matthews Hall</string>
-			<string>BMH</string>
-			<string>43.4740183374116,-80.545575983166</string>
-		</array>
-		<array>
-			<string>B.C. Matthews Hall</string>
-			<string>BMH</string>
-			<string>43.4740571081887,-80.5456019331159</string>
-		</array>
-		<array>
-			<string>B.C. Matthews Hall</string>
-			<string>BMH</string>
-			<string>43.473575713196,-80.5452751855395</string>
 		</array>
 		<array>
 			<string>B.C. Matthews Hall</string>
@@ -895,27 +655,7 @@
 		<array>
 			<string>Davis Centre</string>
 			<string>DC</string>
-			<string>43.4731954829616,-80.542275008208</string>
-		</array>
-		<array>
-			<string>Davis Centre</string>
-			<string>DC</string>
 			<string>43.4722161272096,-80.5416353799258</string>
-		</array>
-		<array>
-			<string>Centre for Environmental and Information Technology</string>
-			<string>EIT</string>
-			<string>43.4716924390293,-80.5417601035584</string>
-		</array>
-		<array>
-			<string>Davis Centre</string>
-			<string>DC</string>
-			<string>43.4722161272096,-80.5416353799258</string>
-		</array>
-		<array>
-			<string>Davis Centre</string>
-			<string>DC</string>
-			<string>43.4724149105807,-80.542445038147</string>
 		</array>
 		<array>
 			<string>Mike and Ophelia Lazaridis Quantum Nano Centre</string>
@@ -938,36 +678,6 @@
 			<string>43.4711647785175,-80.5444852219202</string>
 		</array>
 		<array>
-			<string>Mike and Ophelia Lazaridis Quantum Nano Centre</string>
-			<string>QNC</string>
-			<string>43.4711014236594,-80.5434859730695</string>
-		</array>
-		<array>
-			<string>Mike and Ophelia Lazaridis Quantum Nano Centre</string>
-			<string>QNC</string>
-			<string>43.4710876329857,-80.5435242336411</string>
-		</array>
-		<array>
-			<string>Mike and Ophelia Lazaridis Quantum Nano Centre</string>
-			<string>QNC</string>
-			<string>43.4714687185756,-80.54383453347</string>
-		</array>
-		<array>
-			<string>Mike and Ophelia Lazaridis Quantum Nano Centre</string>
-			<string>QNC</string>
-			<string>43.4711647785175,-80.5444852219202</string>
-		</array>
-		<array>
-			<string>Earth Sciences and Chemistry</string>
-			<string>ESC</string>
-			<string>43.4714968990827,-80.5430083654477</string>
-		</array>
-		<array>
-			<string>Earth Sciences and Chemistry</string>
-			<string>ESC</string>
-			<string>43.4711194487672,-80.5421168562791</string>
-		</array>
-		<array>
 			<string>Centre for Environmental and Information Technology</string>
 			<string>EIT</string>
 			<string>43.471333159725,-80.5418731477758</string>
@@ -976,16 +686,6 @@
 			<string>Physics</string>
 			<string>PHY</string>
 			<string>43.4713187462759,-80.5418609256652</string>
-		</array>
-		<array>
-			<string>Centre for Environmental and Information Technology</string>
-			<string>EIT</string>
-			<string>43.471333159725,-80.5418731477758</string>
-		</array>
-		<array>
-			<string>Engineering 3</string>
-			<string>E3</string>
-			<string>43.4719052781058,-80.5410541552395</string>
 		</array>
 		<array>
 			<string>Engineering 3</string>
@@ -1011,11 +711,6 @@
 			<string>Engineering 3</string>
 			<string>E3</string>
 			<string>43.4719369717745,-80.5405167357244</string>
-		</array>
-		<array>
-			<string>Engineering 3</string>
-			<string>E3</string>
-			<string>43.4713172708877,-80.5406219524505</string>
 		</array>
 		<array>
 			<string>Engineering 2</string>
@@ -1023,19 +718,9 @@
 			<string>43.4713038523504,-80.5406156983967</string>
 		</array>
 		<array>
-			<string>Engineering 3</string>
-			<string>E3</string>
-			<string>43.4713558491554,-80.5402637187932</string>
-		</array>
-		<array>
 			<string>Engineering 2</string>
 			<string>E2</string>
 			<string>43.4713256947189,-80.5402438574996</string>
-		</array>
-		<array>
-			<string>Engineering 3</string>
-			<string>E3</string>
-			<string>43.4719369717745,-80.5405167357244</string>
 		</array>
 		<array>
 			<string>Engineering 5</string>
@@ -1043,26 +728,6 @@
 			<string>43.4724178776091,-80.5398794836125</string>
 		</array>
 		<array>
-			<string>Engineering 3</string>
-			<string>E3</string>
-			<string>43.4721482026169,-80.5411734778519</string>
-		</array>
-		<array>
-			<string>Biology 2</string>
-			<string>B2</string>
-			<string>43.4706498682586,-80.5441133143466</string>
-		</array>
-		<array>
-			<string>Biology 2</string>
-			<string>B2</string>
-			<string>43.4709431431284,-80.5433233961367</string>
-		</array>
-		<array>
-			<string>Biology 2</string>
-			<string>B2</string>
-			<string>43.4710064412298,-80.5434690613239</string>
-		</array>
-		<array>
 			<string>Biology 2</string>
 			<string>B2</string>
 			<string>43.4706498682586,-80.5441133143466</string>
@@ -1080,32 +745,12 @@
 		<array>
 			<string>Biology 1</string>
 			<string>B1</string>
-			<string>43.4709475876477,-80.5433067186501</string>
-		</array>
-		<array>
-			<string>Biology 1</string>
-			<string>B1</string>
 			<string>43.470567882888,-80.5427854541274</string>
 		</array>
 		<array>
 			<string>Biology 1</string>
 			<string>B1</string>
 			<string>43.4709855872378,-80.5429732389406</string>
-		</array>
-		<array>
-			<string>Biology 1</string>
-			<string>B1</string>
-			<string>43.4709855872378,-80.5429732389406</string>
-		</array>
-		<array>
-			<string>Biology 1</string>
-			<string>B1</string>
-			<string>43.470567882888,-80.5427854541274</string>
-		</array>
-		<array>
-			<string>Physics</string>
-			<string>PHY</string>
-			<string>43.4713187462759,-80.5418609256652</string>
 		</array>
 		<array>
 			<string>Physics</string>
@@ -1126,21 +771,6 @@
 			<string>Physics</string>
 			<string>PHY</string>
 			<string>43.4706020544825,-80.5410587643946</string>
-		</array>
-		<array>
-			<string>Physics</string>
-			<string>PHY</string>
-			<string>43.4704747435791,-80.541691075487</string>
-		</array>
-		<array>
-			<string>Physics</string>
-			<string>PHY</string>
-			<string>43.4705035509127,-80.5416040532564</string>
-		</array>
-		<array>
-			<string>Physics</string>
-			<string>PHY</string>
-			<string>43.4704913631963,-80.5411139806951</string>
 		</array>
 		<array>
 			<string>Engineering 2</string>
@@ -1173,34 +803,9 @@
 			<string>43.4706320642754,-80.5409845768613</string>
 		</array>
 		<array>
-			<string>Physics</string>
-			<string>PHY</string>
-			<string>43.4706020544825,-80.5410587643946</string>
-		</array>
-		<array>
-			<string>Engineering 2</string>
-			<string>E2</string>
-			<string>43.4713038523504,-80.5406156983967</string>
-		</array>
-		<array>
 			<string>Engineering 2</string>
 			<string>E2</string>
 			<string>43.471199434985,-80.5403416955151</string>
-		</array>
-		<array>
-			<string>Engineering 2</string>
-			<string>E2</string>
-			<string>43.4706320642754,-80.5409845768613</string>
-		</array>
-		<array>
-			<string>Engineering 2</string>
-			<string>E2</string>
-			<string>43.4707230097272,-80.5402271925802</string>
-		</array>
-		<array>
-			<string>Engineering 2</string>
-			<string>E2</string>
-			<string>43.4707739763295,-80.540085208941</string>
 		</array>
 		<array>
 			<string>Engineering 2</string>
@@ -1233,26 +838,6 @@
 			<string>43.4711016926236,-80.539666518122</string>
 		</array>
 		<array>
-			<string>Engineering 2</string>
-			<string>E2</string>
-			<string>43.4710925406957,-80.5396940895062</string>
-		</array>
-		<array>
-			<string>Carl A. Pollock Hall</string>
-			<string>CPH</string>
-			<string>43.4706529722992,-80.5389937912747</string>
-		</array>
-		<array>
-			<string>Carl A. Pollock Hall</string>
-			<string>CPH</string>
-			<string>43.4707968719009,-80.5393252967691</string>
-		</array>
-		<array>
-			<string>Carl A. Pollock Hall</string>
-			<string>CPH</string>
-			<string>43.4711016926236,-80.539666518122</string>
-		</array>
-		<array>
 			<string>Douglas Wright Engineering Building</string>
 			<string>DWE</string>
 			<string>43.4701847388312,-80.5395375627433</string>
@@ -1273,11 +858,6 @@
 			<string>43.470141224916,-80.5397217431244</string>
 		</array>
 		<array>
-			<string>Engineering 2</string>
-			<string>E2</string>
-			<string>43.4702515906942,-80.5398024856179</string>
-		</array>
-		<array>
 			<string>Douglas Wright Engineering Building</string>
 			<string>DWE</string>
 			<string>43.4705374738198,-80.5389144836066</string>
@@ -1286,16 +866,6 @@
 			<string>Engineering 2</string>
 			<string>E2</string>
 			<string>43.4706123661251,-80.5389628512301</string>
-		</array>
-		<array>
-			<string>Douglas Wright Engineering Building</string>
-			<string>DWE</string>
-			<string>43.4705374738198,-80.5389144836066</string>
-		</array>
-		<array>
-			<string>Carl A. Pollock Hall</string>
-			<string>CPH</string>
-			<string>43.4706529722992,-80.5389937912747</string>
 		</array>
 		<array>
 			<string>Douglas Wright Engineering Building</string>
@@ -1311,46 +881,6 @@
 			<string>J.R. Coutts Engineering Lecture Hall</string>
 			<string>RCH</string>
 			<string>43.4700705216187,-80.5406925813476</string>
-		</array>
-		<array>
-			<string>Douglas Wright Engineering Building</string>
-			<string>DWE</string>
-			<string>43.4697171694836,-80.5392062675851</string>
-		</array>
-		<array>
-			<string>Douglas Wright Engineering Building</string>
-			<string>DWE</string>
-			<string>43.4697892878086,-80.5405143517267</string>
-		</array>
-		<array>
-			<string>Douglas Wright Engineering Building</string>
-			<string>DWE</string>
-			<string>43.470141224916,-80.5397217431244</string>
-		</array>
-		<array>
-			<string>Douglas Wright Engineering Building</string>
-			<string>DWE</string>
-			<string>43.4701847388312,-80.5395375627433</string>
-		</array>
-		<array>
-			<string>Douglas Wright Engineering Building</string>
-			<string>DWE</string>
-			<string>43.4705374738198,-80.5389144836066</string>
-		</array>
-		<array>
-			<string>Douglas Wright Engineering Building</string>
-			<string>DWE</string>
-			<string>43.4705321875642,-80.5387618623609</string>
-		</array>
-		<array>
-			<string>Douglas Wright Engineering Building</string>
-			<string>DWE</string>
-			<string>43.4697892878086,-80.5405143517267</string>
-		</array>
-		<array>
-			<string>Douglas Wright Engineering Building</string>
-			<string>DWE</string>
-			<string>43.4698874508296,-80.5405595737844</string>
 		</array>
 		<array>
 			<string>Douglas Wright Engineering Building</string>
@@ -1385,41 +915,6 @@
 		<array>
 			<string>J.R. Coutts Engineering Lecture Hall</string>
 			<string>RCH</string>
-			<string>43.4703923476138,-80.5409633626103</string>
-		</array>
-		<array>
-			<string>J.R. Coutts Engineering Lecture Hall</string>
-			<string>RCH</string>
-			<string>43.4704471517049,-80.5407910624734</string>
-		</array>
-		<array>
-			<string>J.R. Coutts Engineering Lecture Hall</string>
-			<string>RCH</string>
-			<string>43.4704942813331,-80.5406534413332</string>
-		</array>
-		<array>
-			<string>J.R. Coutts Engineering Lecture Hall</string>
-			<string>RCH</string>
-			<string>43.4700705216187,-80.5406925813476</string>
-		</array>
-		<array>
-			<string>J.R. Coutts Engineering Lecture Hall</string>
-			<string>RCH</string>
-			<string>43.4701751838994,-80.5404916105185</string>
-		</array>
-		<array>
-			<string>J.R. Coutts Engineering Lecture Hall</string>
-			<string>RCH</string>
-			<string>43.4703331954987,-80.5403429297873</string>
-		</array>
-		<array>
-			<string>J.R. Coutts Engineering Lecture Hall</string>
-			<string>RCH</string>
-			<string>43.4702551467587,-80.5410829569301</string>
-		</array>
-		<array>
-			<string>J.R. Coutts Engineering Lecture Hall</string>
-			<string>RCH</string>
 			<string>43.4702551467587,-80.5410829569301</string>
 		</array>
 		<array>
@@ -1428,26 +923,11 @@
 			<string>43.4697459043579,-80.5408198448699</string>
 		</array>
 		<array>
-			<string>Engineering 2</string>
-			<string>E2</string>
-			<string>43.4704471517049,-80.5407910624734</string>
-		</array>
-		<array>
 			<string>J.R. Coutts Engineering Lecture Hall</string>
 			<string>RCH</string>
 			<string>43.4705706448563,-80.5408754655247</string>
 		</array>
 		<array>
-			<string>Engineering 2</string>
-			<string>E2</string>
-			<string>43.4705706448563,-80.5408754655247</string>
-		</array>
-		<array>
-			<string>Engineering 2</string>
-			<string>E2</string>
-			<string>43.4705590299326,-80.5409386374823</string>
-		</array>
-		<array>
 			<string>South Campus Hall</string>
 			<string>SCH</string>
 			<string>43.4693863719953,-80.5403617621117</string>
@@ -1465,57 +945,12 @@
 		<array>
 			<string>South Campus Hall</string>
 			<string>SCH</string>
-			<string>43.4693863719953,-80.5403617621117</string>
-		</array>
-		<array>
-			<string>South Campus Hall</string>
-			<string>SCH</string>
-			<string>43.4691426584528,-80.5401938559986</string>
-		</array>
-		<array>
-			<string>South Campus Hall</string>
-			<string>SCH</string>
-			<string>43.4691426584528,-80.5401938559986</string>
-		</array>
-		<array>
-			<string>South Campus Hall</string>
-			<string>SCH</string>
-			<string>43.4690573584807,-80.5404258717185</string>
-		</array>
-		<array>
-			<string>South Campus Hall</string>
-			<string>SCH</string>
-			<string>43.4690573584807,-80.5404258717185</string>
-		</array>
-		<array>
-			<string>South Campus Hall</string>
-			<string>SCH</string>
-			<string>43.4690208962399,-80.5405348251439</string>
-		</array>
-		<array>
-			<string>South Campus Hall</string>
-			<string>SCH</string>
 			<string>43.4690208962399,-80.5405348251439</string>
 		</array>
 		<array>
 			<string>William M. Tatham Centre for Co-operative Education and Career Action</string>
 			<string>TC</string>
 			<string>43.4688564229116,-80.5410243234738</string>
-		</array>
-		<array>
-			<string>William M. Tatham Centre for Co-operative Education and Career Action</string>
-			<string>TC</string>
-			<string>43.4688564229116,-80.5410243234738</string>
-		</array>
-		<array>
-			<string>William M. Tatham Centre for Co-operative Education and Career Action</string>
-			<string>TC</string>
-			<string>43.4687924042725,-80.5412032794876</string>
-		</array>
-		<array>
-			<string>William M. Tatham Centre for Co-operative Education and Career Action</string>
-			<string>TC</string>
-			<string>43.4687924042725,-80.5412032794876</string>
 		</array>
 		<array>
 			<string>William M. Tatham Centre for Co-operative Education and Career Action</string>
@@ -1555,11 +990,6 @@
 		<array>
 			<string>Modern Languages</string>
 			<string>ML</string>
-			<string>43.4689083140802,-80.5428542529518</string>
-		</array>
-		<array>
-			<string>Modern Languages</string>
-			<string>ML</string>
 			<string>43.4689942331166,-80.5428900389248</string>
 		</array>
 		<array>
@@ -1575,82 +1005,7 @@
 		<array>
 			<string>Dana Porter Library</string>
 			<string>LIB</string>
-			<string>43.4695102347569,-80.5421477342209</string>
-		</array>
-		<array>
-			<string>Dana Porter Library</string>
-			<string>LIB</string>
-			<string>43.4696350918429,-80.5425427542237</string>
-		</array>
-		<array>
-			<string>Dana Porter Library</string>
-			<string>LIB</string>
-			<string>43.4696350918429,-80.5425427542237</string>
-		</array>
-		<array>
-			<string>Dana Porter Library</string>
-			<string>LIB</string>
 			<string>43.4698217955591,-80.5419842634927</string>
-		</array>
-		<array>
-			<string>Dana Porter Library</string>
-			<string>LIB</string>
-			<string>43.4698217955591,-80.5419842634927</string>
-		</array>
-		<array>
-			<string>Dana Porter Library</string>
-			<string>LIB</string>
-			<string>43.4698217955591,-80.5419842634927</string>
-		</array>
-		<array>
-			<string>Dana Porter Library</string>
-			<string>LIB</string>
-			<string>43.4695102347569,-80.5421477342209</string>
-		</array>
-		<array>
-			<string>Dana Porter Library</string>
-			<string>LIB</string>
-			<string>43.4695102347569,-80.5421477342209</string>
-		</array>
-		<array>
-			<string>Dana Porter Library</string>
-			<string>LIB</string>
-			<string>43.4696350918429,-80.5425427542237</string>
-		</array>
-		<array>
-			<string>Dana Porter Library</string>
-			<string>LIB</string>
-			<string>43.4698217955591,-80.5419842634927</string>
-		</array>
-		<array>
-			<string>Arts Lecture Hall</string>
-			<string>AL</string>
-			<string>43.4687070692811,-80.5417133064312</string>
-		</array>
-		<array>
-			<string>Arts Lecture Hall</string>
-			<string>AL</string>
-			<string>43.4687641329119,-80.5415586968839</string>
-		</array>
-		<array>
-			<string>Arts Lecture Hall</string>
-			<string>AL</string>
-			<string>43.4687924769857,-80.5420356437563</string>
-		</array>
-		<array>
-			<string>Modern Languages</string>
-			<string>ML</string>
-			<string>43.4689942331166,-80.5428900389248</string>
-		</array>
-		<array>
-			<string>Modern Languages</string>
-			<string>ML</string>
-			<string>43.4687901334309,-80.5424748172445</string>
-		</array>
-		<array>
-			<string>Modern Languages</string>
-			<string>ML</string>
-			<string>43.4689083140802,-80.5428542529518</string>
 		</array>
 		<array>
 			<string>Environment 1</string>
@@ -1673,21 +1028,6 @@
 			<string>43.4682546348999,-80.542085017509</string>
 		</array>
 		<array>
-			<string>Environment 1</string>
-			<string>EV1</string>
-			<string>43.4682130244624,-80.5423949575488</string>
-		</array>
-		<array>
-			<string>Environment 1</string>
-			<string>EV1</string>
-			<string>43.4684604155333,-80.54256768755</string>
-		</array>
-		<array>
-			<string>Environment 1</string>
-			<string>EV1</string>
-			<string>43.468555935017,-80.5423126054959</string>
-		</array>
-		<array>
 			<string>Environment 2</string>
 			<string>EV2</string>
 			<string>43.4680115891087,-80.5428671329895</string>
@@ -1698,11 +1038,6 @@
 			<string>43.4680126967257,-80.5428671329895</string>
 		</array>
 		<array>
-			<string>Environment 2</string>
-			<string>EV2</string>
-			<string>43.4680126967257,-80.5428671329895</string>
-		</array>
-		<array>
 			<string>Psychology, Anthropology, Sociology</string>
 			<string>PAS</string>
 			<string>43.4678031606593,-80.5427201184551</string>
@@ -1720,21 +1055,6 @@
 		<array>
 			<string>Environment 2</string>
 			<string>EV2</string>
-			<string>43.4680126967257,-80.5428671329895</string>
-		</array>
-		<array>
-			<string>Environment 2</string>
-			<string>EV2</string>
-			<string>43.4681109604568,-80.5429217364753</string>
-		</array>
-		<array>
-			<string>Environment 2</string>
-			<string>EV2</string>
-			<string>43.4677076405717,-80.5434118090366</string>
-		</array>
-		<array>
-			<string>Environment 2</string>
-			<string>EV2</string>
 			<string>43.468012848952,-80.5432571742525</string>
 		</array>
 		<array>
@@ -1743,24 +1063,9 @@
 			<string>43.4680405494397,-80.5432754947221</string>
 		</array>
 		<array>
-			<string>Environment 2</string>
-			<string>EV2</string>
-			<string>43.468012848952,-80.5432571742525</string>
-		</array>
-		<array>
 			<string>Environment 3</string>
 			<string>EV3</string>
 			<string>43.4680518139299,-80.5435586578111</string>
-		</array>
-		<array>
-			<string>Environment 3</string>
-			<string>EV3</string>
-			<string>43.4680518139299,-80.5435586578111</string>
-		</array>
-		<array>
-			<string>Environment 3</string>
-			<string>EV3</string>
-			<string>43.4680405494397,-80.5432754947221</string>
 		</array>
 		<array>
 			<string>Psychology, Anthropology, Sociology</string>
@@ -1781,36 +1086,6 @@
 			<string>Psychology, Anthropology, Sociology</string>
 			<string>PAS</string>
 			<string>43.4670888842514,-80.5417511042827</string>
-		</array>
-		<array>
-			<string>Psychology, Anthropology, Sociology</string>
-			<string>PAS</string>
-			<string>43.4670888842514,-80.5417511042827</string>
-		</array>
-		<array>
-			<string>Psychology, Anthropology, Sociology</string>
-			<string>PAS</string>
-			<string>43.4668504907971,-80.5424309591806</string>
-		</array>
-		<array>
-			<string>Psychology, Anthropology, Sociology</string>
-			<string>PAS</string>
-			<string>43.4670888842514,-80.5417511042827</string>
-		</array>
-		<array>
-			<string>Psychology, Anthropology, Sociology</string>
-			<string>PAS</string>
-			<string>43.4675501451959,-80.5421284619451</string>
-		</array>
-		<array>
-			<string>Psychology, Anthropology, Sociology</string>
-			<string>PAS</string>
-			<string>43.4673649759608,-80.5426402628233</string>
-		</array>
-		<array>
-			<string>Psychology, Anthropology, Sociology</string>
-			<string>PAS</string>
-			<string>43.4678031606593,-80.5427201184551</string>
 		</array>
 		<array>
 			<string>J.G. Hagey Hall of the Humanities</string>
@@ -1838,46 +1113,6 @@
 			<string>43.4681399657774,-80.5419934520313</string>
 		</array>
 		<array>
-			<string>Environment 1</string>
-			<string>EV1</string>
-			<string>43.4682546348999,-80.542085017509</string>
-		</array>
-		<array>
-			<string>J.G. Hagey Hall of the Humanities</string>
-			<string>HH</string>
-			<string>43.4681399657774,-80.5419934520313</string>
-		</array>
-		<array>
-			<string>J.G. Hagey Hall of the Humanities</string>
-			<string>HH</string>
-			<string>43.4680168397296,-80.5416197744803</string>
-		</array>
-		<array>
-			<string>J.G. Hagey Hall of the Humanities</string>
-			<string>HH</string>
-			<string>43.4679813846829,-80.541660993684</string>
-		</array>
-		<array>
-			<string>J.G. Hagey Hall of the Humanities</string>
-			<string>HH</string>
-			<string>43.4685785778516,-80.5416350408521</string>
-		</array>
-		<array>
-			<string>J.G. Hagey Hall of the Humanities</string>
-			<string>HH</string>
-			<string>43.4684531134444,-80.5411705585608</string>
-		</array>
-		<array>
-			<string>Ira G. Needles Hall</string>
-			<string>NH</string>
-			<string>43.4695678903544,-80.5437752660724</string>
-		</array>
-		<array>
-			<string>Ira G. Needles Hall</string>
-			<string>NH</string>
-			<string>43.4696994812677,-80.543153228724</string>
-		</array>
-		<array>
 			<string>Ira G. Needles Hall</string>
 			<string>NH</string>
 			<string>43.4695678903544,-80.5437752660724</string>
@@ -1893,99 +1128,9 @@
 			<string>43.4726073255798,-80.5463837492156</string>
 		</array>
 		<array>
-			<string>Physical Activities Complex</string>
-			<string>PAC</string>
-			<string>43.4725485228254,-80.5465487275017</string>
-		</array>
-		<array>
-			<string>Physical Activities Complex</string>
-			<string>PAC</string>
-			<string>43.4726073255798,-80.5463837492156</string>
-		</array>
-		<array>
-			<string>Physical Activities Complex</string>
-			<string>PAC</string>
-			<string>43.4721403372754,-80.5467021274342</string>
-		</array>
-		<array>
-			<string>Physical Activities Complex</string>
-			<string>PAC</string>
-			<string>43.4719947599438,-80.5466057608099</string>
-		</array>
-		<array>
-			<string>Physical Activities Complex</string>
-			<string>PAC</string>
-			<string>43.4724857252279,-80.5457797611733</string>
-		</array>
-		<array>
-			<string>Physical Activities Complex</string>
-			<string>PAC</string>
-			<string>43.4723758292753,-80.5456715945542</string>
-		</array>
-		<array>
-			<string>Physical Activities Complex</string>
-			<string>PAC</string>
-			<string>43.4719176894498,-80.545862361137</string>
-		</array>
-		<array>
-			<string>Physical Activities Complex</string>
-			<string>PAC</string>
-			<string>43.471859172898,-80.5460511610539</string>
-		</array>
-		<array>
-			<string>Physical Activities Complex</string>
-			<string>PAC</string>
-			<string>43.4718705907662,-80.5460983610331</string>
-		</array>
-		<array>
-			<string>Physical Activities Complex</string>
-			<string>PAC</string>
-			<string>43.4719621319844,-80.5458408863839</string>
-		</array>
-		<array>
 			<string>Mike and Ophelia Lazaridis Quantum Nano Centre</string>
 			<string>QNC</string>
 			<string>43.4712559625124,-80.5448026901659</string>
-		</array>
-		<array>
-			<string>Mike and Ophelia Lazaridis Quantum Nano Centre</string>
-			<string>QNC</string>
-			<string>43.4712559625124,-80.5448026901659</string>
-		</array>
-		<array>
-			<string>Mike and Ophelia Lazaridis Quantum Nano Centre</string>
-			<string>QNC</string>
-			<string>43.4711647785175,-80.5444852219202</string>
-		</array>
-		<array>
-			<string>Mathematics 3</string>
-			<string>M3</string>
-			<string>43.4729654383758,-80.5440285945879</string>
-		</array>
-		<array>
-			<string>Mathematics 3</string>
-			<string>M3</string>
-			<string>43.4732878448471,-80.5443950039795</string>
-		</array>
-		<array>
-			<string>Mathematics 3</string>
-			<string>M3</string>
-			<string>43.4729772469019,-80.5440057954629</string>
-		</array>
-		<array>
-			<string>Energy Research Centre</string>
-			<string>ERC</string>
-			<string>43.4734205128166,-80.544477574744</string>
-		</array>
-		<array>
-			<string>Energy Research Centre</string>
-			<string>ERC</string>
-			<string>43.4736862244034,-80.5441696416895</string>
-		</array>
-		<array>
-			<string>Energy Research Centre</string>
-			<string>ERC</string>
-			<string>43.4737206890006,-80.5446552873525</string>
 		</array>
 		<array>
 			<string>Health Services</string>
@@ -1993,127 +1138,67 @@
 			<string>43.4706524069966,-80.5457843485685</string>
 		</array>
 		<array>
-			<string>St. Jerome&apos;s University</string>
+			<string>St. Jerome's University</string>
 			<string>STJ</string>
 			<string>43.4697275710024,-80.5455559057791</string>
 		</array>
 		<array>
-			<string>St. Jerome&apos;s University</string>
-			<string>STJ</string>
-			<string>43.4697275710024,-80.5455559057791</string>
-		</array>
-		<array>
-			<string>St. Jerome&apos;s University</string>
+			<string>St. Jerome's University</string>
 			<string>STJ</string>
 			<string>43.4687990696494,-80.5456749888314</string>
 		</array>
 		<array>
-			<string>St. Jerome&apos;s University</string>
+			<string>St. Jerome's University</string>
 			<string>STJ</string>
 			<string>43.4687658294797,-80.5455864398951</string>
 		</array>
 		<array>
-			<string>St. Jerome&apos;s University</string>
+			<string>St. Jerome's University</string>
 			<string>STJ</string>
 			<string>43.4692234342094,-80.545897887878</string>
 		</array>
 		<array>
-			<string>St. Jerome&apos;s University</string>
+			<string>St. Jerome's University</string>
 			<string>STJ</string>
 			<string>43.4692023822518,-80.5456429280096</string>
 		</array>
 		<array>
-			<string>St. Jerome&apos;s University</string>
-			<string>STJ</string>
-			<string>43.4692023822518,-80.5456429280096</string>
-		</array>
-		<array>
-			<string>St. Jerome&apos;s University</string>
-			<string>STJ</string>
-			<string>43.4692023822518,-80.5456429280096</string>
-		</array>
-		<array>
-			<string>St. Jerome&apos;s University</string>
-			<string>STJ</string>
-			<string>43.4697275710024,-80.5455559057791</string>
-		</array>
-		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.4676379499493,-80.5465885662062</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.467869091305,-80.5462492011181</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.4677844658839,-80.5462022121059</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.4672602908597,-80.5464406378344</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.4675533242046,-80.546532875525</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.4675874271309,-80.546419753829</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.4676328976694,-80.5462735657911</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
-			<string>STP</string>
-			<string>43.467651843717,-80.5461430407572</string>
-		</array>
-		<array>
-			<string>St. Paul&apos;s University College</string>
-			<string>STP</string>
-			<string>43.4676379499493,-80.5465885662062</string>
-		</array>
-		<array>
-			<string>St. Paul&apos;s University College</string>
-			<string>STP</string>
-			<string>43.4675533242046,-80.546532875525</string>
-		</array>
-		<array>
-			<string>St. Paul&apos;s University College</string>
-			<string>STP</string>
-			<string>43.4672602908597,-80.5464406378344</string>
-		</array>
-		<array>
-			<string>St. Paul&apos;s University College</string>
-			<string>STP</string>
-			<string>43.4675874271309,-80.546419753829</string>
-		</array>
-		<array>
-			<string>St. Paul&apos;s University College</string>
-			<string>STP</string>
-			<string>43.4676328976694,-80.5462735657911</string>
-		</array>
-		<array>
-			<string>St. Paul&apos;s University College</string>
-			<string>STP</string>
-			<string>43.4677844658839,-80.5462022121059</string>
-		</array>
-		<array>
-			<string>St. Paul&apos;s University College</string>
-			<string>STP</string>
-			<string>43.467869091305,-80.5462492011181</string>
-		</array>
-		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.467651843717,-80.5461430407572</string>
 		</array>
@@ -2146,26 +1231,6 @@
 			<string>Chemistry 2</string>
 			<string>C2</string>
 			<string>43.4721269588248,-80.543272297632</string>
-		</array>
-		<array>
-			<string>Engineering 5</string>
-			<string>E5</string>
-			<string>43.472724133868,-80.5401544637571</string>
-		</array>
-		<array>
-			<string>Engineering 2</string>
-			<string>E2</string>
-			<string>43.4713256947189,-80.5402438574996</string>
-		</array>
-		<array>
-			<string>Engineering 2</string>
-			<string>E2</string>
-			<string>43.4710925406957,-80.5396940895062</string>
-		</array>
-		<array>
-			<string>Engineering 2</string>
-			<string>E2</string>
-			<string>43.4711119059751,-80.5400638350598</string>
 		</array>
 		<array>
 			<string>Engineering 6</string>
@@ -2230,22 +1295,12 @@
 		<array>
 			<string>Ron Eydt Village</string>
 			<string>REV</string>
-			<string>43.4697443156939,-80.5538623206969</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
 			<string>43.4695127733054,-80.5538745328901</string>
 		</array>
 		<array>
 			<string>Ron Eydt Village</string>
 			<string>REV</string>
 			<string>43.4695360383702,-80.5537646231512</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
-			<string>43.4706970645132,-80.5546927498355</string>
 		</array>
 		<array>
 			<string>Ron Eydt Village</string>
@@ -2275,82 +1330,7 @@
 		<array>
 			<string>Ron Eydt Village</string>
 			<string>REV</string>
-			<string>43.4697443156939,-80.5538623206969</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
-			<string>43.4695127733054,-80.5538745328901</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
-			<string>43.4695360383702,-80.5537646231512</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
-			<string>43.4697443156939,-80.5538623206969</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
-			<string>43.4706801734009,-80.5542088812753</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
-			<string>43.4707629973801,-80.5541682337705</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
-			<string>43.4706813079768,-80.5536929706375</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
-			<string>43.4706676930655,-80.5535866617788</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
-			<string>43.4706970645132,-80.5546927498355</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
 			<string>43.4704804043291,-80.5541719222063</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
-			<string>43.4704804043291,-80.5541719222063</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
-			<string>43.469846238378,-80.5544301876813</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
-			<string>43.4695227440486,-80.554346228853</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
-			<string>43.4694850767881,-80.553320404623</string>
-		</array>
-		<array>
-			<string>Ron Eydt Village</string>
-			<string>REV</string>
-			<string>43.469820757723,-80.5531830174494</string>
-		</array>
-		<array>
-			<string>Douglas Wright Engineering Building</string>
-			<string>DWE</string>
-			<string>43.4705321875642,-80.5387618623609</string>
 		</array>
 		<array>
 			<string>Univeristy of Waterloo Place</string>
@@ -2371,16 +1351,6 @@
 			<string>Renison University College</string>
 			<string>REN</string>
 			<string>43.469163403846,-80.547276313771</string>
-		</array>
-		<array>
-			<string>Renison University College</string>
-			<string>REN</string>
-			<string>43.469163403846,-80.547276313771</string>
-		</array>
-		<array>
-			<string>Renison University College</string>
-			<string>REN</string>
-			<string>43.4685668599232,-80.5465747540701</string>
 		</array>
 	</array>
 	<key>edges</key>
@@ -13561,29 +12531,18 @@
 		<string>43.4716659779419,-80.544161440254</string>
 		<string>43.4714963972635,-80.5436312666121</string>
 		<string>43.4716059474739,-80.5434938925633</string>
-		<string>43.4716059474739,-80.5434938925633</string>
 		<string>43.471557961134,-80.5434275289003</string>
 		<string>43.4714766942758,-80.5435416233162</string>
-		<string>43.4714963972635,-80.5436312666121</string>
 		<string>43.4715380277638,-80.5437507964122</string>
 		<string>43.471557961134,-80.5437909407437</string>
 		<string>43.4716024278593,-80.5438839065641</string>
 		<string>43.4716422945506,-80.5437550221313</string>
 		<string>43.4715625611416,-80.5437676992886</string>
-		<string>43.471557961134,-80.5437909407437</string>
-		<string>43.4715380277638,-80.5437507964122</string>
-		<string>43.4715625611416,-80.5437676992886</string>
-		<string>43.4715625611416,-80.5437676992886</string>
 		<string>43.4716269612109,-80.543514156142</string>
-		<string>43.4716059474739,-80.5434938925633</string>
-		<string>43.4715380277638,-80.5437507964122</string>
 		<string>43.4713279603089,-80.5435923319455</string>
 		<string>43.4711776926304,-80.543495140406</string>
 		<string>43.4710810917827,-80.5434275289003</string>
 		<string>43.4710734250421,-80.5434634475127</string>
-		<string>43.4716422945506,-80.5437550221313</string>
-		<string>43.4716959612089,-80.5435923319455</string>
-		<string>43.4716269612109,-80.543514156142</string>
 		<string>43.4716959612089,-80.5435923319455</string>
 		<string>43.4717526944817,-80.5434169646025</string>
 		<string>43.4717128278632,-80.5433303373608</string>
@@ -13593,24 +12552,12 @@
 		<string>43.4714398941531,-80.5432268072426</string>
 		<string>43.4714352941362,-80.5432585001359</string>
 		<string>43.4714996943411,-80.5433176602034</string>
-		<string>43.471557961134,-80.5434275289003</string>
-		<string>43.4714766942758,-80.5435416233162</string>
 		<string>43.4714383608142,-80.5434190774621</string>
 		<string>43.4714122940464,-80.5433282245012</string>
-		<string>43.4714352941362,-80.5432585001359</string>
-		<string>43.4713279603089,-80.5435923319455</string>
-		<string>43.4714122940464,-80.5433282245012</string>
-		<string>43.4714352941362,-80.5432585001359</string>
 		<string>43.4713620153968,-80.5431966403113</string>
 		<string>43.4713418322839,-80.543166842579</string>
 		<string>43.4713230908159,-80.5430774493822</string>
-		<string>43.4714628942324,-80.5431359542817</string>
-		<string>43.4713230908159,-80.5430774493822</string>
-		<string>43.4711776926304,-80.543495140406</string>
-		<string>43.4714122940464,-80.5433282245012</string>
 		<string>43.4713879651035,-80.5432582222913</string>
-		<string>43.4713620153968,-80.5431966403113</string>
-		<string>43.4717526944817,-80.5434169646025</string>
 		<string>43.4717771014464,-80.5433918502674</string>
 		<string>43.4718254633241,-80.5432787633643</string>
 		<string>43.471944169587,-80.5433575203147</string>
@@ -13619,27 +12566,19 @@
 		<string>43.4721112372658,-80.5433999279033</string>
 		<string>43.472139081834,-80.5433958890854</string>
 		<string>43.472171322897,-80.5433312679979</string>
-		<string>43.472171322897,-80.5433312679979</string>
 		<string>43.4726036445799,-80.543193948187</string>
 		<string>43.472584593181,-80.5435231118513</string>
 		<string>43.4725611452972,-80.5435897523478</string>
-		<string>43.472171322897,-80.5433312679979</string>
-		<string>43.4725611452972,-80.5435897523478</string>
 		<string>43.472584593181,-80.5436059076196</string>
-		<string>43.472584593181,-80.5435231118513</string>
-		<string>43.472584593181,-80.5435231118513</string>
 		<string>43.4726402818685,-80.5433797338135</string>
 		<string>43.4727018324633,-80.543678606343</string>
 		<string>43.4729231209889,-80.5438421784707</string>
 		<string>43.4730198428714,-80.54356551944</string>
 		<string>43.4730989788419,-80.5433514620877</string>
-		<string>43.4730989788419,-80.5433514620877</string>
 		<string>43.4734096597984,-80.542470999771</string>
 		<string>43.4735049154322,-80.5425295626315</string>
 		<string>43.4735899126401,-80.5423033888253</string>
 		<string>43.4734902607291,-80.5422347289199</string>
-		<string>43.4734096597984,-80.542470999771</string>
-		<string>43.4735899126401,-80.5423033888253</string>
 		<string>43.4736485313346,-80.5421236614258</string>
 		<string>43.473661720533,-80.5421317390617</string>
 		<string>43.4740720497125,-80.5424023398655</string>
@@ -13647,7 +12586,6 @@
 		<string>43.4746816764917,-80.5428789203856</string>
 		<string>43.4747402941272,-80.5429859490617</string>
 		<string>43.4747754646812,-80.5430949971468</string>
-		<string>43.4748018425832,-80.5432282781398</string>
 		<string>43.4748018425832,-80.5432282781398</string>
 		<string>43.4748146416954,-80.5433152482299</string>
 		<string>43.4748203528493,-80.5434549426195</string>
@@ -13661,98 +12599,60 @@
 		<string>43.474242477389,-80.5452206944412</string>
 		<string>43.4742296271692,-80.5452482398138</string>
 		<string>43.474161092617,-80.5454095769962</string>
-		<string>43.474161092617,-80.5454095769962</string>
 		<string>43.4741039804308,-80.5455807518118</string>
 		<string>43.4740854189587,-80.5456181348174</string>
 		<string>43.4739554884942,-80.5459801597146</string>
 		<string>43.4739197932627,-80.546131659264</string>
-		<string>43.4727018324633,-80.543678606343</string>
-		<string>43.472584593181,-80.5436059076196</string>
-		<string>43.472584593181,-80.5436059076196</string>
 		<string>43.4725927097579,-80.5438600655077</string>
 		<string>43.4726213260967,-80.5441301785157</string>
 		<string>43.4726127411964,-80.5443963482682</string>
 		<string>43.4725898481233,-80.5444673268689</string>
-		<string>43.4729231209889,-80.5438421784707</string>
 		<string>43.472883164967,-80.5439645617809</string>
 		<string>43.4728502563189,-80.5440670864263</string>
 		<string>43.4728101935926,-80.5440453985205</string>
 		<string>43.4727472378262,-80.5440335687537</string>
 		<string>43.472705744217,-80.5440532850317</string>
-		<string>43.4726213260967,-80.5441301785157</string>
 		<string>43.4722006645525,-80.5445915394201</string>
 		<string>43.4723695018506,-80.5447118087156</string>
 		<string>43.4724753826273,-80.5447768724329</string>
-		<string>43.4725898481233,-80.5444673268689</string>
-		<string>43.4728502563189,-80.5440670864263</string>
 		<string>43.472825932524,-80.5441321501435</string>
 		<string>43.4727558227073,-80.544321426412</string>
 		<string>43.4727214831756,-80.5443608589679</string>
 		<string>43.4726814203639,-80.5443786036181</string>
 		<string>43.4726256185463,-80.5444219794296</string>
-		<string>43.4725898481233,-80.5444673268689</string>
-		<string>43.4722006645525,-80.5445915394201</string>
 		<string>43.4719526049864,-80.5444357715578</string>
 		<string>43.4718297649909,-80.5443618382986</string>
 		<string>43.4717619910935,-80.5443131979965</string>
 		<string>43.4717041008292,-80.5442587208582</string>
-		<string>43.4716659779419,-80.544161440254</string>
 		<string>43.4716447985497,-80.5440855613828</string>
-		<string>43.4716024278593,-80.5438839065641</string>
-		<string>43.4719526049864,-80.5444357715578</string>
 		<string>43.4719427213179,-80.5445602907311</string>
-		<string>43.4718297649909,-80.5443618382986</string>
-		<string>43.4722006645525,-80.5445915394201</string>
 		<string>43.4721771050227,-80.5446264415419</string>
 		<string>43.4719243659291,-80.5447820905086</string>
 		<string>43.4719384854594,-80.5446770274561</string>
-		<string>43.4719427213179,-80.5445602907311</string>
-		<string>43.4721771050227,-80.5446264415419</string>
 		<string>43.4721700163487,-80.5446507334046</string>
 		<string>43.4721596823908,-80.5447951658213</string>
 		<string>43.4722024944905,-80.544929426941</string>
 		<string>43.4723087864691,-80.5448582278623</string>
 		<string>43.4723412645363,-80.54479923434</string>
-		<string>43.4723695018506,-80.5447118087156</string>
-		<string>43.4724753826273,-80.5447768724329</string>
 		<string>43.4723781714098,-80.5450514825044</string>
 		<string>43.4723309306077,-80.545169469549</string>
 		<string>43.4722763083843,-80.5451064075079</string>
-		<string>43.4722024944905,-80.544929426941</string>
-		<string>43.4721596823908,-80.5447951658213</string>
 		<string>43.4719175720148,-80.5449518037943</string>
-		<string>43.4719243659291,-80.5447820905086</string>
-		<string>43.4723309306077,-80.545169469549</string>
-		<string>43.4722811048035,-80.5453275642227</string>
 		<string>43.4722811048035,-80.5453275642227</string>
 		<string>43.4723157881801,-80.5453645041874</string>
 		<string>43.4724775819277,-80.5455363113068</string>
 		<string>43.4726601809368,-80.5456306674694</string>
 		<string>43.4728884289224,-80.5456778455506</string>
 		<string>43.4728570448755,-80.545542208567</string>
-		<string>43.4723309306077,-80.545169469549</string>
-		<string>43.4728884289224,-80.5456778455506</string>
 		<string>43.4730136800047,-80.5456613843135</string>
-		<string>43.4728570448755,-80.545542208567</string>
-		<string>43.4722811048035,-80.5453275642227</string>
 		<string>43.4722649599445,-80.5452991182015</string>
 		<string>43.4722326740659,-80.5452101405599</string>
 		<string>43.472189626201,-80.5451423480711</string>
 		<string>43.4720650947048,-80.5450576074601</string>
-		<string>43.4719175720148,-80.5449518037943</string>
-		<string>43.4719175720148,-80.5449518037943</string>
 		<string>43.4718572113674,-80.5448140343566</string>
-		<string>43.4719243659291,-80.5447820905086</string>
-		<string>43.4718572113674,-80.5448140343566</string>
-		<string>43.4717878766722,-80.5448677756804</string>
-		<string>43.4719175720148,-80.5449518037943</string>
 		<string>43.4717878766722,-80.5448677756804</string>
 		<string>43.4714545172128,-80.5446279984306</string>
-		<string>43.4716447985497,-80.5440855613828</string>
-		<string>43.4718572113674,-80.5448140343566</string>
 		<string>43.4718328816733,-80.5447346418611</string>
-		<string>43.4717041008292,-80.5442587208582</string>
-		<string>43.4714545172128,-80.5446279984306</string>
 		<string>43.4713971890576,-80.5447840138196</string>
 		<string>43.4713556261111,-80.5448630089533</string>
 		<string>43.4712853989986,-80.5449222553035</string>
@@ -13771,17 +12671,10 @@
 		<string>43.471910274112,-80.5455976636965</string>
 		<string>43.4719933992137,-80.5455087941711</string>
 		<string>43.4721696813784,-80.5453606782954</string>
-		<string>43.4722649599445,-80.5452991182015</string>
 		<string>43.4712438359751,-80.5453369797553</string>
-		<string>43.4711779083622,-80.5453587034171</string>
-		<string>43.4710904825036,-80.545022974099</string>
 		<string>43.4712134863541,-80.5452160737821</string>
-		<string>43.4712438359751,-80.5453369797553</string>
-		<string>43.4712438359751,-80.5453369797553</string>
 		<string>43.4712605564604,-80.545430922161</string>
 		<string>43.4712679111612,-80.5455282119929</string>
-		<string>43.4712510020157,-80.5456549351684</string>
-		<string>43.471081883232,-80.5449933509238</string>
 		<string>43.4710560954199,-80.5448938012138</string>
 		<string>43.4709957866355,-80.5447681351809</string>
 		<string>43.470935477791,-80.5446647647344</string>
@@ -13793,22 +12686,16 @@
 		<string>43.4697484109674,-80.5440040046258</string>
 		<string>43.4696983977269,-80.5439553597098</string>
 		<string>43.4694115562838,-80.5438661773639</string>
-		<string>43.4694115562838,-80.5438661773639</string>
 		<string>43.4693631823834,-80.5438720137997</string>
 		<string>43.469337721579,-80.5438720137997</string>
 		<string>43.4690980899532,-80.5437915305942</string>
 		<string>43.4682983125255,-80.5436594555904</string>
-		<string>43.4682983125255,-80.5436594555904</string>
 		<string>43.467911899415,-80.5435727813692</string>
-		<string>43.4676393119363,-80.5434922981637</string>
-		<string>43.4674416103585,-80.5434303880057</string>
 		<string>43.4676393119363,-80.5434922981637</string>
 		<string>43.4674416103585,-80.5434303880057</string>
 		<string>43.4670947702167,-80.5431627726086</string>
 		<string>43.4668935622401,-80.5429219639399</string>
 		<string>43.4667261331943,-80.5426912732825</string>
-		<string>43.466707040379,-80.542640683226</string>
-		<string>43.4666071701695,-80.5423938037506</string>
 		<string>43.466707040379,-80.542640683226</string>
 		<string>43.4666071701695,-80.5423938037506</string>
 		<string>43.4664926129613,-80.5419870596968</string>
@@ -13817,20 +12704,16 @@
 		<string>43.4664705827041,-80.5415357963933</string>
 		<string>43.4665205179423,-80.5413597429968</string>
 		<string>43.4665528289568,-80.5413010585313</string>
-		<string>43.4665528289568,-80.5413010585313</string>
 		<string>43.4666189196145,-80.541220114441</string>
 		<string>43.4666673860508,-80.5411695243846</string>
 		<string>43.466761381453,-80.5411088163168</string>
 		<string>43.4668553767091,-80.541070367874</string>
-		<string>43.4668553767091,-80.541070367874</string>
 		<string>43.4669890259621,-80.5410096598062</string>
-		<string>43.467225481609,-80.5408862200685</string>
 		<string>43.467225481609,-80.5408862200685</string>
 		<string>43.4672989148515,-80.5408578896369</string>
 		<string>43.4673165388164,-80.5408659840459</string>
 		<string>43.4678878462293,-80.540576608923</string>
 		<string>43.4679230938106,-80.5405401840824</string>
-		<string>43.4679847770284,-80.5404997120372</string>
 		<string>43.4679847770284,-80.5404997120372</string>
 		<string>43.468187450015,-80.5404086499356</string>
 		<string>43.4684018714204,-80.5402852101979</string>
@@ -13838,23 +12721,18 @@
 		<string>43.468563421292,-80.5402528325618</string>
 		<string>43.4686544764838,-80.5402285493347</string>
 		<string>43.468796933525,-80.5401314164263</string>
-		<string>43.468796933525,-80.5401314164263</string>
 		<string>43.4689628882114,-80.5400545195405</string>
 		<string>43.4691229679638,-80.5398218052808</string>
 		<string>43.4691449972544,-80.5397671680199</string>
-		<string>43.468796933525,-80.5401314164263</string>
 		<string>43.4688806452379,-80.5400444015292</string>
 		<string>43.4689555450933,-80.5399735754502</string>
 		<string>43.4691038759055,-80.5397894276447</string>
-		<string>43.4691449972544,-80.5397671680199</string>
-		<string>43.4691449972544,-80.5397671680199</string>
 		<string>43.4692178893455,-80.5396684708015</string>
 		<string>43.4693127477876,-80.5395779825926</string>
 		<string>43.4694411712874,-80.5394291797601</string>
 		<string>43.4694893300295,-80.5393849410802</string>
 		<string>43.4695272732539,-80.539358800042</string>
 		<string>43.469560838394,-80.5393507566457</string>
-		<string>43.4696206718584,-80.5393185830603</string>
 		<string>43.4696206718584,-80.5393185830603</string>
 		<string>43.4696454808385,-80.5392803769276</string>
 		<string>43.4696688304575,-80.5392240731531</string>
@@ -13865,26 +12743,21 @@
 		<string>43.4703138601158,-80.5386449486159</string>
 		<string>43.4703985015057,-80.538578590596</string>
 		<string>43.4705006547496,-80.5385242976706</string>
-		<string>43.4705006547496,-80.5385242976706</string>
 		<string>43.470538597339,-80.5385182651234</string>
 		<string>43.4706918267848,-80.5385182651234</string>
 		<string>43.4707414438554,-80.5385283193688</string>
 		<string>43.4707983575038,-80.5385464170106</string>
 		<string>43.4708304626152,-80.5385645146524</string>
-		<string>43.4708304626152,-80.5385645146524</string>
 		<string>43.4709866099593,-80.5386972306922</string>
-		<string>43.471061035187,-80.538829946732</string>
 		<string>43.471061035187,-80.538829946732</string>
 		<string>43.4713187748937,-80.5392513279929</string>
 		<string>43.4715785974119,-80.5396900029058</string>
 		<string>43.4716656805335,-80.5398316378553</string>
 		<string>43.4720168669306,-80.5403135901139</string>
-		<string>43.4720168669306,-80.5403135901139</string>
 		<string>43.4722053075708,-80.5405909585566</string>
 		<string>43.4723023828227,-80.5407089876811</string>
 		<string>43.4723252240358,-80.5407621007871</string>
 		<string>43.4723666237126,-80.5408270168057</string>
-		<string>43.472398030345,-80.540862425543</string>
 		<string>43.472398030345,-80.540862425543</string>
 		<string>43.4724194439486,-80.5408820970638</string>
 		<string>43.4724351472531,-80.5409076700408</string>
@@ -13893,10 +12766,7 @@
 		<string>43.47299189814,-80.5415410930092</string>
 		<string>43.473064703646,-80.5416197790922</string>
 		<string>43.4734901144569,-80.5419738664658</string>
-		<string>43.4734901144569,-80.5419738664658</string>
 		<string>43.4735657744552,-80.5420525525489</string>
-		<string>43.4736485313346,-80.5421236614258</string>
-		<string>43.4739197932627,-80.546131659264</string>
 		<string>43.4738327274094,-80.546430323321</string>
 		<string>43.4738066416131,-80.5465161949344</string>
 		<string>43.4735110018018,-80.5473189946689</string>
@@ -13906,7 +12776,6 @@
 		<string>43.4728559515774,-80.5479780093764</string>
 		<string>43.4726661016234,-80.5479800063906</string>
 		<string>43.4724979897158,-80.5480119586188</string>
-		<string>43.4724979897158,-80.5480119586188</string>
 		<string>43.4724341394263,-80.5480059680111</string>
 		<string>43.472362858622,-80.5479843590129</string>
 		<string>43.4722573628775,-80.5479548921972</string>
@@ -13915,32 +12784,22 @@
 		<string>43.4717797784868,-80.5475109255072</string>
 		<string>43.4716757073576,-80.5473301957042</string>
 		<string>43.4716286614458,-80.5471887549888</string>
-		<string>43.4716286614458,-80.5471887549888</string>
 		<string>43.471563082235,-80.5469392692824</string>
 		<string>43.4713848774984,-80.5462517102492</string>
-		<string>43.4713283951996,-80.5459728905814</string>
-		<string>43.4694115562838,-80.5438661773639</string>
 		<string>43.4693729009424,-80.543835209981</string>
 		<string>43.4693394016832,-80.5437871280977</string>
 		<string>43.4692696115002,-80.5436428824478</string>
 		<string>43.4692444870146,-80.5434313221612</string>
 		<string>43.4691342183153,-80.5437448160404</string>
-		<string>43.4690980899532,-80.5437915305942</string>
-		<string>43.4692444870146,-80.5434313221612</string>
 		<string>43.4693045066017,-80.5432582273813</string>
 		<string>43.4691467805824,-80.5431255213834</string>
 		<string>43.4691760925286,-80.5431909127447</string>
-		<string>43.4692444870146,-80.5434313221612</string>
-		<string>43.4693045066017,-80.5432582273813</string>
 		<string>43.4693691186486,-80.5430825615926</string>
 		<string>43.4694148046122,-80.5429409225236</string>
 		<string>43.469437647581,-80.542870102989</string>
-		<string>43.4691467805824,-80.5431255213834</string>
 		<string>43.4691164175393,-80.5430412501975</string>
 		<string>43.4690792975133,-80.5429389553143</string>
-		<string>43.469437647581,-80.542870102989</string>
 		<string>43.469356596956,-80.5425624077799</string>
-		<string>43.4691213496026,-80.5423950379925</string>
 		<string>43.4691213496026,-80.5423950379925</string>
 		<string>43.4689906562329,-80.5423081751915</string>
 		<string>43.4687384941091,-80.542119619355</string>
@@ -13949,20 +12808,16 @@
 		<string>43.4682111028518,-80.5417700495459</string>
 		<string>43.4681434488297,-80.5417742867557</string>
 		<string>43.4680019901754,-80.5416768309302</string>
-		<string>43.4689906562329,-80.5423081751915</string>
 		<string>43.4690229240094,-80.5422128379706</string>
 		<string>43.4690502753251,-80.5421751508094</string>
 		<string>43.4690928217915,-80.5421563072288</string>
 		<string>43.4691095364665,-80.5421877131965</string>
 		<string>43.4691338487129,-80.542252618863</string>
 		<string>43.4691338487129,-80.5423133370672</string>
-		<string>43.4691213496026,-80.5423950379925</string>
-		<string>43.4691213496026,-80.5423950379925</string>
 		<string>43.4692584488219,-80.5420453394764</string>
 		<string>43.4693693730931,-80.5419176218746</string>
 		<string>43.4694103998268,-80.5419176218746</string>
 		<string>43.4694833361734,-80.5418904033693</string>
-		<string>43.4692584488219,-80.5420453394764</string>
 		<string>43.4692538902859,-80.5420013711217</string>
 		<string>43.4692402146757,-80.5419615902293</string>
 		<string>43.4692037463667,-80.5418778409822</string>
@@ -13970,28 +12825,19 @@
 		<string>43.4690958608236,-80.5420013711217</string>
 		<string>43.469083704694,-80.5420348708205</string>
 		<string>43.4690791461448,-80.5420683705194</string>
-		<string>43.4690928217915,-80.5421563072288</string>
-		<string>43.4693693730931,-80.5419176218746</string>
 		<string>43.4693131512276,-80.5419008720251</string>
 		<string>43.4692599683338,-80.5418694660575</string>
 		<string>43.4692174219851,-80.5418275914339</string>
-		<string>43.4691900707451,-80.5417501233804</string>
-		<string>43.4694833361734,-80.5418904033693</string>
 		<string>43.4695289213454,-80.5417166236815</string>
 		<string>43.4694559850537,-80.5416852177138</string>
 		<string>43.4693936852349,-80.5416642804021</string>
 		<string>43.4693207487801,-80.5416286869721</string>
 		<string>43.469241734188,-80.5415868123485</string>
-		<string>43.4691900707451,-80.5417501233804</string>
-		<string>43.4695289213454,-80.5417166236815</string>
 		<string>43.469574506483,-80.5417291860686</string>
 		<string>43.4697203786922,-80.5417522171115</string>
 		<string>43.4697568466895,-80.5417605920363</string>
 		<string>43.4698829650105,-80.5417522171115</string>
 		<string>43.4701078500384,-80.5417396547245</string>
-		<string>43.4693207487801,-80.5416286869721</string>
-		<string>43.46940149425,-80.5414143441276</string>
-		<string>43.4694559850537,-80.5416852177138</string>
 		<string>43.46940149425,-80.5414143441276</string>
 		<string>43.4693660980888,-80.5413509400461</string>
 		<string>43.4691501810563,-80.5410022175979</string>
@@ -13999,97 +12845,64 @@
 		<string>43.46940149425,-80.5410046562164</string>
 		<string>43.4693944150194,-80.5410900078646</string>
 		<string>43.4694121130943,-80.5412948518201</string>
-		<string>43.46940149425,-80.5414143441276</string>
-		<string>43.4713230908159,-80.5430774493822</string>
 		<string>43.4711104303902,-80.5429254976741</string>
 		<string>43.4710196640495,-80.5428579993525</string>
 		<string>43.4710571231907,-80.5427507961359</string>
-		<string>43.4711104303902,-80.5429254976741</string>
-		<string>43.4710571231907,-80.5427507961359</string>
-		<string>43.4710196640495,-80.5428579993525</string>
 		<string>43.4708842346527,-80.5427567518701</string>
 		<string>43.4707776198077,-80.5426296962059</string>
 		<string>43.4708525383671,-80.5426396224297</string>
 		<string>43.4709447456973,-80.5426674158562</string>
-		<string>43.4710571231907,-80.5427507961359</string>
-		<string>43.4707776198077,-80.5426296962059</string>
 		<string>43.470722871571,-80.5425542569053</string>
 		<string>43.4706638010494,-80.542500655297</string>
-		<string>43.4705831192682,-80.5424410979544</string>
 		<string>43.4705831192682,-80.5424410979544</string>
 		<string>43.4706465121054,-80.5423259537587</string>
 		<string>43.470707023388,-80.5422425734791</string>
 		<string>43.4708539791077,-80.5421234587939</string>
 		<string>43.4709116087042,-80.5421075768359</string>
 		<string>43.471055682455,-80.5421016211016</string>
-		<string>43.4705831192682,-80.5424410979544</string>
 		<string>43.4704433666422,-80.5423517619405</string>
 		<string>43.470391499606,-80.5423219832692</string>
 		<string>43.470325224995,-80.5422544849476</string>
 		<string>43.470222931431,-80.5420877243884</string>
-		<string>43.4704433666422,-80.5423517619405</string>
 		<string>43.4702747986118,-80.5424113192831</string>
 		<string>43.4702402204962,-80.5424351422201</string>
 		<string>43.4702027608486,-80.5424808028494</string>
 		<string>43.4702200499196,-80.5423974225698</string>
 		<string>43.4702315759642,-80.5422366177448</string>
-		<string>43.470222931431,-80.5420877243884</string>
-		<string>43.470222931431,-80.5420877243884</string>
 		<string>43.470222931431,-80.5419408162767</string>
 		<string>43.4702142868965,-80.5418872146683</string>
 		<string>43.4702142868965,-80.5417244245986</string>
 		<string>43.4703828550957,-80.5416172213819</string>
 		<string>43.4704303998873,-80.5416053099134</string>
-		<string>43.4702142868965,-80.5417244245986</string>
 		<string>43.4701872118716,-80.5417315891351</string>
 		<string>43.4701799278441,-80.5417135229053</string>
 		<string>43.4701639029804,-80.5417054934699</string>
 		<string>43.4701478781125,-80.5417155302642</string>
 		<string>43.4701347668537,-80.5417376112117</string>
-		<string>43.4701078500384,-80.5417396547245</string>
-		<string>43.4701872118716,-80.5417315891351</string>
 		<string>43.4701886686771,-80.541747648006</string>
 		<string>43.4701842982607,-80.5417697289535</string>
 		<string>43.4701711870099,-80.5417817731067</string>
 		<string>43.4701478781125,-80.5417797657479</string>
 		<string>43.4700954330605,-80.5418801336911</string>
-		<string>43.4701478781125,-80.5417797657479</string>
 		<string>43.4701347668537,-80.5417596921592</string>
-		<string>43.4701347668537,-80.5417376112117</string>
-		<string>43.470222931431,-80.5420877243884</string>
 		<string>43.4701828414552,-80.5420246635293</string>
 		<string>43.4701435076932,-80.5419724721989</string>
-		<string>43.470086692214,-80.5419323250215</string>
-		<string>43.4700954330605,-80.5418801336911</string>
-		<string>43.4701078500384,-80.5417396547245</string>
 		<string>43.470086692214,-80.5419323250215</string>
 		<string>43.4699366408198,-80.5418440012315</string>
 		<string>43.4698739978946,-80.5418118834897</string>
 		<string>43.4698259230474,-80.5417877951833</string>
-		<string>43.4697568466895,-80.5417605920363</string>
-		<string>43.4698739978946,-80.5418118834897</string>
-		<string>43.4698829650105,-80.5417522171115</string>
-		<string>43.4697203786922,-80.5417522171115</string>
 		<string>43.4695932582433,-80.5418135263302</string>
-		<string>43.4694833361734,-80.5418904033693</string>
 		<string>43.4694232290853,-80.5420855336294</string>
-		<string>43.4704303998873,-80.5416053099134</string>
 		<string>43.4703944061458,-80.5415514463031</string>
 		<string>43.4702560792087,-80.541420406291</string>
 		<string>43.470235906504,-80.5414680572047</string>
 		<string>43.4702229383331,-80.5415276208468</string>
 		<string>43.4702157337927,-80.5416288790383</string>
-		<string>43.4702142868965,-80.5417244245986</string>
-		<string>43.4702560792087,-80.541420406291</string>
 		<string>43.4702935427852,-80.5413032644615</string>
-		<string>43.4702344655961,-80.5413846681058</string>
-		<string>43.4702560792087,-80.541420406291</string>
 		<string>43.4702344655961,-80.5413846681058</string>
 		<string>43.4701797110767,-80.5414660717501</string>
 		<string>43.4701523337983,-80.5415137226638</string>
 		<string>43.470126397418,-80.5416149808553</string>
-		<string>43.4701078500384,-80.5417396547245</string>
-		<string>43.4702935427852,-80.5413032644615</string>
 		<string>43.4703526199164,-80.5411563408109</string>
 		<string>43.470375674391,-80.5410908208046</string>
 		<string>43.4703382108653,-80.5411285444447</string>
@@ -14097,19 +12910,12 @@
 		<string>43.4702373474112,-80.5411444280828</string>
 		<string>43.4701696247119,-80.5411345008093</string>
 		<string>43.4701307201482,-80.5411206026263</string>
-		<string>43.4702344655961,-80.5413846681058</string>
-		<string>43.470375674391,-80.5410908208046</string>
 		<string>43.4704448377621,-80.5409836062488</string>
 		<string>43.4704678922014,-80.5409161007877</string>
 		<string>43.4705500235703,-80.5406917444024</string>
 		<string>43.470578841568,-80.5406023989392</string>
 		<string>43.4706134231471,-80.5404892280193</string>
-		<string>43.470375674391,-80.5410908208046</string>
 		<string>43.4704419559564,-80.5408942607857</string>
-		<string>43.470578841568,-80.5406023989392</string>
-		<string>43.4704678922014,-80.5409161007877</string>
-		<string>43.4704419559564,-80.5408942607857</string>
-		<string>43.4706134231471,-80.5404892280193</string>
 		<string>43.4706778431107,-80.5403492035321</string>
 		<string>43.4707001681031,-80.5402917806263</string>
 		<string>43.4706555181103,-80.5403081871707</string>
@@ -14118,14 +12924,8 @@
 		<string>43.4706183097578,-80.5403286953512</string>
 		<string>43.4706227747612,-80.5403861182571</string>
 		<string>43.4706272397643,-80.5404230329823</string>
-		<string>43.4706134231471,-80.5404892280193</string>
-		<string>43.4704419559564,-80.5408942607857</string>
 		<string>43.4705005724069,-80.5407171379664</string>
 		<string>43.4705284151404,-80.5406767535243</string>
-		<string>43.470578841568,-80.5406023989392</string>
-		<string>43.4705500235703,-80.5406917444024</string>
-		<string>43.4705284151404,-80.5406767535243</string>
-		<string>43.4705885430594,-80.5402958822621</string>
 		<string>43.4704034846072,-80.5401617837133</string>
 		<string>43.4703127289642,-80.5401419338378</string>
 		<string>43.4702709525112,-80.5401260539373</string>
@@ -14134,7 +12934,6 @@
 		<string>43.4701787560991,-80.5399950447587</string>
 		<string>43.470177315529,-80.5399434350823</string>
 		<string>43.4701859589489,-80.5398938103934</string>
-		<string>43.4702867987554,-80.5396556118868</string>
 		<string>43.4702867987554,-80.5396556118868</string>
 		<string>43.4707924358197,-80.5400129096467</string>
 		<string>43.4708082819272,-80.5399692399205</string>
@@ -14148,30 +12947,21 @@
 		<string>43.4705028834885,-80.5393320589153</string>
 		<string>43.4705360164126,-80.5392149446496</string>
 		<string>43.4706123661251,-80.5389628512301</string>
-		<string>43.4705360164126,-80.5392149446496</string>
 		<string>43.4704919503754,-80.539265520842</string>
 		<string>43.4704530930878,-80.5393056498444</string>
 		<string>43.4704333419457,-80.5393386676927</string>
 		<string>43.470348520155,-80.5395514813767</string>
-		<string>43.4702867987554,-80.5396556118868</string>
-		<string>43.4706123661251,-80.5389628512301</string>
 		<string>43.4706320841333,-80.5388953272293</string>
 		<string>43.4706549081062,-80.5388535660516</string>
 		<string>43.470694644862,-80.5387993443206</string>
 		<string>43.4707162842992,-80.538779675756</string>
 		<string>43.4706626487627,-80.5387762661196</string>
-		<string>43.4706549081062,-80.5388535660516</string>
-		<string>43.4706626487627,-80.5387762661196</string>
 		<string>43.4706023981357,-80.5387667152106</string>
 		<string>43.4706144085609,-80.5388109972942</string>
 		<string>43.4706216220344,-80.5388823012393</string>
-		<string>43.4706123661251,-80.5389628512301</string>
-		<string>43.471061035187,-80.538829946732</string>
 		<string>43.4709930700776,-80.5387864937192</string>
 		<string>43.4709195897644,-80.5387646602649</string>
 		<string>43.470836925849,-80.5387591498736</string>
-		<string>43.4707162842992,-80.538779675756</string>
-		<string>43.4701307201482,-80.5411206026263</string>
 		<string>43.4700024542645,-80.5408321278237</string>
 		<string>43.4700935981206,-80.5405522928553</string>
 		<string>43.4701070743402,-80.5404952269246</string>
@@ -14179,12 +12969,8 @@
 		<string>43.4701510451526,-80.5403389137345</string>
 		<string>43.470199496601,-80.5402447410092</string>
 		<string>43.4702581052574,-80.5401715941584</string>
-		<string>43.4703127289642,-80.5401419338378</string>
-		<string>43.4701122465401,-80.5404403913283</string>
 		<string>43.4701273052851,-80.5401710941663</string>
 		<string>43.4701529791429,-80.5400276132519</string>
-		<string>43.470177315529,-80.5399434350823</string>
-		<string>43.4700024542645,-80.5408321278237</string>
 		<string>43.4699738356474,-80.5407923064089</string>
 		<string>43.4699399507618,-80.5407558789241</string>
 		<string>43.4698193891123,-80.5406754285147</string>
@@ -14196,72 +12982,44 @@
 		<string>43.4696098504537,-80.540341746157</string>
 		<string>43.4696366397237,-80.5404295668794</string>
 		<string>43.4696375079388,-80.5404966365924</string>
-		<string>43.469628218803,-80.5405426804308</string>
-		<string>43.4694068036724,-80.5409583224646</string>
 		<string>43.4694826986328,-80.5407935707909</string>
 		<string>43.4695241716408,-80.5406399080861</string>
-		<string>43.4695661490213,-80.5404999663876</string>
-		<string>43.4688806452379,-80.5400444015292</string>
-		<string>43.4689628882114,-80.5400545195405</string>
-		<string>43.4691501810563,-80.5410022175979</string>
 		<string>43.4690349669024,-80.540797032785</string>
 		<string>43.4689413098648,-80.5406935198809</string>
 		<string>43.4690173953512,-80.5404494016747</string>
 		<string>43.4687803622881,-80.5404596174971</string>
 		<string>43.4688589244189,-80.5406087540885</string>
-		<string>43.4689413098648,-80.5406935198809</string>
-		<string>43.4691501810563,-80.5410022175979</string>
 		<string>43.4689674553898,-80.5410408276973</string>
 		<string>43.4689160819554,-80.5410229536099</string>
-		<string>43.4688532021116,-80.5409745184451</string>
-		<string>43.4689413098648,-80.5406935198809</string>
 		<string>43.4688532021116,-80.5409745184451</string>
 		<string>43.4686239207205,-80.5408262718939</string>
 		<string>43.4686291281944,-80.5407615293724</string>
 		<string>43.4686850519948,-80.5405881496746</string>
 		<string>43.4687219630806,-80.540473322797</string>
-		<string>43.4687803622881,-80.5404596174971</string>
-		<string>43.4687803622881,-80.5404596174971</string>
 		<string>43.4687697355321,-80.5404149636911</string>
 		<string>43.4687689024514,-80.5403379870529</string>
-		<string>43.4687219630806,-80.540473322797</string>
-		<string>43.4702027608486,-80.5424808028494</string>
 		<string>43.4701259961281,-80.5426921623569</string>
 		<string>43.4700890345531,-80.5427430923207</string>
 		<string>43.4700520729555,-80.5427803103712</string>
 		<string>43.4698829022778,-80.5429017587466</string>
 		<string>43.4697933411391,-80.5428625818513</string>
-		<string>43.4726402818685,-80.5433797338135</string>
 		<string>43.4726842718676,-80.5432567971455</string>
 		<string>43.4727082951877,-80.54317610725</string>
 		<string>43.4727248112147,-80.5431450726748</string>
 		<string>43.4727638490788,-80.5430333482041</string>
 		<string>43.4728058898273,-80.5429216237334</string>
 		<string>43.4728148985553,-80.5428905891581</string>
-		<string>43.4727082951877,-80.54317610725</string>
-		<string>43.4726036445799,-80.543193948187</string>
-		<string>43.4726036445799,-80.543193948187</string>
-		<string>43.4726187592445,-80.5427391789779</string>
-		<string>43.4728148985553,-80.5428905891581</string>
 		<string>43.4726187592445,-80.5427391789779</string>
 		<string>43.4724912009172,-80.5426443806816</string>
 		<string>43.4724338712442,-80.5426582054332</string>
 		<string>43.4723693752971,-80.542814227629</string>
-		<string>43.472171322897,-80.5433312679979</string>
-		<string>43.4724912009172,-80.5426443806816</string>
 		<string>43.4724482036675,-80.5426187061431</string>
-		<string>43.4724338712442,-80.5426582054332</string>
-		<string>43.4730198428714,-80.54356551944</string>
 		<string>43.4735216925147,-80.5439162578225</string>
 		<string>43.4735661222163,-80.5439972313672</string>
 		<string>43.4735374578964,-80.5440426555509</string>
 		<string>43.4733984357523,-80.5444672729193</string>
-		<string>43.472825932524,-80.5441321501435</string>
 		<string>43.4732823448508,-80.5444534481678</string>
-		<string>43.4718254633241,-80.5432787633643</string>
 		<string>43.4718345677211,-80.5432459610335</string>
-		<string>43.4717403290817,-80.543179065217</string>
-		<string>43.471717427859,-80.543262725855</string>
 		<string>43.4717403290817,-80.543179065217</string>
 		<string>43.471798871284,-80.5429783777676</string>
 		<string>43.4719259505037,-80.5426301260172</string>
@@ -14271,19 +13029,12 @@
 		<string>43.4718060105731,-80.5424983019083</string>
 		<string>43.4717289062063,-80.54245501638</string>
 		<string>43.4717060604491,-80.5425160096244</string>
-		<string>43.4719230947939,-80.5425356848645</string>
 		<string>43.4720059103252,-80.5424746916201</string>
 		<string>43.4719902039401,-80.5424176334237</string>
 		<string>43.4719616468657,-80.5423271273191</string>
 		<string>43.4719102440978,-80.5422484263585</string>
 		<string>43.471870264137,-80.5423310623671</string>
 		<string>43.4718873984091,-80.5424294385678</string>
-		<string>43.4719230947939,-80.5425356848645</string>
-		<string>43.4718060105731,-80.5424983019083</string>
-		<string>43.471870264137,-80.5423310623671</string>
-		<string>43.4687689024514,-80.5403379870529</string>
-		<string>43.468796933525,-80.5401314164263</string>
-		<string>43.4696098504537,-80.540341746157</string>
 		<string>43.4696970707285,-80.5400801801637</string>
 		<string>43.4696550466362,-80.5399605092587</string>
 		<string>43.4696956699259,-80.5399296264445</string>
@@ -14297,11 +13048,7 @@
 		<string>43.4695443830533,-80.5398833022233</string>
 		<string>43.4695639943359,-80.5399161152133</string>
 		<string>43.4696158241236,-80.539956648907</string>
-		<string>43.4696550466362,-80.5399605092587</string>
-		<string>43.4696858643067,-80.5395262196843</string>
 		<string>43.4696788602921,-80.5394856859907</string>
-		<string>43.4696206718584,-80.5393185830603</string>
-		<string>43.4715785974119,-80.5396900029058</string>
 		<string>43.471540498825,-80.539719237273</string>
 		<string>43.4715110828607,-80.5397674916701</string>
 		<string>43.4714592546982,-80.5399161152134</string>
@@ -14310,86 +13057,40 @@
 		<string>43.4711594909405,-80.5402538959934</string>
 		<string>43.4711160670953,-80.540176688958</string>
 		<string>43.4710978570865,-80.540109132802</string>
-		<string>43.4723252240358,-80.5407621007871</string>
 		<string>43.4721752078075,-80.5411953327047</string>
 		<string>43.4720239271414,-80.5416392731585</string>
 		<string>43.4720099196532,-80.541681737028</string>
 		<string>43.4719847061661,-80.5417184103699</string>
 		<string>43.4719426836644,-80.5417473630081</string>
 		<string>43.4718950581272,-80.5418747546166</string>
-		<string>43.4718950581272,-80.5418747546166</string>
 		<string>43.4719076648907,-80.541919148662</string>
 		<string>43.4719076648907,-80.5419558220038</string>
-		<string>43.4717289062063,-80.54245501638</string>
-		<string>43.4724482036675,-80.5426187061431</string>
 		<string>43.4721590746748,-80.5424139371629</string>
 		<string>43.47212265528,-80.5425007950778</string>
 		<string>43.4720750298846,-80.542479563143</string>
-		<string>43.4720059103252,-80.5424746916201</string>
-		<string>43.4721590746748,-80.5424139371629</string>
 		<string>43.4721005756665,-80.5423784157373</string>
-		<string>43.4720059103252,-80.5424746916201</string>
-		<string>43.4721005756665,-80.5423784157373</string>
-		<string>43.4719102440978,-80.5422484263585</string>
-		<string>43.4719102440978,-80.5422484263585</string>
 		<string>43.4720044739025,-80.541979194917</string>
-		<string>43.4719076648907,-80.541919148662</string>
-		<string>43.4720044739025,-80.541979194917</string>
-		<string>43.4720793767611,-80.5417825056349</string>
-		<string>43.4719847061661,-80.5417184103699</string>
 		<string>43.4720793767611,-80.5417825056349</string>
 		<string>43.472264513617,-80.5412683871152</string>
 		<string>43.4723069112905,-80.5413073354879</string>
 		<string>43.4726531578437,-80.5415566050732</string>
 		<string>43.4728552518538,-80.5416890295404</string>
 		<string>43.4728707975189,-80.5418798765666</string>
-		<string>43.4729202609722,-80.5417318727504</string>
-		<string>43.4728552518538,-80.5416890295404</string>
-		<string>43.4728707975189,-80.5418798765666</string>
-		<string>43.4729202609722,-80.5417318727504</string>
 		<string>43.4729202609722,-80.5417318727504</string>
 		<string>43.4729598317056,-80.5417571891926</string>
-		<string>43.4728707975189,-80.5418798765666</string>
-		<string>43.4728552518538,-80.5416890295404</string>
-		<string>43.4728034599525,-80.5413483121057</string>
-		<string>43.4726531578437,-80.5415566050732</string>
 		<string>43.472538684713,-80.5412489129288</string>
 		<string>43.472418558355,-80.5409334311099</string>
-		<string>43.4724351472531,-80.5409076700408</string>
-		<string>43.4723069112905,-80.5413073354879</string>
 		<string>43.4723902932949,-80.5412820190456</string>
-		<string>43.472538684713,-80.5412489129288</string>
-		<string>43.472264513617,-80.5412683871152</string>
 		<string>43.4723577884594,-80.5410191175299</string>
 		<string>43.4723846402812,-80.5409626423895</string>
-		<string>43.472418558355,-80.5409334311099</string>
-		<string>43.472538684713,-80.5412489129288</string>
 		<string>43.4725895616867,-80.5412430706729</string>
-		<string>43.4726135936087,-80.541147662594</string>
-		<string>43.472398030345,-80.540862425543</string>
 		<string>43.4724009981237,-80.5408871251122</string>
-		<string>43.472418558355,-80.5409334311099</string>
-		<string>43.4728034599525,-80.5413483121057</string>
 		<string>43.4727270760964,-80.5412645943159</string>
 		<string>43.4726440151702,-80.541242887162</string>
-		<string>43.4725895616867,-80.5412430706729</string>
-		<string>43.4727270760964,-80.5412645943159</string>
-		<string>43.4726135936087,-80.541147662594</string>
-		<string>43.4729598317056,-80.5417571891926</string>
-		<string>43.473064703646,-80.5416197790922</string>
-		<string>43.4729202609722,-80.5417318727504</string>
-		<string>43.47299189814,-80.5415410930092</string>
-		<string>43.4734096597984,-80.542470999771</string>
-		<string>43.4734264992772,-80.5424240832626</string>
-		<string>43.4734902607291,-80.5422347289199</string>
 		<string>43.4734264992772,-80.5424240832626</string>
 		<string>43.4733453344458,-80.5423703119037</string>
 		<string>43.4734483513286,-80.5420885499826</string>
-		<string>43.4734901144569,-80.5419738664658</string>
-		<string>43.4734902607291,-80.5422347289199</string>
 		<string>43.473535759455,-80.5421165110892</string>
-		<string>43.4735657744552,-80.5420525525489</string>
-		<string>43.4724753826273,-80.5447768724329</string>
 		<string>43.4725055842154,-80.5447986264755</string>
 		<string>43.4725461672086,-80.544813682456</string>
 		<string>43.4725914328228,-80.544813682456</string>
@@ -14402,12 +13103,8 @@
 		<string>43.4738510520034,-80.5448545486888</string>
 		<string>43.473890073244,-80.544813682456</string>
 		<string>43.4739119251278,-80.544783570495</string>
-		<string>43.4726601809368,-80.5456306674694</string>
 		<string>43.4725071451003,-80.5457019853064</string>
-		<string>43.4724775819277,-80.5455363113068</string>
 		<string>43.4725133886393,-80.5457600583741</string>
-		<string>43.4725071451003,-80.5457019853064</string>
-		<string>43.4716286614458,-80.5471887549888</string>
 		<string>43.4717001622511,-80.5471817731057</string>
 		<string>43.4717891338095,-80.5471925273775</string>
 		<string>43.4719561502406,-80.5471968290862</string>
@@ -14417,48 +13114,19 @@
 		<string>43.4717313803567,-80.5466698697682</string>
 		<string>43.4716829922862,-80.5464805945846</string>
 		<string>43.4716486523417,-80.5464978014194</string>
-		<string>43.471563082235,-80.5469392692824</string>
-		<string>43.4716829922862,-80.5464805945846</string>
 		<string>43.4716486523417,-80.546321431362</string>
 		<string>43.4717828901956,-80.5462655091486</string>
 		<string>43.4717516721166,-80.5461472121589</string>
 		<string>43.4717438675944,-80.5461041950717</string>
-		<string>43.4716938616733,-80.545889945691</string>
-		<string>43.4718656180268,-80.5466160984092</string>
-		<string>43.4717828901956,-80.5462655091486</string>
-		<string>43.4719561502406,-80.5471968290862</string>
 		<string>43.4719252852641,-80.5469229667924</string>
-		<string>43.4718905924442,-80.546734395399</string>
 		<string>43.4721607552004,-80.5468127700114</string>
-		<string>43.4719252852641,-80.5469229667924</string>
 		<string>43.4718616045577,-80.5469515363282</string>
 		<string>43.4717534952979,-80.5470515297036</string>
-		<string>43.4716286614458,-80.5471887549888</string>
-		<string>43.4716286614458,-80.5471887549888</string>
 		<string>43.4715831857976,-80.5472637605411</string>
 		<string>43.4715594905247,-80.5473474284674</string>
-		<string>43.4721607552004,-80.5468127700114</string>
-		<string>43.4718749834345,-80.5466483612246</string>
-		<string>43.4717516721166,-80.5461472121589</string>
-		<string>43.4717438675944,-80.5461041950717</string>
 		<string>43.471907698823,-80.5457954944997</string>
-		<string>43.4718658451316,-80.5456885081002</string>
-		<string>43.4723157881801,-80.5453645041874</string>
-		<string>43.4725133886393,-80.5457600583741</string>
 		<string>43.4725685038654,-80.5466352607969</string>
-		<string>43.4721607552004,-80.5468127700114</string>
-		<string>43.4722006645525,-80.5445915394201</string>
 		<string>43.471709827833,-80.5440320030008</string>
-		<string>43.471709827833,-80.5440320030008</string>
-		<string>43.4716959612089,-80.5435923319455</string>
-		<string>43.4719720142322,-80.5433575203147</string>
-		<string>43.471709827833,-80.5440320030008</string>
-		<string>43.471709827833,-80.5440320030008</string>
-		<string>43.4720650947048,-80.5450576074601</string>
-		<string>43.4719175720148,-80.5449518037943</string>
-		<string>43.4719175720148,-80.5449518037943</string>
-		<string>43.4712438359751,-80.5453369797553</string>
-		<string>43.471637966944,-80.5459096944745</string>
 		<string>43.4717568333254,-80.5450186797235</string>
 		<string>43.471762485897,-80.5450654136309</string>
 		<string>43.4717766173238,-80.545121883769</string>
@@ -14467,10 +13135,7 @@
 		<string>43.4715618192811,-80.5455288582128</string>
 		<string>43.4718289035739,-80.545421759675</string>
 		<string>43.4718684715169,-80.5454100761982</string>
-		<string>43.4717766173238,-80.545121883769</string>
 		<string>43.4717695516108,-80.5451588814458</string>
-		<string>43.4718289035739,-80.545421759675</string>
-		<string>43.4717766173238,-80.545121883769</string>
 		<string>43.4717850961782,-80.5451394089843</string>
 		<string>43.4718048801673,-80.5451647231842</string>
 		<string>43.4718331429976,-80.5451939318763</string>
@@ -14478,29 +13143,18 @@
 		<string>43.4718981474571,-80.5452134043377</string>
 		<string>43.4719278233828,-80.5452075625993</string>
 		<string>43.4719617387085,-80.5451997736148</string>
-		<string>43.4719617387085,-80.5451997736148</string>
 		<string>43.4719871751904,-80.5451861428918</string>
 		<string>43.4719829357775,-80.5452231405685</string>
 		<string>43.471968804399,-80.5452620854913</string>
 		<string>43.4719461941866,-80.5452932414296</string>
 		<string>43.4719136919914,-80.5453146611372</string>
 		<string>43.4718882554786,-80.5453516588139</string>
-		<string>43.4718684715169,-80.5454100761982</string>
-		<string>43.4713668046075,-80.5452912941835</string>
 		<string>43.4713201705706,-80.5453049249064</string>
 		<string>43.4712820154227,-80.5450926750769</string>
 		<string>43.47132441003,-80.5450673608771</string>
-		<string>43.4718684715169,-80.5454100761982</string>
-		<string>43.4715618192811,-80.5455288582128</string>
-		<string>43.4713201705706,-80.5453049249064</string>
-		<string>43.47132441003,-80.5450673608771</string>
-		<string>43.4717568333254,-80.5450186797235</string>
 		<string>43.4717609890722,-80.5449606379806</string>
-		<string>43.4717568333254,-80.5450186797235</string>
 		<string>43.4720288741877,-80.5451384408585</string>
 		<string>43.4720064335953,-80.5451693630982</string>
-		<string>43.4719871751904,-80.5451861428918</string>
-		<string>43.4719617387085,-80.5451997736148</string>
 		<string>43.4723772859507,-80.5437524806079</string>
 		<string>43.4722176333873,-80.5436424826748</string>
 		<string>43.4720467766681,-80.5435228358002</string>
@@ -14509,39 +13163,20 @@
 		<string>43.4718002939926,-80.5439435296496</string>
 		<string>43.4717890902107,-80.543978265839</string>
 		<string>43.4720383738662,-80.5441365084796</string>
-		<string>43.4722176333873,-80.5436424826748</string>
-		<string>43.4720383738662,-80.5441365084796</string>
 		<string>43.4722064296828,-80.5442445766244</string>
-		<string>43.4723772859507,-80.5437524806079</string>
 		<string>43.472426302004,-80.5437814274324</string>
 		<string>43.4724585125316,-80.5436945869589</string>
 		<string>43.4717447615648,-80.5439107054813</string>
-		<string>43.4718002939926,-80.5439435296496</string>
-		<string>43.4718689171112,-80.5437312529366</string>
 		<string>43.4717566466541,-80.5440607761202</string>
-		<string>43.4717890902107,-80.543978265839</string>
 		<string>43.4722808358314,-80.5442809518058</string>
-		<string>43.4722064296828,-80.5442445766244</string>
-		<string>43.4724585125316,-80.5436945869589</string>
-		<string>43.4720467766681,-80.5435228358002</string>
 		<string>43.4719727404733,-80.5434397260311</string>
-		<string>43.4719669500026,-80.5434668719395</string>
 		<string>43.4725508134414,-80.5437501983475</string>
 		<string>43.4725683544298,-80.5437078991023</string>
-		<string>43.4725683544298,-80.5437078991023</string>
-		<string>43.4726842718676,-80.5432567971455</string>
-		<string>43.4727248112147,-80.5431450726748</string>
-		<string>43.4728058898273,-80.5429216237334</string>
 		<string>43.4729161973819,-80.542657875411</string>
 		<string>43.4728874049808,-80.5427173884478</string>
-		<string>43.4728148985553,-80.5428905891581</string>
-		<string>43.4726187592445,-80.5427391789779</string>
 		<string>43.4726138764853,-80.5425626545522</string>
 		<string>43.4725447743537,-80.5426201838211</string>
-		<string>43.4724912009172,-80.5426443806816</string>
-		<string>43.4728707975189,-80.5418798765666</string>
 		<string>43.4732113187032,-80.5422829432795</string>
-		<string>43.4733453344458,-80.5423703119037</string>
 		<string>43.4726760112104,-80.5424039012837</string>
 		<string>43.4728158207911,-80.5420069165984</string>
 		<string>43.4729754010283,-80.5421197847933</string>
@@ -14555,7 +13190,6 @@
 		<string>43.4728045230592,-80.543067488429</string>
 		<string>43.472767805416,-80.5431764646171</string>
 		<string>43.4727296755322,-80.5432796027952</string>
-		<string>43.4729754010283,-80.5421197847933</string>
 		<string>43.4730248284499,-80.5422190309646</string>
 		<string>43.473050248251,-80.5422890870855</string>
 		<string>43.473050248251,-80.5423494131896</string>
@@ -14565,59 +13199,26 @@
 		<string>43.4729782254535,-80.5424914714348</string>
 		<string>43.4729302102074,-80.5425128774718</string>
 		<string>43.4728539506206,-80.5425245534919</string>
-		<string>43.4726760112104,-80.5424039012837</string>
-		<string>43.4729838743034,-80.5426218536599</string>
-		<string>43.4728539506206,-80.5425245534919</string>
-		<string>43.4726760112104,-80.5424039012837</string>
-		<string>43.4728158207911,-80.5420069165984</string>
-		<string>43.4727296755322,-80.5432796027952</string>
-		<string>43.4727296755322,-80.5432796027952</string>
-		<string>43.472767805416,-80.5431764646171</string>
-		<string>43.4728468895428,-80.5429507282275</string>
-		<string>43.4729457445559,-80.5426782877573</string>
-		<string>43.4717566466541,-80.5440607761202</string>
 		<string>43.4717664040359,-80.5440325363681</string>
-		<string>43.4717890902107,-80.543978265839</string>
-		<string>43.4717664040359,-80.5440325363681</string>
-		<string>43.4717878766722,-80.5448677756804</string>
-		<string>43.4712853989986,-80.5449222553035</string>
-		<string>43.4723693752971,-80.542814227629</string>
 		<string>43.4722901203327,-80.5427567157607</string>
-		<string>43.4722901203327,-80.5427567157607</string>
-		<string>43.47212265528,-80.5425007950778</string>
 		<string>43.4717482169011,-80.5430009055709</string>
-		<string>43.4714628942324,-80.5431359542817</string>
-		<string>43.4710571231907,-80.5427507961359</string>
 		<string>43.4715402229558,-80.5428550934765</string>
 		<string>43.4711255981567,-80.5425671309366</string>
-		<string>43.4717060604491,-80.5425160096244</string>
 		<string>43.471688938972,-80.5425153264901</string>
 		<string>43.471456268525,-80.542364182617</string>
-		<string>43.471055682455,-80.5421016211016</string>
 		<string>43.4713531697176,-80.5418869079551</string>
-		<string>43.47123564461,-80.5422062105926</string>
 		<string>43.47123564461,-80.5422062105926</string>
 		<string>43.4712012740164,-80.5422917653662</string>
-		<string>43.4713531697176,-80.5418869079551</string>
 		<string>43.4715893279694,-80.5420381565729</string>
 		<string>43.4720838225123,-80.5426104931937</string>
 		<string>43.4719062711621,-80.5431088445816</string>
-		<string>43.4722901203327,-80.5427567157607</string>
-		<string>43.4720838225123,-80.5426104931937</string>
-		<string>43.4685109322651,-80.5419628425922</string>
 		<string>43.4686129777787,-80.5416574547596</string>
 		<string>43.468651772021,-80.541536801622</string>
 		<string>43.4687360108614,-80.5412832773075</string>
-		<string>43.469241734188,-80.5415868123485</string>
-		<string>43.468651772021,-80.541536801622</string>
 		<string>43.468651772021,-80.5414130939745</string>
 		<string>43.4686296038856,-80.5413184041703</string>
 		<string>43.4686007852974,-80.5412282961308</string>
 		<string>43.468556448981,-80.5411519333855</string>
-		<string>43.4687360108614,-80.5412832773075</string>
-		<string>43.468556448981,-80.5411519333855</string>
-		<string>43.468539822854,-80.5411397153462</string>
-		<string>43.4686239207205,-80.5408262718939</string>
 		<string>43.468539822854,-80.5411397153462</string>
 		<string>43.4684755351198,-80.5410954249539</string>
 		<string>43.4682992977048,-80.5409762990712</string>
@@ -14628,7 +13229,6 @@
 		<string>43.4681795889789,-80.5406708480899</string>
 		<string>43.4682150582557,-80.54058684907</string>
 		<string>43.468236118129,-80.5405608857366</string>
-		<string>43.4686239207205,-80.5408262718939</string>
 		<string>43.4680768209359,-80.5423069145136</string>
 		<string>43.4680757129173,-80.542326761689</string>
 		<string>43.46805466056,-80.5423557690992</string>
@@ -14637,36 +13237,27 @@
 		<string>43.467927238241,-80.5423374486296</string>
 		<string>43.4679194820912,-80.5423588225108</string>
 		<string>43.4679039697885,-80.5424550049761</string>
-		<string>43.4679039697885,-80.5424550049761</string>
 		<string>43.4677045255427,-80.542311494631</string>
 		<string>43.4676502322729,-80.5422550065165</string>
 		<string>43.4675992630365,-80.5421588240512</string>
 		<string>43.4675782105133,-80.5420885955844</string>
 		<string>43.4675593740389,-80.5420931757018</string>
 		<string>43.4675217010725,-80.541940505122</string>
-		<string>43.4675217010725,-80.541940505122</string>
 		<string>43.4675095127548,-80.5417618805435</string>
-		<string>43.4675106207838,-80.5415679889071</string>
 		<string>43.4675106207838,-80.5415679889071</string>
 		<string>43.4674818120237,-80.5415176076158</string>
 		<string>43.4674064659708,-80.5414611195012</string>
 		<string>43.4673676848776,-80.5414198984447</string>
 		<string>43.4673322278563,-80.5413450898605</string>
-		<string>43.467225481609,-80.5408862200685</string>
-		<string>43.4680731810235,-80.5408419006394</string>
 		<string>43.4680358242341,-80.5407924223615</string>
 		<string>43.4680192039417,-80.5407374609527</string>
 		<string>43.4680192039417,-80.5406931864846</string>
 		<string>43.4679915034442,-80.5405847903729</string>
-		<string>43.4679847770284,-80.5404997120372</string>
-		<string>43.4673676848776,-80.5414198984447</string>
 		<string>43.4672003718759,-80.5415328746737</string>
-		<string>43.4668553767091,-80.541070367874</string>
 		<string>43.4669000937378,-80.5412519608068</string>
 		<string>43.4669687921888,-80.5413802040939</string>
 		<string>43.4670108976525,-80.5414992871462</string>
 		<string>43.4670463548622,-80.5415802025535</string>
-		<string>43.4676393119363,-80.5434922981637</string>
 		<string>43.4675987474832,-80.5432992532426</string>
 		<string>43.4675987474832,-80.5432030707773</string>
 		<string>43.4676186919724,-80.543114521841</string>
@@ -14676,20 +13267,15 @@
 		<string>43.4677549791384,-80.542902309735</string>
 		<string>43.467861349396,-80.5426168157507</string>
 		<string>43.4678934820411,-80.542516053168</string>
-		<string>43.4679039697885,-80.5424550049761</string>
-		<string>43.4677350346943,-80.5428931495002</string>
 		<string>43.4677006859139,-80.5428763557364</string>
 		<string>43.4676430685612,-80.542856508561</string>
 		<string>43.4675610745414,-80.5427923869175</string>
-		<string>43.469437647581,-80.542870102989</string>
 		<string>43.4694643737745,-80.5428273853477</string>
 		<string>43.4695751729885,-80.5427144091186</string>
 		<string>43.4695962248162,-80.5426701346504</string>
-		<string>43.4706780613146,-80.5444255938976</string>
 		<string>43.4706532387381,-80.5443693582042</string>
 		<string>43.4706366191654,-80.5442976030316</string>
 		<string>43.4706366191654,-80.5441861535083</string>
-		<string>43.4728884289224,-80.5456778455506</string>
 		<string>43.4729780763383,-80.5462115336645</string>
 		<string>43.472974752552,-80.5462649683675</string>
 		<string>43.4729802921958,-80.5463000826009</string>
@@ -14697,34 +13283,25 @@
 		<string>43.472964781192,-80.5465122947069</string>
 		<string>43.4729581336177,-80.5465672561156</string>
 		<string>43.4726357253875,-80.5473489294844</string>
-		<string>43.4715594905247,-80.5473474284674</string>
 		<string>43.4716116571204,-80.5475439911426</string>
 		<string>43.4716714865956,-80.5477271958384</string>
 		<string>43.4717844976648,-80.5479058204168</string>
 		<string>43.4718321395228,-80.5479378812386</string>
 		<string>43.4718288156735,-80.5477287225442</string>
-		<string>43.4716714865956,-80.5477271958384</string>
 		<string>43.4716327082388,-80.5479958960589</string>
 		<string>43.4716138730279,-80.5480966586416</string>
 		<string>43.4714166569385,-80.5483607787448</string>
 		<string>43.4714598672603,-80.5480829182894</string>
 		<string>43.4715141571081,-80.5476264332556</string>
 		<string>43.471539640081,-80.5474478086772</string>
-		<string>43.4715594905247,-80.5473474284674</string>
-		<string>43.4714166569385,-80.5483607787448</string>
 		<string>43.4714000375757,-80.5483989463897</string>
 		<string>43.4713933898293,-80.5484478009753</string>
 		<string>43.4714332762967,-80.5487256614306</string>
 		<string>43.471343531708,-80.548661539787</string>
-		<string>43.4713933898293,-80.5484478009753</string>
-		<string>43.4716138730279,-80.5480966586416</string>
 		<string>43.4717712022558,-80.5481149791112</string>
 		<string>43.4718432190193,-80.5481455132271</string>
 		<string>43.4718022248721,-80.5480203233517</string>
-		<string>43.4717844976648,-80.5479058204168</string>
 		<string>43.4716725945482,-80.5480157432343</string>
-		<string>43.4716138730279,-80.5480966586416</string>
-		<string>43.4718321395228,-80.5479378812386</string>
 		<string>43.4718775654454,-80.5479684153545</string>
 		<string>43.4719307469701,-80.5480584909966</string>
 		<string>43.472026030418,-80.5484279537999</string>
@@ -14734,7 +13311,6 @@
 		<string>43.4718576223616,-80.5488355842481</string>
 		<string>43.4718155202742,-80.5488081035437</string>
 		<string>43.4717202364944,-80.5488142103669</string>
-		<string>43.4718576223616,-80.5488355842481</string>
 		<string>43.4719340708138,-80.5489439803598</string>
 		<string>43.4720747800309,-80.5490569565888</string>
 		<string>43.4721146660486,-80.5490661168236</string>
@@ -14743,22 +13319,16 @@
 		<string>43.4723462260202,-80.5490920708222</string>
 		<string>43.4724636675806,-80.5491790930527</string>
 		<string>43.4724747469613,-80.549147032231</string>
-		<string>43.4724747469613,-80.549147032231</string>
 		<string>43.4724481564442,-80.5487974166031</string>
 		<string>43.4724093785857,-80.5485928380261</string>
 		<string>43.4723584133625,-80.5483638321563</string>
 		<string>43.472329606913,-80.5482890235722</string>
 		<string>43.4722908289785,-80.5482416956925</string>
-		<string>43.4718775654454,-80.5479684153545</string>
-		<string>43.4720747800309,-80.5490569565888</string>
 		<string>43.4718711544185,-80.5495840592311</string>
-		<string>43.4724636675806,-80.5491790930527</string>
 		<string>43.4724395296005,-80.5493779539483</string>
 		<string>43.4723453547449,-80.549637493934</string>
 		<string>43.4722622591621,-80.5498176452182</string>
 		<string>43.4720883120391,-80.5497321496935</string>
-		<string>43.4722622591621,-80.5498176452182</string>
-		<string>43.4722733385797,-80.5499871095619</string>
 		<string>43.4722733385797,-80.5499871095619</string>
 		<string>43.4722423162053,-80.5500787119098</string>
 		<string>43.4721337377692,-80.5503871064811</string>
@@ -14769,14 +13339,11 @@
 		<string>43.4717293367756,-80.5508206909279</string>
 		<string>43.4717226890654,-80.550698554464</string>
 		<string>43.4716296210462,-80.5505779447059</string>
-		<string>43.4717293367756,-80.5508206909279</string>
 		<string>43.4716639675938,-80.5509092398642</string>
 		<string>43.4716152176495,-80.5509214535106</string>
 		<string>43.4716285130928,-80.5509748882135</string>
 		<string>43.4716118937883,-80.551039009857</string>
-		<string>43.4716152176495,-80.5509214535106</string>
 		<string>43.4715542801638,-80.5508848125714</string>
-		<string>43.4718135410412,-80.5509733615077</string>
 		<string>43.4717105015949,-80.5512527486688</string>
 		<string>43.4715576040283,-80.551312290195</string>
 		<string>43.4713526320459,-80.5513260305471</string>
@@ -14786,10 +13353,6 @@
 		<string>43.4716174335569,-80.5490436053784</string>
 		<string>43.4713969503713,-80.5490970400813</string>
 		<string>43.4713149614438,-80.548819179626</string>
-		<string>43.471343531708,-80.548661539787</string>
-		<string>43.4713149614438,-80.548819179626</string>
-		<string>43.4712739669384,-80.549016124674</string>
-		<string>43.4713969503713,-80.5490970400813</string>
 		<string>43.4712739669384,-80.549016124674</string>
 		<string>43.4712052733804,-80.5492466572496</string>
 		<string>43.471177574343,-80.5493336794801</string>
@@ -14797,12 +13360,10 @@
 		<string>43.4711399036318,-80.5495535251151</string>
 		<string>43.4712230007577,-80.5497443633399</string>
 		<string>43.471252915695,-80.5498100116892</string>
-		<string>43.4711399036318,-80.5495535251151</string>
 		<string>43.471129931969,-80.549629860405</string>
 		<string>43.4711786823047,-80.5501626807287</string>
 		<string>43.4711177443789,-80.55021306202</string>
 		<string>43.471095585118,-80.5501504670823</string>
-		<string>43.4711676026865,-80.549387114183</string>
 		<string>43.4707377119279,-80.5497031422833</string>
 		<string>43.470639102534,-80.5498252787472</string>
 		<string>43.4704640427644,-80.5501550471997</string>
@@ -14812,18 +13373,11 @@
 		<string>43.4704762304863,-80.5508023704583</string>
 		<string>43.4705504647394,-80.5509443540975</string>
 		<string>43.4706280228168,-80.5510161092701</string>
-		<string>43.4704363433873,-80.5506435930552</string>
 		<string>43.4707244162886,-80.5507809965771</string>
-		<string>43.4706280228168,-80.5510161092701</string>
-		<string>43.4711177443789,-80.55021306202</string>
 		<string>43.4710346471083,-80.5502832904868</string>
 		<string>43.4709460098938,-80.5503657325999</string>
 		<string>43.4708485088076,-80.5504710753</string>
-		<string>43.4707244162886,-80.5507809965771</string>
-		<string>43.4708485088076,-80.5504710753</string>
 		<string>43.470967061244,-80.5501138261431</string>
-		<string>43.4710346471083,-80.5502832904868</string>
-		<string>43.4706280228168,-80.5510161092701</string>
 		<string>43.4706114032372,-80.551061910444</string>
 		<string>43.4705670843358,-80.5512191611412</string>
 		<string>43.4703875924528,-80.5520420555666</string>
@@ -14841,7 +13395,6 @@
 		<string>43.4705548966322,-80.5542573056803</string>
 		<string>43.4705327371649,-80.5542176113295</string>
 		<string>43.4705615444709,-80.5542008175657</string>
-		<string>43.4705327371649,-80.5542176113295</string>
 		<string>43.4704939580775,-80.5541580698034</string>
 		<string>43.4704717985878,-80.5540985282772</string>
 		<string>43.4705648683899,-80.5539076900524</string>
@@ -14849,19 +13402,16 @@
 		<string>43.4704019961421,-80.5538099808813</string>
 		<string>43.4704396673133,-80.5538832627596</string>
 		<string>43.4704551789652,-80.5540405134569</string>
-		<string>43.4704717985878,-80.5540985282772</string>
 		<string>43.4698890010921,-80.5531763979749</string>
 		<string>43.4698723813093,-80.5532267792663</string>
 		<string>43.4698546535359,-80.5532725804402</string>
 		<string>43.4696674036116,-80.553297007733</string>
 		<string>43.4695000969755,-80.5533382287895</string>
-		<string>43.4711779083622,-80.5453587034171</string>
 		<string>43.4711412553436,-80.5453801309242</string>
 		<string>43.4711102323881,-80.5453877644532</string>
 		<string>43.4710581581054,-80.5453938712764</string>
 		<string>43.4710027598831,-80.5453801309242</string>
 		<string>43.4709506855078,-80.5453557036314</string>
-		<string>43.4708454286548,-80.5452992155168</string>
 		<string>43.4708454286548,-80.5452992155168</string>
 		<string>43.4707844903929,-80.5452961621052</string>
 		<string>43.4707157962786,-80.5453251695154</string>
@@ -14870,11 +13420,8 @@
 		<string>43.4705928114597,-80.5455816560896</string>
 		<string>43.4705019576489,-80.5456778385549</string>
 		<string>43.4704897699322,-80.5457037925535</string>
-		<string>43.4706116469887,-80.5454579929199</string>
 		<string>43.4705119294153,-80.5454640997431</string>
 		<string>43.4705673280875,-80.5455572287968</string>
-		<string>43.4705928114597,-80.5455816560896</string>
-		<string>43.4705119294153,-80.5454640997431</string>
 		<string>43.4704072745129,-80.5456321723476</string>
 		<string>43.4702986927801,-80.5456321723476</string>
 		<string>43.4702122704451,-80.5461481989075</string>
@@ -14883,7 +13430,6 @@
 		<string>43.4694610557127,-80.5486626833577</string>
 		<string>43.469257184617,-80.5493222202626</string>
 		<string>43.4692926405092,-80.5502870983273</string>
-		<string>43.4693469323037,-80.5507328964204</string>
 		<string>43.4693469323037,-80.5507328964204</string>
 		<string>43.4694455796835,-80.551059373092</string>
 		<string>43.4695753215608,-80.551411658514</string>
@@ -14895,22 +13441,14 @@
 		<string>43.4698411643414,-80.5525228473572</string>
 		<string>43.4698500681464,-80.552599964564</string>
 		<string>43.4699060348903,-80.5528137895465</string>
-		<string>43.4698890010921,-80.5531763979749</string>
-		<string>43.4706114032372,-80.551061910444</string>
 		<string>43.4706924860969,-80.5510858582423</string>
 		<string>43.4707633961764,-80.5510690644785</string>
 		<string>43.4708775169109,-80.551020209893</string>
-		<string>43.4707244162886,-80.5507809965771</string>
-		<string>43.4698546535359,-80.5532725804402</string>
 		<string>43.4697687491548,-80.5536211555078</string>
 		<string>43.4697465893992,-80.5537417652658</string>
 		<string>43.4696169546663,-80.5536181020962</string>
-		<string>43.4695000969755,-80.5533382287895</string>
-		<string>43.4715594905247,-80.5473474284674</string>
 		<string>43.4714706362508,-80.5470579616434</string>
 		<string>43.4713771151771,-80.5466514168254</string>
-		<string>43.4710581581054,-80.5453938712764</string>
-		<string>43.4710581581054,-80.5453938712764</string>
 		<string>43.4709596086186,-80.5449700088231</string>
 		<string>43.4709184144818,-80.5448672220201</string>
 		<string>43.4708404795517,-80.5447521621659</string>
@@ -14919,23 +13457,17 @@
 		<string>43.4702659846802,-80.5444545406765</string>
 		<string>43.4695567654564,-80.5441078269826</string>
 		<string>43.4689488566408,-80.5439789599459</string>
-		<string>43.4689488566408,-80.5439789599459</string>
 		<string>43.4682771572564,-80.543866266175</string>
 		<string>43.4680700637426,-80.5438340494158</string>
 		<string>43.4676347196876,-80.5437327967442</string>
 		<string>43.4673819737465,-80.5436269416783</string>
 		<string>43.4670501735058,-80.5433784123933</string>
 		<string>43.4670267915409,-80.5433492638969</string>
-		<string>43.4670267915409,-80.5433492638969</string>
 		<string>43.4667773833531,-80.5430501082761</string>
 		<string>43.4666938759173,-80.5429197071081</string>
 		<string>43.4666137086705,-80.5427570891808</string>
 		<string>43.4666805147169,-80.5426834508742</string>
-		<string>43.466707040379,-80.542640683226</string>
-		<string>43.4689488566408,-80.5439789599459</string>
 		<string>43.4690509681396,-80.5438754709633</string>
-		<string>43.4690980899532,-80.5437915305942</string>
-		<string>43.4689488566408,-80.5439789599459</string>
 		<string>43.468849444245,-80.5439859284233</string>
 		<string>43.4687759602267,-80.5440135427883</string>
 		<string>43.4687069297039,-80.5440672373869</string>
@@ -14946,8 +13478,6 @@
 		<string>43.4682838376806,-80.5442958229639</string>
 		<string>43.4682838376806,-80.5442099116061</string>
 		<string>43.4682715902358,-80.5441132613286</string>
-		<string>43.4682771572564,-80.543866266175</string>
-		<string>43.4682983119303,-80.5443940073728</string>
 		<string>43.4683049923521,-80.5445244085408</string>
 		<string>43.4683161263868,-80.5446916288622</string>
 		<string>43.4683673429198,-80.5447054360447</string>
@@ -14961,8 +13491,6 @@
 		<string>43.4683094459662,-80.5451518682789</string>
 		<string>43.4683038789486,-80.5449601018553</string>
 		<string>43.4682983119303,-80.544805154585</string>
-		<string>43.4683161263868,-80.5446916288622</string>
-		<string>43.4687047029115,-80.5452224383228</string>
 		<string>43.4687909884118,-80.5452987615517</string>
 		<string>43.4688408486387,-80.5453674633127</string>
 		<string>43.4688663327388,-80.5454071576634</string>
@@ -14973,11 +13501,7 @@
 		<string>43.4688297685919,-80.5455689884781</string>
 		<string>43.4688596847138,-80.5455476145969</string>
 		<string>43.4689427849747,-80.5455476145969</string>
-		<string>43.4689804570553,-80.5455613549491</string>
-		<string>43.4688297685919,-80.5455689884781</string>
 		<string>43.4688209045529,-80.5454575389548</string>
-		<string>43.4688408486387,-80.5453674633127</string>
-		<string>43.4683094459662,-80.5451518682789</string>
 		<string>43.468334488422,-80.5453018149633</string>
 		<string>43.4683422445186,-80.5453567763721</string>
 		<string>43.4683876730643,-80.5455247140099</string>
@@ -14991,14 +13515,11 @@
 		<string>43.4686469475252,-80.5462850134976</string>
 		<string>43.4686004111654,-80.5462880669092</string>
 		<string>43.4685416866602,-80.5462941737323</string>
-		<string>43.4685416866602,-80.5462941737323</string>
 		<string>43.4684940422085,-80.5462880669092</string>
 		<string>43.4684685579514,-80.5463079140846</string>
 		<string>43.4684397496478,-80.5462911203208</string>
 		<string>43.4684563698246,-80.546220891854</string>
 		<string>43.4684696659628,-80.5459903592784</string>
-		<string>43.4684929341975,-80.5458239483464</string>
-		<string>43.4683038789486,-80.5449601018553</string>
 		<string>43.4682429804949,-80.5450241201629</string>
 		<string>43.4681122345191,-80.5453035073241</string>
 		<string>43.4680789939717,-80.5454271704937</string>
@@ -15013,29 +13534,17 @@
 		<string>43.4680745618974,-80.5465218185512</string>
 		<string>43.4681377189265,-80.5466989164239</string>
 		<string>43.4680601576535,-80.5467263971282</string>
-		<string>43.4705119294153,-80.5454640997431</string>
 		<string>43.4702846977929,-80.5450075290656</string>
 		<string>43.4702187163801,-80.5448432402821</string>
 		<string>43.4702082982558,-80.5447587033353</string>
 		<string>43.4702291345027,-80.5446247202498</string>
-		<string>43.4702659846802,-80.5444545406765</string>
-		<string>43.4702187163801,-80.5448432402821</string>
 		<string>43.4702164012415,-80.5449245871555</string>
 		<string>43.4702187163801,-80.5452053136204</string>
 		<string>43.4703009037429,-80.5454142634324</string>
-		<string>43.4702986927801,-80.5456321723476</string>
-		<string>43.4705119294153,-80.5454640997431</string>
 		<string>43.4704710659555,-80.545446164167</string>
-		<string>43.4703009037429,-80.5454142634324</string>
-		<string>43.4704072745129,-80.5456321723476</string>
-		<string>43.4704897699322,-80.5457037925535</string>
-		<string>43.4703009037429,-80.5454142634324</string>
 		<string>43.4702175588109,-80.545428618763</string>
-		<string>43.4702187163801,-80.5452053136204</string>
-		<string>43.4702164012415,-80.5449245871555</string>
 		<string>43.470048553457,-80.5450617603145</string>
 		<string>43.4698124081986,-80.5454015031385</string>
-		<string>43.4683161263868,-80.5446916288622</string>
 		<string>43.4682516328466,-80.5447106777852</string>
 		<string>43.4681275349958,-80.5447656391939</string>
 		<string>43.4680012208504,-80.5448022801331</string>
@@ -15046,7 +13555,6 @@
 		<string>43.4673884826973,-80.5452938794002</string>
 		<string>43.4673452694646,-80.5453457873973</string>
 		<string>43.4669430525099,-80.5457335706702</string>
-		<string>43.4674638287725,-80.5452282310508</string>
 		<string>43.4673585658472,-80.5452450248146</string>
 		<string>43.4673197847232,-80.545241971403</string>
 		<string>43.4672665991413,-80.5452328111682</string>
@@ -15057,27 +13565,20 @@
 		<string>43.467005102683,-80.5451564758783</string>
 		<string>43.466976293682,-80.5451442622319</string>
 		<string>43.4668289243465,-80.5450343394144</string>
-		<string>43.4668289243465,-80.5450343394144</string>
 		<string>43.4668433288839,-80.5450022785927</string>
 		<string>43.4671015019328,-80.5450328127086</string>
 		<string>43.4672001170981,-80.5450633468246</string>
 		<string>43.467313136528,-80.5450709803536</string>
 		<string>43.4675269864398,-80.5450618201188</string>
 		<string>43.4675934681234,-80.5450434996492</string>
-		<string>43.4676566256552,-80.5450389195318</string>
-		<string>43.4670472081213,-80.5451656361131</string>
 		<string>43.466878786192,-80.5452908259886</string>
 		<string>43.4668544092949,-80.5452969328118</string>
 		<string>43.466813411764,-80.5452694521074</string>
 		<string>43.4667735222478,-80.5452099105813</string>
 		<string>43.4667901428828,-80.545121361645</string>
 		<string>43.4668123037223,-80.5450862474116</string>
-		<string>43.4668289243465,-80.5450343394144</string>
-		<string>43.4668433288839,-80.5450022785927</string>
 		<string>43.4666926350925,-80.5449778512999</string>
 		<string>43.4666571776752,-80.5450144922391</string>
-		<string>43.4667735222478,-80.5452099105813</string>
-		<string>43.4670267915409,-80.5433492638969</string>
 		<string>43.4663845361169,-80.5430487833139</string>
 		<string>43.4662691752022,-80.5430154239065</string>
 		<string>43.4661908435914,-80.5429997253618</string>
@@ -15092,10 +13593,6 @@
 		<string>43.4663603245852,-80.542732850102</string>
 		<string>43.4664514738308,-80.5427563979191</string>
 		<string>43.4665255324916,-80.5427740587818</string>
-		<string>43.4666137086705,-80.5427570891808</string>
-		<string>43.4666938759173,-80.5429197071081</string>
-		<string>43.4664514738308,-80.5427563979191</string>
-		<string>43.4666137086705,-80.5427570891808</string>
 		<string>43.4664860503003,-80.5425080778961</string>
 		<string>43.4663725904657,-80.542081342894</string>
 		<string>43.4663158604685,-80.5417919236105</string>
@@ -15104,8 +13601,6 @@
 		<string>43.4659892786387,-80.5423306237368</string>
 		<string>43.4660613414477,-80.5423580868805</string>
 		<string>43.4663189269562,-80.5426580689116</string>
-		<string>43.4664514738308,-80.5427563979191</string>
-		<string>43.4663158604685,-80.5417919236105</string>
 		<string>43.4662943950503,-80.5416799584862</string>
 		<string>43.4662759961144,-80.5416271447483</string>
 		<string>43.4662882620723,-80.5415299674706</string>
@@ -15116,12 +13611,9 @@
 		<string>43.4667344346002,-80.5408518390763</string>
 		<string>43.4667558998621,-80.5409173281113</string>
 		<string>43.4668310282189,-80.5409849296957</string>
-		<string>43.4668553767091,-80.541070367874</string>
-		<string>43.4724351472531,-80.5409076700408</string>
 		<string>43.4724612959659,-80.5408503285099</string>
 		<string>43.4724776261301,-80.5408122473865</string>
 		<string>43.4724927001239,-80.5407707043429</string>
-		<string>43.4726647946199,-80.5403171927831</string>
 		<string>43.4726647946199,-80.5403171927831</string>
 		<string>43.4723217497651,-80.5399006090676</string>
 		<string>43.4721720739209,-80.5398165820577</string>
@@ -15130,20 +13622,10 @@
 		<string>43.4721742913435,-80.5402825500214</string>
 		<string>43.4721887045886,-80.5404475485135</string>
 		<string>43.4721920307215,-80.5405086590661</string>
-		<string>43.4722053075708,-80.5405909585566</string>
-		<string>43.4721742913435,-80.5402825500214</string>
 		<string>43.4721820833545,-80.5403775872783</string>
-		<string>43.4721887045886,-80.5404475485135</string>
-		<string>43.472398030345,-80.540862425543</string>
 		<string>43.4724081033721,-80.5407867444323</string>
 		<string>43.4724103192504,-80.5407348364352</string>
 		<string>43.4724125351287,-80.540675294909</string>
-		<string>43.4721820833545,-80.5403775872783</string>
-		<string>43.4724927001239,-80.5407707043429</string>
-		<string>43.4724125351287,-80.540675294909</string>
-		<string>43.4724927001239,-80.5407707043429</string>
-		<string>43.472769288345,-80.5410752819586</string>
-		<string>43.4728034599525,-80.5413483121057</string>
 		<string>43.472769288345,-80.5410752819586</string>
 		<string>43.4728545990927,-80.5411714644239</string>
 		<string>43.4730241122988,-80.5413378753559</string>
@@ -15153,29 +13635,17 @@
 		<string>43.4733243600133,-80.5415852016953</string>
 		<string>43.4734373679917,-80.5416798574548</string>
 		<string>43.4734772531101,-80.5417577194505</string>
-		<string>43.473064703646,-80.5416197790922</string>
-		<string>43.4731714665295,-80.5414844391126</string>
-		<string>43.47299189814,-80.5415410930092</string>
-		<string>43.4730507025625,-80.5413577225313</string>
-		<string>43.4734772531101,-80.5417577194505</string>
 		<string>43.4735149223644,-80.541791306978</string>
 		<string>43.4736279299866,-80.5418859627376</string>
 		<string>43.4737088078609,-80.5419516110869</string>
-		<string>43.473661720533,-80.5421317390617</string>
-		<string>43.4737088078609,-80.5419516110869</string>
 		<string>43.4741349766986,-80.5422648195761</string>
-		<string>43.4741925878628,-80.5423106207501</string>
 		<string>43.4741925878628,-80.5423106207501</string>
 		<string>43.4745664423738,-80.542545939124</string>
 		<string>43.4746738362584,-80.5426370104192</string>
 		<string>43.4747927954155,-80.5428054923153</string>
-		<string>43.4747927954155,-80.5428054923153</string>
 		<string>43.4748654925628,-80.5429716974291</string>
 		<string>43.4749414940325,-80.5431970988847</string>
-		<string>43.4748018425832,-80.5432282781398</string>
 		<string>43.4748902756612,-80.5432130363614</string>
-		<string>43.4749414940325,-80.5431970988847</string>
-		<string>43.4741039804308,-80.5455807518118</string>
 		<string>43.4747058435313,-80.5459935705391</string>
 		<string>43.4747671345468,-80.546066513586</string>
 		<string>43.4749203618137,-80.5461893650334</string>
@@ -15183,9 +13653,6 @@
 		<string>43.4751390582397,-80.5461452152945</string>
 		<string>43.4751836332104,-80.5460549962628</string>
 		<string>43.4752560674675,-80.5460281225087</string>
-		<string>43.4738327274094,-80.546430323321</string>
-		<string>43.4739014395496,-80.5461899608491</string>
-		<string>43.4739197932627,-80.546131659264</string>
 		<string>43.4739014395496,-80.5461899608491</string>
 		<string>43.4736206927538,-80.5460686804795</string>
 		<string>43.4734892315042,-80.5459888503628</string>
@@ -15194,46 +13661,19 @@
 		<string>43.4737710929851,-80.5456572483396</string>
 		<string>43.473804515208,-80.5455835590011</string>
 		<string>43.4739198810125,-80.5455053092851</string>
-		<string>43.4740854189587,-80.5456181348174</string>
-		<string>43.4739198810125,-80.5455053092851</string>
 		<string>43.474124844288,-80.5454274472894</string>
-		<string>43.474161092617,-80.5454095769962</string>
-		<string>43.4734892315042,-80.5459888503628</string>
 		<string>43.4733549293059,-80.5459000117346</string>
 		<string>43.4731100780848,-80.5457290206852</string>
-		<string>43.4730136800047,-80.5456613843135</string>
-		<string>43.4733549293059,-80.5459000117346</string>
-		<string>43.4735571903215,-80.5458199789621</string>
-		<string>43.4733827951508,-80.5451083495032</string>
 		<string>43.4733914907153,-80.5451336054238</string>
-		<string>43.4725685038654,-80.5466352607969</string>
 		<string>43.4728580182865,-80.5465109676342</string>
-		<string>43.4729503781135,-80.5463962650662</string>
-		<string>43.472974752552,-80.5462649683675</string>
 		<string>43.472741604806,-80.5463536079612</string>
-		<string>43.4726661016234,-80.5479800063906</string>
 		<string>43.472608603333,-80.5479922900019</string>
-		<string>43.4724979897158,-80.5480119586188</string>
-		<string>43.4718432190193,-80.5481455132271</string>
 		<string>43.4719224311312,-80.5482016385023</string>
 		<string>43.471997990365,-80.5483089110843</string>
-		<string>43.472026030418,-80.5484279537999</string>
-		<string>43.4719307469701,-80.5480584909966</string>
-		<string>43.471997990365,-80.5483089110843</string>
-		<string>43.4718711544185,-80.5495840592311</string>
-		<string>43.4715997062954,-80.5494145948874</string>
-		<string>43.4716174335569,-80.5490436053784</string>
 		<string>43.4716384023708,-80.5488787657055</string>
-		<string>43.4717202364944,-80.5488142103669</string>
-		<string>43.4714332762967,-80.5487256614306</string>
-		<string>43.4716384023708,-80.5488787657055</string>
-		<string>43.4713969503713,-80.5490970400813</string>
-		<string>43.4716196494643,-80.5492481839554</string>
-		<string>43.471129931969,-80.549629860405</string>
 		<string>43.4710888614888,-80.5497429069614</string>
 		<string>43.4710177440683,-80.5499620603108</string>
 		<string>43.4710138649338,-80.5499852228599</string>
-		<string>43.470967061244,-80.5501138261431</string>
 		<string>43.4713694512223,-80.5505037076135</string>
 		<string>43.4712802315865,-80.5507620591229</string>
 		<string>43.4711948909421,-80.5509812124724</string>
@@ -15241,132 +13681,63 @@
 		<string>43.4712362682393,-80.5510239741015</string>
 		<string>43.4712336821591,-80.5510792078725</string>
 		<string>43.4712104074319,-80.5511433503163</string>
-		<string>43.4713526320459,-80.5513260305471</string>
-		<string>43.4712104074319,-80.5511433503163</string>
 		<string>43.4711263597313,-80.5513874479494</string>
 		<string>43.4711612718673,-80.5513981383566</string>
 		<string>43.4712026491875,-80.5513642854002</string>
-		<string>43.4713526320459,-80.5513260305471</string>
-		<string>43.4712802315865,-80.5507620591229</string>
 		<string>43.4714522055493,-80.5508636179922</string>
-		<string>43.4715542801638,-80.5508848125714</string>
-		<string>43.4718789100612,-80.5509504609207</string>
-		<string>43.4720417783289,-80.5506191657624</string>
-		<string>43.4717105015949,-80.5512527486688</string>
 		<string>43.4716655560261,-80.5511415685817</string>
-		<string>43.4716118937883,-80.551039009857</string>
-		<string>43.4711612718673,-80.5513981383566</string>
 		<string>43.4712026491875,-80.5514551538622</string>
-		<string>43.4711263597313,-80.5513874479494</string>
 		<string>43.4710397258254,-80.5516155099715</string>
 		<string>43.4711082571344,-80.5516707437425</string>
 		<string>43.4711858396546,-80.5516814341498</string>
-		<string>43.4712026491875,-80.5514551538622</string>
-		<string>43.4708775169109,-80.551020209893</string>
 		<string>43.4710069037841,-80.5510032360442</string>
 		<string>43.4710501443442,-80.5510185136824</string>
 		<string>43.4710745364413,-80.5509528198383</string>
 		<string>43.4710978197976,-80.5509421254916</string>
 		<string>43.4711255380671,-80.5509360144363</string>
-		<string>43.4711948909421,-80.5509812124724</string>
-		<string>43.4710501443442,-80.5510185136824</string>
 		<string>43.4709924902573,-80.5511819844106</string>
 		<string>43.4709747505271,-80.5512247617975</string>
 		<string>43.4709747505271,-80.5512492060185</string>
 		<string>43.4709924902573,-80.5512843445863</string>
-		<string>43.4711263597313,-80.5513874479494</string>
-		<string>43.4709924902573,-80.5511819844106</string>
 		<string>43.4709437059869,-80.5511453180791</string>
-		<string>43.4708775169109,-80.551020209893</string>
-		<string>43.4701948042811,-80.5534038771389</string>
 		<string>43.4700696923738,-80.5536949529505</string>
 		<string>43.4702012303402,-80.553745299733</string>
 		<string>43.4703017105383,-80.553765438446</string>
-		<string>43.4704019961421,-80.5538099808813</string>
-		<string>43.4710479426793,-80.5533962436099</string>
-		<string>43.4711858396546,-80.5516814341498</string>
 		<string>43.4711356206235,-80.5523341482973</string>
-		<string>43.4711356206235,-80.5523341482973</string>
-		<string>43.4713694512223,-80.5505037076135</string>
 		<string>43.4715837139057,-80.5495250118123</string>
-		<string>43.4715997062954,-80.5494145948874</string>
-		<string>43.471252915695,-80.5498100116892</string>
-		<string>43.4711786823047,-80.5501626807287</string>
-		<string>43.4721337377692,-80.5503871064811</string>
-		<string>43.4722423162053,-80.5500787119098</string>
-		<string>43.4720883120391,-80.5497321496935</string>
 		<string>43.4720012460748,-80.5497025513646</string>
-		<string>43.4718711544185,-80.5495840592311</string>
-		<string>43.470967061244,-80.5501138261431</string>
 		<string>43.4709761829322,-80.5500884060812</string>
 		<string>43.4710576833839,-80.5501068667671</string>
-		<string>43.471095585118,-80.5501504670823</string>
-		<string>43.4710576833839,-80.5501068667671</string>
-		<string>43.4710138649338,-80.5499852228599</string>
-		<string>43.4709761829322,-80.5500884060812</string>
-		<string>43.4716296210462,-80.5505779447059</string>
-		<string>43.4718711544185,-80.5495840592311</string>
 		<string>43.4713874933498,-80.5504086030397</string>
 		<string>43.471452824674,-80.5504446122655</string>
 		<string>43.4715692330404,-80.5497915358532</string>
-		<string>43.4713874933498,-80.5504086030397</string>
 		<string>43.4715588967285,-80.5505188750514</string>
 		<string>43.4717394593336,-80.5498603664479</string>
-		<string>43.4715692330404,-80.5497915358532</string>
-		<string>43.4713874933498,-80.5504086030397</string>
-		<string>43.4715588967285,-80.5505188750514</string>
 		<string>43.4715509324928,-80.5505543757458</string>
-		<string>43.4716296210462,-80.5505779447059</string>
 		<string>43.4715911675336,-80.550584997192</string>
-		<string>43.4715509324928,-80.5505543757458</string>
-		<string>43.4710177440683,-80.5499620603108</string>
-		<string>43.4710888614888,-80.5497429069614</string>
-		<string>43.4719561502406,-80.5471968290862</string>
-		<string>43.472362858622,-80.5479843590129</string>
 		<string>43.4723306631449,-80.5480518882601</string>
-		<string>43.4722908289785,-80.5482416956925</string>
-		<string>43.4726357253875,-80.5473489294844</string>
 		<string>43.4726198349524,-80.5473679240623</string>
 		<string>43.4725577905432,-80.5474717400566</string>
 		<string>43.4724691555625,-80.5476900589858</string>
 		<string>43.4723882760292,-80.5478900574454</string>
-		<string>43.472362858622,-80.5479843590129</string>
-		<string>43.472608603333,-80.5479922900019</string>
 		<string>43.4726219903388,-80.5480992789886</string>
 		<string>43.4726288024289,-80.548153253562</string>
 		<string>43.4727991044315,-80.5481438666797</string>
 		<string>43.4730596655665,-80.5480476511357</string>
 		<string>43.4731499250441,-80.5479889831211</string>
-		<string>43.4731499250441,-80.5479889831211</string>
 		<string>43.4731328949643,-80.5479467421506</string>
-		<string>43.4731269577305,-80.5478462064349</string>
 		<string>43.4732912745212,-80.5481415199591</string>
 		<string>43.4734734956484,-80.547707376651</string>
 		<string>43.4734053756652,-80.5476487086364</string>
-		<string>43.4732912745212,-80.5481415199591</string>
-		<string>43.4731499250441,-80.5479889831211</string>
-		<string>43.4735110018018,-80.5473189946689</string>
 		<string>43.4733350351409,-80.5476024018053</string>
-		<string>43.4734053756652,-80.5476487086364</string>
-		<string>43.4733350351409,-80.5476024018053</string>
-		<string>43.4732617357391,-80.5477144034934</string>
-		<string>43.4739119251278,-80.544783570495</string>
 		<string>43.4739194700544,-80.5447457890374</string>
 		<string>43.4740379992282,-80.5448190602593</string>
-		<string>43.474124844288,-80.5454274472894</string>
-		<string>43.4732823448508,-80.5444534481678</string>
 		<string>43.4733046654698,-80.5444084361201</string>
-		<string>43.4733984357523,-80.5444672729193</string>
-		<string>43.4702175588109,-80.545428618763</string>
 		<string>43.4701449926981,-80.5455259843219</string>
 		<string>43.4700790999373,-80.5455156077815</string>
 		<string>43.4697929362569,-80.5455363608624</string>
-		<string>43.4702659846802,-80.5444545406765</string>
 		<string>43.4702993697422,-80.5443430587132</string>
 		<string>43.4703163135401,-80.5443352763078</string>
-		<string>43.4703059086989,-80.5442553366917</string>
-		<string>43.4731100780848,-80.5457290206852</string>
-		<string>43.4731100780848,-80.5457290206852</string>
 		<string>43.4731751507423,-80.5455705981068</string>
 		<string>43.4733213966824,-80.5456744141011</string>
 		<string>43.4734687501883,-80.5453034245921</string>
@@ -15374,73 +13745,30 @@
 		<string>43.4735994845769,-80.5452957910631</string>
 		<string>43.4737966935434,-80.5452148756558</string>
 		<string>43.4738620604183,-80.5455247969329</string>
-		<string>43.4738620604183,-80.5455247969329</string>
-		<string>43.4738620604183,-80.5455247969329</string>
-		<string>43.4735994845769,-80.5452957910631</string>
 		<string>43.4737019891585,-80.5461072583566</string>
-		<string>43.4737019891585,-80.5461072583566</string>
-		<string>43.4739014395496,-80.5461899608491</string>
-		<string>43.4736206927538,-80.5460686804795</string>
-		<string>43.473804515208,-80.5455835590011</string>
-		<string>43.4739198810125,-80.5455053092851</string>
-		<string>43.4739198810125,-80.5455053092851</string>
-		<string>43.4740854189587,-80.5456181348174</string>
 		<string>43.473411547323,-80.5451559441393</string>
-		<string>43.4733914907153,-80.5451336054238</string>
-		<string>43.4739119251278,-80.544783570495</string>
-		<string>43.4733984357523,-80.5444672729193</string>
 		<string>43.4737095713908,-80.544103765464</string>
-		<string>43.4735661222163,-80.5439972313672</string>
-		<string>43.4733046654698,-80.5444084361201</string>
-		<string>43.472883164967,-80.5439645617809</string>
-		<string>43.4730989788419,-80.5433514620877</string>
-		<string>43.4735049154322,-80.5425295626315</string>
 		<string>43.4742401978879,-80.5425300356067</string>
-		<string>43.4746171970271,-80.5428042022532</string>
-		<string>43.4740720497125,-80.5424023398655</string>
-		<string>43.4742401978879,-80.5425300356067</string>
-		<string>43.4734483513286,-80.5420885499826</string>
-		<string>43.4732113187032,-80.5422829432795</string>
-		<string>43.4731476907228,-80.5422404370015</string>
-		<string>43.4728158207911,-80.5420069165984</string>
 		<string>43.4717734677375,-80.5415472065219</string>
 		<string>43.4718510242455,-80.5413212540637</string>
 		<string>43.4719828700807,-80.5414113297059</string>
 		<string>43.4719706826627,-80.5414662911146</string>
 		<string>43.4720183243739,-80.5414998786422</string>
-		<string>43.4726760112104,-80.5424039012837</string>
 		<string>43.4724681939761,-80.5422803134825</string>
-		<string>43.4710734250421,-80.5434634475127</string>
 		<string>43.4710528742536,-80.5447814028451</string>
-		<string>43.4710560954199,-80.5448938012138</string>
 		<string>43.4711415704125,-80.5435163432375</string>
-		<string>43.4711282656482,-80.5435499540415</string>
 		<string>43.4711282656482,-80.5435499540415</string>
 		<string>43.4713566636953,-80.5437164802974</string>
 		<string>43.4713433589783,-80.5437500911013</string>
-		<string>43.4713433589783,-80.5437500911013</string>
-		<string>43.4713433589783,-80.5437500911013</string>
-		<string>43.4715402229558,-80.5428550934765</string>
-		<string>43.47123564461,-80.5422062105926</string>
-		<string>43.4713531697176,-80.5418869079551</string>
 		<string>43.4718675556186,-80.5411627016417</string>
 		<string>43.4718819789253,-80.5411718745771</string>
 		<string>43.471837599509,-80.541309468608</string>
-		<string>43.4718510242455,-80.5413212540637</string>
 		<string>43.4719144259902,-80.5410253873895</string>
 		<string>43.4720440557954,-80.5411093562084</string>
-		<string>43.4720440557954,-80.5411093562084</string>
-		<string>43.4719144259902,-80.5410253873895</string>
 		<string>43.4718031820593,-80.5409493120413</string>
-		<string>43.4718031820593,-80.5409493120413</string>
-		<string>43.4718031820593,-80.5409493120413</string>
-		<string>43.4719144259902,-80.5410253873895</string>
 		<string>43.4713782086123,-80.5406631735071</string>
 		<string>43.4714755085529,-80.5403385273773</string>
-		<string>43.4713782086123,-80.5406631735071</string>
-		<string>43.4718031820593,-80.5409493120413</string>
 		<string>43.4719247335511,-80.5405550624484</string>
-		<string>43.4714755085529,-80.5403385273773</string>
 		<string>43.4719569732228,-80.5404871125203</string>
 		<string>43.4721275968909,-80.5401955117128</string>
 		<string>43.4722206641433,-80.5400168871343</string>
@@ -15449,50 +13777,23 @@
 		<string>43.472369128273,-80.5398535296139</string>
 		<string>43.4723846394297,-80.5398596364371</string>
 		<string>43.4723979347036,-80.5398657432603</string>
-		<string>43.4721752078075,-80.5411953327047</string>
 		<string>43.4722295203694,-80.5412423439964</string>
 		<string>43.4722472474462,-80.5412545576427</string>
-		<string>43.472264513617,-80.5412683871152</string>
-		<string>43.4706366191654,-80.5441861535083</string>
-		<string>43.4709153863072,-80.5434105995289</string>
-		<string>43.4709153863072,-80.5434105995289</string>
 		<string>43.4709153863072,-80.5434105995289</string>
 		<string>43.4710022067145,-80.5431457566958</string>
 		<string>43.4709423765769,-80.5431060623451</string>
 		<string>43.4705468313987,-80.5428495757709</string>
-		<string>43.4705468313987,-80.5428495757709</string>
-		<string>43.4709423765769,-80.5431060623451</string>
-		<string>43.4710196640495,-80.5428579993525</string>
-		<string>43.4706638010494,-80.542500655297</string>
 		<string>43.4706331837441,-80.541433062207</string>
 		<string>43.4705556256733,-80.5416345873724</string>
-		<string>43.4706331837441,-80.541433062207</string>
 		<string>43.4705268183645,-80.5417170294855</string>
-		<string>43.4705556256733,-80.5416345873724</string>
 		<string>43.4704337485038,-80.541289551862</string>
-		<string>43.4706331837441,-80.541433062207</string>
 		<string>43.4705112006856,-80.5413366248499</string>
-		<string>43.4705112006856,-80.5413366248499</string>
-		<string>43.4706331837441,-80.541433062207</string>
 		<string>43.4704547942943,-80.5416710347452</string>
-		<string>43.4704303998873,-80.5416053099134</string>
-		<string>43.4704303998873,-80.5416053099134</string>
 		<string>43.4705491026727,-80.5409677763651</string>
-		<string>43.4704678922014,-80.5409161007877</string>
-		<string>43.4705491026727,-80.5409677763651</string>
-		<string>43.4707001681031,-80.5402917806263</string>
-		<string>43.4707924358197,-80.5400129096467</string>
 		<string>43.4711041502339,-80.540077575412</string>
-		<string>43.4710978570865,-80.540109132802</string>
 		<string>43.471199434985,-80.5403416955151</string>
-		<string>43.4712463385373,-80.5403368935566</string>
-		<string>43.471138596545,-80.5405048690677</string>
 		<string>43.471138596545,-80.5405048690677</string>
 		<string>43.4706539485641,-80.5409224441941</string>
-		<string>43.4708689767686,-80.5403114335313</string>
-		<string>43.471138596545,-80.5405048690677</string>
-		<string>43.4707579348504,-80.5401292006587</string>
-		<string>43.4708986468058,-80.5402208030066</string>
 		<string>43.4708689767686,-80.5403114335313</string>
 		<string>43.4707579348504,-80.5401292006587</string>
 		<string>43.4708986468058,-80.5402208030066</string>
@@ -15500,22 +13801,15 @@
 		<string>43.4703036656719,-80.539877294202</string>
 		<string>43.4704931295736,-80.5400040107833</string>
 		<string>43.4705064252637,-80.5399719499615</string>
-		<string>43.4707579348504,-80.5401292006587</string>
 		<string>43.4706934432423,-80.5398034179083</string>
 		<string>43.4706513403439,-80.5397499832054</string>
-		<string>43.4705994010864,-80.5396675218121</string>
-		<string>43.4706513403439,-80.5397499832054</string>
 		<string>43.4706406059112,-80.5389844967281</string>
-		<string>43.4706123661251,-80.5389628512301</string>
 		<string>43.4708164812683,-80.5391090018182</string>
 		<string>43.4707647300618,-80.5392717738381</string>
-		<string>43.4708052310097,-80.5393012278226</string>
 		<string>43.4708052310097,-80.5393012278226</string>
 		<string>43.4710774866775,-80.5394888031979</string>
 		<string>43.4710527362129,-80.5395740647322</string>
 		<string>43.4711168623956,-80.5396174706042</string>
-		<string>43.4711168623956,-80.5396174706042</string>
-		<string>43.4705491026727,-80.5409677763651</string>
 		<string>43.4708703659292,-80.5411789607337</string>
 		<string>43.4709238907272,-80.5411851068725</string>
 		<string>43.4709439625142,-80.5412235202399</string>
@@ -15523,58 +13817,36 @@
 		<string>43.4711636366366,-80.5413771737098</string>
 		<string>43.4713297855694,-80.5414509273753</string>
 		<string>43.4716420105161,-80.5416429942127</string>
-		<string>43.4706406059112,-80.5389844967281</string>
 		<string>43.4706669205618,-80.5389094986288</string>
 		<string>43.4706669205618,-80.5388772314001</string>
-		<string>43.4706549081062,-80.5388535660516</string>
-		<string>43.4706023981357,-80.5387667152106</string>
 		<string>43.4705654459939,-80.5386559704035</string>
 		<string>43.4705375683355,-80.5385468764399</string>
-		<string>43.470538597339,-80.5385182651234</string>
-		<string>43.4706626487627,-80.5387762661196</string>
 		<string>43.4706669205618,-80.5387051395138</string>
 		<string>43.4706791867068,-80.5386344589177</string>
-		<string>43.4706918267848,-80.5385182651234</string>
 		<string>43.4701980345891,-80.5395467229781</string>
 		<string>43.4702080064056,-80.5395558832129</string>
 		<string>43.4702213021585,-80.5395711502709</string>
 		<string>43.4702345979083,-80.5395864173289</string>
 		<string>43.4702545415277,-80.5396184781507</string>
-		<string>43.4702867987554,-80.5396556118868</string>
 		<string>43.4697293573562,-80.5391757334691</string>
-		<string>43.4696994768187,-80.5391637476805</string>
 		<string>43.4697770999482,-80.5405372523137</string>
 		<string>43.4705022797046,-80.5386855460417</string>
-		<string>43.4705654459939,-80.5386559704035</string>
 		<string>43.4696987520301,-80.5392583960716</string>
 		<string>43.4700987346848,-80.5395454167618</string>
 		<string>43.4700997672711,-80.5396979638713</string>
 		<string>43.4701429785345,-80.5395758274074</string>
-		<string>43.4700987346848,-80.5395454167618</string>
-		<string>43.4700997672711,-80.5396979638713</string>
 		<string>43.4701607062233,-80.5395223927045</string>
-		<string>43.4701429785345,-80.5395758274074</string>
 		<string>43.4704966867091,-80.5388832610661</string>
 		<string>43.470534331733,-80.5387886708582</string>
-		<string>43.4704966867091,-80.5388832610661</string>
 		<string>43.4697960092203,-80.5404976593151</string>
-		<string>43.4697960092203,-80.5404976593151</string>
-		<string>43.4700997672711,-80.5396979638713</string>
 		<string>43.4704851732527,-80.5389159921079</string>
 		<string>43.4704053990402,-80.5388671375223</string>
-		<string>43.4701607062233,-80.5395223927045</string>
-		<string>43.4705284151404,-80.5406767535243</string>
 		<string>43.4703757279693,-80.5410122171958</string>
 		<string>43.4703701880868,-80.541041224606</string>
 		<string>43.4703690801103,-80.541064125193</string>
-		<string>43.470375674391,-80.5410908208046</string>
-		<string>43.4701122465401,-80.5404403913283</string>
 		<string>43.4704714794064,-80.5408069411906</string>
-		<string>43.4704419559564,-80.5408942607857</string>
-		<string>43.4703127289642,-80.5401419338378</string>
 		<string>43.4704095340047,-80.5409207158138</string>
 		<string>43.4703000898469,-80.5408545460417</string>
-		<string>43.4703469945102,-80.5407222064975</string>
 		<string>43.4703469945102,-80.5407222064975</string>
 		<string>43.4703670964976,-80.5406729638764</string>
 		<string>43.4703816145955,-80.5406837356998</string>
@@ -15582,43 +13854,20 @@
 		<string>43.4704452708296,-80.5406252600872</string>
 		<string>43.4704274024198,-80.5406237212553</string>
 		<string>43.4704128843329,-80.540629876583</string>
-		<string>43.4704050669001,-80.5406391095744</string>
 		<string>43.4701856450918,-80.5407793785395</string>
-		<string>43.4703000898469,-80.5408545460417</string>
 		<string>43.470267603254,-80.5405485242004</string>
 		<string>43.4702332321099,-80.5406463010845</string>
-		<string>43.4701856450918,-80.5407793785395</string>
 		<string>43.4703208230514,-80.5403896367635</string>
 		<string>43.4702831256997,-80.5405088023412</string>
-		<string>43.470267603254,-80.5405485242004</string>
-		<string>43.4702332321099,-80.5406463010845</string>
-		<string>43.4703469945102,-80.5407222064975</string>
-		<string>43.4702373474112,-80.5411444280828</string>
 		<string>43.4702737738209,-80.5410221003919</string>
 		<string>43.4702503329124,-80.5410124104828</string>
-		<string>43.4703000898469,-80.5408545460417</string>
-		<string>43.4698193891123,-80.5406754285147</string>
 		<string>43.4705814881995,-80.5408851317152</string>
-		<string>43.4698193891123,-80.5406754285147</string>
 		<string>43.4697460594758,-80.5406255384292</string>
-		<string>43.469628218803,-80.5405426804308</string>
-		<string>43.4704714794064,-80.5408069411906</string>
-		<string>43.4705005724069,-80.5407171379664</string>
-		<string>43.4697770999482,-80.5405372523137</string>
-		<string>43.4697460594758,-80.5406255384292</string>
-		<string>43.4694870017168,-80.5404380850818</string>
 		<string>43.469032987038,-80.5404106075264</string>
-		<string>43.4690173953512,-80.5404494016747</string>
 		<string>43.4690883766663,-80.5401495898414</string>
 		<string>43.4689997532367,-80.5400900594923</string>
-		<string>43.4689628882114,-80.5400545195405</string>
-		<string>43.469241734188,-80.5415868123485</string>
-		<string>43.4687641327833,-80.5413002225106</string>
-		<string>43.4687360108614,-80.5412832773075</string>
 		<string>43.4687641327833,-80.5413002225106</string>
 		<string>43.4686954365013,-80.5415144224158</string>
-		<string>43.4686129777787,-80.5416574547596</string>
-		<string>43.4686714298028,-80.5423891142637</string>
 		<string>43.4686714298028,-80.5423891142637</string>
 		<string>43.4687220402311,-80.5427320318466</string>
 		<string>43.4687042998346,-80.5426724490578</string>
@@ -15628,223 +13877,107 @@
 		<string>43.4685022783268,-80.542812176929</string>
 		<string>43.4685333026211,-80.5427175211695</string>
 		<string>43.4685598948606,-80.5426396591738</string>
-		<string>43.4685823344676,-80.5425868942841</string>
 		<string>43.4687216640656,-80.5421953877864</string>
 		<string>43.4687294201125,-80.5421694337879</string>
-		<string>43.4687384941091,-80.542119619355</string>
-		<string>43.4690792975133,-80.5429389553143</string>
-		<string>43.4695962248162,-80.5426701346504</string>
-		<string>43.4694232290853,-80.5420855336294</string>
-		<string>43.4694232290853,-80.5420855336294</string>
-		<string>43.4694237514025,-80.5423967597228</string>
 		<string>43.4694237514025,-80.5423967597228</string>
 		<string>43.4698328831025,-80.5426824515563</string>
 		<string>43.470031349786,-80.5421294010551</string>
-		<string>43.470031349786,-80.5421294010551</string>
 		<string>43.4698472969059,-80.5419246807039</string>
-		<string>43.4698739978946,-80.5418118834897</string>
 		<string>43.4696200019132,-80.5418467647493</string>
-		<string>43.4696200019132,-80.5418467647493</string>
-		<string>43.4697161593527,-80.5422887870958</string>
-		<string>43.4697161593527,-80.5422887870958</string>
 		<string>43.4697161593527,-80.5422887870958</string>
 		<string>43.468744454063,-80.5417369566346</string>
 		<string>43.4687976383445,-80.5415827593489</string>
-		<string>43.468744454063,-80.5417369566346</string>
 		<string>43.4688663346389,-80.5418163453361</string>
-		<string>43.468744454063,-80.5417369566346</string>
 		<string>43.4689536924252,-80.542870371997</string>
 		<string>43.4690334594839,-80.5426337595023</string>
-		<string>43.4690334594839,-80.5426337595023</string>
-		<string>43.4689536924252,-80.542870371997</string>
 		<string>43.4684948061401,-80.5425967306475</string>
-		<string>43.4685598948606,-80.5426396591738</string>
 		<string>43.4681353678637,-80.542341457106</string>
-		<string>43.4680768209359,-80.5423069145136</string>
 		<string>43.4680654768395,-80.5422940709995</string>
 		<string>43.4680333047536,-80.5422741994064</string>
 		<string>43.4679911482013,-80.5422864280791</string>
 		<string>43.4679545385399,-80.5423062996721</string>
-		<string>43.467927238241,-80.5423374486296</string>
-		<string>43.4682908846414,-80.5424518201992</string>
-		<string>43.4683905713182,-80.5421849127097</string>
-		<string>43.4682908846414,-80.5424518201992</string>
-		<string>43.4682908846414,-80.5424518201992</string>
 		<string>43.4682908846414,-80.5424518201992</string>
 		<string>43.4683905713182,-80.5421849127097</string>
 		<string>43.4678217670759,-80.5431278417581</string>
 		<string>43.4679458655544,-80.5432087571654</string>
 		<string>43.4680045906385,-80.5432469248104</string>
-		<string>43.4679458655544,-80.5432087571654</string>
 		<string>43.4681109604568,-80.5429217364753</string>
 		<string>43.4676805347991,-80.543508962311</string>
-		<string>43.467911899415,-80.5435727813692</string>
-		<string>43.4676805347991,-80.543508962311</string>
-		<string>43.4676393119363,-80.5434922981637</string>
-		<string>43.4682983125255,-80.5436594555904</string>
 		<string>43.4682890668345,-80.5437624601822</string>
-		<string>43.4682771572564,-80.543866266175</string>
-		<string>43.4682983125255,-80.5436594555904</string>
 		<string>43.4684308925498,-80.5432403267991</string>
 		<string>43.46842092044,-80.5431517778628</string>
 		<string>43.4684308925498,-80.5430708624555</string>
 		<string>43.468438648634,-80.542999107283</string>
-		<string>43.4685022783268,-80.542812176929</string>
-		<string>43.4676430685612,-80.542856508561</string>
 		<string>43.4675671444505,-80.54288451894</string>
 		<string>43.4673800171202,-80.5433910342467</string>
-		<string>43.4674416103585,-80.5434303880057</string>
-		<string>43.4673800171202,-80.5433910342467</string>
-		<string>43.4670947702167,-80.5431627726086</string>
-		<string>43.4680045906385,-80.5432469248104</string>
-		<string>43.4682983125255,-80.5436594555904</string>
 		<string>43.4681205940403,-80.5436257350928</string>
 		<string>43.4680408167069,-80.5436043612116</string>
-		<string>43.467911899415,-80.5435727813692</string>
-		<string>43.4680408167069,-80.5436043612116</string>
 		<string>43.4681198288992,-80.5433276123698</string>
-		<string>43.4681198288992,-80.5433276123698</string>
-		<string>43.4675610745414,-80.5427923869175</string>
-		<string>43.4675593740389,-80.5420931757018</string>
 		<string>43.4667872886538,-80.5424844309141</string>
 		<string>43.4667518067199,-80.5425669301602</string>
-		<string>43.466707040379,-80.542640683226</string>
-		<string>43.4672003718759,-80.5415328746737</string>
-		<string>43.4670463548622,-80.5415802025535</string>
 		<string>43.4672072084291,-80.5425208997496</string>
 		<string>43.467323794145,-80.5422133930511</string>
 		<string>43.4670761880229,-80.5420328667306</string>
-		<string>43.4669662639037,-80.5423357837769</string>
-		<string>43.4672072084291,-80.5425208997496</string>
 		<string>43.4669662639037,-80.5423357837769</string>
 		<string>43.4670576863639,-80.5418374108986</string>
 		<string>43.4670111487805,-80.5419809212436</string>
-		<string>43.4670761880229,-80.5420328667306</string>
-		<string>43.467323794145,-80.5422133930511</string>
-		<string>43.4672072084291,-80.5425208997496</string>
 		<string>43.4672830468421,-80.5423466685852</string>
-		<string>43.467323794145,-80.5422133930511</string>
-		<string>43.4672830468421,-80.5423466685852</string>
-		<string>43.4672072084291,-80.5425208997496</string>
-		<string>43.4680019901754,-80.5416768309302</string>
-		<string>43.4680019901754,-80.5416768309302</string>
-		<string>43.4686129777787,-80.5416574547596</string>
-		<string>43.4684755351198,-80.5410954249539</string>
 		<string>43.4680633476616,-80.5419418093396</string>
 		<string>43.4680123434518,-80.5420991690125</string>
 		<string>43.4676342456846,-80.5418547268021</string>
 		<string>43.4679957116349,-80.541607229064</string>
-		<string>43.4679957116349,-80.541607229064</string>
 		<string>43.4680487974495,-80.5414274087706</string>
 		<string>43.4678427712695,-80.5412940022253</string>
-		<string>43.4676342456846,-80.5418547268021</string>
 		<string>43.4683516434011,-80.5414801508932</string>
 		<string>43.4683077364613,-80.5415964938106</string>
-		<string>43.4680487974495,-80.5414274087706</string>
-		<string>43.4683516434011,-80.5414801508932</string>
 		<string>43.4695254431663,-80.5438968598329</string>
-		<string>43.4694115562838,-80.5438661773639</string>
-		<string>43.4697933411391,-80.5428625818513</string>
-		<string>43.4697933411391,-80.5428625818513</string>
-		<string>43.4695751729885,-80.5427144091186</string>
-		<string>43.4696983977269,-80.5439553597098</string>
-		<string>43.4695254431663,-80.5438968598329</string>
-		<string>43.4675782105133,-80.5420885955844</string>
 		<string>43.4676648959354,-80.5420383178082</string>
-		<string>43.4680333047536,-80.5422741994064</string>
-		<string>43.4680654768395,-80.5422940709995</string>
 		<string>43.4681900980453,-80.5419054944038</string>
-		<string>43.4682111028518,-80.5417700495459</string>
-		<string>43.4706667956316,-80.5446524436256</string>
 		<string>43.470696585944,-80.544545033942</string>
-		<string>43.4707133642105,-80.5444580238415</string>
 		<string>43.4696608809979,-80.5434917471719</string>
 		<string>43.4696065894853,-80.5434566329386</string>
-		<string>43.4696065894853,-80.5434566329386</string>
-		<string>43.4698829022778,-80.5429017587466</string>
 		<string>43.4700748464764,-80.5430570740887</string>
 		<string>43.4701015118621,-80.5430892239189</string>
 		<string>43.4701481762587,-80.5431274975261</string>
 		<string>43.4701303993499,-80.5429927744285</string>
 		<string>43.4701215108936,-80.5428657060523</string>
-		<string>43.4701259961281,-80.5426921623569</string>
-		<string>43.4701481762587,-80.5431274975261</string>
 		<string>43.4701992848423,-80.5432040447407</string>
 		<string>43.4702570597108,-80.5433295821726</string>
 		<string>43.4702981687182,-80.5434474648831</string>
 		<string>43.4703215008452,-80.5435331977634</string>
 		<string>43.470357054545,-80.5437628394072</string>
-		<string>43.4703059086989,-80.5442553366917</string>
-		<string>43.472741604806,-80.5463536079612</string>
-		<string>43.4725249168889,-80.5464004591864</string>
 		<string>43.4725249168889,-80.5464004591864</string>
 		<string>43.4722979685949,-80.5464751845316</string>
 		<string>43.4721162873421,-80.5465637230495</string>
-		<string>43.4721162873421,-80.5465637230495</string>
-		<string>43.4721162873421,-80.5465637230495</string>
 		<string>43.4724275823257,-80.5458004599645</string>
 		<string>43.472405426152,-80.5458065660692</string>
-		<string>43.472405426152,-80.5458065660692</string>
-		<string>43.4719390368129,-80.5460065409974</string>
 		<string>43.4719390368129,-80.5460065409974</string>
 		<string>43.4719512228034,-80.5460676020442</string>
-		<string>43.4719512228034,-80.5460676020442</string>
-		<string>43.4719922120262,-80.5459866961572</string>
-		<string>43.4719390368129,-80.5460065409974</string>
-		<string>43.4725249168889,-80.5464004591864</string>
-		<string>43.4724275823257,-80.5458004599645</string>
-		<string>43.4719922120262,-80.5459866961572</string>
-		<string>43.4721162873421,-80.5465637230495</string>
-		<string>43.472405426152,-80.5458065660692</string>
 		<string>43.4719922120262,-80.5459866961572</string>
 		<string>43.4713144211837,-80.5448445156254</string>
-		<string>43.4712853989986,-80.5449222553035</string>
-		<string>43.4713144211837,-80.5448445156254</string>
-		<string>43.4713556261111,-80.5448630089533</string>
 		<string>43.4711878196417,-80.5447604410959</string>
 		<string>43.4713793935002,-80.5442139604974</string>
 		<string>43.4712931293233,-80.5441552987382</string>
-		<string>43.4712931293233,-80.5441552987382</string>
 		<string>43.4712292713467,-80.5441136180146</string>
-		<string>43.4713433589783,-80.5437500911013</string>
 		<string>43.4730065743873,-80.5440572913348</string>
-		<string>43.4729722048009,-80.5441581237466</string>
 		<string>43.4729722048009,-80.5441581237466</string>
 		<string>43.4730154439548,-80.5440297915861</string>
-		<string>43.4730065743873,-80.5440572913348</string>
 		<string>43.4734407808163,-80.5444958472505</string>
 		<string>43.4735105797523,-80.5442882152619</string>
 		<string>43.4736180477978,-80.5443599704344</string>
-		<string>43.4736180477978,-80.5443599704344</string>
-		<string>43.4735604360858,-80.5445462285418</string>
-		<string>43.4736180477978,-80.5443599704344</string>
 		<string>43.4735604360858,-80.5445462285418</string>
 		<string>43.4734460669657,-80.5444756197597</string>
-		<string>43.4734407808163,-80.5444958472505</string>
-		<string>43.4735105797523,-80.5442882152619</string>
-		<string>43.4734460669657,-80.5444756197597</string>
-		<string>43.4705928114597,-80.5455816560896</string>
-		<string>43.4697929362569,-80.5455363608624</string>
-		<string>43.4698124081986,-80.5454015031385</string>
-		<string>43.4688364166202,-80.5456651709434</string>
-		<string>43.4688297685919,-80.5455689884781</string>
-		<string>43.4692090302392,-80.5457146831821</string>
 		<string>43.4692090302392,-80.5457146831821</string>
 		<string>43.469159170316,-80.545647508127</string>
 		<string>43.469053910343,-80.5455665927197</string>
 		<string>43.4689962942802,-80.5454902574298</string>
-		<string>43.468961621018,-80.5454651724838</string>
-		<string>43.4695067723022,-80.5455952283885</string>
 		<string>43.4695067723022,-80.5455952283885</string>
 		<string>43.4679006679243,-80.5467538979157</string>
 		<string>43.4679372967821,-80.546767820586</string>
-		<string>43.4680601576535,-80.5467263971282</string>
 		<string>43.4679019309888,-80.5462039524397</string>
 		<string>43.4679309814633,-80.5461726264316</string>
-		<string>43.4679715160767,-80.5461584625712</string>
 		<string>43.467809727216,-80.5461134550829</string>
 		<string>43.467857723718,-80.5460090350558</string>
-		<string>43.4679349513884,-80.5459828914044</string>
 		<string>43.4672628170153,-80.5464058311587</string>
 		<string>43.4672767108692,-80.5463640631479</string>
 		<string>43.467193347698,-80.5463048917992</string>
@@ -15853,71 +13986,40 @@
 		<string>43.4672615539375,-80.5460751677396</string>
 		<string>43.4670329364238,-80.545942902372</string>
 		<string>43.466971045346,-80.5458350016773</string>
-		<string>43.4669430525099,-80.5457335706702</string>
 		<string>43.4674813290748,-80.5464876268466</string>
-		<string>43.4672767108692,-80.5463640631479</string>
 		<string>43.4675545872763,-80.5463919084885</string>
 		<string>43.4675343781261,-80.5463605824803</string>
 		<string>43.4675204843314,-80.5462700851235</string>
 		<string>43.4674851182943,-80.5461865491019</string>
 		<string>43.4674371214964,-80.5461743667654</string>
 		<string>43.4673449170147,-80.5461743667654</string>
-		<string>43.4672413446894,-80.5461552230937</string>
 		<string>43.4675343781261,-80.54621787511</string>
-		<string>43.4674851182943,-80.5461865491019</string>
 		<string>43.4675937424855,-80.546193510437</string>
-		<string>43.4675343781261,-80.54621787511</string>
-		<string>43.4675935591059,-80.5465602965101</string>
 		<string>43.4675935591059,-80.5465602965101</string>
 		<string>43.4672524493401,-80.5464730326854</string>
 		<string>43.467572448134,-80.5466429675018</string>
-		<string>43.4675935591059,-80.5465602965101</string>
 		<string>43.4676280033076,-80.5464424137996</string>
-		<string>43.4675935591059,-80.5465602965101</string>
 		<string>43.4676691141031,-80.546292381259</string>
-		<string>43.4676280033076,-80.5464424137996</string>
 		<string>43.4677402246024,-80.546329123922</string>
-		<string>43.4676691141031,-80.546292381259</string>
 		<string>43.4678202238142,-80.5463750522508</string>
-		<string>43.4677402246024,-80.546329123922</string>
 		<string>43.4676713363075,-80.5460765181139</string>
 		<string>43.4677146692764,-80.5461071369997</string>
-		<string>43.4676691141031,-80.546292381259</string>
-		<string>43.4672767108692,-80.5463640631479</string>
-		<string>43.4673449170147,-80.5461743667654</string>
 		<string>43.4673638156509,-80.5462493521859</string>
 		<string>43.4674824570847,-80.5464265727885</string>
-		<string>43.4674813290748,-80.5464876268466</string>
-		<string>43.4669430525099,-80.5457335706702</string>
 		<string>43.4669069885164,-80.545412137615</string>
-		<string>43.466878786192,-80.5452908259886</string>
-		<string>43.4666571776752,-80.5450144922391</string>
-		<string>43.4681377189265,-80.5466989164239</string>
 		<string>43.4681899001742,-80.5465645112068</string>
 		<string>43.4682815860567,-80.5465455614702</string>
 		<string>43.4683709796582,-80.5464223881823</string>
-		<string>43.4684397496478,-80.5462911203208</string>
 		<string>43.4657491075463,-80.5423129917499</string>
 		<string>43.4657686686408,-80.542304007878</string>
 		<string>43.4658143111702,-80.5423624030454</string>
 		<string>43.4658420226891,-80.5423624030454</string>
 		<string>43.4659104863871,-80.5423354514297</string>
-		<string>43.4659892786387,-80.5423306237368</string>
 		<string>43.4727197021342,-80.5401758376383</string>
-		<string>43.4726647946199,-80.5403171927831</string>
-		<string>43.4727197021342,-80.5401758376383</string>
-		<string>43.4723217497651,-80.5399006090676</string>
-		<string>43.4721133121918,-80.5400946350721</string>
 		<string>43.4720584404557,-80.5402175993759</string>
-		<string>43.4721820833545,-80.5403775872783</string>
-		<string>43.4720584404557,-80.5402175993759</string>
-		<string>43.4720168669306,-80.5403135901139</string>
 		<string>43.4720718520717,-80.5434436193317</string>
 		<string>43.4721129827724,-80.5433223945269</string>
-		<string>43.4720467766681,-80.5435228358002</string>
-		<string>43.4719062711621,-80.5431088445816</string>
 		<string>43.4721269588248,-80.543272297632</string>
-		<string>43.4722901203327,-80.5427567157607</string>
 		<string>43.4722555692983,-80.5428399404722</string>
 		<string>43.4722810696183,-80.542858273638</string>
 		<string>43.472740008141,-80.5401103830928</string>
@@ -15926,42 +14028,22 @@
 		<string>43.4711612490944,-80.5400566190481</string>
 		<string>43.4711257942985,-80.5400337184612</string>
 		<string>43.4710017023488,-80.5399421161133</string>
-		<string>43.4708986468058,-80.5402208030066</string>
-		<string>43.4710017023488,-80.5399421161133</string>
-		<string>43.4716420105161,-80.5416429942127</string>
 		<string>43.4719134694638,-80.5418390180807</string>
-		<string>43.4718950581272,-80.5418747546166</string>
-		<string>43.4719134694638,-80.5418390180807</string>
-		<string>43.4719426836644,-80.5417473630081</string>
-		<string>43.469356596956,-80.5425624077799</string>
-		<string>43.4695751729885,-80.5427144091186</string>
-		<string>43.4694232290853,-80.5420855336294</string>
 		<string>43.4693764486451,-80.542262186328</string>
 		<string>43.46935318641,-80.5422866076793</string>
 		<string>43.4692966923732,-80.5423095026961</string>
-		<string>43.4691213496026,-80.5423950379925</string>
-		<string>43.4692966923732,-80.5423095026961</string>
-		<string>43.469356596956,-80.5425624077799</string>
-		<string>43.4711257942985,-80.5400337184612</string>
-		<string>43.4721720739209,-80.5398165820577</string>
 		<string>43.4721785090431,-80.5397864759767</string>
 		<string>43.4725463665157,-80.538887394758</string>
 		<string>43.4725969889284,-80.5387602832754</string>
-		<string>43.4727128578467,-80.5388300395768</string>
 		<string>43.4727128578467,-80.5388300395768</string>
 		<string>43.4732912392749,-80.5394513090449</string>
 		<string>43.47315754874,-80.5393544490595</string>
 		<string>43.4730982837691,-80.5392955733822</string>
 		<string>43.4725855704319,-80.5389138310871</string>
-		<string>43.4721785090431,-80.5397864759767</string>
-		<string>43.4725463665157,-80.538887394758</string>
-		<string>43.4725855704319,-80.5389138310871</string>
-		<string>43.4736279299866,-80.5418859627376</string>
 		<string>43.4737083927599,-80.5416393887</string>
 		<string>43.4737792993008,-80.5414699243563</string>
 		<string>43.4738291554126,-80.5414745044737</string>
 		<string>43.4738978459882,-80.5414775578853</string>
-		<string>43.473970968128,-80.5414516038867</string>
 		<string>43.473970968128,-80.5414516038867</string>
 		<string>43.4741712224082,-80.5415890282744</string>
 		<string>43.4742887766215,-80.5416674926354</string>
@@ -15969,9 +14051,6 @@
 		<string>43.4745440888908,-80.5418396080078</string>
 		<string>43.4747222558066,-80.5419484456698</string>
 		<string>43.4748636869018,-80.542034503356</string>
-		<string>43.4742887766215,-80.5416674926354</string>
-		<string>43.4748636869018,-80.542034503356</string>
-		<string>43.4747222558066,-80.5419484456698</string>
 		<string>43.4749315514678,-80.5413364325254</string>
 		<string>43.4748848990409,-80.5412965294706</string>
 		<string>43.4748350291655,-80.5412167233609</string>
@@ -15989,37 +14068,22 @@
 		<string>43.4758742445146,-80.54050068521</string>
 		<string>43.475861375084,-80.5404496979733</string>
 		<string>43.475990069267,-80.5403854097183</string>
-		<string>43.475990069267,-80.5403854097183</string>
 		<string>43.475269499137,-80.5459882541493</string>
-		<string>43.4752560674675,-80.5460281225087</string>
-		<string>43.4749008956991,-80.5479205581041</string>
 		<string>43.4749008956991,-80.5479205581041</string>
 		<string>43.4750613789067,-80.5474591100186</string>
 		<string>43.4749251301052,-80.5473786437405</string>
 		<string>43.4750107722448,-80.547113105023</string>
 		<string>43.4748570055893,-80.5470111810708</string>
-		<string>43.4748570055893,-80.5470111810708</string>
 		<string>43.4748152232918,-80.546813623548</string>
 		<string>43.4747792106979,-80.546698490769</string>
 		<string>43.4747504006073,-80.5466766552419</string>
-		<string>43.4747792106979,-80.546698490769</string>
 		<string>43.4748368308378,-80.5466845954336</string>
 		<string>43.4749837619459,-80.546301481186</string>
-		<string>43.4749593650559,-80.546223917003</string>
-		<string>43.4747504006073,-80.5466766552419</string>
 		<string>43.4745256814296,-80.5465277766483</string>
 		<string>43.4740157386573,-80.5462022287903</string>
-		<string>43.4739197932627,-80.546131659264</string>
-		<string>43.4745256814296,-80.5465277766483</string>
 		<string>43.4746625297463,-80.5461486324966</string>
-		<string>43.4747058435313,-80.5459935705391</string>
 		<string>43.4706722313696,-80.5541948109852</string>
-		<string>43.4705615444709,-80.5542008175657</string>
 		<string>43.4708878004221,-80.5541369664591</string>
-		<string>43.4708917195357,-80.5541199021584</string>
-		<string>43.4697465893992,-80.5537417652658</string>
-		<string>43.4705648683899,-80.5539076900524</string>
-		<string>43.4706722313696,-80.5541948109852</string>
 		<string>43.4706790388251,-80.5535163103282</string>
 		<string>43.4706915191582,-80.5533083827076</string>
 		<string>43.4707153452416,-80.5533161995354</string>
@@ -16027,76 +14091,39 @@
 		<string>43.4709388561378,-80.5535475776396</string>
 		<string>43.4709797006792,-80.5537039141965</string>
 		<string>43.4709944500902,-80.553749251798</string>
-		<string>43.471033539144,-80.5538221945277</string>
-		<string>43.4696169546663,-80.5536181020962</string>
-		<string>43.4697465893992,-80.5537417652658</string>
 		<string>43.4697443156939,-80.5539081164215</string>
 		<string>43.4696545792754,-80.5540912993197</string>
 		<string>43.4695449012496,-80.5538989572766</string>
-		<string>43.4696545792754,-80.5540912993197</string>
-		<string>43.4696169546663,-80.5536181020962</string>
 		<string>43.4706804469299,-80.5546011583864</string>
-		<string>43.4705969995978,-80.55438096885</string>
-		<string>43.4703576770872,-80.554767225417</string>
-		<string>43.4698723813093,-80.5532267792663</string>
-		<string>43.4695000969755,-80.5533382287895</string>
 		<string>43.4695792448953,-80.5542363191141</string>
-		<string>43.4696545792754,-80.5540912993197</string>
 		<string>43.4698739347298,-80.55439660415</string>
 		<string>43.4697576099668,-80.5542271599692</string>
-		<string>43.4696545792754,-80.5540912993197</string>
 		<string>43.4695129032296,-80.5538432253547</string>
 		<string>43.4694995888862,-80.5538432253547</string>
-		<string>43.4694995888862,-80.5538432253547</string>
 		<string>43.469500698415,-80.5537866589198</string>
-		<string>43.4694995888862,-80.5538432253547</string>
 		<string>43.4701242503356,-80.5538997917897</string>
 		<string>43.4707167296523,-80.5541749798515</string>
-		<string>43.4707167296523,-80.5541749798515</string>
-		<string>43.4706690208587,-80.5536368343084</string>
 		<string>43.4706690208587,-80.5536368343084</string>
 		<string>43.4707466863175,-80.5547391153782</string>
 		<string>43.4708975789235,-80.5544792155421</string>
 		<string>43.4707444673058,-80.5542743533182</string>
-		<string>43.4707167296523,-80.5541749798515</string>
 		<string>43.4704038480403,-80.5542697668506</string>
-		<string>43.4701242503356,-80.5538997917897</string>
-		<string>43.4704939580775,-80.5541580698034</string>
 		<string>43.4696747269255,-80.5547157507509</string>
 		<string>43.4694863005644,-80.5545272073563</string>
 		<string>43.469516583412,-80.5544406628473</string>
 		<string>43.4694941516745,-80.5544097540941</string>
-		<string>43.4694941516745,-80.5544097540941</string>
 		<string>43.4692989952066,-80.5542011200099</string>
-		<string>43.4694995888862,-80.5538432253547</string>
 		<string>43.4692821713436,-80.5535504907548</string>
-		<string>43.4694448018226,-80.5532784937265</string>
 		<string>43.4694448018226,-80.5532784937265</string>
 		<string>43.4694358291179,-80.5531394043371</string>
 		<string>43.4695894865016,-80.5529245885022</string>
 		<string>43.469777912541,-80.5531424952124</string>
-		<string>43.469777912541,-80.5531424952124</string>
-		<string>43.4707167296523,-80.5541749798515</string>
 		<string>43.4707114087507,-80.5540916778538</string>
 		<string>43.4708612928656,-80.553823456927</string>
 		<string>43.4707250345947,-80.553633020069</string>
-		<string>43.4706690208587,-80.5536368343084</string>
 		<string>43.4700127839825,-80.552881014215</string>
-		<string>43.4699060348903,-80.5528137895465</string>
-		<string>43.4698890010921,-80.5531763979749</string>
-		<string>43.4700127839825,-80.552881014215</string>
-		<string>43.4701981282203,-80.5530054069255</string>
-		<string>43.4701948042811,-80.5534038771389</string>
 		<string>43.470342877194,-80.5531014077248</string>
-		<string>43.4706915191582,-80.5533083827076</string>
-		<string>43.470342877194,-80.5531014077248</string>
-		<string>43.4701981282203,-80.5530054069255</string>
-		<string>43.4709082227136,-80.5533740440614</string>
-		<string>43.4710479426793,-80.5533962436099</string>
-		<string>43.4737019891585,-80.5461072583566</string>
 		<string>43.4738828717567,-80.5456091587613</string>
-		<string>43.4738620604183,-80.5455247969329</string>
-		<string>43.470318629433,-80.5380148381406</string>
 		<string>43.470318629433,-80.5380148381406</string>
 		<string>43.4702963122065,-80.5379461304242</string>
 		<string>43.470314037624,-80.5379369713398</string>
@@ -16108,12 +14135,7 @@
 		<string>43.4708136013959,-80.5378191119226</string>
 		<string>43.4707016964817,-80.5378908670951</string>
 		<string>43.4703504688211,-80.5380572780271</string>
-		<string>43.4703417335784,-80.5380300886975</string>
-		<string>43.470980904396,-80.5377229294573</string>
 		<string>43.4708338957567,-80.5378117192969</string>
-		<string>43.4709801473624,-80.5380651524595</string>
-		<string>43.4708338957567,-80.5378117192969</string>
-		<string>43.4708136013959,-80.5378191119226</string>
 		<string>43.4709801473624,-80.5380651524595</string>
 		<string>43.4709435844942,-80.5381002666928</string>
 		<string>43.4709557721194,-80.5382132429219</string>
@@ -16121,86 +14143,52 @@
 		<string>43.4709036977036,-80.5383949209119</string>
 		<string>43.4708682427565,-80.5384865232599</string>
 		<string>43.470854947146,-80.5385277443164</string>
-		<string>43.4708304626152,-80.5385645146524</string>
-		<string>43.4706918267848,-80.5385182651234</string>
 		<string>43.4707031553855,-80.5384575158497</string>
 		<string>43.4707131271187,-80.5384208749105</string>
 		<string>43.4707906849874,-80.5381964491581</string>
-		<string>43.4709435844942,-80.5381002666928</string>
-		<string>43.470538597339,-80.5385182651234</string>
 		<string>43.4705402835104,-80.5384941567889</string>
 		<string>43.470633353207,-80.5382865248002</string>
-		<string>43.4707906849874,-80.5381964491581</string>
-		<string>43.4718288156735,-80.5477287225442</string>
 		<string>43.4718625067294,-80.5476184911763</string>
-		<string>43.4719480026729,-80.5477329088522</string>
-		<string>43.4718625067294,-80.5476184911763</string>
-		<string>43.4717797784868,-80.5475109255072</string>
-		<string>43.4745256814296,-80.5465277766483</string>
 		<string>43.4743370119803,-80.5470438778298</string>
-		<string>43.4742605665678,-80.5472591433474</string>
-		<string>43.4739922758718,-80.5480017610298</string>
 		<string>43.4742605665678,-80.5472591433474</string>
 		<string>43.4739922758718,-80.5480017610298</string>
 		<string>43.4736975710538,-80.548841449219</string>
 		<string>43.4736743048227,-80.5489055708625</string>
 		<string>43.4733740588468,-80.5497422056401</string>
-		<string>43.4733740588468,-80.5497422056401</string>
-		<string>43.4729929326551,-80.5508002127584</string>
 		<string>43.4729929326551,-80.5508002127584</string>
 		<string>43.4729164855424,-80.5510185316876</string>
 		<string>43.4728843555676,-80.5511086073297</string>
 		<string>43.4727802100146,-80.5514047882546</string>
-		<string>43.4727802100146,-80.5514047882546</string>
 		<string>43.4723769212866,-80.5525116499585</string>
 		<string>43.4720157318447,-80.5535391229609</string>
-		<string>43.4716755913476,-80.5544917873792</string>
 		<string>43.4716755913476,-80.5544917873792</string>
 		<string>43.4713709036092,-80.5553314755684</string>
 		<string>43.4713376648539,-80.5554154443873</string>
 		<string>43.4711404478631,-80.5559818522385</string>
-		<string>43.4711404478631,-80.5559818522385</string>
 		<string>43.4707471199205,-80.5570597065322</string>
-		<string>43.4705499178284,-80.5576126722369</string>
 		<string>43.4705499178284,-80.5576126722369</string>
 		<string>43.4704764804861,-80.5576922681972</string>
 		<string>43.4703290175622,-80.5580482371662</string>
 		<string>43.4703423225025,-80.558091014553</string>
 		<string>43.4703345612877,-80.5581994857839</string>
 		<string>43.4703079514009,-80.5582712906832</string>
-		<string>43.4703079514009,-80.5582712906832</string>
 		<string>43.4700773318913,-80.5588992016114</string>
 		<string>43.4698755390985,-80.5594950294994</string>
 		<string>43.4695262807497,-80.5604682150498</string>
 		<string>43.4695053878446,-80.5612329888106</string>
 		<string>43.4693034644989,-80.5611062394645</string>
-		<string>43.4695262807497,-80.5604682150498</string>
-		<string>43.4713376648539,-80.5554154443873</string>
 		<string>43.4712202851218,-80.5551474052727</string>
 		<string>43.4711559788177,-80.5550924057753</string>
 		<string>43.4709896690934,-80.5549976844188</string>
 		<string>43.4710362358623,-80.5548433802734</string>
 		<string>43.4712058716458,-80.5543361626867</string>
-		<string>43.4708878004221,-80.5541369664591</string>
-		<string>43.4728843555676,-80.5511086073297</string>
 		<string>43.4728659514583,-80.5511046438145</string>
 		<string>43.4724441206827,-80.5508208731908</string>
 		<string>43.4724618354202,-80.5507659498443</string>
-		<string>43.4724618354202,-80.5507659498443</string>
 		<string>43.4724795501525,-80.5507217060374</string>
 		<string>43.4729047021693,-80.5509978484185</string>
-		<string>43.4729164855424,-80.5510185316876</string>
-		<string>43.4724618354202,-80.5507659498443</string>
 		<string>43.4720865033097,-80.5505172691365</string>
-		<string>43.4721337377692,-80.5503871064811</string>
-		<string>43.4720865033097,-80.5505172691365</string>
-		<string>43.4720417783289,-80.5506191657624</string>
-		<string>43.4685416866602,-80.5462941737323</string>
-		<string>43.4695951227432,-80.5483100143182</string>
 		<string>43.4698092597429,-80.5475850866958</string>
-		<string>43.4697467552395,-80.5475470838899</string>
-		<string>43.4698092597429,-80.5475850866958</string>
-		<string>43.4699474627776,-80.5470962832084</string>
 		<string>43.4697467552395,-80.5475470838899</string>
 		<string>43.4694103670354,-80.5473162629761</string>
 		<string>43.4693528759279,-80.5473450964712</string>
@@ -16208,10 +14196,8 @@
 		<string>43.4692666520171,-80.547310750852</string>
 		<string>43.4692500376892,-80.5472616784263</string>
 		<string>43.469216116476,-80.5472646265098</string>
-		<string>43.469216116476,-80.5472646265098</string>
 		<string>43.469067643529,-80.5472927649307</string>
 		<string>43.4690854084391,-80.5474824705557</string>
-		<string>43.4686934688958,-80.5475635544115</string>
 		<string>43.4686934688958,-80.5475635544115</string>
 	</array>
 </dict>
