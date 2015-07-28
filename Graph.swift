@@ -9,9 +9,6 @@
 import Foundation
 import MapKit
 
-let MODE1_SCALE_FACTOR = 0.5
-let MODE2_SCALE_FACTOR = 0.1
-
 // This allows Vertex's to be comparable (needed for the Hashable protocol)
 func ==(lhs: Vertex, rhs : Vertex) -> Bool{
     return (lhs.location.latitude == rhs.location.latitude

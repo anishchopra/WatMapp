@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F86B6C801B680F9700F7BCFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86B6C7F1B680F9700F7BCFB /* Constants.swift */; };
 		F871BC6B1B4E2AFF00060DE2 /* 14,4525,5990.png in Resources */ = {isa = PBXBuildFile; fileRef = F871AAC01B4E2A5D00060DE2 /* 14,4525,5990.png */; };
 		F871BC6C1B4E2AFF00060DE2 /* 14,4525,5991.png in Resources */ = {isa = PBXBuildFile; fileRef = F871AAC11B4E2A5D00060DE2 /* 14,4525,5991.png */; };
 		F871BC6D1B4E2AFF00060DE2 /* 14,4526,5990.png in Resources */ = {isa = PBXBuildFile; fileRef = F871AAC21B4E2A5D00060DE2 /* 14,4526,5990.png */; };
@@ -4564,6 +4565,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F86B6C7F1B680F9700F7BCFB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F871AAC01B4E2A5D00060DE2 /* 14,4525,5990.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14,4525,5990.png"; sourceTree = "<group>"; };
 		F871AAC11B4E2A5D00060DE2 /* 14,4525,5991.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14,4525,5991.png"; sourceTree = "<group>"; };
 		F871AAC21B4E2A5D00060DE2 /* 14,4526,5990.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14,4526,5990.png"; sourceTree = "<group>"; };
@@ -13683,6 +13685,7 @@
 		F885883D1B4DB0380014280F /* WatMapp */ = {
 			isa = PBXGroup;
 			children = (
+				F86B6C7F1B680F9700F7BCFB /* Constants.swift */,
 				F8EEC1F91B5D743F005E40E6 /* CircleButton.swift */,
 				F8EEC1FA1B5D743F005E40E6 /* ClearButton.swift */,
 				F8EEC1FB1B5D743F005E40E6 /* Extensions.swift */,
@@ -18367,6 +18370,7 @@
 				F88588631B4DB0640014280F /* Graph.swift in Sources */,
 				F885886A1B4DB0A50014280F /* Map Initialization.swift in Sources */,
 				F876433E1B668F5E0022C897 /* Heap.swift in Sources */,
+				F86B6C801B680F9700F7BCFB /* Constants.swift in Sources */,
 				F8EEC2061B5D743F005E40E6 /* OptionsButton.swift in Sources */,
 				F88588431B4DB0380014280F /* ViewController.swift in Sources */,
 				F8EEC2041B5D743F005E40E6 /* FindCampusButton.swift in Sources */,

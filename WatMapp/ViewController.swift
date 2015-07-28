@@ -9,22 +9,6 @@
 import UIKit
 import MapKit
 
-// These are the coordinates that the map is initially centered on when the app first opens
-let CAMPUS_LATITUDE = 43.472285
-let CAMPUS_LONGITUDE = -80.544858
-
-// These specify the zoom of the map on startup
-let CAMPUS_LAT_DEL = 0.025
-let CAMPUS_LONG_DEL = 0.025
-
-// This is the plist where all of the map data is stored
-let CAMPUS_PLIST_FILE_NAME = "uWaterloo"
-let CAMPUS_PLIST_FILE_PATH = NSBundle.mainBundle().pathForResource(CAMPUS_PLIST_FILE_NAME, ofType: "plist")
-
-// This is the plist where the user's preferred mode is chosen
-let MODE_PLIST_FILE_NAME = "Mode"
-let MODE_PLIST_FILE_PATH = NSBundle.mainBundle().pathForResource(MODE_PLIST_FILE_NAME, ofType: "plist")
-
 var mode : Int {
     get {
         var modeDictionary = NSDictionary(contentsOfFile: MODE_PLIST_FILE_PATH!)
@@ -53,16 +37,21 @@ class ViewController: UIViewController, MKMapViewDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         self.campusMapView.delegate = self
         initializeMap(self.campusMapView)
-
-
-
+        
         modeSelector.hidden = true
         modeSelector.layer.shadowColor = UIColor(red:0, green:0,blue:0,alpha:1.0).CGColor;
         modeSelector.layer.shadowOpacity = 0.5;
         modeSelector.layer.shadowRadius = 2;
         modeSelector.layer.shadowOffset = CGSizeMake(0, 1.5);
         
+        var gg = GraphGenerator(filePath: CAMPUS_PLIST_FILE_PATH!)
+        //gg.drawFullGraph(self.campusMapView)
         
+        // Sample route
+        var p = gg.graph.bestPath("V1", building2: "DWE", mode: 1)
+        var lineGenerator = PolyLineGenerator(path: p!)
+        var lineOverlay = lineGenerator.createPolyLineOverlay()
+        self.campusMapView.addOverlay(lineOverlay)
     }
     
     override func didReceiveMemoryWarning() {
@@ -204,14 +193,6 @@ class ViewController: UIViewController, MKMapViewDelegate {
     }
     
     @IBAction func clearDown(sender: ClearButton) {
-        var gg = GraphGenerator(filePath: CAMPUS_PLIST_FILE_PATH!)
-        //gg.drawFullGraph(self.campusMapView)
-        
-        // Sample route
-        var p = gg.graph.bestPath("MHR", building2: "CLV", mode: mode)
-        var lineGenerator = PolyLineGenerator(path: p!)
-        var lineOverlay = lineGenerator.createPolyLineOverlay()
-        self.campusMapView.addOverlay(lineOverlay)
         sender.touchDown()
     }
 }
