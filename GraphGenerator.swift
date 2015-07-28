@@ -130,7 +130,7 @@ class GraphGenerator {
             for e in v.neighbours {
                 let p1 = Path(dest: v)
                 let p2 = Path(dest: e.neighbour)
-                p1.next = p2
+                p1.previous = p2
                 let plg = PolyLineGenerator(path: p1)
                 let plgOverlay = plg.createPolyLineOverlay()
                 mapView.addOverlay(plgOverlay)

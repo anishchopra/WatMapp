@@ -34,6 +34,11 @@ class Vertex : Hashable {
         self.neighbours = []
     }
     
+    init() {
+        self.location = CLLocationCoordinate2D(latitude: 0, longitude: 0)
+        self.neighbours = []
+    }
+    
     // Returns the distance between self and v (basic Pythagorean theorem)
     func distance(v : Vertex) -> Double{
         let latDel = fabs(self.location.latitude - v.location.latitude)
@@ -125,86 +130,59 @@ class Graph {
     2 entrances to use)
     */
     func bestPath(source : Vertex, target : Vertex, mode : Int) -> Path?{
-        var weight = [Vertex : Double]() // weight[v] is the total weight from source to v
-        var prev = [Vertex : Vertex]() // prev[v] is the Vertex in the path before v
-        var prevEdgeType = [Vertex : EdgeType]() // prevEdgeType[v] is the edge type leading to v
-        var unvisited = Set<Vertex>() // the set of all Vertex's not visited by the algorithm
+        var visited : Set<Vertex> = Set()
+        var frontier: PathHeap = PathHeap()
+        var finalPaths: PathHeap = PathHeap()
         
-        // Set the total weight for each node from the source to infinity (except for the source, which is 0)
-        // Also insert every node into the unvisited set
-        for v in self.canvas {
-            if (v == source || (v is Building && source is Building && (v as! Building).fullName == (source as! Building).fullName)) {
-                weight[v] = 0
-            }
-            else {
-                weight[v] = -1 // to represent infinity
-            }
-            prev[v] = nil
-            unvisited.insert(v)
+        visited.insert(source)
+        
+        // Use source edges to create the frontier
+        for e in source.neighbours {
+            var newPath: Path = Path()
+            newPath.destination = e.neighbour
+            newPath.previous = Path(dest: source)
+            newPath.total = e.weight
+            //add the new path to the frontier
+            frontier.enQueue(newPath)
         }
         
-        while unvisited.count != 0 {
-            var u : Vertex = source // I have to set this to something
-            var minDist : Double = -1
+        // Construct the best path
+        var bestPath: Path = Path()
+        
+        while(frontier.count != 0) {
+            // Use the greedy approach to obtain the best path
+            bestPath = Path()
+            bestPath = frontier.peek()
             
-            // Set Vertex u to some node v with the minimum weight[v]
-            // This will be set to the source Vertex for the first iteration
-            for v in unvisited {
-                if weight[v] >= 0 {
-                    if ((minDist == -1) || (weight[v] < minDist)) {
-                        minDist = weight[v]!
-                        u = v // this is guaranteed to happen at least once
-                    }
-                }
+            visited.insert(bestPath.destination)
+            
+            // Remove the bestPath from the frontier
+            frontier.deQueue()
+            
+            // Preserve the bestPaths that match destination
+            if (bestPath.destination == target || (bestPath.destination is Building && target is Building && (bestPath.destination as! Building).fullName == (target as! Building).fullName)) {
+                finalPaths.enQueue(bestPath)
+                break
             }
             
-            // If the target node has been found, return the shortest path
-            if (u == target || (u is Building && target is Building && (u as! Building).fullName == (target as! Building).fullName))
-            {
-                var p = Path(dest: u)
-                var total = weight[u]!
-                while (prev[u] != nil) {
-                    var type = prevEdgeType[u]!
-                    u = (prev[u])!
-                    var newP : Path = Path(dest: u)
-                    newP.next = p
-                    newP.edgeToNextType = type
-                    
-                    p = newP
-                }
-                p.total = total
-                return p
-            }
-            
-            unvisited.remove(u)
-            
-            // Set weight[v] and prev[v] for every neighbour v of u
-            for e in u.neighbours {
-                if (unvisited.contains(e.neighbour)) {
-                    var alt : Double = Double()
-                    alt = weight[u]!
-                    if !e.isIndoors || mode == 0 {
-                        alt += e.weight
-                    }
-                    else if mode == 1{
-                        alt += e.weight * MODE1_SCALE_FACTOR
-                    }
-                    else {
-                        alt += e.weight * MODE2_SCALE_FACTOR
-                    }
-                    
-                    if (weight[e.neighbour] == -1 || alt < weight[e.neighbour]) {
-                        weight[e.neighbour] = alt
-                        prev[e.neighbour] = u
-                        prevEdgeType[e.neighbour] = e.type
-                    }
+            // Enumerate the bestPath edges
+            for e in bestPath.destination.neighbours {
+                if (!visited.contains(e.neighbour) && e.neighbour != bestPath.destination) {
+                    var newPath: Path = Path()
+                    newPath.destination = e.neighbour
+                    newPath.previous = bestPath
+                    newPath.total = bestPath.total + e.weight
+                
+                    // Add the new path to the frontier
+                    frontier.enQueue(newPath)
                 }
             }
         }
         
-        // If the target node cannot be found, return nil
-        return nil
-        
+        // Obtain the shortest path from the heap
+        var shortestPath: Path! = Path()
+        shortestPath = finalPaths.peek()
+        return shortestPath
     }
     
     // This takes in the abbreviation of 2 buildings and returns the best path by calling 
@@ -232,17 +210,18 @@ class Graph {
     }
 }
 
-// A Path is a linked list, and each Path structure contains a Vertex
 class Path {
-    var total : Double
-    var destination : Vertex
-    var next : Path?
-    var edgeToNextType : EdgeType?
-    
-    init(dest : Vertex) {
-        self.total = 0
-        self.destination = dest
+    var total: Double!
+    var destination: Vertex
+    var previous: Path!
+
+    //object initialization 
+    init() {
+        destination = Vertex()
     }
     
+    init(dest: Vertex) {
+        destination = dest
+    }
 }
 

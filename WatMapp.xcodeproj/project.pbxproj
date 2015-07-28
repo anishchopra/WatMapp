@@ -4530,6 +4530,7 @@
 		F871CE131B4E2AFF00060DE2 /* 20,289731,383431.png in Resources */ = {isa = PBXBuildFile; fileRef = F871BC681B4E2AFE00060DE2 /* 20,289731,383431.png */; };
 		F871CE141B4E2AFF00060DE2 /* 20,289731,383432.png in Resources */ = {isa = PBXBuildFile; fileRef = F871BC691B4E2AFE00060DE2 /* 20,289731,383432.png */; };
 		F871CE151B4E2AFF00060DE2 /* 20,289731,383433.png in Resources */ = {isa = PBXBuildFile; fileRef = F871BC6A1B4E2AFF00060DE2 /* 20,289731,383433.png */; };
+		F876433E1B668F5E0022C897 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F876433D1B668F5E0022C897 /* Heap.swift */; };
 		F88588411B4DB0380014280F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588401B4DB0380014280F /* AppDelegate.swift */; };
 		F88588431B4DB0380014280F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588421B4DB0380014280F /* ViewController.swift */; };
 		F88588461B4DB0380014280F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88588441B4DB0380014280F /* Main.storyboard */; };
@@ -9086,6 +9087,7 @@
 		F871BC681B4E2AFE00060DE2 /* 20,289731,383431.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20,289731,383431.png"; sourceTree = "<group>"; };
 		F871BC691B4E2AFE00060DE2 /* 20,289731,383432.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20,289731,383432.png"; sourceTree = "<group>"; };
 		F871BC6A1B4E2AFF00060DE2 /* 20,289731,383433.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20,289731,383433.png"; sourceTree = "<group>"; };
+		F876433D1B668F5E0022C897 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		F885883B1B4DB0380014280F /* WatMapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatMapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F885883F1B4DB0380014280F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F88588401B4DB0380014280F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -13695,6 +13697,7 @@
 				F88588691B4DB0A50014280F /* PolyLineGenerator.swift */,
 				F88588601B4DB0640014280F /* Graph.swift */,
 				F88588611B4DB0640014280F /* GraphGenerator.swift */,
+				F876433D1B668F5E0022C897 /* Heap.swift */,
 				F88588441B4DB0380014280F /* Main.storyboard */,
 				F88588471B4DB0380014280F /* Images.xcassets */,
 				F88588491B4DB0380014280F /* LaunchScreen.xib */,
@@ -18363,6 +18366,7 @@
 				F88588641B4DB0640014280F /* GraphGenerator.swift in Sources */,
 				F88588631B4DB0640014280F /* Graph.swift in Sources */,
 				F885886A1B4DB0A50014280F /* Map Initialization.swift in Sources */,
+				F876433E1B668F5E0022C897 /* Heap.swift in Sources */,
 				F8EEC2061B5D743F005E40E6 /* OptionsButton.swift in Sources */,
 				F88588431B4DB0380014280F /* ViewController.swift in Sources */,
 				F8EEC2041B5D743F005E40E6 /* FindCampusButton.swift in Sources */,

@@ -25,7 +25,7 @@ class PolyLineGenerator {
         while (pathToDisplay != nil) {
             pointsToUse.append(pathToDisplay!.destination.location)
             
-            pathToDisplay = pathToDisplay?.next
+            pathToDisplay = pathToDisplay?.previous
         }
         
         let pathPolyLine = MKPolyline(coordinates: &pointsToUse, count: pointsToUse.count)

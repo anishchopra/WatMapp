@@ -208,7 +208,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         //gg.drawFullGraph(self.campusMapView)
         
         // Sample route
-        var p = gg.graph.bestPath("MHR", building2: "CLV", mode: 2)
+        var p = gg.graph.bestPath("MHR", building2: "CLV", mode: mode)
         var lineGenerator = PolyLineGenerator(path: p!)
         var lineOverlay = lineGenerator.createPolyLineOverlay()
         self.campusMapView.addOverlay(lineOverlay)
