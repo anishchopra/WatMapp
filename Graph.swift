@@ -141,7 +141,15 @@ class Graph {
             var newPath: Path = Path()
             newPath.destination = e.neighbour
             newPath.previous = Path(dest: source)
-            newPath.total = e.weight
+            if (mode == 1) {
+                newPath.total = e.weight * MODE1_SCALE_FACTOR
+            }
+            else if (mode == 2) {
+                newPath.total = e.weight * MODE2_SCALE_FACTOR
+            }
+            else {
+                newPath.total = e.weight
+            }
             //add the new path to the frontier
             frontier.enQueue(newPath)
         }
@@ -171,7 +179,15 @@ class Graph {
                     var newPath: Path = Path()
                     newPath.destination = e.neighbour
                     newPath.previous = bestPath
-                    newPath.total = bestPath.total + e.weight
+                    if (mode == 1) {
+                        newPath.total = bestPath.total + e.weight * MODE1_SCALE_FACTOR
+                    }
+                    else if (mode == 2) {
+                        newPath.total = bestPath.total + e.weight * MODE2_SCALE_FACTOR
+                    }
+                    else {
+                        newPath.total = bestPath.total + e.weight
+                    }
                 
                     // Add the new path to the frontier
                     frontier.enQueue(newPath)
