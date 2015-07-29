@@ -124,7 +124,7 @@ class Graph {
     Returns the best path between 2 vertices. If the vertices are of the type Building,
     then it will return the best path between the 2 buildings, which means that the path
     can be created between any 2 entrances of the buildings (the algorithm will find the best
-    2 entrances to use)
+    2 entrances to use).
     */
     func bestPath(source : Vertex, target : Vertex, mode : Int) -> Path?{
         var visited : Set<Vertex> = Set()
@@ -134,21 +134,40 @@ class Graph {
         visited.insert(source)
         
         // Use source edges to create the frontier
-        for e in source.neighbours {
-            var newPath: Path = Path()
-            newPath.destination = e.neighbour
-            newPath.previous = Path(dest: source)
-            if (mode == 1) {
-                newPath.total = e.weight * (e.isIndoors ? MODE1_SCALE_FACTOR : 1)
+        func addInitialValuesToFrontier(src: Vertex) {
+            for e in src.neighbours {
+                var newPath: Path = Path()
+                newPath.destination = e.neighbour
+                newPath.previous = Path(dest: src)
+                if (mode == 1) {
+                    newPath.total = e.weight * (e.isIndoors ? MODE1_SCALE_FACTOR : 1)
+                }
+                else if (mode == 2) {
+                    newPath.total = e.weight * (e.isIndoors ? MODE2_SCALE_FACTOR : 1)
+                }
+                else {
+                    newPath.total = e.weight
+                }
+                newPath.edgeTypeToPath = e.type
+                //add the new path to the frontier
+                frontier.enQueue(newPath)
             }
-            else if (mode == 2) {
-                newPath.total = e.weight * (e.isIndoors ? MODE2_SCALE_FACTOR : 1)
+        }
+        
+        if (source is Building) {
+            // make sure every building entrance is added to the frontier
+            let name = (source as! Building).fullName
+            
+            for v in self.canvas {
+                if (v is Building && (v as! Building).fullName == name) {
+                    let vb = v as! Building
+                    addInitialValuesToFrontier(vb)
+                }
             }
-            else {
-                newPath.total = e.weight
-            }
-            //add the new path to the frontier
-            frontier.enQueue(newPath)
+            
+        }
+        else {
+            addInitialValuesToFrontier(source)
         }
         
         // Construct the best path
@@ -185,7 +204,8 @@ class Graph {
                     else {
                         newPath.total = bestPath.total + e.weight
                     }
-                
+                    newPath.edgeTypeToPath = e.type
+                    
                     // Add the new path to the frontier
                     frontier.enQueue(newPath)
                 }
@@ -227,8 +247,8 @@ class Path {
     var total: Double!
     var destination: Vertex
     var previous: Path!
+    var edgeTypeToPath : EdgeType!
 
-    //object initialization 
     init() {
         destination = Vertex()
     }

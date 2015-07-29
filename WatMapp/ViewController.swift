@@ -11,12 +11,28 @@ import MapKit
 
 var mode : Int {
     get {
-        var modeDictionary = NSDictionary(contentsOfFile: MODE_PLIST_FILE_PATH!)
+        //var modeDictionary = NSDictionary(contentsOfFile: MODE_PLIST_FILE_PATH!)
+        //return (modeDictionary!["Mode"] as! String).toInt()!
+        
+        var paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as! String
+        var path = paths.stringByAppendingPathComponent("Mode.plist")
+        var fileManager = NSFileManager.defaultManager()
+        if (!(fileManager.fileExistsAtPath(path)))
+        {
+            var bundle : NSString = NSBundle.mainBundle().pathForResource("Mode", ofType: "plist")!
+            fileManager.copyItemAtPath(bundle as String, toPath: path, error:nil)
+        }
+        
+        let modeDictionary = NSDictionary(contentsOfFile: path)
         return (modeDictionary!["Mode"] as! String).toInt()!
     }
     set (value) {
         var modeDictionary : NSDictionary = ["Mode" : value.description]
-        modeDictionary.writeToFile(MODE_PLIST_FILE_PATH!, atomically: false)
+        //modeDictionary.writeToFile(MODE_PLIST_FILE_PATH!, atomically: false)
+        var paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as! String
+        var path = paths.stringByAppendingPathComponent("Mode.plist")
+
+        modeDictionary.writeToFile(path, atomically: false)
     }
 }
 
@@ -48,7 +64,8 @@ class ViewController: UIViewController, MKMapViewDelegate {
         //gg.drawFullGraph(self.campusMapView)
         
         // Sample route
-        var p = gg.graph.bestPath("V1", building2: "DWE", mode: 1)
+        var p = gg.graph.bestPath("UWP", building2: "PAC", mode: mode)
+        printDirections(p!)
         var lineGenerator = PolyLineGenerator(path: p!)
         var lineOverlay = lineGenerator.createPolyLineOverlay()
         self.campusMapView.addOverlay(lineOverlay)
@@ -194,6 +211,14 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     @IBAction func clearDown(sender: ClearButton) {
         sender.touchDown()
+    }
+    
+    @IBAction func clearUpInside(sender: ClearButton) {
+        sender.touchUp()
+    }
+    
+    @IBAction func textDown(sender: TextBox) {
+        performSegueWithIdentifier("search", sender: sender)
     }
 }
 

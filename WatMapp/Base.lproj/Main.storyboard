@@ -102,6 +102,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="clearDown:" destination="BYZ-38-t0r" eventType="touchDown" id="1NM-3P-Og6"/>
+                                    <action selector="clearUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lny-vz-RTx"/>
                                     <action selector="optionsDown:" destination="dkx-z0-nzr" eventType="touchDown" id="FHd-3e-o2B"/>
                                     <action selector="optionsUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="vT0-O3-Vpk"/>
                                 </connections>

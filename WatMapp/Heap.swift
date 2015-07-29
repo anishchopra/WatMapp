@@ -9,11 +9,11 @@
 import Foundation
 
 
-//a basic min-heap data strcture 
+// A basic min-heap data strcture
 public class PathHeap {
     private var heap: Array<Path>
     
-    //the number of frontier items
+    // The number of frontier items
     var count: Int {
         return self.heap.count
     }
@@ -22,23 +22,23 @@ public class PathHeap {
         heap = Array()
     }
     
-    //sort shortest paths into a min-heap (heapify) 
+    // Sort shortest paths into a min-heap (heapify)
     func enQueue(key: Path) {
         heap.append(key)
         var childIndex: Float = Float(heap.count) - 1
         var parentIndex: Int! = 0
         
-        //calculate parent index
+        // Calculate parent index
         if (childIndex != 0) {
             parentIndex = Int(floorf((childIndex - 1) / 2))
         }
         
-        //use the bottom-up approach 
+        // Use the bottom-up approach
         while (childIndex != 0) {
             var childToUse: Path = heap[Int(childIndex)]
             var parentToUse: Path = heap[parentIndex]
             
-            //swap child and parent positions
+            // Swap child and parent positions
             if (childToUse.total < parentToUse.total) {
                 heap.insert(childToUse, atIndex: parentIndex)
                 heap.removeAtIndex(Int(childIndex) + 1)
@@ -46,7 +46,7 @@ public class PathHeap {
                 heap.removeAtIndex(parentIndex + 1)
             }
             
-            //reset indices
+            // Reset indices
             childIndex = Float(parentIndex)
             
             
@@ -56,7 +56,7 @@ public class PathHeap {
         }
     }
     
-    //obtain the minimum path 
+    // Obtain the minimum path 
     func peek() -> Path! {
         if (heap.count > 0) {
             var shortestPath: Path = heap[0]
