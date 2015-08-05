@@ -4557,20 +4557,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3CCC19A21B71BAA600C670F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F88588331B4DB0380014280F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3CCC19871B71BAA600C670F3;
-			remoteInfo = WatMappD;
-		};
-		3CCC19AF1B71BACE00C670F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F88588331B4DB0380014280F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F885883A1B4DB0380014280F;
-			remoteInfo = WatMapp;
-		};
 		F88588511B4DB0390014280F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F88588331B4DB0380014280F /* Project object */;
@@ -4582,8 +4568,6 @@
 
 /* Begin PBXFileReference section */
 		3C782FF61B6E72E900EDED76 /* Searchbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Searchbar.swift; sourceTree = "<group>"; };
-		3CCC19881B71BAA600C670F3 /* WatMappD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatMappD.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CCC19A11B71BAA600C670F3 /* WatMappDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatMappDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86B6C7F1B680F9700F7BCFB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F86B6C811B6823E800F7BCFB /* Directions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
 		F871AAC01B4E2A5D00060DE2 /* 14,4525,5990.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14,4525,5990.png"; sourceTree = "<group>"; };
@@ -9137,20 +9121,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3CCC19851B71BAA600C670F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CCC199E1B71BAA600C670F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F88588381B4DB0380014280F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -13712,8 +13682,6 @@
 			children = (
 				F885883B1B4DB0380014280F /* WatMapp.app */,
 				F88588501B4DB0390014280F /* WatMappTests.xctest */,
-				3CCC19881B71BAA600C670F3 /* WatMappD.app */,
-				3CCC19A11B71BAA600C670F3 /* WatMappDTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -13778,42 +13746,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3CCC19871B71BAA600C670F3 /* WatMappD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3CCC19AD1B71BAA600C670F3 /* Build configuration list for PBXNativeTarget "WatMappD" */;
-			buildPhases = (
-				3CCC19841B71BAA600C670F3 /* Sources */,
-				3CCC19851B71BAA600C670F3 /* Frameworks */,
-				3CCC19861B71BAA600C670F3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WatMappD;
-			productName = WatMappD;
-			productReference = 3CCC19881B71BAA600C670F3 /* WatMappD.app */;
-			productType = "com.apple.product-type.application";
-		};
-		3CCC19A01B71BAA600C670F3 /* WatMappDTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3CCC19AE1B71BAA600C670F3 /* Build configuration list for PBXNativeTarget "WatMappDTests" */;
-			buildPhases = (
-				3CCC199D1B71BAA600C670F3 /* Sources */,
-				3CCC199E1B71BAA600C670F3 /* Frameworks */,
-				3CCC199F1B71BAA600C670F3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3CCC19A31B71BAA600C670F3 /* PBXTargetDependency */,
-				3CCC19B01B71BACE00C670F3 /* PBXTargetDependency */,
-			);
-			name = WatMappDTests;
-			productName = WatMappDTests;
-			productReference = 3CCC19A11B71BAA600C670F3 /* WatMappDTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F885883A1B4DB0380014280F /* WatMapp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F885885A1B4DB0390014280F /* Build configuration list for PBXNativeTarget "WatMapp" */;
@@ -13858,13 +13790,6 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Anish Chopra";
 				TargetAttributes = {
-					3CCC19871B71BAA600C670F3 = {
-						CreatedOnToolsVersion = 6.4;
-					};
-					3CCC19A01B71BAA600C670F3 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = F885883A1B4DB0380014280F;
-					};
 					F885883A1B4DB0380014280F = {
 						CreatedOnToolsVersion = 6.3.2;
 						DevelopmentTeam = KB7HAYQD9S;
@@ -13890,27 +13815,11 @@
 			targets = (
 				F885883A1B4DB0380014280F /* WatMapp */,
 				F885884F1B4DB0390014280F /* WatMappTests */,
-				3CCC19871B71BAA600C670F3 /* WatMappD */,
-				3CCC19A01B71BAA600C670F3 /* WatMappDTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3CCC19861B71BAA600C670F3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CCC199F1B71BAA600C670F3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F88588391B4DB0380014280F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -18456,20 +18365,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3CCC19841B71BAA600C670F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CCC199D1B71BAA600C670F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F88588371B4DB0380014280F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -18506,16 +18401,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3CCC19A31B71BAA600C670F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3CCC19871B71BAA600C670F3 /* WatMappD */;
-			targetProxy = 3CCC19A21B71BAA600C670F3 /* PBXContainerItemProxy */;
-		};
-		3CCC19B01B71BACE00C670F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F885883A1B4DB0380014280F /* WatMapp */;
-			targetProxy = 3CCC19AF1B71BACE00C670F3 /* PBXContainerItemProxy */;
-		};
 		F88588521B4DB0390014280F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F885883A1B4DB0380014280F /* WatMapp */;
@@ -18543,68 +18428,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3CCC19A91B71BAA600C670F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = WatMappD/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		3CCC19AA1B71BAA600C670F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WatMappD/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		3CCC19AB1B71BAA600C670F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = WatMappDTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatMapp.app/WatMapp";
-			};
-			name = Debug;
-		};
-		3CCC19AC1B71BAA600C670F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = WatMappDTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatMapp.app/WatMapp";
-			};
-			name = Release;
-		};
 		F88588581B4DB0390014280F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -18751,22 +18574,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3CCC19AD1B71BAA600C670F3 /* Build configuration list for PBXNativeTarget "WatMappD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3CCC19A91B71BAA600C670F3 /* Debug */,
-				3CCC19AA1B71BAA600C670F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		3CCC19AE1B71BAA600C670F3 /* Build configuration list for PBXNativeTarget "WatMappDTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3CCC19AB1B71BAA600C670F3 /* Debug */,
-				3CCC19AC1B71BAA600C670F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		F88588361B4DB0380014280F /* Build configuration list for PBXProject "WatMapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

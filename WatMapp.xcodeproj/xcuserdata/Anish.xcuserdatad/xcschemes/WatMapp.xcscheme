@@ -34,6 +34,20 @@
                ReferencedContainer = "container:WatMapp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3CCC19A01B71BAA600C670F3"
+               BuildableName = "WatMappDTests.xctest"
+               BlueprintName = "WatMappDTests"
+               ReferencedContainer = "container:WatMapp.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +63,16 @@
                BlueprintIdentifier = "F885884F1B4DB0390014280F"
                BuildableName = "WatMappTests.xctest"
                BlueprintName = "WatMappTests"
+               ReferencedContainer = "container:WatMapp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3CCC19A01B71BAA600C670F3"
+               BuildableName = "WatMappDTests.xctest"
+               BlueprintName = "WatMappDTests"
                ReferencedContainer = "container:WatMapp.xcodeproj">
             </BuildableReference>
          </TestableReference>
