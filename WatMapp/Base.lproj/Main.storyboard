@@ -19,8 +19,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottom" ambiguous="YES" misplaced="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JTz-YI-pZ9">
-                                <rect key="frame" x="0.0" y="80" width="375" height="587"/>
+                            <mapView multipleTouchEnabled="YES" contentMode="bottom" ambiguous="YES" misplaced="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JTz-YI-pZ9">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cQa-Du-aif" customClass="FindCampusButton" customModule="WatMapp" customModuleProvider="target">
                                 <rect key="frame" x="16" y="539" width="50" height="50"/>
@@ -67,14 +67,58 @@
                                     <action selector="findMeUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="vqy-xK-1tc"/>
                                 </connections>
                             </button>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CS5-O0-K2y">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ceE-Qf-fvK">
+                                <rect key="frame" x="10" y="95" width="355" height="550"/>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="50" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="Lsy-x2-Nj5">
+                                <rect key="frame" x="10" y="95" width="355" height="550"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" red="0.71372549019607845" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="separatorInset" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                <color key="sectionIndexColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="buildingCell" id="wJs-Tj-1q4">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wJs-Tj-1q4" id="faR-hJ-vSl">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kom-3U-l2u">
+                                <rect key="frame" x="10" y="25" width="355" height="50"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4fF-YE-foT" customClass="SearchBar" customModule="WatMapp" customModuleProvider="target">
+                                        <rect key="frame" x="49" y="10" width="200" height="30"/>
+                                        <color key="tintColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="textDown:" destination="dkx-z0-nzr" eventType="editingDidBegin" id="Paa-zF-xMH"/>
+                                            <action selector="textDown:" destination="dkx-z0-nzr" eventType="touchDown" id="ZRP-3z-MBg"/>
+                                            <action selector="valuechanged:" destination="dkx-z0-nzr" eventType="valueChanged" id="grk-qs-WZ5"/>
+                                            <action selector="valuechanged:" destination="dkx-z0-nzr" eventType="editingChanged" id="ut3-d7-exU"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqd-rv-MzL" customClass="OptionsButton" customModule="WatMapp" customModuleProvider="target">
-                                <rect key="frame" x="313" y="20" width="46" height="46"/>
+                                <rect key="frame" x="313" y="27" width="46" height="46"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="iconColour">
-                                        <color key="value" red="0.2470588235" green="0.31764705879999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.44705882352941173" green="0.44705882352941173" blue="0.44705882352941173" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="circleColour">
                                         <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -87,13 +131,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ndt-Kq-Vmm" customClass="ClearButton" customModule="WatMapp" customModuleProvider="target">
-                                <rect key="frame" x="259" y="20" width="46" height="46"/>
+                                <rect key="frame" x="259" y="27" width="46" height="46"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="iconColour">
-                                        <color key="value" red="0.2470588235" green="0.31764705879999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.44705882352941173" green="0.44705882352941173" blue="0.44705882352941173" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="circleColour">
                                         <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -107,30 +151,16 @@
                                     <action selector="optionsUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="vT0-O3-Vpk"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TmL-rc-5RR" customClass="TextBox" customModule="WatMapp" customModuleProvider="target">
-                                <rect key="frame" x="51" y="28" width="200" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColour">
-                                        <color key="value" red="0.2470588235" green="0.31764705879999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="textDown:" destination="dkx-z0-nzr" eventType="touchDown" id="Onq-UD-o7L"/>
-                                </connections>
-                            </textField>
                             <view hidden="YES" contentMode="top" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dLo-KZ-KWd">
-                                <rect key="frame" x="173" y="28" width="186" height="144"/>
+                                <rect key="frame" x="173" y="33" width="186" height="144"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUA-zs-MtK">
                                         <rect key="frame" x="22" y="16" width="143" height="32"/>
                                         <state key="normal" title="As Fast As Possible">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="titleColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="mode1Down:" destination="BYZ-38-t0r" eventType="touchDown" id="n8Q-hB-KSq"/>
                                             <action selector="mode1UpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d0X-fI-GQj"/>
                                             <action selector="mode1UpOutside:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="fRJ-h4-Ncq"/>
                                         </connections>
@@ -138,22 +168,20 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POS-gp-CIb">
                                         <rect key="frame" x="22" y="56" width="143" height="30"/>
                                         <state key="normal" title="Reasonably Indoors">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="titleColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="mode2Down:" destination="BYZ-38-t0r" eventType="touchDown" id="FrO-G2-P7G"/>
                                             <action selector="mode2UpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SNl-wU-zGc"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RK4-fl-QeM">
                                         <rect key="frame" x="22" y="94" width="143" height="30"/>
                                         <state key="normal" title="Indoors At All Costs">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="titleColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="mode3Down:" destination="BYZ-38-t0r" eventType="touchDown" id="x24-M0-3e9"/>
                                             <action selector="mode3UpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7h2-k3-tAm"/>
                                         </connections>
                                     </button>
@@ -161,7 +189,7 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Yqd-rv-MzL" firstAttribute="leading" secondItem="Ndt-Kq-Vmm" secondAttribute="trailing" constant="8" symbolic="YES" id="2C8-yn-gaj"/>
@@ -186,13 +214,23 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="campusMapView" destination="JTz-YI-pZ9" id="wge-G7-dl3"/>
+                        <outlet property="findCampus" destination="cQa-Du-aif" id="wAH-al-4Kp"/>
+                        <outlet property="findMe" destination="z1f-fj-tbY" id="b5X-Kp-jde"/>
+                        <outlet property="greyBack" destination="CS5-O0-K2y" id="0Ja-c6-wKV"/>
                         <outlet property="modeSelector" destination="dLo-KZ-KWd" id="Az9-lf-Tsa"/>
                         <outlet property="optionsButton" destination="Yqd-rv-MzL" id="Nkj-Bk-aF6"/>
+                        <outlet property="search" destination="4fF-YE-foT" id="5FB-mH-YsD"/>
+                        <outlet property="searchHolder" destination="kom-3U-l2u" id="pKz-uS-5dd"/>
+                        <outlet property="searchTable" destination="Lsy-x2-Nj5" id="e5z-El-bPK"/>
+                        <outlet property="searchTableBack" destination="ceE-Qf-fvK" id="dMt-6W-sy0"/>
+                        <outletCollection property="options" destination="BUA-zs-MtK" collectionClass="NSMutableArray" id="ldZ-O1-3BJ"/>
+                        <outletCollection property="options" destination="POS-gp-CIb" collectionClass="NSMutableArray" id="OMz-Xc-3DA"/>
+                        <outletCollection property="options" destination="RK4-fl-QeM" collectionClass="NSMutableArray" id="bJf-EK-WWn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="148.5" y="501.5"/>
+            <point key="canvasLocation" x="-157.5" y="247.5"/>
         </scene>
     </scenes>
 </document>

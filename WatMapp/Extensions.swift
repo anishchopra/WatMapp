@@ -31,3 +31,43 @@ extension CGPath {
         return CGPathCreateCopyByTransformingPath(path, &scaleTransform);
     }
 }
+
+extension UIView {
+    func fadeIn(duration: NSTimeInterval = 1.0, delay: NSTimeInterval = 0.0, completion: ((Bool) -> Void) = {(finished: Bool) -> Void in}) {
+        UIView.animateWithDuration(duration, delay: delay, options: UIViewAnimationOptions.CurveEaseIn, animations: {
+            self.alpha = 1.0
+            }, completion: completion)  }
+    
+    func fadeOut(duration: NSTimeInterval = 1.0, delay: NSTimeInterval = 0.0, completion: (Bool) -> Void = {(finished: Bool) -> Void in}) {
+        UIView.animateWithDuration(duration, delay: delay, options: UIViewAnimationOptions.CurveEaseIn, animations: {
+            self.alpha = 0.0
+            }, completion: completion)
+    }
+    
+    func slideInFromTop(duration: NSTimeInterval = 1.0, completionDelegate: AnyObject? = nil) {
+        // Create a CATransition animation
+        let slideInFromTop = CATransition()
+        
+        // Set its callback delegate to the completionDelegate that was provided (if any)
+        if let delegate: AnyObject = completionDelegate {
+            slideInFromTop.delegate = delegate
+        }
+        
+        // Customize the animation's properties
+        slideInFromTop.type = kCATransitionPush
+        slideInFromTop.subtype = kCATransitionFromTop
+        slideInFromTop.duration = duration
+        slideInFromTop.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        slideInFromTop.fillMode = kCAFillModeRemoved
+        
+        // Add the animation to the View's layer
+        self.layer.addAnimation(slideInFromTop, forKey: "slideInFromTopTransition")
+    }
+    
+    func addBoxShadow() {
+        self.layer.shadowColor = UIColor(red:0, green:0,blue:0,alpha:1.0).CGColor;
+        self.layer.shadowOpacity = 0.5;
+        self.layer.shadowRadius = 2;
+        self.layer.shadowOffset = CGSizeMake(0, 1.5);
+    }
+}

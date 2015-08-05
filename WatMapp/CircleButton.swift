@@ -24,7 +24,7 @@ class CircleButton : UIButton
     }
     
     @IBInspectable
-    var iconColour: UIColor = UIColor(red:238/255.0, green:205/255.0, blue:52/255.0, alpha:1.0) {
+    var iconColour: UIColor = UIColor(red:0/255.0, green:0/255.0, blue:0/255.0, alpha:50) {
         didSet {
             updateLayerProperties()
         }
