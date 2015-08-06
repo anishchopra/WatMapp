@@ -48,9 +48,6 @@ class GraphGenerator {
         
         var uniqueStrings : [String] = []
         
-        
-        
-        
         let pathVertices = properties!["pathVertices"] as! NSArray
         let buildingVertices = properties!["buildingVertices"] as! NSArray
         let edges = properties!["edges"] as! NSArray
@@ -104,6 +101,7 @@ class GraphGenerator {
                 case let x where x == "Tunnel":
                     type = EdgeType.Tunnel
                 default:
+                    println(typeString)
                     type = EdgeType.OutdoorWalkway
                 
             }
@@ -162,6 +160,36 @@ class GraphGenerator {
         for b in self.graph.buildingCentres {
             let a = Annotation(coordinate: b.location, title: b.abbreviation)
             mapView.addAnnotation(a)
+        }
+    }
+    
+    func drawIndoorEdges(mapView : MKMapView) {
+        for v in self.graph.canvas {
+            for e in v.neighbours {
+                if e.isIndoors {
+                    var p = Path(dest: v)
+                    p.previous = Path(dest: e.neighbour)
+                    var lineGenerator = PolyLineGenerator(path: p)
+                    var lineOverlay = lineGenerator.createPolyLineOverlay()
+                    
+                    mapView.addOverlay(lineOverlay)
+                }
+            }
+        }
+    }
+    
+    func drawOutdoorEdges(mapView : MKMapView) {
+        for v in self.graph.canvas {
+            for e in v.neighbours {
+                if e.isIndoors == false {
+                    var p = Path(dest: v)
+                    p.previous = Path(dest: e.neighbour)
+                    var lineGenerator = PolyLineGenerator(path: p)
+                    var lineOverlay = lineGenerator.createPolyLineOverlay()
+                    
+                    mapView.addOverlay(lineOverlay)
+                }
+            }
         }
     }
 }
