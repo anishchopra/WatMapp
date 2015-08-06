@@ -818,11 +818,6 @@
 			<string>43.4702515906942,-80.5398024856179</string>
 		</array>
 		<array>
-			<string>Engineering 2</string>
-			<string>E2</string>
-			<string>43.4707146457774,-80.5398322757792</string>
-		</array>
-		<array>
 			<string>Carl A. Pollock Hall</string>
 			<string>CPH</string>
 			<string>43.4707968719009,-80.5393252967691</string>
@@ -923,8 +918,8 @@
 			<string>43.4697459043579,-80.5408198448699</string>
 		</array>
 		<array>
-			<string>J.R. Coutts Engineering Lecture Hall</string>
-			<string>RCH</string>
+			<string>Engineering 2</string>
+			<string>E2</string>
 			<string>43.4705706448563,-80.5408754655247</string>
 		</array>
 		<array>
@@ -9343,17 +9338,17 @@
 		<array>
 			<string>43.4707146457774,-80.5398322757792</string>
 			<string>43.4706934432423,-80.5398034179083</string>
-			<string>IndoorWalkway</string>
+			<string>OutdoorWalkway</string>
 		</array>
 		<array>
 			<string>43.4706934432423,-80.5398034179083</string>
 			<string>43.4706513403439,-80.5397499832054</string>
-			<string>IndoorWalkway</string>
+			<string>OutdoorWalkway</string>
 		</array>
 		<array>
 			<string>43.4706513403439,-80.5397499832054</string>
 			<string>43.4705994010864,-80.5396675218121</string>
-			<string>IndoorWalkway</string>
+			<string>OutdoorWalkway</string>
 		</array>
 		<array>
 			<string>43.4707968719009,-80.5393252967691</string>
