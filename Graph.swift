@@ -72,7 +72,7 @@ class Edge {
     init(distance : Double, neighbour : Vertex, type : EdgeType = EdgeType.OutdoorWalkway) {
         self.weight = distance
         self.neighbour = neighbour
-        self.isIndoors = type == EdgeType.OutdoorWalkway || type == EdgeType.OutdoorBridge ? false : true
+        self.isIndoors = (type == EdgeType.OutdoorWalkway || type == EdgeType.OutdoorBridge) ? false : true
         self.type = type
     }
 }
@@ -196,10 +196,10 @@ class Graph {
                     newPath.destination = e.neighbour
                     newPath.previous = bestPath
                     if (mode == 1) {
-                        newPath.total = bestPath.total + (e.isIndoors ? e.weight * MODE1_SCALE_FACTOR : 1)
+                        newPath.total = bestPath.total + e.weight * (e.isIndoors ? MODE1_SCALE_FACTOR : 1)
                     }
                     else if (mode == 2) {
-                        newPath.total = bestPath.total + (e.isIndoors ? e.weight * MODE2_SCALE_FACTOR : 1)
+                        newPath.total = bestPath.total + e.weight * (e.isIndoors ? MODE2_SCALE_FACTOR : 1)
                     }
                     else {
                         newPath.total = bestPath.total + e.weight
