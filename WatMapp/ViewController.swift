@@ -270,11 +270,19 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         active.setTitleColor(UIColor(red:255/255.0, green:64/255.0, blue:129/255.0, alpha:1.0), forState: UIControlState.Normal)
     }
     
-    func drawPath(start:String = "SLC", end:String = "RCH") {
+    func drawPath() {
         // when the mode is changed remove the old path
         if lineOverlay != nil {
             self.campusMapView.removeOverlay(lineOverlay)
         }
+        
+        var start = search.selectedBuilding.abbreviation
+        
+        if start == "" {
+            start = "SLC"
+        }
+        
+        var end = "RCH"
         
         var p = gg.graph.bestPath(start, building2: end, mode: mode)
         printDirections(p!)
@@ -308,6 +316,15 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         search.text = currentCell!.textLabel!.text
         search.endEditing(true)
         self.hideSearchView()
+        search.selectedBuilding = search.searchedBuildings[indexPath!.row]
+        
+        self.drawPath()
+        
+        // activate map buttons
+        findMe.enabled = true
+        findCampus.enabled = true
+        
+        searchHolder.frame = CGRectMake(searchHolder.frame.minX, searchHolder.frame.minY, searchHolder.frame.width, 2*searchHolder.frame.height)
     }
     // End search table stuff
     

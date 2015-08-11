@@ -21,6 +21,8 @@ class SearchBar : UITextField
     
     var searchedBuildings: [Building] = []
     
+    var selectedBuilding: Building = Building()
+    
     @IBOutlet var table: UITableView! = nil
     
     

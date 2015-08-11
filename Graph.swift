@@ -48,6 +48,12 @@ class Building : Vertex {
     var fullName : String
     var abbreviation : String
     
+    override init() {
+        self.fullName = ""
+        self.abbreviation = ""
+        super.init()
+    }
+    
     init(fullName : String, abbreviation : String, location : CLLocationCoordinate2D) {
         self.fullName = fullName
         self.abbreviation = abbreviation
