@@ -47,6 +47,7 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
     @IBOutlet weak var greyBack: UIView!
     
     @IBOutlet weak var search: SearchBar!
+    @IBOutlet weak var destination: SearchBar!
     
     @IBOutlet weak var searchHolder: UIView!
     
@@ -81,6 +82,8 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         searchTable.dataSource = self
         searchTable.delegate = self
         searchTable.editing = false
+        destination.alpha = 0.0
+        destination.userInteractionEnabled = false
         
         // SETUP MODE SELECTION VIEW - DEFAULTS TO VALUE IN Mode.pList
         modeSelector.hidden = true
@@ -249,6 +252,10 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         // activate map buttons
         findMe.enabled = true
         findCampus.enabled = true
+        
+        //destination.clear()
+        destination.alpha = 0.0
+        destination.userInteractionEnabled = false
     }
     
     @IBAction func clearUpInside(sender: ClearButton) {
@@ -324,7 +331,12 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         findMe.enabled = true
         findCampus.enabled = true
         
-        searchHolder.frame = CGRectMake(searchHolder.frame.minX, searchHolder.frame.minY, searchHolder.frame.width, 2*searchHolder.frame.height)
+        UIView.animateWithDuration(0.2) {
+            self.view.layoutIfNeeded()
+            self.searchHolder.setHeight(2*self.searchHolder.frame.height)
+        }
+        destination.fadeIn(duration: 0.3, delay: 0.1)
+        destination.userInteractionEnabled = true
     }
     // End search table stuff
     

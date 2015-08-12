@@ -92,7 +92,7 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <view contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kom-3U-l2u">
+                            <view autoresizesSubviews="NO" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kom-3U-l2u">
                                 <rect key="frame" x="10" y="25" width="355" height="50"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4fF-YE-foT" customClass="SearchBar" customModule="WatMapp" customModuleProvider="target">
@@ -108,8 +108,24 @@
                                             <action selector="valuechanged:" destination="dkx-z0-nzr" eventType="editingChanged" id="ut3-d7-exU"/>
                                         </connections>
                                     </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Destination" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Mh-sH-9Sw" customClass="SearchBar" customModule="WatMapp" customModuleProvider="target">
+                                        <rect key="frame" x="49" y="55" width="200" height="30"/>
+                                        <color key="tintColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="textDown:" destination="dkx-z0-nzr" eventType="touchDown" id="QPZ-9E-nH3"/>
+                                            <action selector="textDown:" destination="dkx-z0-nzr" eventType="editingDidBegin" id="XYN-Ja-vwf"/>
+                                            <action selector="valuechanged:" destination="dkx-z0-nzr" eventType="valueChanged" id="4Ad-em-5uj"/>
+                                            <action selector="valuechanged:" destination="dkx-z0-nzr" eventType="editingChanged" id="KZs-Bn-LNP"/>
+                                        </connections>
+                                    </textField>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" notEnabled="YES"/>
+                                </accessibility>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqd-rv-MzL" customClass="OptionsButton" customModule="WatMapp" customModuleProvider="target">
                                 <rect key="frame" x="313" y="27" width="46" height="46"/>
@@ -214,6 +230,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="campusMapView" destination="JTz-YI-pZ9" id="wge-G7-dl3"/>
+                        <outlet property="destination" destination="2Mh-sH-9Sw" id="QOw-Xi-bYN"/>
                         <outlet property="findCampus" destination="cQa-Du-aif" id="wAH-al-4Kp"/>
                         <outlet property="findMe" destination="z1f-fj-tbY" id="b5X-Kp-jde"/>
                         <outlet property="greyBack" destination="CS5-O0-K2y" id="0Ja-c6-wKV"/>

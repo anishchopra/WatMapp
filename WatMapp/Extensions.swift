@@ -70,4 +70,11 @@ extension UIView {
         self.layer.shadowRadius = 2;
         self.layer.shadowOffset = CGSizeMake(0, 1.5);
     }
+    
+    func setHeight(height: CGFloat) {
+        var frame: CGRect = self.frame
+        frame.size.height = height
+        
+        self.frame = frame
+    }
 }
