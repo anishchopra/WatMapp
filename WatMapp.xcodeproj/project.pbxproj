@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C4D43BC1B7D8442007996D2 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 3C4D43BB1B7D8442007996D2 /* Images */; };
 		3C782FF71B6E72E900EDED76 /* Searchbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C782FF61B6E72E900EDED76 /* Searchbar.swift */; };
 		F86B6C801B680F9700F7BCFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86B6C7F1B680F9700F7BCFB /* Constants.swift */; };
 		F86B6C821B6823E800F7BCFB /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86B6C811B6823E800F7BCFB /* Directions.swift */; };
@@ -4567,6 +4568,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C4D43BB1B7D8442007996D2 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		3C782FF61B6E72E900EDED76 /* Searchbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Searchbar.swift; sourceTree = "<group>"; };
 		F86B6C7F1B680F9700F7BCFB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F86B6C811B6823E800F7BCFB /* Directions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
@@ -13718,6 +13720,7 @@
 		F885883E1B4DB0380014280F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3C4D43BB1B7D8442007996D2 /* Images */,
 				F871AABF1B4E2A5D00060DE2 /* Tiles */,
 				F885883F1B4DB0380014280F /* Info.plist */,
 				F88588621B4DB0640014280F /* uWaterloo.plist */,
@@ -14666,6 +14669,7 @@
 				F871BD511B4E2AFF00060DE2 /* 18,72418,95858.png in Resources */,
 				F871C9541B4E2AFF00060DE2 /* 20,289693,383432.png in Resources */,
 				F871C5541B4E2AFF00060DE2 /* 20,289661,383432.png in Resources */,
+				3C4D43BC1B7D8442007996D2 /* Images in Resources */,
 				F871C19F1B4E2AFF00060DE2 /* 20,289632,383411.png in Resources */,
 				F871C97B1B4E2AFF00060DE2 /* 20,289695,383407.png in Resources */,
 				F871BF921B4E2AFF00060DE2 /* 19,144841,191713.png in Resources */,

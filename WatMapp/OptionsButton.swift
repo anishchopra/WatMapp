@@ -57,7 +57,20 @@ class OptionsButton : CircleButton
             iconFrame.size.height = CGRectGetHeight(iconFrame)/2.5
             
             icon = CAShapeLayer()
-            icon.path = CGPath.rescaleForFrame(path: Paths.options, frame: iconFrame)
+            
+            switch ( shape ) {
+            case "findme":
+                icon.path = CGPath.rescaleForFrame(path: Paths.findme, frame: iconFrame)
+            case "home":
+                icon.path = CGPath.rescaleForFrame(path: Paths.home, frame: iconFrame)
+            case "options":
+                icon.path = CGPath.rescaleForFrame(path: Paths.options, frame: iconFrame)
+            case "back":
+                icon.path = CGPath.rescaleForFrame(path: Paths.back, frame: iconFrame)
+            default:
+                icon.path = CGPath.rescaleForFrame(path: Paths.findme, frame: iconFrame)
+            }
+            
             icon.bounds = CGPathGetBoundingBox(icon.path)
             icon.fillColor = iconColour.CGColor
             icon.position = CGPoint(x: CGRectGetWidth(self.bounds)/2, y: CGRectGetHeight(self.bounds)/2)

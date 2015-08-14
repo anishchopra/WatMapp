@@ -107,6 +107,49 @@ struct Paths
         return clear.CGPath
     }
     
+    static var back: CGPath {
+        var back = UIBezierPath()
+        back.moveToPoint(CGPointMake(40, 26))
+        back.addLineToPoint(CGPointMake(15.66, 26))
+        back.addLineToPoint(CGPointMake(26.84, 37.18))
+        back.addLineToPoint(CGPointMake(24, 40))
+        back.addLineToPoint(CGPointMake(8, 24))
+        back.addLineToPoint(CGPointMake(24, 8))
+        back.addLineToPoint(CGPointMake(26.82, 10.82))
+        back.addLineToPoint(CGPointMake(15.66, 22))
+        back.addLineToPoint(CGPointMake(40, 22))
+        back.addLineToPoint(CGPointMake(40, 26))
+        back.closePath()
+        return back.CGPath
+    }
+    
+    static var directions: CGPath {
+        var directions = UIBezierPath()
+        directions.moveToPoint(CGPointMake(156.6, 88.6))
+        directions.addLineToPoint(CGPointMake(174.6, 70.6))
+        directions.addCurveToPoint(CGPointMake(177.42, 70.6), controlPoint1: CGPointMake(175.38, 69.82), controlPoint2: CGPointMake(176.64, 69.82))
+        directions.addLineToPoint(CGPointMake(195.42, 88.6))
+        directions.addCurveToPoint(CGPointMake(195.42, 91.42), controlPoint1: CGPointMake(196.2, 89.38), controlPoint2: CGPointMake(196.2, 90.64))
+        directions.addLineToPoint(CGPointMake(177.42, 109.42))
+        directions.addCurveToPoint(CGPointMake(174.6, 109.42), controlPoint1: CGPointMake(176.64, 110.2), controlPoint2: CGPointMake(175.38, 110.2))
+        directions.addLineToPoint(CGPointMake(156.6, 91.42))
+        directions.addCurveToPoint(CGPointMake(156.6, 88.6), controlPoint1: CGPointMake(155.82, 90.66), controlPoint2: CGPointMake(155.82, 89.4))
+        directions.closePath()
+        directions.moveToPoint(CGPointMake(172.02, 95.02))
+        directions.addLineToPoint(CGPointMake(172.02, 90.02))
+        directions.addLineToPoint(CGPointMake(180.02, 90.02))
+        directions.addLineToPoint(CGPointMake(180.02, 96.02))
+        directions.addLineToPoint(CGPointMake(184.02, 96.02))
+        directions.addLineToPoint(CGPointMake(184.02, 88.02))
+        directions.addCurveToPoint(CGPointMake(182.02, 86.02), controlPoint1: CGPointMake(184.02, 86.92), controlPoint2: CGPointMake(183.12, 86.02))
+        directions.addLineToPoint(CGPointMake(172.02, 86.02))
+        directions.addLineToPoint(CGPointMake(172.02, 81.02))
+        directions.addLineToPoint(CGPointMake(165.02, 88.02))
+        directions.addLineToPoint(CGPointMake(172.02, 95.02))
+        directions.closePath()
+        return directions.CGPath
+    }
+    
     // Circle
     static func circle(inFrame: CGRect) -> CGPath {
         let circle = UIBezierPath(ovalInRect: inFrame)

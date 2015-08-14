@@ -108,8 +108,12 @@ class CircleButton : UIButton
                 icon.path = CGPath.rescaleForFrame(path: Paths.home, frame: iconFrame)
             case "options":
                 icon.path = CGPath.rescaleForFrame(path: Paths.options, frame: iconFrame)
+            case "back":
+                icon.path = CGPath.rescaleForFrame(path: Paths.back, frame: iconFrame)
+            case "directions":
+                icon.path = CGPath.rescaleForFrame(path: Paths.directions, frame: iconFrame)
             default:
-                    icon.path = CGPath.rescaleForFrame(path: Paths.findme, frame: iconFrame)
+                icon.path = CGPath.rescaleForFrame(path: Paths.findme, frame: iconFrame)
             }
             
             icon.bounds = CGPathGetBoundingBox(icon.path)

@@ -36,6 +36,26 @@
                                     <action selector="toCampusUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="c2s-Y2-uYc"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="EqW-vq-feX" customClass="CircleButton" customModule="WatMapp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="481" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="iconColour">
+                                        <color key="value" red="1" green="0.25098039215686274" blue="0.50588235294117645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColour">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="shape" value="directions"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="directionsDown:" destination="BYZ-38-t0r" eventType="touchDown" id="Sgw-rQ-IOd"/>
+                                    <action selector="directionsUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JGr-dx-pn0"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="z1f-fj-tbY" customClass="FindMeButton" customModule="WatMapp" customModuleProvider="target">
                                 <rect key="frame" x="16" y="597" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -76,9 +96,34 @@
                                 <color key="sectionIndexBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="buildingCell" id="wJs-Tj-1q4">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="44"/>
+                                        <rect key="frame" x="0.0" y="1" width="355" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wJs-Tj-1q4" id="faR-hJ-vSl">
+                                            <rect key="frame" x="0.0" y="0.0" width="355" height="49.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" id="4Id-Rz-iwu">
+                                <rect key="frame" x="10" y="140" width="355" height="505"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="50" sectionHeaderHeight="1" sectionFooterHeight="1" id="eCX-to-4FE">
+                                <rect key="frame" x="10" y="140" width="355" height="505"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" red="0.71372549019999998" green="0.71372549019999998" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="separatorInset" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                <color key="sectionIndexColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="buildingCell" id="nVG-XW-wvL">
+                                        <rect key="frame" x="0.0" y="1" width="355" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nVG-XW-wvL" id="Yc6-9X-ny5">
+                                            <rect key="frame" x="0.0" y="0.0" width="355" height="49.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -142,6 +187,26 @@
                                     <action selector="optionsUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="PBK-dK-BhL"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RLj-S9-8Vh" customClass="OptionsButton" customModule="WatMapp" customModuleProvider="target">
+                                <rect key="frame" x="13" y="27" width="46" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="iconColour">
+                                        <color key="value" red="0.44705882349999998" green="0.44705882349999998" blue="0.44705882349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColour">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="shape" value="back"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="backDown:" destination="BYZ-38-t0r" eventType="touchDown" id="3Xg-dV-RYX"/>
+                                    <action selector="backUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iWe-8I-vft"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ndt-Kq-Vmm" customClass="ClearButton" customModule="WatMapp" customModuleProvider="target">
                                 <rect key="frame" x="259" y="27" width="46" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -168,18 +233,6 @@
                                 <rect key="frame" x="173" y="33" width="186" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BUA-zs-MtK">
-                                        <rect key="frame" x="22" y="16" width="143" height="32"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="As Fast As Possible">
-                                            <color key="titleColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="mode1UpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d0X-fI-GQj"/>
-                                            <action selector="mode1UpOutside:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="fRJ-h4-Ncq"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="POS-gp-CIb">
                                         <rect key="frame" x="22" y="56" width="143" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -202,6 +255,18 @@
                                             <action selector="mode3UpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7h2-k3-tAm"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BUA-zs-MtK">
+                                        <rect key="frame" x="22" y="16" width="143" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="As Fast As Possible">
+                                            <color key="titleColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="mode1UpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d0X-fI-GQj"/>
+                                            <action selector="mode1UpOutside:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="fRJ-h4-Ncq"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -214,8 +279,12 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="back" destination="RLj-S9-8Vh" id="mJR-IR-oeW"/>
                         <outlet property="campusMapView" destination="JTz-YI-pZ9" id="wge-G7-dl3"/>
+                        <outlet property="destTable" destination="eCX-to-4FE" id="Epq-cO-e5O"/>
+                        <outlet property="destTableBack" destination="4Id-Rz-iwu" id="zt2-Bd-AhX"/>
                         <outlet property="destination" destination="2Mh-sH-9Sw" id="QOw-Xi-bYN"/>
+                        <outlet property="directionButton" destination="EqW-vq-feX" id="O7U-5S-ApM"/>
                         <outlet property="findCampus" destination="cQa-Du-aif" id="wAH-al-4Kp"/>
                         <outlet property="findMe" destination="z1f-fj-tbY" id="b5X-Kp-jde"/>
                         <outlet property="greyBack" destination="CS5-O0-K2y" id="0Ja-c6-wKV"/>
@@ -223,7 +292,7 @@
                         <outlet property="optionsButton" destination="Yqd-rv-MzL" id="Nkj-Bk-aF6"/>
                         <outlet property="search" destination="4fF-YE-foT" id="5FB-mH-YsD"/>
                         <outlet property="searchHolder" destination="kom-3U-l2u" id="pKz-uS-5dd"/>
-                        <outlet property="searchTable" destination="Lsy-x2-Nj5" id="e5z-El-bPK"/>
+                        <outlet property="searchTable" destination="Lsy-x2-Nj5" id="7cp-BZ-Gdo"/>
                         <outlet property="searchTableBack" destination="ceE-Qf-fvK" id="dMt-6W-sy0"/>
                         <outletCollection property="options" destination="BUA-zs-MtK" collectionClass="NSMutableArray" id="ldZ-O1-3BJ"/>
                         <outletCollection property="options" destination="POS-gp-CIb" collectionClass="NSMutableArray" id="OMz-Xc-3DA"/>
@@ -232,7 +301,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-84" y="234.30000000000001"/>
+            <point key="canvasLocation" x="-84.5" y="233.5"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

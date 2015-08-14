@@ -21,9 +21,22 @@ class SearchBar : UITextField
     
     var searchedBuildings: [Building] = []
     
-    var selectedBuilding: Building = Building()
+    var selectedBuilding: Building = Building() {
+        didSet {
+            if self.selectedBuilding.fullName == "" {
+                self.set = false;
+                return;
+            }
+            self.set = true
+            return
+        }
+    }
+    
+    var set: Bool = false
     
     @IBOutlet var table: UITableView! = nil
+    @IBOutlet weak var back: UIView! = nil
+    @IBOutlet weak var greyBack: UIView! = nil
     
     
     @IBAction func valuechanged( sender: SearchBar!) {
@@ -36,7 +49,6 @@ class SearchBar : UITextField
         for building in self.buildings {
             if building.fullName.lowercaseString.rangeOfString(sender.text.lowercaseString) != nil
                 || building.abbreviation.lowercaseString.rangeOfString(sender.text.lowercaseString) != nil {
-                    //searchedBuildings.insert(building)
                     searchedBuildings.append(building)
             }
         }
@@ -53,6 +65,19 @@ class SearchBar : UITextField
     
     func alphabetize (s1: Building, s2: Building) -> Bool {
         return s1.fullName < s2.fullName
+    }
+    
+    func showSearchView() {
+        greyBack.fadeIn(duration: 0.1)
+        back.fadeIn(duration: 0.3, delay: 0.05)
+        table.fadeIn(duration: 0.3, delay: 0.05)
+    }
+    
+    func hideSearchView() {
+        greyBack.fadeOut(duration: 0.3, delay: 0.05)
+        back.fadeOut(duration: 0.1)
+        table.fadeOut(duration: 0.1)
+        self.endEditing(true)
     }
 
 }
