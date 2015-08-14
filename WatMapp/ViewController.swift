@@ -39,6 +39,7 @@ var mode : Int {
 class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource, UITableViewDelegate, CLLocationManagerDelegate {
     var lineOverlay:MKOverlay? = nil
     
+    @IBOutlet weak var searchBoxHeightConstraint: NSLayoutConstraint!
     // This is the map view that is shown on Main.storyboard
     @IBOutlet weak var campusMapView: MKMapView!
     
@@ -312,7 +313,7 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         destination.fadeOut(duration: 0.1)
         UIView.animateWithDuration(0.2) {
             self.view.layoutIfNeeded()
-            self.searchHolder.setHeight(self.searchHolderHeight)
+            self.searchHolder.setHeight(self.searchHolderHeight, heightConstraint: self.searchBoxHeightConstraint)
         }
         destination.userInteractionEnabled = false
         
@@ -333,7 +334,7 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
             destination.fadeOut(duration: 0.1)
             UIView.animateWithDuration(0.1) {
                 self.view.layoutIfNeeded()
-                self.searchHolder.setHeight(self.searchHolderHeight)
+                self.searchHolder.setHeight(self.searchHolderHeight, heightConstraint: self.searchBoxHeightConstraint)
             }
             destination.userInteractionEnabled = false
         }
@@ -420,7 +421,8 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
             
             UIView.animateWithDuration(0.2) {
                 self.view.layoutIfNeeded()
-                self.searchHolder.setHeight(2*self.searchHolderHeight)
+                self.searchHolder.setHeight(2*self.searchHolderHeight, heightConstraint: self.searchBoxHeightConstraint)
+                self.searchBoxHeightConstraint.constant = 2*self.searchHolderHeight
             }
             destination.fadeIn(duration: 0.3, delay: 0.1)
             destination.userInteractionEnabled = true
