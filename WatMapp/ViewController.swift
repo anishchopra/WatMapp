@@ -39,6 +39,14 @@ var mode : Int {
 class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource, UITableViewDelegate, CLLocationManagerDelegate {
     var lineOverlay:MKOverlay? = nil
     
+    @IBOutlet weak var stepsView: UIView!
+    
+    @IBOutlet weak var stepsViewHeightConstraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var stepsTableView: UITableView!
+    
+    @IBOutlet weak var directionsButtonBottomSpaceConstraint: NSLayoutConstraint!
+    
     @IBOutlet weak var searchBoxHeightConstraint: NSLayoutConstraint!
     // This is the map view that is shown on Main.storyboard
     @IBOutlet weak var campusMapView: MKMapView!
@@ -71,6 +79,8 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
     var locationManager : CLLocationManager!
     var currentLocation : CLLocationCoordinate2D!
     
+    var currentSteps : [String] = []
+    
      @IBOutlet weak var directionButton: CircleButton!
     
     var gg = GraphGenerator(filePath: CAMPUS_PLIST_FILE_PATH!)
@@ -84,6 +94,13 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         
         directionButton.alpha = 0.0
         directionButton.enabled = false
+        
+        stepsView.hidden = true
+        stepsView.addBoxShadow()
+        
+        stepsTableView.delegate = self
+        stepsTableView.dataSource = self
+        stepsTableView.editing = false
         
         // SETUP SEARCHVIEW -- WILL BE HIDDEN AT START
         searchTableBack.addBoxShadow()
@@ -258,6 +275,27 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
     @IBAction func directionsUp(sender: CircleButton) {
         // Button shadow animation
         sender.touchUp()
+        
+        if (stepsView.hidden) {
+            directionsButtonBottomSpaceConstraint.constant += 100
+            stepsView.frame.origin.y = UIScreen.mainScreen().bounds.height
+            stepsView.hidden = false
+            UIView.animateWithDuration(0.8, animations: {
+                self.view.layoutIfNeeded()
+            })
+            let height = UIScreen.mainScreen().bounds.height - directionButton.frame.origin.y - directionButton.frame.height / 2
+            stepsViewHeightConstraint.constant = height
+        }
+        else {
+            UIView.animateWithDuration(0.8, animations: {
+                self.directionButton.frame.origin.y += 100
+                self.stepsView.frame.origin.y = UIScreen.mainScreen().bounds.height
+                }, completion: { finished in
+                    self.directionsButtonBottomSpaceConstraint.constant -= 100
+                    self.stepsView.hidden = true
+                    self.view.layoutIfNeeded()
+                })
+        }
     }
     
     @IBAction func directionsDown(sender: CircleButton) {
@@ -320,6 +358,11 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         directionButton.fadeOut(duration: 0.1)
         directionButton.enabled = true
         
+        if (!stepsView.hidden) {
+            directionsButtonBottomSpaceConstraint.constant -= 100;
+            stepsView.hidden = true
+        }
+        
     }
     
     @IBAction func clearUpInside(sender: ClearButton) {
@@ -370,7 +413,7 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         
         if ( start != end && start != "" && end != "" ) {
             var p = gg.graph.bestPath(start, building2: end, mode: mode)
-            printDirections(p!)
+            currentSteps = getDirections(p!)
             var lineGenerator = PolyLineGenerator(path: p!)
             lineOverlay = lineGenerator.createPolyLineOverlay()
             
@@ -379,6 +422,9 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
             self.directionButton.fadeIn(duration: 0.2, delay: 0.25)
             self.directionButton.enabled = true
         }
+        
+        stepsTableView.reloadData()
+        stepsTableView.setContentOffset(CGPointZero, animated: true)
     }
     
     // Stuff for tableview protocol -- needed to control search table
@@ -387,6 +433,9 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if (tableView.isEqual(self.stepsTableView)) {
+            return currentSteps.count
+        }
         if whichText == "s" {
             return self.search.searchedBuildings.count
         }
@@ -396,6 +445,14 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        if (tableView.isEqual(stepsTableView)) {
+            let cell = tableView.dequeueReusableCellWithIdentifier("stepCell", forIndexPath: indexPath) as! UITableViewCell
+            
+            cell.textLabel!.text = self.currentSteps[indexPath.row]
+            cell.textLabel!.numberOfLines = 0
+            
+            return cell
+        }
         let cell = tableView.dequeueReusableCellWithIdentifier("buildingCell", forIndexPath: indexPath) as! UITableViewCell
         
         if whichText == "s" {
@@ -409,6 +466,9 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if (tableView.isEqual(stepsTableView)) {
+            return;
+        }
         let indexPath = tableView.indexPathForSelectedRow()
         
         let currentCell = tableView.cellForRowAtIndexPath(indexPath!) as UITableViewCell!
