@@ -36,6 +36,14 @@ class OptionsButton : CircleButton
         circle.fillColor = circleColour.CGColor
     }
     
+    @IBAction override func up() {
+        self.touchUp()
+    }
+    
+    @IBAction override func down() {
+        self.touchDown()
+    }
+    
     override func createLayersIfNeeded() {
         if  circle == nil {
             circle = CAShapeLayer()

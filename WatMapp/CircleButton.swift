@@ -52,6 +52,14 @@ class CircleButton : UIButton
         }
     }
     
+    @IBAction func down() {
+        self.touchDown()
+    }
+    
+    @IBAction func up() {
+        self.touchUp()
+    }
+    
     func updateLayerProperties() {
     }
     

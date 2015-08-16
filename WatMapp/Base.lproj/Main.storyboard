@@ -40,7 +40,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="toCampusDown:" destination="dkx-z0-nzr" eventType="touchDown" id="cD5-Qj-oWW"/>
-                                    <action selector="toCampusUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="c2s-Y2-uYc"/>
+                                    <action selector="up" destination="dkx-z0-nzr" eventType="touchUpInside" id="Wmg-C2-2hY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z1f-fj-tbY" customClass="FindMeButton" customModule="WatMapp" customModuleProvider="target">
@@ -63,18 +63,19 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="findMeDown:" destination="dkx-z0-nzr" eventType="touchDown" id="m1f-tI-Dcu"/>
-                                    <action selector="findMeUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="vqy-xK-1tc"/>
+                                    <action selector="up" destination="dkx-z0-nzr" eventType="touchUpInside" id="bSz-Az-aQU"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wRj-WB-eqd">
                                 <rect key="frame" x="0.0" y="481" width="375" height="186"/>
                                 <subviews>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="D1n-z6-U11">
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="D1n-z6-U11">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="186"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="separatorColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <prototypes>
-                                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="stepCell" id="Ynu-bi-nxb">
+                                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationLevel="-3" indentationWidth="10" reuseIdentifier="stepCell" id="Ynu-bi-nxb">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ynu-bi-nxb" id="q9B-f5-sdL">
@@ -113,8 +114,8 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="shape" value="directions"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="directionsDown:" destination="BYZ-38-t0r" eventType="touchDown" id="Sgw-rQ-IOd"/>
                                     <action selector="directionsUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JGr-dx-pn0"/>
+                                    <action selector="down" destination="dkx-z0-nzr" eventType="touchDown" id="EpM-vv-T1H"/>
                                 </connections>
                             </button>
                             <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CS5-O0-K2y">
@@ -187,31 +188,8 @@
                                             <userDefinedRuntimeAttribute type="string" keyPath="shape" value="options"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="optionsDown:" destination="dkx-z0-nzr" eventType="touchDown" id="DOI-Bw-QnC"/>
+                                            <action selector="down" destination="dkx-z0-nzr" eventType="touchDown" id="oaT-w8-Od0"/>
                                             <action selector="optionsUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="PBK-dK-BhL"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLj-S9-8Vh" customClass="OptionsButton" customModule="WatMapp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="2" width="46" height="46"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="46" id="4aH-Ct-bvG"/>
-                                            <constraint firstAttribute="height" constant="46" id="qLQ-xQ-ebw"/>
-                                        </constraints>
-                                        <state key="normal">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="iconColour">
-                                                <color key="value" red="0.44705882349999998" green="0.44705882349999998" blue="0.44705882349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="circleColour">
-                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="shape" value="back"/>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <action selector="backDown:" destination="BYZ-38-t0r" eventType="touchDown" id="3Xg-dV-RYX"/>
-                                            <action selector="backUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iWe-8I-vft"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ndt-Kq-Vmm" customClass="ClearButton" customModule="WatMapp" customModuleProvider="target">
@@ -234,9 +212,9 @@
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="clearDown:" destination="BYZ-38-t0r" eventType="touchDown" id="1NM-3P-Og6"/>
-                                            <action selector="clearUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lny-vz-RTx"/>
                                             <action selector="optionsDown:" destination="dkx-z0-nzr" eventType="touchDown" id="FHd-3e-o2B"/>
                                             <action selector="optionsUp:" destination="dkx-z0-nzr" eventType="touchUpInside" id="vT0-O3-Vpk"/>
+                                            <action selector="up" destination="dkx-z0-nzr" eventType="touchUpInside" id="gGk-Pt-zai"/>
                                         </connections>
                                     </button>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4fF-YE-foT" customClass="SearchBar" customModule="WatMapp" customModuleProvider="target">
@@ -250,6 +228,9 @@
                                             <action selector="textDown:" destination="dkx-z0-nzr" eventType="touchDown" id="ZRP-3z-MBg"/>
                                             <action selector="valuechanged:" destination="dkx-z0-nzr" eventType="valueChanged" id="grk-qs-WZ5"/>
                                             <action selector="valuechanged:" destination="dkx-z0-nzr" eventType="editingChanged" id="ut3-d7-exU"/>
+                                            <outlet property="back" destination="ceE-Qf-fvK" id="zbW-Nh-OaF"/>
+                                            <outlet property="greyBack" destination="CS5-O0-K2y" id="sXR-bX-WjK"/>
+                                            <outlet property="table" destination="Lsy-x2-Nj5" id="ZNI-oK-v6U"/>
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Destination" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Mh-sH-9Sw" customClass="SearchBar" customModule="WatMapp" customModuleProvider="target">
@@ -263,8 +244,34 @@
                                             <action selector="textDown:" destination="dkx-z0-nzr" eventType="editingDidBegin" id="XYN-Ja-vwf"/>
                                             <action selector="valuechanged:" destination="dkx-z0-nzr" eventType="valueChanged" id="4Ad-em-5uj"/>
                                             <action selector="valuechanged:" destination="dkx-z0-nzr" eventType="editingChanged" id="KZs-Bn-LNP"/>
+                                            <outlet property="back" destination="4Id-Rz-iwu" id="CSf-GH-Qf4"/>
+                                            <outlet property="greyBack" destination="CS5-O0-K2y" id="Byy-aH-feN"/>
+                                            <outlet property="table" destination="eCX-to-4FE" id="CCG-d8-v1H"/>
                                         </connections>
                                     </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLj-S9-8Vh" customClass="OptionsButton" customModule="WatMapp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="2" width="46" height="46"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="46" id="4aH-Ct-bvG"/>
+                                            <constraint firstAttribute="height" constant="46" id="qLQ-xQ-ebw"/>
+                                        </constraints>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="iconColour">
+                                                <color key="value" red="0.44705882349999998" green="0.44705882349999998" blue="0.44705882349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="circleColour">
+                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="shape" value="back"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="backDown:" destination="BYZ-38-t0r" eventType="touchDown" id="3Xg-dV-RYX"/>
+                                            <action selector="up" destination="dkx-z0-nzr" eventType="touchUpInside" id="KTK-ZN-T2c"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -413,21 +420,16 @@
                     <connections>
                         <outlet property="back" destination="RLj-S9-8Vh" id="mJR-IR-oeW"/>
                         <outlet property="campusMapView" destination="JTz-YI-pZ9" id="wge-G7-dl3"/>
-                        <outlet property="destTable" destination="eCX-to-4FE" id="Epq-cO-e5O"/>
-                        <outlet property="destTableBack" destination="4Id-Rz-iwu" id="zt2-Bd-AhX"/>
                         <outlet property="destination" destination="2Mh-sH-9Sw" id="QOw-Xi-bYN"/>
                         <outlet property="directionButton" destination="EqW-vq-feX" id="O7U-5S-ApM"/>
                         <outlet property="directionsButtonBottomSpaceConstraint" destination="3tE-gI-ypS" id="JUj-yb-qiQ"/>
                         <outlet property="findCampus" destination="cQa-Du-aif" id="wAH-al-4Kp"/>
                         <outlet property="findMe" destination="z1f-fj-tbY" id="b5X-Kp-jde"/>
-                        <outlet property="greyBack" destination="CS5-O0-K2y" id="0Ja-c6-wKV"/>
                         <outlet property="modeSelector" destination="dLo-KZ-KWd" id="Az9-lf-Tsa"/>
                         <outlet property="optionsButton" destination="Yqd-rv-MzL" id="Nkj-Bk-aF6"/>
                         <outlet property="search" destination="4fF-YE-foT" id="5FB-mH-YsD"/>
                         <outlet property="searchBoxHeightConstraint" destination="six-2w-XEg" id="tD9-KG-jMB"/>
                         <outlet property="searchHolder" destination="kom-3U-l2u" id="pKz-uS-5dd"/>
-                        <outlet property="searchTable" destination="Lsy-x2-Nj5" id="7cp-BZ-Gdo"/>
-                        <outlet property="searchTableBack" destination="ceE-Qf-fvK" id="dMt-6W-sy0"/>
                         <outlet property="stepsTableView" destination="D1n-z6-U11" id="uBG-sP-twJ"/>
                         <outlet property="stepsView" destination="wRj-WB-eqd" id="TRF-c5-5bv"/>
                         <outlet property="stepsViewHeightConstraint" destination="RGa-VT-a42" id="LPc-yr-dgZ"/>

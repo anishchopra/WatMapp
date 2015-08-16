@@ -53,19 +53,13 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
     
     @IBOutlet weak var modeSelector: UIView!
     
-    @IBOutlet weak var greyBack: UIView!
-    
     @IBOutlet weak var search: SearchBar!
     @IBOutlet weak var destination: SearchBar!
     var whichText: String = ""
     
     @IBOutlet weak var searchHolder: UIView!
     
-    @IBOutlet weak var searchTableBack: UIView!
     var searchHolderHeight: CGFloat = 0
-    @IBOutlet var searchTable: UITableView!
-    @IBOutlet weak var destTableBack: UIView!
-    @IBOutlet var destTable: UITableView!
     
     // This should have been "modeButton"
     @IBOutlet weak var optionsButton: OptionsButton!
@@ -81,9 +75,16 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
     
     var currentSteps : [String] = []
     
-     @IBOutlet weak var directionButton: CircleButton!
+    @IBOutlet weak var directionButton: CircleButton!
     
     var gg = GraphGenerator(filePath: CAMPUS_PLIST_FILE_PATH!)
+    
+    // State variable tracks state of view
+    // 0 = mapview
+    // 1 = start search view
+    // 2 = start selected
+    // 3 = destination search view
+    var state: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -97,42 +98,28 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         
         stepsView.hidden = true
         stepsView.addBoxShadow()
-        
         stepsTableView.delegate = self
         stepsTableView.dataSource = self
         stepsTableView.editing = false
         
         // SETUP SEARCHVIEW -- WILL BE HIDDEN AT START
-        searchTableBack.addBoxShadow()
-        greyBack.alpha = 0.0
-        searchTable.alpha = 0.0
-        searchTableBack.alpha = 0.0
-        searchTable.dataSource = self
-        searchTable.delegate = self
-        searchTable.editing = false
+        search.table.dataSource = self
+        search.table.delegate = self
         // SETUP SearchBar
         searchHolder.addBoxShadow()
         search.buildings = Array(self.gg.graph.buildingCentres)
-        search.table = searchTable
-        search.greyBack = greyBack
-        search.back = searchTableBack
         searchHolderHeight = searchHolder.frame.height
+        
         back.alpha = 0.0
         back.enabled = false
         
         // SETUP DESTINATION SEARCH VIEW AND SEARCH BAR
-        destTableBack.addBoxShadow()
         destination.alpha = 0.0
         destination.userInteractionEnabled = false
-        destination.greyBack = greyBack
-        destTable.alpha = 0.0
-        destTableBack.alpha = 0.0
-        destTable.dataSource = self
-        destTable.delegate = self
-        destTable.editing = false
+        destination.table.dataSource = self
+        destination.table.delegate = self
         destination.buildings = Array(self.gg.graph.buildingCentres)
-        destination.table = destTable
-        destination.back = destTableBack
+
         
         // SETUP MODE SELECTION VIEW - DEFAULTS TO VALUE IN Mode.pList
         modeSelector.hidden = true
@@ -220,20 +207,11 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         sender.touchDown()
     }
     
-    @IBAction func findMeUp(sender: FindMeButton) {
-        // Button shadow animation
-        sender.touchUp()
-    }
-    
     func locationManager(manager:CLLocationManager, didUpdateLocations locations:[AnyObject]) {
         // Get user locations
         var locationArray = locations as NSArray
         var locationObj = locationArray.lastObject as! CLLocation
         currentLocation = locationObj.coordinate
-        
-        // For debug purposes, remove later
-        //println("MV:\(campusMapView.userLocation)")
-        //println(" \(currentLocation.latitude), \(currentLocation.longitude)")
     }
     
     @IBAction func toCampusDown(sender: FindCampusButton) {
@@ -244,33 +222,29 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         sender.touchDown()
     }
     
-    @IBAction func toCampusUp(sender: FindCampusButton) {
-        // Button shadow animation
-        sender.touchUp()
-    }
-    
-    @IBAction func optionsDown(sender: OptionsButton) {
-        sender.touchDown()
-    }
-    
-    @IBAction func backUp(sender: OptionsButton) {
-        // Button shadow animation
-        sender.touchUp()
-    }
-    
     @IBAction func backDown(sender: OptionsButton) {
         sender.touchDown()
         if whichText == "s" {
             search.hideSearchView()
+            
+            if (self.search.set) {
+                UIView.animateWithDuration(0.2) {
+                    self.view.layoutIfNeeded()
+                    self.searchHolder.setHeight(2*self.searchHolderHeight, heightConstraint: self.searchBoxHeightConstraint)
+                    self.searchBoxHeightConstraint.constant = 2*self.searchHolderHeight
+                }
+                self.destination.fadeIn(duration: 0.3, delay: 0.1)
+                self.destination.userInteractionEnabled = true
+                self.destination.endEditing(true)
+                self.destination.hideSearchView()
+            }
         }
         else {
             destination.hideSearchView()
         }
         sender.fadeOut(duration: 0.1)
         sender.enabled = false
-        
     }
-    
     
     @IBAction func directionsUp(sender: CircleButton) {
         // Button shadow animation
@@ -296,10 +270,6 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
                     self.view.layoutIfNeeded()
                 })
         }
-    }
-    
-    @IBAction func directionsDown(sender: CircleButton) {
-        sender.touchDown()
     }
     
     @IBAction func optionsUp(sender: OptionsButton) {
@@ -336,17 +306,9 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         // Hide mode
         self.modeSelector.hidden = true
         
-        // Go back to mapview
-        self.search.hideSearchView()
-        self.destination.hideSearchView()
-        
         // clear search
         search.clear()
-        
-        // activate map buttons
-        findMe.enabled = true
-        findCampus.enabled = true
-        
+
         destination.clear()
         destination.fadeOut(duration: 0.1)
         UIView.animateWithDuration(0.2) {
@@ -363,36 +325,35 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
             stepsView.hidden = true
         }
         
+        self.campusMapView.removeOverlay(lineOverlay)
+        
     }
-    
-    @IBAction func clearUpInside(sender: ClearButton) {
-        sender.touchUp()
-    }
-    
+
     @IBAction func textDown(sender: SearchBar) {
         if ( sender.placeholder == "Search" ) {
-            whichText = "s"
-            destTable.alpha = 0.0
-            destTableBack.alpha = 0.0
-            destination.fadeOut(duration: 0.1)
+            self.whichText = "s"
+            self.destination.table.alpha = 0.0
+            self.destination.back.alpha = 0.0
+            self.destination.fadeOut(duration: 0.1)
             UIView.animateWithDuration(0.1) {
                 self.view.layoutIfNeeded()
                 self.searchHolder.setHeight(self.searchHolderHeight, heightConstraint: self.searchBoxHeightConstraint)
             }
-            destination.userInteractionEnabled = false
+            self.destination.userInteractionEnabled = false
         }
         else {
             whichText = "d"
-            searchTable.alpha = 0.0
-            searchTableBack.alpha = 0.0
+            self.search.table.alpha = 0.0
+            self.search.back.alpha = 0.0
         }
         
         self.modeSelector.hidden = true
         sender.showSearchView()
-        findMe.enabled = false
-        findCampus.enabled = false
-        back.enabled = true
-        back.fadeIn(duration: 0.2)
+        
+        self.findMe.enabled = false
+        self.findCampus.enabled = false
+        self.back.enabled = true
+        self.back.fadeIn(duration: 0.2)
     }
     
     func setOptionTitleColour(buttons: Array<UIButton>, active: UIButton) {
@@ -404,27 +365,27 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
     
     func drawPath() {
         // when the mode is changed remove the old path
-        if lineOverlay != nil {
+        if self.lineOverlay != nil {
             self.campusMapView.removeOverlay(lineOverlay)
         }
         
-        var start = search.selectedBuilding.abbreviation
-        var end = destination.selectedBuilding.abbreviation
+        var start = self.search.selectedBuilding.abbreviation
+        var end = self.destination.selectedBuilding.abbreviation
         
         if ( start != end && start != "" && end != "" ) {
-            var p = gg.graph.bestPath(start, building2: end, mode: mode)
-            currentSteps = getDirections(p!)
+            var p = self.gg.graph.bestPath(start, building2: end, mode: mode)
+            self.currentSteps = getDirections(p!)
             var lineGenerator = PolyLineGenerator(path: p!)
-            lineOverlay = lineGenerator.createPolyLineOverlay()
+            self.lineOverlay = lineGenerator.createPolyLineOverlay()
             
-            self.campusMapView.addOverlay(lineOverlay)
+            self.campusMapView.addOverlay(self.lineOverlay)
             
             self.directionButton.fadeIn(duration: 0.2, delay: 0.25)
             self.directionButton.enabled = true
         }
         
-        stepsTableView.reloadData()
-        stepsTableView.setContentOffset(CGPointZero, animated: true)
+        self.stepsTableView.reloadData()
+        self.stepsTableView.setContentOffset(CGPointZero, animated: true)
     }
     
     // Stuff for tableview protocol -- needed to control search table
@@ -434,7 +395,7 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if (tableView.isEqual(self.stepsTableView)) {
-            return currentSteps.count
+            return self.currentSteps.count
         }
         if whichText == "s" {
             return self.search.searchedBuildings.count
@@ -445,7 +406,7 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        if (tableView.isEqual(stepsTableView)) {
+        if (tableView.isEqual(self.stepsTableView)) {
             let cell = tableView.dequeueReusableCellWithIdentifier("stepCell", forIndexPath: indexPath) as! UITableViewCell
             
             cell.textLabel!.text = self.currentSteps[indexPath.row]
@@ -455,7 +416,7 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         }
         let cell = tableView.dequeueReusableCellWithIdentifier("buildingCell", forIndexPath: indexPath) as! UITableViewCell
         
-        if whichText == "s" {
+        if self.whichText == "s" {
             cell.textLabel!.text = self.search.searchedBuildings[advance(self.search.searchedBuildings.startIndex, indexPath.row)].fullName
         }
         else {
@@ -466,42 +427,42 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        if (tableView.isEqual(stepsTableView)) {
+        if (tableView.isEqual(self.stepsTableView)) {
             return;
         }
         let indexPath = tableView.indexPathForSelectedRow()
         
         let currentCell = tableView.cellForRowAtIndexPath(indexPath!) as UITableViewCell!
         
-        if whichText == "s" {
-            search.text = currentCell!.textLabel!.text
-            search.endEditing(true)
+        if self.whichText == "s" {
+            self.search.text = currentCell!.textLabel!.text
+            self.search.endEditing(true)
             self.search.hideSearchView()
-            search.selectedBuilding = search.searchedBuildings[indexPath!.row]
+            self.search.selectedBuilding = self.search.searchedBuildings[indexPath!.row]
             
             UIView.animateWithDuration(0.2) {
                 self.view.layoutIfNeeded()
                 self.searchHolder.setHeight(2*self.searchHolderHeight, heightConstraint: self.searchBoxHeightConstraint)
                 self.searchBoxHeightConstraint.constant = 2*self.searchHolderHeight
             }
-            destination.fadeIn(duration: 0.3, delay: 0.1)
-            destination.userInteractionEnabled = true
+            self.destination.fadeIn(duration: 0.3, delay: 0.1)
+            self.destination.userInteractionEnabled = true
         }
         else {
-            destination.text = currentCell!.textLabel!.text
-            destination.endEditing(true)
+            self.destination.text = currentCell!.textLabel!.text
+            self.destination.endEditing(true)
             self.destination.hideSearchView()
-            destination.selectedBuilding = destination.searchedBuildings[indexPath!.row]
+            self.destination.selectedBuilding = destination.searchedBuildings[indexPath!.row]
         }
         
-        back.fadeOut(duration: 0.1)
-        back.enabled = false
+        self.back.fadeOut(duration: 0.1)
+        self.back.enabled = false
         
         self.drawPath()
         
         // activate map buttons
-        findMe.enabled = true
-        findCampus.enabled = true
+        self.findMe.enabled = true
+        self.findCampus.enabled = true
     }
     // End search table stuff
 }

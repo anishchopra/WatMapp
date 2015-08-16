@@ -34,9 +34,23 @@ class SearchBar : UITextField
     
     var set: Bool = false
     
-    @IBOutlet var table: UITableView! = nil
-    @IBOutlet weak var back: UIView! = nil
-    @IBOutlet weak var greyBack: UIView! = nil
+    @IBOutlet var table: UITableView! = nil {
+        didSet {
+            self.table.alpha = 0.0
+            self.table.editing = false
+        }
+    }
+    @IBOutlet weak var back: UIView! = nil {
+        didSet {
+            self.back.alpha = 0.0
+            self.back.addBoxShadow()
+        }
+    }
+    @IBOutlet weak var greyBack: UIView! = nil {
+        didSet {
+            self.greyBack.alpha = 0.0
+        }
+    }
     
     
     @IBAction func valuechanged( sender: SearchBar!) {
@@ -58,6 +72,7 @@ class SearchBar : UITextField
     
     func clear() {
         self.text = ""
+        self.set = false
         self.searchedBuildings = self.buildings
         self.endEditing(true)
         table.reloadData()
