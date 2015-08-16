@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		3C4D43BC1B7D8442007996D2 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 3C4D43BB1B7D8442007996D2 /* Images */; };
 		3C782FF71B6E72E900EDED76 /* Searchbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C782FF61B6E72E900EDED76 /* Searchbar.swift */; };
+		F8637BF41B810EA600A3A6E4 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8637BF01B810EA600A3A6E4 /* Graph.swift */; };
+		F8637BF51B810EA600A3A6E4 /* GraphGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8637BF11B810EA600A3A6E4 /* GraphGenerator.swift */; };
+		F8637BF61B810EA600A3A6E4 /* Map Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8637BF21B810EA600A3A6E4 /* Map Initialization.swift */; };
+		F8637BF71B810EA600A3A6E4 /* PolyLineGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8637BF31B810EA600A3A6E4 /* PolyLineGenerator.swift */; };
 		F86B6C801B680F9700F7BCFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86B6C7F1B680F9700F7BCFB /* Constants.swift */; };
 		F86B6C821B6823E800F7BCFB /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86B6C811B6823E800F7BCFB /* Directions.swift */; };
 		F876433E1B668F5E0022C897 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F876433D1B668F5E0022C897 /* Heap.swift */; };
@@ -18,10 +22,6 @@
 		F88588481B4DB0380014280F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88588471B4DB0380014280F /* Images.xcassets */; };
 		F885884B1B4DB0380014280F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F88588491B4DB0380014280F /* LaunchScreen.xib */; };
 		F88588571B4DB0390014280F /* WatMappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588561B4DB0390014280F /* WatMappTests.swift */; };
-		F88588631B4DB0640014280F /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588601B4DB0640014280F /* Graph.swift */; };
-		F88588641B4DB0640014280F /* GraphGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588611B4DB0640014280F /* GraphGenerator.swift */; };
-		F885886A1B4DB0A50014280F /* Map Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588681B4DB0A50014280F /* Map Initialization.swift */; };
-		F885886B1B4DB0A50014280F /* PolyLineGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588691B4DB0A50014280F /* PolyLineGenerator.swift */; };
 		F88A64FD1B810A62009C88C1 /* uWaterloo.plist in Resources */ = {isa = PBXBuildFile; fileRef = F88A64FC1B810A62009C88C1 /* uWaterloo.plist */; };
 		F89A68C11B8026EC00592474 /* PinOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89A68C01B8026EC00592474 /* PinOverlay.swift */; };
 		F89A7D0A1B80FEEF00592474 /* 14,4525,5990.png in Resources */ = {isa = PBXBuildFile; fileRef = F89A68C51B80FE0D00592474 /* 14,4525,5990.png */; };
@@ -5237,6 +5237,10 @@
 /* Begin PBXFileReference section */
 		3C4D43BB1B7D8442007996D2 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		3C782FF61B6E72E900EDED76 /* Searchbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Searchbar.swift; sourceTree = "<group>"; };
+		F8637BF01B810EA600A3A6E4 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		F8637BF11B810EA600A3A6E4 /* GraphGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphGenerator.swift; sourceTree = "<group>"; };
+		F8637BF21B810EA600A3A6E4 /* Map Initialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Map Initialization.swift"; sourceTree = "<group>"; };
+		F8637BF31B810EA600A3A6E4 /* PolyLineGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolyLineGenerator.swift; sourceTree = "<group>"; };
 		F86B6C7F1B680F9700F7BCFB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F86B6C811B6823E800F7BCFB /* Directions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
 		F876433D1B668F5E0022C897 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -5250,10 +5254,6 @@
 		F88588501B4DB0390014280F /* WatMappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatMappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88588551B4DB0390014280F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F88588561B4DB0390014280F /* WatMappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatMappTests.swift; sourceTree = "<group>"; };
-		F88588601B4DB0640014280F /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Graph.swift; path = ../Graph.swift; sourceTree = "<group>"; };
-		F88588611B4DB0640014280F /* GraphGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphGenerator.swift; path = ../GraphGenerator.swift; sourceTree = "<group>"; };
-		F88588681B4DB0A50014280F /* Map Initialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Map Initialization.swift"; path = "../Map Initialization.swift"; sourceTree = "<group>"; };
-		F88588691B4DB0A50014280F /* PolyLineGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PolyLineGenerator.swift; path = ../PolyLineGenerator.swift; sourceTree = "<group>"; };
 		F88A64FC1B810A62009C88C1 /* uWaterloo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = uWaterloo.plist; sourceTree = "<group>"; };
 		F89A68C01B8026EC00592474 /* PinOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinOverlay.swift; sourceTree = "<group>"; };
 		F89A68C51B80FE0D00592474 /* 14,4525,5990.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14,4525,5990.png"; sourceTree = "<group>"; };
@@ -10495,6 +10495,10 @@
 		F885883D1B4DB0380014280F /* WatMapp */ = {
 			isa = PBXGroup;
 			children = (
+				F8637BF01B810EA600A3A6E4 /* Graph.swift */,
+				F8637BF11B810EA600A3A6E4 /* GraphGenerator.swift */,
+				F8637BF21B810EA600A3A6E4 /* Map Initialization.swift */,
+				F8637BF31B810EA600A3A6E4 /* PolyLineGenerator.swift */,
 				F86B6C7F1B680F9700F7BCFB /* Constants.swift */,
 				F8EEC1F91B5D743F005E40E6 /* CircleButton.swift */,
 				F8EEC1FA1B5D743F005E40E6 /* ClearButton.swift */,
@@ -10506,10 +10510,6 @@
 				F8EEC2001B5D743F005E40E6 /* TextBox.swift */,
 				F88588401B4DB0380014280F /* AppDelegate.swift */,
 				F88588421B4DB0380014280F /* ViewController.swift */,
-				F88588681B4DB0A50014280F /* Map Initialization.swift */,
-				F88588691B4DB0A50014280F /* PolyLineGenerator.swift */,
-				F88588601B4DB0640014280F /* Graph.swift */,
-				F88588611B4DB0640014280F /* GraphGenerator.swift */,
 				F876433D1B668F5E0022C897 /* Heap.swift */,
 				F86B6C811B6823E800F7BCFB /* Directions.swift */,
 				F88588441B4DB0380014280F /* Main.storyboard */,
@@ -21042,15 +21042,15 @@
 			files = (
 				F8EEC2011B5D743F005E40E6 /* CircleButton.swift in Sources */,
 				F8EEC2031B5D743F005E40E6 /* Extensions.swift in Sources */,
-				F885886B1B4DB0A50014280F /* PolyLineGenerator.swift in Sources */,
-				F88588641B4DB0640014280F /* GraphGenerator.swift in Sources */,
-				F88588631B4DB0640014280F /* Graph.swift in Sources */,
+				F8637BF41B810EA600A3A6E4 /* Graph.swift in Sources */,
 				F89A68C11B8026EC00592474 /* PinOverlay.swift in Sources */,
 				3C782FF71B6E72E900EDED76 /* Searchbar.swift in Sources */,
-				F885886A1B4DB0A50014280F /* Map Initialization.swift in Sources */,
+				F8637BF61B810EA600A3A6E4 /* Map Initialization.swift in Sources */,
 				F876433E1B668F5E0022C897 /* Heap.swift in Sources */,
 				F86B6C801B680F9700F7BCFB /* Constants.swift in Sources */,
 				F8EEC2061B5D743F005E40E6 /* OptionsButton.swift in Sources */,
+				F8637BF71B810EA600A3A6E4 /* PolyLineGenerator.swift in Sources */,
+				F8637BF51B810EA600A3A6E4 /* GraphGenerator.swift in Sources */,
 				F88588431B4DB0380014280F /* ViewController.swift in Sources */,
 				F8EEC2041B5D743F005E40E6 /* FindCampusButton.swift in Sources */,
 				F88588411B4DB0380014280F /* AppDelegate.swift in Sources */,
