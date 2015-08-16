@@ -5213,6 +5213,7 @@
 		F89A914C1B80FEF000592474 /* 20,289719,383437.png in Resources */ = {isa = PBXBuildFile; fileRef = F89A7D071B80FEEF00592474 /* 20,289719,383437.png */; };
 		F89A914D1B80FEF000592474 /* 20,289719,383438.png in Resources */ = {isa = PBXBuildFile; fileRef = F89A7D081B80FEEF00592474 /* 20,289719,383438.png */; };
 		F89A914E1B80FEF000592474 /* 20,289719,383439.png in Resources */ = {isa = PBXBuildFile; fileRef = F89A7D091B80FEEF00592474 /* 20,289719,383439.png */; };
+		F89C364B1B813520004E46F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F89C364A1B813520004E46F4 /* GoogleService-Info.plist */; };
 		F8DA30C81B5EEB2300EC68CB /* Mode.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8DA30C71B5EEB2300EC68CB /* Mode.plist */; };
 		F8EEC2011B5D743F005E40E6 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EEC1F91B5D743F005E40E6 /* CircleButton.swift */; };
 		F8EEC2021B5D743F005E40E6 /* ClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EEC1FA1B5D743F005E40E6 /* ClearButton.swift */; };
@@ -5222,6 +5223,7 @@
 		F8EEC2061B5D743F005E40E6 /* OptionsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EEC1FE1B5D743F005E40E6 /* OptionsButton.swift */; };
 		F8EEC2071B5D743F005E40E6 /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EEC1FF1B5D743F005E40E6 /* Paths.swift */; };
 		F8EEC2081B5D743F005E40E6 /* TextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EEC2001B5D743F005E40E6 /* TextBox.swift */; };
+		FCE426AA123BE6E0952F643C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 391C7C376501AD7C5845721C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -5235,8 +5237,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		391C7C376501AD7C5845721C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4D43BB1B7D8442007996D2 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		3C782FF61B6E72E900EDED76 /* Searchbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Searchbar.swift; sourceTree = "<group>"; };
+		659B227CFFF7A3877C9B341B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CF63EF49DA9E2DFC50B1DF5E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F8637BF01B810EA600A3A6E4 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		F8637BF11B810EA600A3A6E4 /* GraphGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphGenerator.swift; sourceTree = "<group>"; };
 		F8637BF21B810EA600A3A6E4 /* Map Initialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Map Initialization.swift"; sourceTree = "<group>"; };
@@ -10445,6 +10450,8 @@
 		F89A7D071B80FEEF00592474 /* 20,289719,383437.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20,289719,383437.png"; sourceTree = "<group>"; };
 		F89A7D081B80FEEF00592474 /* 20,289719,383438.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20,289719,383438.png"; sourceTree = "<group>"; };
 		F89A7D091B80FEEF00592474 /* 20,289719,383439.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20,289719,383439.png"; sourceTree = "<group>"; };
+		F89C364A1B813520004E46F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F89C364C1B813599004E46F4 /* WatMapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WatMapp-Bridging-Header.h"; sourceTree = "<group>"; };
 		F8DA30C71B5EEB2300EC68CB /* Mode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Mode.plist; sourceTree = "<group>"; };
 		F8EEC1F91B5D743F005E40E6 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		F8EEC1FA1B5D743F005E40E6 /* ClearButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearButton.swift; sourceTree = "<group>"; };
@@ -10461,6 +10468,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE426AA123BE6E0952F643C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -10474,12 +10482,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54122D47801EEDE06ABADDDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF63EF49DA9E2DFC50B1DF5E /* Pods.debug.xcconfig */,
+				659B227CFFF7A3877C9B341B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B4FB8DC032C5B52E7FC60A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				391C7C376501AD7C5845721C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F88588321B4DB0380014280F = {
 			isa = PBXGroup;
 			children = (
 				F885883D1B4DB0380014280F /* WatMapp */,
 				F88588531B4DB0390014280F /* WatMappTests */,
 				F885883C1B4DB0380014280F /* Products */,
+				54122D47801EEDE06ABADDDC /* Pods */,
+				9B4FB8DC032C5B52E7FC60A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -10518,6 +10545,7 @@
 				F885883E1B4DB0380014280F /* Supporting Files */,
 				3C782FF61B6E72E900EDED76 /* Searchbar.swift */,
 				F89A68C01B8026EC00592474 /* PinOverlay.swift */,
+				F89C364C1B813599004E46F4 /* WatMapp-Bridging-Header.h */,
 			);
 			path = WatMapp;
 			sourceTree = "<group>";
@@ -10525,6 +10553,7 @@
 		F885883E1B4DB0380014280F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F89C364A1B813520004E46F4 /* GoogleService-Info.plist */,
 				F88A64FC1B810A62009C88C1 /* uWaterloo.plist */,
 				F89A68C41B80FE0D00592474 /* Tiles */,
 				3C4D43BB1B7D8442007996D2 /* Images */,
@@ -15754,9 +15783,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F885885A1B4DB0390014280F /* Build configuration list for PBXNativeTarget "WatMapp" */;
 			buildPhases = (
+				939200ADDF6A19FA192265B7 /* Check Pods Manifest.lock */,
 				F88588371B4DB0380014280F /* Sources */,
 				F88588381B4DB0380014280F /* Frameworks */,
 				F88588391B4DB0380014280F /* Resources */,
+				AEB0A89B935770C9C1AA993D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -19781,6 +19812,7 @@
 				F89A89011B80FEF000592474 /* 20,289673,383430.png in Resources */,
 				F89A8FE91B80FEF000592474 /* 20,289712,383404.png in Resources */,
 				F89A80BD1B80FEEF00592474 /* 19,144843,191702.png in Resources */,
+				F89C364B1B813520004E46F4 /* GoogleService-Info.plist in Resources */,
 				F89A84951B80FEF000592474 /* 20,289649,383402.png in Resources */,
 				F89A8B591B80FEF000592474 /* 20,289686,383432.png in Resources */,
 				F89A831A1B80FEEF00592474 /* 20,289634,383423.png in Resources */,
@@ -21035,6 +21067,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		939200ADDF6A19FA192265B7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AEB0A89B935770C9C1AA993D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F88588371B4DB0380014280F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -21185,6 +21250,7 @@
 		};
 		F885885B1B4DB0390014280F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF63EF49DA9E2DFC50B1DF5E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -21193,11 +21259,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WatMapp/WatMapp-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		F885885C1B4DB0390014280F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659B227CFFF7A3877C9B341B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -21206,6 +21274,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WatMapp/WatMapp-Bridging-Header.h";
 			};
 			name = Release;
 		};

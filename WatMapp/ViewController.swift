@@ -84,6 +84,14 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
     // 3 = destination search view
     var state: Int = 0
     
+    override func viewWillAppear(animated: Bool) {
+        var tracker = GAI.sharedInstance().defaultTracker
+        tracker.set(kGAIScreenName, value: "Map")
+
+        var builder = GAIDictionaryBuilder.createScreenView()
+        tracker.send(builder.build() as [NSObject : AnyObject])
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -385,6 +393,11 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
     }
     
     func drawPath() {
+        // Google Analytics: Update number of paths calculated
+        let tracker = GAI.sharedInstance().defaultTracker
+        var dict = GAIDictionaryBuilder.createEventWithCategory("WatMapp", action: "Calculated", label: "Route", value: 1).build()
+        tracker.send(dict as [NSObject : AnyObject])
+        
         // when the mode is changed remove the old path
         if self.lineOverlay != nil {
             self.campusMapView.removeOverlay(lineOverlay)
