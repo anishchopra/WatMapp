@@ -200,12 +200,12 @@
 			<string>43.4697145593865,-80.5422492098695</string>
 		</array>
 		<array>
-			<string>St. Jerome&apos;s University</string>
+			<string>St. Jerome's University</string>
 			<string>STJ</string>
 			<string>43.4687704600025,-80.5457977727314</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.4676608810519,-80.546444185165</string>
 		</array>
@@ -278,6 +278,11 @@
 			<string>Renison University College</string>
 			<string>REN</string>
 			<string>43.4688638060786,-80.547600121381</string>
+		</array>
+		<array>
+			<string>Univeristy of Waterloo Place</string>
+			<string>UWP</string>
+			<string>43.4709057661262,-80.5367922885483</string>
 		</array>
 	</array>
 	<key>buildingVertices</key>
@@ -968,8 +973,8 @@
 			<string>43.4687924769857,-80.5420356437563</string>
 		</array>
 		<array>
-			<string>Arts Lecture Hall</string>
-			<string>AL</string>
+			<string>Environment 1</string>
+			<string>EV1</string>
 			<string>43.468555935017,-80.5423126054959</string>
 		</array>
 		<array>
@@ -1133,67 +1138,67 @@
 			<string>43.4706524069966,-80.5457843485685</string>
 		</array>
 		<array>
-			<string>St. Jerome&apos;s University</string>
+			<string>St. Jerome's University</string>
 			<string>STJ</string>
 			<string>43.4697275710024,-80.5455559057791</string>
 		</array>
 		<array>
-			<string>St. Jerome&apos;s University</string>
+			<string>St. Jerome's University</string>
 			<string>STJ</string>
 			<string>43.4687990696494,-80.5456749888314</string>
 		</array>
 		<array>
-			<string>St. Jerome&apos;s University</string>
+			<string>St. Jerome's University</string>
 			<string>STJ</string>
 			<string>43.4687658294797,-80.5455864398951</string>
 		</array>
 		<array>
-			<string>St. Jerome&apos;s University</string>
+			<string>St. Jerome's University</string>
 			<string>STJ</string>
 			<string>43.4692234342094,-80.545897887878</string>
 		</array>
 		<array>
-			<string>St. Jerome&apos;s University</string>
+			<string>St. Jerome's University</string>
 			<string>STJ</string>
 			<string>43.4692023822518,-80.5456429280096</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.4676379499493,-80.5465885662062</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.467869091305,-80.5462492011181</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.4677844658839,-80.5462022121059</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.4672602908597,-80.5464406378344</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.4675533242046,-80.546532875525</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.4675874271309,-80.546419753829</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.4676328976694,-80.5462735657911</string>
 		</array>
 		<array>
-			<string>St. Paul&apos;s University College</string>
+			<string>St. Paul's University College</string>
 			<string>STP</string>
 			<string>43.467651843717,-80.5461430407572</string>
 		</array>

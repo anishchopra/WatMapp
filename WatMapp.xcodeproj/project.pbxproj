@@ -20,9 +20,9 @@
 		F88588571B4DB0390014280F /* WatMappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588561B4DB0390014280F /* WatMappTests.swift */; };
 		F88588631B4DB0640014280F /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588601B4DB0640014280F /* Graph.swift */; };
 		F88588641B4DB0640014280F /* GraphGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588611B4DB0640014280F /* GraphGenerator.swift */; };
-		F88588651B4DB0640014280F /* uWaterloo.plist in Resources */ = {isa = PBXBuildFile; fileRef = F88588621B4DB0640014280F /* uWaterloo.plist */; };
 		F885886A1B4DB0A50014280F /* Map Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588681B4DB0A50014280F /* Map Initialization.swift */; };
 		F885886B1B4DB0A50014280F /* PolyLineGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588691B4DB0A50014280F /* PolyLineGenerator.swift */; };
+		F88A64FD1B810A62009C88C1 /* uWaterloo.plist in Resources */ = {isa = PBXBuildFile; fileRef = F88A64FC1B810A62009C88C1 /* uWaterloo.plist */; };
 		F89A68C11B8026EC00592474 /* PinOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89A68C01B8026EC00592474 /* PinOverlay.swift */; };
 		F89A7D0A1B80FEEF00592474 /* 14,4525,5990.png in Resources */ = {isa = PBXBuildFile; fileRef = F89A68C51B80FE0D00592474 /* 14,4525,5990.png */; };
 		F89A7D0B1B80FEEF00592474 /* 14,4525,5991.png in Resources */ = {isa = PBXBuildFile; fileRef = F89A68C61B80FE0D00592474 /* 14,4525,5991.png */; };
@@ -5252,9 +5252,9 @@
 		F88588561B4DB0390014280F /* WatMappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatMappTests.swift; sourceTree = "<group>"; };
 		F88588601B4DB0640014280F /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Graph.swift; path = ../Graph.swift; sourceTree = "<group>"; };
 		F88588611B4DB0640014280F /* GraphGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphGenerator.swift; path = ../GraphGenerator.swift; sourceTree = "<group>"; };
-		F88588621B4DB0640014280F /* uWaterloo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = uWaterloo.plist; path = ../uWaterloo.plist; sourceTree = "<group>"; };
 		F88588681B4DB0A50014280F /* Map Initialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Map Initialization.swift"; path = "../Map Initialization.swift"; sourceTree = "<group>"; };
 		F88588691B4DB0A50014280F /* PolyLineGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PolyLineGenerator.swift; path = ../PolyLineGenerator.swift; sourceTree = "<group>"; };
+		F88A64FC1B810A62009C88C1 /* uWaterloo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = uWaterloo.plist; sourceTree = "<group>"; };
 		F89A68C01B8026EC00592474 /* PinOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinOverlay.swift; sourceTree = "<group>"; };
 		F89A68C51B80FE0D00592474 /* 14,4525,5990.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14,4525,5990.png"; sourceTree = "<group>"; };
 		F89A68C61B80FE0D00592474 /* 14,4525,5991.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14,4525,5991.png"; sourceTree = "<group>"; };
@@ -10525,10 +10525,10 @@
 		F885883E1B4DB0380014280F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F88A64FC1B810A62009C88C1 /* uWaterloo.plist */,
 				F89A68C41B80FE0D00592474 /* Tiles */,
 				3C4D43BB1B7D8442007996D2 /* Images */,
 				F885883F1B4DB0380014280F /* Info.plist */,
-				F88588621B4DB0640014280F /* uWaterloo.plist */,
 				F8DA30C71B5EEB2300EC68CB /* Mode.plist */,
 			);
 			name = "Supporting Files";
@@ -18367,6 +18367,7 @@
 				F89A834E1B80FEF000592474 /* 20,289637,383415.png in Resources */,
 				F89A902C1B80FEF000592474 /* 20,289713,383425.png in Resources */,
 				F89A81BF1B80FEEF00592474 /* 19,144854,191707.png in Resources */,
+				F88A64FD1B810A62009C88C1 /* uWaterloo.plist in Resources */,
 				F89A8BFC1B80FEF000592474 /* 20,289690,383411.png in Resources */,
 				F89A84E91B80FEF000592474 /* 20,289651,383394.png in Resources */,
 				F89A88641B80FEF000592474 /* 20,289670,383411.png in Resources */,
@@ -20534,7 +20535,6 @@
 				F89A8D4C1B80FEF000592474 /* 20,289697,383425.png in Resources */,
 				F89A8DFC1B80FEF000592474 /* 20,289701,383417.png in Resources */,
 				F89A90C41B80FEF000592474 /* 20,289716,383439.png in Resources */,
-				F88588651B4DB0640014280F /* uWaterloo.plist in Resources */,
 				F89A8EA11B80FEF000592474 /* 20,289705,383398.png in Resources */,
 				F89A83E41B80FEF000592474 /* 20,289645,383409.png in Resources */,
 				F89A88121B80FEF000592474 /* 20,289668,383421.png in Resources */,
