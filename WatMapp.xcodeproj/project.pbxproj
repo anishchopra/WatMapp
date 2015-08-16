@@ -4546,6 +4546,7 @@
 		F88588651B4DB0640014280F /* uWaterloo.plist in Resources */ = {isa = PBXBuildFile; fileRef = F88588621B4DB0640014280F /* uWaterloo.plist */; };
 		F885886A1B4DB0A50014280F /* Map Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588681B4DB0A50014280F /* Map Initialization.swift */; };
 		F885886B1B4DB0A50014280F /* PolyLineGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88588691B4DB0A50014280F /* PolyLineGenerator.swift */; };
+		F89A68C11B8026EC00592474 /* PinOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89A68C01B8026EC00592474 /* PinOverlay.swift */; };
 		F8DA30C81B5EEB2300EC68CB /* Mode.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8DA30C71B5EEB2300EC68CB /* Mode.plist */; };
 		F8EEC2011B5D743F005E40E6 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EEC1F91B5D743F005E40E6 /* CircleButton.swift */; };
 		F8EEC2021B5D743F005E40E6 /* ClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EEC1FA1B5D743F005E40E6 /* ClearButton.swift */; };
@@ -9111,6 +9112,7 @@
 		F88588621B4DB0640014280F /* uWaterloo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = uWaterloo.plist; path = ../uWaterloo.plist; sourceTree = "<group>"; };
 		F88588681B4DB0A50014280F /* Map Initialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Map Initialization.swift"; path = "../Map Initialization.swift"; sourceTree = "<group>"; };
 		F88588691B4DB0A50014280F /* PolyLineGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PolyLineGenerator.swift; path = ../PolyLineGenerator.swift; sourceTree = "<group>"; };
+		F89A68C01B8026EC00592474 /* PinOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinOverlay.swift; sourceTree = "<group>"; };
 		F8DA30C71B5EEB2300EC68CB /* Mode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Mode.plist; sourceTree = "<group>"; };
 		F8EEC1F91B5D743F005E40E6 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		F8EEC1FA1B5D743F005E40E6 /* ClearButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearButton.swift; sourceTree = "<group>"; };
@@ -13713,6 +13715,7 @@
 				F88588491B4DB0380014280F /* LaunchScreen.xib */,
 				F885883E1B4DB0380014280F /* Supporting Files */,
 				3C782FF61B6E72E900EDED76 /* Searchbar.swift */,
+				F89A68C01B8026EC00592474 /* PinOverlay.swift */,
 			);
 			path = WatMapp;
 			sourceTree = "<group>";
@@ -18378,6 +18381,7 @@
 				F885886B1B4DB0A50014280F /* PolyLineGenerator.swift in Sources */,
 				F88588641B4DB0640014280F /* GraphGenerator.swift in Sources */,
 				F88588631B4DB0640014280F /* Graph.swift in Sources */,
+				F89A68C11B8026EC00592474 /* PinOverlay.swift in Sources */,
 				3C782FF71B6E72E900EDED76 /* Searchbar.swift in Sources */,
 				F885886A1B4DB0A50014280F /* Map Initialization.swift in Sources */,
 				F876433E1B668F5E0022C897 /* Heap.swift in Sources */,

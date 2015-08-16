@@ -297,6 +297,7 @@
                                     <constraint firstItem="2Mh-sH-9Sw" firstAttribute="top" secondItem="4fF-YE-foT" secondAttribute="bottom" constant="25" id="iVv-fw-mPG"/>
                                     <constraint firstItem="Yqd-rv-MzL" firstAttribute="leading" secondItem="Ndt-Kq-Vmm" secondAttribute="trailing" constant="8" id="kL0-vU-dyf"/>
                                     <constraint firstItem="RLj-S9-8Vh" firstAttribute="top" secondItem="kom-3U-l2u" secondAttribute="top" constant="2" id="msE-Ud-Lpg"/>
+                                    <constraint firstAttribute="trailing" secondItem="2Mh-sH-9Sw" secondAttribute="trailing" constant="10" id="ng9-SP-aJw"/>
                                     <constraint firstAttribute="trailing" secondItem="Yqd-rv-MzL" secondAttribute="trailing" id="scc-KT-1V1"/>
                                     <constraint firstAttribute="height" constant="50" id="six-2w-XEg"/>
                                 </constraints>

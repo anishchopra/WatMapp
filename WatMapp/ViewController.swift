@@ -138,6 +138,14 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         // Dispose of any resources that can be recreated.
     }
     
+    func removePins() {
+        for p in self.campusMapView.annotations {
+            if p is PinOverlay {
+                self.campusMapView.removeAnnotation(p as! PinOverlay)
+            }
+        }
+    }
+    
     // This is needed for the MKMapViewDelegate protocol to add overlays to the map
     func mapView(mapView: MKMapView!, rendererForOverlay overlay: MKOverlay!) -> MKOverlayRenderer! {
         if overlay is OpenStreetTileOverlay {
@@ -153,22 +161,24 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         
         return nil
     }
+
     
     // This is needed to add annotations to the map
     func mapView(mapView: MKMapView!, viewForAnnotation annotation: MKAnnotation!) -> MKAnnotationView! {
-        if let annotation = annotation as? Annotation {
-            let identifier = "pin"
-            var view: MKPinAnnotationView
+        if !annotation.isEqual(self.campusMapView.userLocation){
+            let identifier = "buildingPin"
+            var view: MKAnnotationView
             if let dequeuedView = mapView.dequeueReusableAnnotationViewWithIdentifier(identifier)
-                as? MKPinAnnotationView {
+            {
                     dequeuedView.annotation = annotation
                     view = dequeuedView
             } else {
-                view = MKPinAnnotationView(annotation: annotation, reuseIdentifier: identifier)
+                view = MKAnnotationView(annotation: annotation, reuseIdentifier: identifier)
                 view.canShowCallout = true
                 view.calloutOffset = CGPoint(x: -5, y: 5)
                 view.rightCalloutAccessoryView = UIButton.buttonWithType(.DetailDisclosure) as! UIView
             }
+            view.image = UIImage(named: "pin")
             return view
         }
         return nil
@@ -250,14 +260,14 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
             directionsButtonBottomSpaceConstraint.constant += 100
             stepsView.frame.origin.y = UIScreen.mainScreen().bounds.height
             stepsView.hidden = false
-            UIView.animateWithDuration(0.8, animations: {
+            UIView.animateWithDuration(0.5, animations: {
                 self.view.layoutIfNeeded()
             })
             let height = UIScreen.mainScreen().bounds.height - directionButton.frame.origin.y - directionButton.frame.height / 2
             stepsViewHeightConstraint.constant = height
         }
         else {
-            UIView.animateWithDuration(0.8, animations: {
+            UIView.animateWithDuration(0.5, animations: {
                 self.directionButton.frame.origin.y += 100
                 self.stepsView.frame.origin.y = UIScreen.mainScreen().bounds.height
                 }, completion: { finished in
@@ -323,6 +333,7 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         
         self.campusMapView.removeOverlay(lineOverlay)
         
+        removePins()
     }
 
     @IBAction func textDown(sender: SearchBar) {
@@ -463,6 +474,19 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         // activate map buttons
         self.findMe.enabled = true
         self.findCampus.enabled = true
+        
+        removePins()
+        
+        if self.search.text != "" {
+            let pin = PinOverlay(buildingFullName: self.search.selectedBuilding.fullName, graph: self.gg.graph)
+            self.campusMapView.addAnnotation(pin)
+        }
+        
+        if (self.destination.text != "") {
+            let pin = PinOverlay(buildingFullName: self.destination.selectedBuilding.fullName, graph: self.gg.graph)
+            self.campusMapView.addAnnotation(pin)
+        }
+        
     }
     // End search table stuff
 }
