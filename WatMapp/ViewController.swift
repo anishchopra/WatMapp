@@ -11,9 +11,6 @@ import MapKit
 
 var mode : Int {
     get {
-        //var modeDictionary = NSDictionary(contentsOfFile: MODE_PLIST_FILE_PATH!)
-        //return (modeDictionary!["Mode"] as! String).toInt()!
-        
         var paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as! String
         var path = paths.stringByAppendingPathComponent("Mode.plist")
         var fileManager = NSFileManager.defaultManager()
@@ -28,7 +25,6 @@ var mode : Int {
     }
     set (value) {
         var modeDictionary : NSDictionary = ["Mode" : value.description]
-        //modeDictionary.writeToFile(MODE_PLIST_FILE_PATH!, atomically: false)
         var paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as! String
         var path = paths.stringByAppendingPathComponent("Mode.plist")
 
@@ -150,7 +146,7 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         else if overlay is MKPolyline {
             let lineView = MKPolylineRenderer(overlay: overlay)
             lineView.strokeColor = UIColor(red:63/255.0, green:81/255.0, blue:181/255.0, alpha:1.0)
-            lineView.lineWidth = 1
+            lineView.lineWidth = 1.5
             
             return lineView
         }
@@ -367,6 +363,10 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         // when the mode is changed remove the old path
         if self.lineOverlay != nil {
             self.campusMapView.removeOverlay(lineOverlay)
+        }
+        
+        if (self.search.text == "" || self.destination.text == "") {
+            return;
         }
         
         var start = self.search.selectedBuilding.abbreviation
