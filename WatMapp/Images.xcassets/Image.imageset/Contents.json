@@ -2,17 +2,18 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "launch-logo-s.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "launch-logo-med.png"
+      "filename" : "launch-logo-m.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "launch-logo.png"
+      "filename" : "launch-logo-l.png"
     }
   ],
   "info" : {

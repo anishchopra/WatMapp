@@ -3,7 +3,7 @@
 //  WatMapp
 //
 //  Created by Anish Chopra on 2015-07-28.
-//  Copyright (c) 2015 Anish Chopra. All rights reserved.
+//  Copyright (c) 2015 Anish Chopra, Dulwin Jayalath, Connor Ladly-Freeden. All rights reserved.
 //
 
 import Foundation

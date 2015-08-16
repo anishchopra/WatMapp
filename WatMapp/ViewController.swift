@@ -73,6 +73,8 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
     
     @IBOutlet weak var directionButton: CircleButton!
     
+    var searching: Bool = false
+    
     var gg = GraphGenerator(filePath: CAMPUS_PLIST_FILE_PATH!)
     
     // State variable tracks state of view
@@ -250,6 +252,7 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         }
         sender.fadeOut(duration: 0.1)
         sender.enabled = false
+        self.searching = false
     }
     
     @IBAction func directionsUp(sender: CircleButton) {
@@ -313,25 +316,35 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         self.modeSelector.hidden = true
         
         // clear search
-        search.clear()
+        self.search.clear()
 
-        destination.clear()
-        destination.fadeOut(duration: 0.1)
+        self.destination.clear()
+        self.destination.fadeOut(duration: 0.1)
         UIView.animateWithDuration(0.2) {
             self.view.layoutIfNeeded()
             self.searchHolder.setHeight(self.searchHolderHeight, heightConstraint: self.searchBoxHeightConstraint)
         }
-        destination.userInteractionEnabled = false
+        self.destination.userInteractionEnabled = false
         
-        directionButton.fadeOut(duration: 0.1)
-        directionButton.enabled = true
         
-        if (!stepsView.hidden) {
-            directionsButtonBottomSpaceConstraint.constant -= 100;
-            stepsView.hidden = true
+        self.directionButton.fadeOut(duration: 0.1)
+        self.directionButton.enabled = true
+        
+        if (!self.stepsView.hidden) {
+            self.directionsButtonBottomSpaceConstraint.constant -= 100;
+            self.stepsView.hidden = true
         }
         
-        self.campusMapView.removeOverlay(lineOverlay)
+        self.campusMapView.removeOverlay(self.lineOverlay)
+        
+        if (self.whichText == "d" && self.searching == true) {
+            self.whichText = "s"
+            self.destination.table.alpha = 0.0
+            self.destination.back.alpha = 0.0
+            self.destination.table.userInteractionEnabled = false
+            self.search.showSearchView()
+        }
+        
         
         removePins()
     }
@@ -361,6 +374,7 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
         self.findCampus.enabled = false
         self.back.enabled = true
         self.back.fadeIn(duration: 0.2)
+        self.searching = true
     }
     
     func setOptionTitleColour(buttons: Array<UIButton>, active: UIButton) {
@@ -458,12 +472,14 @@ class ViewController: UIViewController, MKMapViewDelegate, UITableViewDataSource
             }
             self.destination.fadeIn(duration: 0.3, delay: 0.1)
             self.destination.userInteractionEnabled = true
+            self.searching = false
         }
         else {
             self.destination.text = currentCell!.textLabel!.text
             self.destination.endEditing(true)
             self.destination.hideSearchView()
             self.destination.selectedBuilding = destination.searchedBuildings[indexPath!.row]
+            self.searching = false
         }
         
         self.back.fadeOut(duration: 0.1)

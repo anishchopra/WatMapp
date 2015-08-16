@@ -3,7 +3,7 @@
 //  WatMapp
 //
 //  Created by Dulwin Jayalath on 2015-08-02.
-//  Copyright (c) 2015 Anish Chopra. All rights reserved.
+//  Copyright (c) 2015 Anish Chopra, Dulwin Jayalath, Connor Ladly-Freeden. All rights reserved.
 //
 
 import Foundation
@@ -86,12 +86,14 @@ class SearchBar : UITextField
         greyBack.fadeIn(duration: 0.1)
         back.fadeIn(duration: 0.3, delay: 0.05)
         table.fadeIn(duration: 0.3, delay: 0.05)
+        table.userInteractionEnabled = true
     }
     
     func hideSearchView() {
         greyBack.fadeOut(duration: 0.3, delay: 0.05)
         back.fadeOut(duration: 0.1)
         table.fadeOut(duration: 0.1)
+        table.userInteractionEnabled = false
         self.endEditing(true)
     }
 
