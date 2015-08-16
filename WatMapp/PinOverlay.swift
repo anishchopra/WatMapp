@@ -31,5 +31,17 @@ class PinOverlay : NSObject, MKAnnotation {
         self.title = b.fullName
         self.subtitle = b.abbreviation
     }
+    
+    init(coordinate: CLLocationCoordinate2D) {
+        self.coordinate = coordinate
+        self.title = ""
+        self.subtitle = ""
+    }
+    
+    init(coordinate: CLLocationCoordinate2D, title: String) {
+        self.coordinate = coordinate
+        self.title = title
+        self.subtitle = ""
+    }
 }
 

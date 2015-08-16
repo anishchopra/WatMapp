@@ -47,6 +47,7 @@ class Vertex : Hashable {
 class Building : Vertex {
     var fullName : String
     var abbreviation : String
+    var floorInfo: String?
     
     override init() {
         self.fullName = ""

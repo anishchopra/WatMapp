@@ -10,27 +10,6 @@ import Foundation
 import UIKit
 import MapKit
 
-// An annotation is just a pin on a map
-class Annotation : NSObject, MKAnnotation {
-    var coordinate: CLLocationCoordinate2D
-    var title: String
-    var subtitle: String
-    
-    init(coordinate : CLLocationCoordinate2D) {
-        self.coordinate = coordinate
-        self.title = ""
-        self.subtitle = ""
-        super.init()
-    }
-    
-    init(coordinate : CLLocationCoordinate2D, title : String) {
-        self.coordinate = coordinate
-        self.title = title
-        self.subtitle = ""
-        super.init()
-    }
-}
-
 class GraphGenerator {
     var filePath : String
     var graph : Graph
@@ -43,7 +22,6 @@ class GraphGenerator {
     
     // Take the data from the plist and convert it to a Graph
     func getGraph() -> Graph{
-        let path = "/Users/Anish/Dropbox/iOS Applications/WatMapp/uWaterloo.plist"
         let properties = NSDictionary(contentsOfFile: self.filePath)
         
         var uniqueStrings : [String] = []
@@ -68,6 +46,9 @@ class GraphGenerator {
             let location = (info[2] as! NSString).componentsSeparatedByString(",")
             let p = CLLocationCoordinate2D(latitude: location[0].doubleValue!, longitude: location[1].doubleValue!)
             let v = Building(fullName: fullName, abbreviation: shortName, location: p)
+            if info.count == 4 {
+                v.floorInfo = info[3] as? String
+            }
             g.addVertex(v)
             
         }
@@ -140,7 +121,7 @@ class GraphGenerator {
     func drawLooseEnds(mapView : MKMapView) {
         for v in self.graph.canvas {
             if (v.neighbours.count == 0 || v.neighbours.count == 1) && !(v is Building) {
-                let a = Annotation(coordinate: v.location)
+                let a = PinOverlay(coordinate: v.location)
                 mapView.addAnnotation(a)
             }
         }
@@ -150,7 +131,7 @@ class GraphGenerator {
     func drawBuildingEntrances(mapView : MKMapView) {
         for v in self.graph.canvas {
             if v is Building {
-                let a = Annotation(coordinate: v.location, title: (v as! Building).abbreviation)
+                let a = PinOverlay(coordinate: v.location, title: (v as! Building).abbreviation)
                 mapView.addAnnotation(a)
             }
         }
@@ -158,7 +139,7 @@ class GraphGenerator {
     
     func drawBuildingCentres(mapView : MKMapView) {
         for b in self.graph.buildingCentres {
-            let a = Annotation(coordinate: b.location, title: b.abbreviation)
+            let a = PinOverlay(coordinate: b.location, title: b.abbreviation)
             mapView.addAnnotation(a)
         }
     }

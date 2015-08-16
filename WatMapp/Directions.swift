@@ -85,13 +85,17 @@ func getDirections(path: Path) -> [String] {
         var direction = ""
         
         if c.startNode is Building && c.endNode is Building {
+            let floorInfo = (c.startNode as! Building).floorInfo
+            let floorString : String = (floorInfo != nil) ? " ("+floorInfo! + ") " : ""
             if (c.startNode as! Building).fullName == (c.endNode as! Building).fullName {
                 continue
             }
             direction = action + "from " + (c.startNode as! Building).abbreviation +
-            " to " + (c.endNode as! Building).abbreviation
+            floorString + " to " + (c.endNode as! Building).abbreviation
         }
         else if c.startNode is Building && !(c.endNode is Building) {
+            let floorInfo = (c.startNode as! Building).floorInfo
+            let floorString : String = (floorInfo != nil) ? floorInfo! : ""
             var nextBuilding : Building!
             for (var j = i + 1; j < components.count; j++) {
                 let comp = components[j]
@@ -106,7 +110,7 @@ func getDirections(path: Path) -> [String] {
             }
             
             direction = action + "from " + (c.startNode as! Building).abbreviation +
-            " towards "
+            floorString + " towards "
             
             if (nextBuilding == nil) {
                 direction += "your destination" // this shouldn't happen if the destination is a building

@@ -200,12 +200,12 @@
 			<string>43.4697145593865,-80.5422492098695</string>
 		</array>
 		<array>
-			<string>St. Jerome's University</string>
+			<string>St. Jerome&apos;s University</string>
 			<string>STJ</string>
 			<string>43.4687704600025,-80.5457977727314</string>
 		</array>
 		<array>
-			<string>St. Paul's University College</string>
+			<string>St. Paul&apos;s University College</string>
 			<string>STP</string>
 			<string>43.4676608810519,-80.546444185165</string>
 		</array>
@@ -381,11 +381,13 @@
 			<string>Student Life Centre</string>
 			<string>SLC</string>
 			<string>43.4718853758525,-80.5454889716656</string>
+			<string>2nd floor</string>
 		</array>
 		<array>
 			<string>Physical Activities Complex</string>
 			<string>PAC</string>
 			<string>43.4719621319844,-80.5458408863839</string>
+			<string>main floor</string>
 		</array>
 		<array>
 			<string>Student Life Centre</string>
@@ -401,16 +403,19 @@
 			<string>Mathematics and Computer Building</string>
 			<string>MC</string>
 			<string>43.472516185394,-80.5437286517061</string>
+			<string>3rd floor</string>
 		</array>
 		<array>
 			<string>Davis Centre</string>
 			<string>DC</string>
 			<string>43.4726867559684,-80.5433755478895</string>
+			<string>2nd floor</string>
 		</array>
 		<array>
 			<string>Mathematics 3</string>
 			<string>M3</string>
 			<string>43.4729772469019,-80.5440057954629</string>
+			<string>3rd floor</string>
 		</array>
 		<array>
 			<string>Davis Centre</string>
@@ -451,11 +456,13 @@
 			<string>Mike and Ophelia Lazaridis Quantum Nano Centre</string>
 			<string>QNC</string>
 			<string>43.4714687185756,-80.54383453347</string>
+			<string>2nd floor</string>
 		</array>
 		<array>
 			<string>Mathematics and Computer Building</string>
 			<string>MC</string>
 			<string>43.4717364416141,-80.5440189880235</string>
+			<string>3rd floor</string>
 		</array>
 		<array>
 			<string>Chemistry 2</string>
@@ -481,6 +488,7 @@
 			<string>Chemistry 2</string>
 			<string>C2</string>
 			<string>43.4718357449895,-80.5430635005087</string>
+			<string>2nd floor</string>
 		</array>
 		<array>
 			<string>Earth Sciences and Chemistry</string>
@@ -496,16 +504,19 @@
 			<string>Earth Sciences and Chemistry</string>
 			<string>ESC</string>
 			<string>43.4717482169011,-80.5430009055709</string>
+			<string>2nd floor</string>
 		</array>
 		<array>
 			<string>Earth Sciences and Chemistry</string>
 			<string>ESC</string>
 			<string>43.4711255981567,-80.5425671309366</string>
+			<string>2nd floor</string>
 		</array>
 		<array>
 			<string>Centre for Environmental and Information Technology</string>
 			<string>EIT</string>
 			<string>43.4712174268646,-80.5423056077661</string>
+			<string>2nd floor</string>
 		</array>
 		<array>
 			<string>Centre for Environmental and Information Technology</string>
@@ -521,6 +532,7 @@
 			<string>Centre for Environmental and Information Technology</string>
 			<string>EIT</string>
 			<string>43.4716924390293,-80.5417601035584</string>
+			<string>3rd floor</string>
 		</array>
 		<array>
 			<string>Mackenzie King Village</string>
@@ -661,6 +673,7 @@
 			<string>Davis Centre</string>
 			<string>DC</string>
 			<string>43.4722161272096,-80.5416353799258</string>
+			<string>2nd floor</string>
 		</array>
 		<array>
 			<string>Mike and Ophelia Lazaridis Quantum Nano Centre</string>
@@ -671,11 +684,13 @@
 			<string>Mike and Ophelia Lazaridis Quantum Nano Centre</string>
 			<string>QNC</string>
 			<string>43.4710876329857,-80.5435242336411</string>
+			<string>2nd floor</string>
 		</array>
 		<array>
 			<string>Biology 2</string>
 			<string>B2</string>
 			<string>43.4710064412298,-80.5434690613239</string>
+			<string>2nd floor</string>
 		</array>
 		<array>
 			<string>Mike and Ophelia Lazaridis Quantum Nano Centre</string>
@@ -696,6 +711,7 @@
 			<string>Engineering 3</string>
 			<string>E3</string>
 			<string>43.4719052781058,-80.5410541552395</string>
+			<string>2nd floor</string>
 		</array>
 		<array>
 			<string>Engineering 3</string>
@@ -716,6 +732,7 @@
 			<string>Engineering 3</string>
 			<string>E3</string>
 			<string>43.4719369717745,-80.5405167357244</string>
+			<string>5th floor</string>
 		</array>
 		<array>
 			<string>Engineering 2</string>
@@ -731,6 +748,7 @@
 			<string>Engineering 5</string>
 			<string>E5</string>
 			<string>43.4724178776091,-80.5398794836125</string>
+			<string>3rd floor</string>
 		</array>
 		<array>
 			<string>Biology 2</string>
@@ -831,6 +849,7 @@
 			<string>Carl A. Pollock Hall</string>
 			<string>CPH</string>
 			<string>43.4706529722992,-80.5389937912747</string>
+			<string>3rd floor</string>
 		</array>
 		<array>
 			<string>Carl A. Pollock Hall</string>
@@ -861,6 +880,7 @@
 			<string>Douglas Wright Engineering Building</string>
 			<string>DWE</string>
 			<string>43.4705374738198,-80.5389144836066</string>
+			<string>2nd floor</string>
 		</array>
 		<array>
 			<string>Engineering 2</string>
@@ -871,16 +891,19 @@
 			<string>Douglas Wright Engineering Building</string>
 			<string>DWE</string>
 			<string>43.4705321875642,-80.5387618623609</string>
+			<string>3rd floor</string>
 		</array>
 		<array>
 			<string>Douglas Wright Engineering Building</string>
 			<string>DWE</string>
 			<string>43.4698874508296,-80.5405595737844</string>
+			<string>basement</string>
 		</array>
 		<array>
 			<string>J.R. Coutts Engineering Lecture Hall</string>
 			<string>RCH</string>
 			<string>43.4700705216187,-80.5406925813476</string>
+			<string>1st floor</string>
 		</array>
 		<array>
 			<string>Douglas Wright Engineering Building</string>
@@ -906,6 +929,7 @@
 			<string>J.R. Coutts Engineering Lecture Hall</string>
 			<string>RCH</string>
 			<string>43.4704471517049,-80.5407910624734</string>
+			<string>1st floor</string>
 		</array>
 		<array>
 			<string>J.R. Coutts Engineering Lecture Hall</string>
@@ -926,6 +950,7 @@
 			<string>Engineering 2</string>
 			<string>E2</string>
 			<string>43.4705706448563,-80.5408754655247</string>
+			<string>basement</string>
 		</array>
 		<array>
 			<string>South Campus Hall</string>
@@ -946,21 +971,25 @@
 			<string>South Campus Hall</string>
 			<string>SCH</string>
 			<string>43.4690208962399,-80.5405348251439</string>
+			<string>basement</string>
 		</array>
 		<array>
 			<string>William M. Tatham Centre for Co-operative Education and Career Action</string>
 			<string>TC</string>
 			<string>43.4688564229116,-80.5410243234738</string>
+			<string>basement</string>
 		</array>
 		<array>
 			<string>William M. Tatham Centre for Co-operative Education and Career Action</string>
 			<string>TC</string>
 			<string>43.4687924042725,-80.5412032794876</string>
+			<string>basement</string>
 		</array>
 		<array>
 			<string>Arts Lecture Hall</string>
 			<string>AL</string>
 			<string>43.4687641329119,-80.5415586968839</string>
+			<string>basement</string>
 		</array>
 		<array>
 			<string>Arts Lecture Hall</string>
@@ -968,19 +997,22 @@
 			<string>43.4687070692811,-80.5417133064312</string>
 		</array>
 		<array>
-			<string>Environment 1</string>
-			<string>EV1</string>
+			<string>Arts Lecture Hall</string>
+			<string>AL</string>
 			<string>43.4687924769857,-80.5420356437563</string>
+			<string>basement</string>
 		</array>
 		<array>
 			<string>Environment 1</string>
 			<string>EV1</string>
 			<string>43.468555935017,-80.5423126054959</string>
+			<string>1st floor</string>
 		</array>
 		<array>
 			<string>Modern Languages</string>
 			<string>ML</string>
 			<string>43.4687901334309,-80.5424748172445</string>
+			<string>basement</string>
 		</array>
 		<array>
 			<string>Modern Languages</string>
@@ -1026,6 +1058,7 @@
 			<string>Environment 1</string>
 			<string>EV1</string>
 			<string>43.4682546348999,-80.542085017509</string>
+			<string>1st floor</string>
 		</array>
 		<array>
 			<string>Environment 2</string>
@@ -1111,6 +1144,7 @@
 			<string>J.G. Hagey Hall of the Humanities</string>
 			<string>HH</string>
 			<string>43.4681399657774,-80.5419934520313</string>
+			<string>basement</string>
 		</array>
 		<array>
 			<string>Ira G. Needles Hall</string>
@@ -1138,67 +1172,67 @@
 			<string>43.4706524069966,-80.5457843485685</string>
 		</array>
 		<array>
-			<string>St. Jerome's University</string>
+			<string>St. Jerome&apos;s University</string>
 			<string>STJ</string>
 			<string>43.4697275710024,-80.5455559057791</string>
 		</array>
 		<array>
-			<string>St. Jerome's University</string>
+			<string>St. Jerome&apos;s University</string>
 			<string>STJ</string>
 			<string>43.4687990696494,-80.5456749888314</string>
 		</array>
 		<array>
-			<string>St. Jerome's University</string>
+			<string>St. Jerome&apos;s University</string>
 			<string>STJ</string>
 			<string>43.4687658294797,-80.5455864398951</string>
 		</array>
 		<array>
-			<string>St. Jerome's University</string>
+			<string>St. Jerome&apos;s University</string>
 			<string>STJ</string>
 			<string>43.4692234342094,-80.545897887878</string>
 		</array>
 		<array>
-			<string>St. Jerome's University</string>
+			<string>St. Jerome&apos;s University</string>
 			<string>STJ</string>
 			<string>43.4692023822518,-80.5456429280096</string>
 		</array>
 		<array>
-			<string>St. Paul's University College</string>
+			<string>St. Paul&apos;s University College</string>
 			<string>STP</string>
 			<string>43.4676379499493,-80.5465885662062</string>
 		</array>
 		<array>
-			<string>St. Paul's University College</string>
+			<string>St. Paul&apos;s University College</string>
 			<string>STP</string>
 			<string>43.467869091305,-80.5462492011181</string>
 		</array>
 		<array>
-			<string>St. Paul's University College</string>
+			<string>St. Paul&apos;s University College</string>
 			<string>STP</string>
 			<string>43.4677844658839,-80.5462022121059</string>
 		</array>
 		<array>
-			<string>St. Paul's University College</string>
+			<string>St. Paul&apos;s University College</string>
 			<string>STP</string>
 			<string>43.4672602908597,-80.5464406378344</string>
 		</array>
 		<array>
-			<string>St. Paul's University College</string>
+			<string>St. Paul&apos;s University College</string>
 			<string>STP</string>
 			<string>43.4675533242046,-80.546532875525</string>
 		</array>
 		<array>
-			<string>St. Paul's University College</string>
+			<string>St. Paul&apos;s University College</string>
 			<string>STP</string>
 			<string>43.4675874271309,-80.546419753829</string>
 		</array>
 		<array>
-			<string>St. Paul's University College</string>
+			<string>St. Paul&apos;s University College</string>
 			<string>STP</string>
 			<string>43.4676328976694,-80.5462735657911</string>
 		</array>
 		<array>
-			<string>St. Paul's University College</string>
+			<string>St. Paul&apos;s University College</string>
 			<string>STP</string>
 			<string>43.467651843717,-80.5461430407572</string>
 		</array>
@@ -1221,11 +1255,13 @@
 			<string>Mathematics and Computer Building</string>
 			<string>MC</string>
 			<string>43.4720718520717,-80.5434436193317</string>
+			<string>1st floor</string>
 		</array>
 		<array>
 			<string>Chemistry 2</string>
 			<string>C2</string>
 			<string>43.4721129827724,-80.5433223945269</string>
+			<string>basement</string>
 		</array>
 		<array>
 			<string>Chemistry 2</string>
@@ -5538,7 +5574,7 @@
 		<array>
 			<string>43.4711255981567,-80.5425671309366</string>
 			<string>43.4712174268646,-80.5423056077661</string>
-			<string>IndoorWalkway</string>
+			<string>Bridge</string>
 		</array>
 		<array>
 			<string>43.4717060604491,-80.5425160096244</string>
