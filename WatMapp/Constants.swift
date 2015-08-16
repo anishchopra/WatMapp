@@ -9,12 +9,12 @@
 import Foundation
 
 // These are the coordinates that the map is initially centered on when the app first opens
-let CAMPUS_LATITUDE = 43.472285
-let CAMPUS_LONGITUDE = -80.544858
+let CAMPUS_LATITUDE = 43.4694856982904
+let CAMPUS_LONGITUDE = -80.5478283333902
 
 // These specify the zoom of the map on startup
-let CAMPUS_LAT_DEL = 0.025
-let CAMPUS_LONG_DEL = 0.025
+let CAMPUS_LAT_DEL = 0.020
+let CAMPUS_LONG_DEL = 0.020
 
 // This is the plist where all of the map data is stored
 let CAMPUS_PLIST_FILE_NAME = "uWaterloo"
